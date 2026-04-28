@@ -1,0 +1,200 @@
+# SopaDeOtoe/configs/base_dollar_btc.yaml
+# Base config for dollar bar execution via v12 pipeline.
+# SopaDeOtoe/core/runner.py:build_run_config merges strategy.name + strategy.params into this template.
+
+ticker: BTC-USD
+start: "2020-01-01"
+end: "2026-03-17"
+interval: 1d
+bar_type: dollar
+bars_per_day: 6
+auto_bpd: false
+dollar_bar_dir: data/dollar_bars
+dollar_threshold: 301763406
+market_type: crypto
+
+# Execution
+initial_capital: 100000.0
+cost: 0.001            # Binance spot 0.10% per side (base rate, no BNB discount)
+rf_rate: 0.05
+pt_sl: [2.5, 1.5]
+max_holding: 36        # 36 bars / 6 bpd = 6 days holding max
+
+# Trend filter — suppress short signals when price > EMA (uptrend)
+# Only applies to trend-following strategies. Mean-reversion and regime
+# strategies are exempt (they NEED shorts in ranging/overbought markets).
+# Set enabled: false to disable.
+trend_filter:
+  enabled: false
+  ema_period: 420      # 70 days * 6 bpd = 420 bars (~2.5 months macro trend)
+  mode: long_only_in_uptrend   # suppress -1 signals when Close > EMA
+
+# Risk
+risk_fraction: 0.01
+risk_pct: 0.02
+atr_span: 14
+atr_multiplier: 2.0
+max_position_pct: 0.2
+sizing_method: atr
+kelly_half: true
+drawdown_threshold_1: 0.1
+drawdown_threshold_2: 0.2
+scale_1: 0.5
+scale_2: 0.25
+
+# Montecarlo
+montecarlo:
+  random_state: 42
+  reshuffling:
+    enabled: true
+    n_permutations: 200
+  bootstrap:
+    enabled: true
+    method: block
+    block_size: 10
+    n_paths: 100
+  stress:
+    enabled: true
+    vol_inflation: [0.2, 0.5]
+    sharpe_degradation: [0.1, 0.3]
+    gap_counts: [3, 5]
+    regime_shift: true
+  reality_check:
+    enabled: true
+    n_bootstrap: 200
+    block_size: 10
+
+# Metrics
+metrics:
+  omega_threshold: 0.0
+  sterling_n_worst: 5
+n_trials: 1
+
+# Sequential bootstrap
+sequential_bootstrap:
+  enabled: true
+  n_samples: 50
+
+# CUSUM — disabled, let each strategy be primary model
+cusum_filter:
+  enabled: false
+  h: 0.02
+  mode: primary
+
+# Structural breaks — disabled for speed in exploration
+structural_breaks:
+  enabled: false
+  cusum_window: 60
+  sadf_min_window: 20
+  sadf_max_lookback: 120
+
+# v2 meta-model pipeline — FULL Prado pipeline
+v2:
+  v2_enabled: true
+  meta_model_method: rf
+  meta_threshold: 0.55
+  bet_sizing_step: 0.1
+  min_rebalance: 0.1
+  random_state: 42
+  slippage_bps: 2.0     # BTC/USDT is the most liquid pair - tight slippage
+  spread_bps: 1.0       # BTC/USDT spread on Binance ~1bp
+  calibrate_probabilities: true
+  min_meta_samples: 20
+  meta_direction_feature: true
+  oos_predictions: true
+  wf_prediction_splits: 3
+  walkforward_mode: expanding
+  arima_order: [1, 0, 1]
+  arima_refit_every: 21
+  arima_threshold: 0.0001
+  arima_min_train: 50
+  cpcv_n_splits: 4
+  cpcv_n_test_groups: 2
+  cpcv_mode: replay
+  importance_threshold: 0.05
+  meta_vol_regime_fast: 20
+  meta_vol_regime_slow: 60
+  meta_rel_vol_window: 50
+  garch_p: 1
+  garch_q: 1
+  garch_dist: t
+  features:
+    kyle_lambda_window: 50
+    amihud_window: 50
+    entropy_bins: 10
+    entropy_window: 50
+  meta_model:
+    n_estimators: 100
+    max_depth: null
+    min_samples_leaf: 1
+    max_features: sqrt
+  meta_model_hp_search:
+    n_splits: 3
+    n_iter: 10
+    embargo_pct: 0.01
+    scoring: roc_auc
+  feature_prefilter:
+    enabled: true
+    method: mutual_info
+    min_features: 2
+    threshold: 0.01
+
+# Validation
+validation_method: cpcv
+
+# Regime Detection (Pardo Cap. 4, AFML Cap. 3.3/17)
+# v12 regime.py — tres dimensiones ortogonales:
+#   Dim 1 market_direction:  BULL / BEAR / CYCLIC / CONGESTED   (legacy heuristic)
+#   Dim 2 vol_regime_class:  LOW / NORMAL / HIGH / EXTREME      (rolling quantiles)
+#   Dim 3 structural_state:  STABLE / TRANSITION                (CUSUM / SADF)
+#
+# bet_size_multipliers: desactivados por defecto — el pivot bayesiano
+# invertido (calibration_bayes.py) ya encode la dificultad por régimen.
+# Activar post-corrida para incentivar/penalizar regímenes manualmente:
+#   BULL: 1.20        # boost al régimen ganador
+#   CONGESTED: 0.60   # penalizar si Bayes no es suficiente
+regime:
+  enabled: true
+  direction:
+    mode: gmm             # GMM K=4 entrenado offline (train_gmm_regime.py)
+    # Legacy fallback (si mode: legacy):
+    window: 20
+    z_threshold: 1.96
+    vol_ratio_cyclic_threshold: 1.2
+  volatility:
+    quantile_window: 252
+    levels: [25, 75, 95]  # percentiles p25/p75/p95 → LOW/NORMAL/HIGH/EXTREME
+  structural:
+    cusum_critical: 1.5
+    sadf_critical: -0.5
+  gmm:
+    model_path: models/gmm_regime.pkl
+    scaler_path: models/gmm_scaler.pkl
+    meta_path: models/gmm_meta.json
+    features_csv: output/features_btcusd.csv
+    train_end_date: "2024-12-31"
+    trend_window: 20
+    use_sadf: true
+    cluster_names:
+      0: BEAR
+      1: CONGESTED
+      2: CYCLIC
+      3: BULL
+  bet_size_multipliers: {}
+
+# Calibración bayesiana del pivot de bet sizing (calibration_bayes.py)
+# Prior Beta-Bernoulli de Laplace (no-informativo). Se actualiza con cada trade cerrado.
+# El pivot reemplaza el p*=0.5 fijo de AFML Eq. 10.1 con un p* aprendido por régimen.
+calibration_bayes:
+  enabled: false          # activar en producción (walk-forward backtest lo activa auto)
+  min_obs_per_regime: 10  # mínimo de trades cerrados por régimen para usar el posterior
+  fallback_pivot: 0.5     # valor cuando no hay evidencia suficiente
+  pivot_shrinkage: 0.5    # 0=legacy(0.5 fijo), 1=full Bayes, 0.5=blend moderado
+
+# Strategy — PLACEHOLDER, overwritten by config_generator
+strategy:
+  name: EMACrossover
+  params:
+    fast: 10
+    slow: 50
+    close_col: Close

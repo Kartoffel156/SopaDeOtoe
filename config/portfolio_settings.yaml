@@ -1,0 +1,58 @@
+# config/portfolio_settings.yaml
+# Default configuration for the portfolio combinator layer.
+# Copy and modify per deployment.
+
+strategies: []
+  # - name: "strategy_btc_4h_momentum"
+  #   settings_path: "config/btc_4h.yaml"
+  #   model_path: "output/models/btc_4h_momentum.pkl"
+  #   asset: "BTC-USD"
+  #   interval: "4h"
+  #   market_type: "crypto"
+  #   enabled: true
+
+allocation:
+  method: "risk_budget"
+  rebalance_freq: "monthly"
+  covariance_method: "shrinkage"
+  covariance_halflife: 126          # Roncalli: estimaciones más estables, menos sensibles a ruido
+  custom_budgets: [0.6337, 0.4896, 0.4337, 0.2120, 0.1961, 0.1546, 0.1090, 0.0974, 0.0686]  # Prado: ponderar por Sharpe CPCV-validado
+
+risk:
+  target_volatility: 0.25
+  max_leverage: 20.0                # Prado: CPCV p5=+0.51 justifica leverage; Roncalli: cap en MDD ~14% tolerable
+  max_weight_single: 0.50
+  min_weight: 0.05
+  trading_capital: 100000.0
+  vol_targeting_ewma_span: 63      # Roncalli: no reaccionar a spikes transitorios de vol
+
+execution:
+  mode: "net_position"
+  min_rebalance: 0.05
+  circuit_breaker_enabled: true
+  circuit_breaker_threshold_1: 0.10
+  circuit_breaker_threshold_2: 0.15
+  circuit_breaker_kill: 0.25
+
+validation:
+  rf_rate: 0.045
+  n_permutations: 10000
+  n_bootstrap: 10000
+  bootstrap_block_size: 21
+  run_stress_test: true
+  run_spa_test: true
+  run_cpcv: true
+  cpcv_n_groups: 6
+  cpcv_n_test_groups: 2
+  cpcv_embargo_pct: 0.01
+  random_state: 42
+
+orthogonality:
+  max_correlation: 0.60
+  min_effective_dimension_ratio: 0.70
+  max_overlap: 0.50
+
+mode: "backtest"
+backtest_period:
+  start: "2024-01-01"
+  end: "2024-12-31"

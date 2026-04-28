@@ -1,0 +1,493 @@
+{
+  "timestamp": "20260412_002952",
+  "cohort": "first_cohort",
+  "allocation_method": "erc",
+  "fdm": 1.6054268930673101,
+  "weights": {
+    "HypothesisH136GoldenDeathCrossAsym": 0.11665262046224953,
+    "HypothesisH236MomentumReversalAsym": 0.11665262033753626,
+    "HypothesisH371MaxMinDualTriggerFreq": 0.11665262043337972,
+    "HypothesisH426RSIGarchBullBear": 0.1166526204043365,
+    "HypothesisH434MaxMinDualHorizon": 0.20860730851438977,
+    "HypothesisH72AsymmetricRSIDrawdownShield": 0.21056769489575283,
+    "HypothesisH86WonhamMarkovRefinado": 0.11421451495235549
+  },
+  "portfolio_metrics": {
+    "sharpe": -3.4631719946945614,
+    "dsr": 3.2929544663283278e-31,
+    "annualized_return": 0.012947786771369383,
+    "annualized_volatility": 0.009255160667080153,
+    "max_drawdown": -0.011876072765671628,
+    "calmar": 1.0902414482332574,
+    "sortino": -7.084788615436865,
+    "diversification_ratio": 2.0718654738049795,
+    "portfolio_volatility": 0.005604874083172031,
+    "exposure": 0.19336283185840708
+  },
+  "risk_attribution": [
+    {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "weight": 0.11665262046224953,
+      "marginal_risk": 0.00044157416606505144,
+      "risk_contribution": 5.151078359992079e-05,
+      "risk_contribution_pct": 0.14589236570288017
+    },
+    {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "weight": 0.11665262033753626,
+      "marginal_risk": 0.00044157416602374366,
+      "risk_contribution": 5.1510783540031976e-05,
+      "risk_contribution_pct": 0.14589236553325896
+    },
+    {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "weight": 0.11665262043337972,
+      "marginal_risk": 0.00044157416605548915,
+      "risk_contribution": 5.1510783586057165e-05,
+      "risk_contribution_pct": 0.14589236566361466
+    },
+    {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "weight": 0.1166526204043365,
+      "marginal_risk": 0.00044157416604586935,
+      "risk_contribution": 5.151078357211025e-05,
+      "risk_contribution_pct": 0.14589236562411326
+    },
+    {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "weight": 0.20860730851438977,
+      "marginal_risk": 0.00024520105788023865,
+      "risk_contribution": 5.115073272927769e-05,
+      "risk_contribution_pct": 0.14487260499220084
+    },
+    {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "weight": 0.21056769489575283,
+      "marginal_risk": 0.00023361200174455118,
+      "risk_contribution": 4.919114070733273e-05,
+      "risk_contribution_pct": 0.1393225143914731
+    },
+    {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "weight": 0.11421451495235549,
+      "marginal_risk": 0.0004087823000396305,
+      "risk_contribution": 4.6688872120134645e-05,
+      "risk_contribution_pct": 0.13223541809245867
+    }
+  ],
+  "correlation": {
+    "HypothesisH136GoldenDeathCrossAsym": {
+      "HypothesisH136GoldenDeathCrossAsym": 1.0,
+      "HypothesisH236MomentumReversalAsym": 1.0,
+      "HypothesisH371MaxMinDualTriggerFreq": 1.0,
+      "HypothesisH426RSIGarchBullBear": 1.0,
+      "HypothesisH434MaxMinDualHorizon": 0.356296,
+      "HypothesisH72AsymmetricRSIDrawdownShield": -0.204518,
+      "HypothesisH86WonhamMarkovRefinado": -0.397233
+    },
+    "HypothesisH236MomentumReversalAsym": {
+      "HypothesisH136GoldenDeathCrossAsym": 1.0,
+      "HypothesisH236MomentumReversalAsym": 1.0,
+      "HypothesisH371MaxMinDualTriggerFreq": 1.0,
+      "HypothesisH426RSIGarchBullBear": 1.0,
+      "HypothesisH434MaxMinDualHorizon": 0.356296,
+      "HypothesisH72AsymmetricRSIDrawdownShield": -0.204518,
+      "HypothesisH86WonhamMarkovRefinado": -0.397233
+    },
+    "HypothesisH371MaxMinDualTriggerFreq": {
+      "HypothesisH136GoldenDeathCrossAsym": 1.0,
+      "HypothesisH236MomentumReversalAsym": 1.0,
+      "HypothesisH371MaxMinDualTriggerFreq": 1.0,
+      "HypothesisH426RSIGarchBullBear": 1.0,
+      "HypothesisH434MaxMinDualHorizon": 0.356296,
+      "HypothesisH72AsymmetricRSIDrawdownShield": -0.204518,
+      "HypothesisH86WonhamMarkovRefinado": -0.397233
+    },
+    "HypothesisH426RSIGarchBullBear": {
+      "HypothesisH136GoldenDeathCrossAsym": 1.0,
+      "HypothesisH236MomentumReversalAsym": 1.0,
+      "HypothesisH371MaxMinDualTriggerFreq": 1.0,
+      "HypothesisH426RSIGarchBullBear": 1.0,
+      "HypothesisH434MaxMinDualHorizon": 0.356296,
+      "HypothesisH72AsymmetricRSIDrawdownShield": -0.204518,
+      "HypothesisH86WonhamMarkovRefinado": -0.397233
+    },
+    "HypothesisH434MaxMinDualHorizon": {
+      "HypothesisH136GoldenDeathCrossAsym": 0.356296,
+      "HypothesisH236MomentumReversalAsym": 0.356296,
+      "HypothesisH371MaxMinDualTriggerFreq": 0.356296,
+      "HypothesisH426RSIGarchBullBear": 0.356296,
+      "HypothesisH434MaxMinDualHorizon": 1.0,
+      "HypothesisH72AsymmetricRSIDrawdownShield": -0.446154,
+      "HypothesisH86WonhamMarkovRefinado": -0.241558
+    },
+    "HypothesisH72AsymmetricRSIDrawdownShield": {
+      "HypothesisH136GoldenDeathCrossAsym": -0.204518,
+      "HypothesisH236MomentumReversalAsym": -0.204518,
+      "HypothesisH371MaxMinDualTriggerFreq": -0.204518,
+      "HypothesisH426RSIGarchBullBear": -0.204518,
+      "HypothesisH434MaxMinDualHorizon": -0.446154,
+      "HypothesisH72AsymmetricRSIDrawdownShield": 1.0,
+      "HypothesisH86WonhamMarkovRefinado": -0.309402
+    },
+    "HypothesisH86WonhamMarkovRefinado": {
+      "HypothesisH136GoldenDeathCrossAsym": -0.397233,
+      "HypothesisH236MomentumReversalAsym": -0.397233,
+      "HypothesisH371MaxMinDualTriggerFreq": -0.397233,
+      "HypothesisH426RSIGarchBullBear": -0.397233,
+      "HypothesisH434MaxMinDualHorizon": -0.241558,
+      "HypothesisH72AsymmetricRSIDrawdownShield": -0.309402,
+      "HypothesisH86WonhamMarkovRefinado": 1.0
+    }
+  },
+  "orthogonality": {
+    "pca": {
+      "eigenvalues": [
+        4.415011894343742,
+        1.3995880369945504,
+        0.8799722299579269,
+        0.3054278387037816,
+        2.7019505734664395e-16,
+        -3.798548309719079e-17,
+        -4.754079657444003e-16
+      ],
+      "eigenvectors": [
+        [
+          -0.46987887376514526,
+          0.039344533026771135,
+          0.15946436406408596,
+          -0.047296599283039746,
+          -0.8340888939377932,
+          0.09995411391948646,
+          0.2104872730599155
+        ],
+        [
+          -0.46987887376514537,
+          0.03934453302677103,
+          0.15946436406408637,
+          -0.04729659928304082,
+          0.08321883668277465,
+          0.00847299438520361,
+          -0.8619761212396284
+        ],
+        [
+          -0.46987887376514537,
+          0.03934453302677123,
+          0.15946436406408662,
+          -0.04729659928303987,
+          0.4633765455285656,
+          0.6472346494126298,
+          0.3411297196869898
+        ],
+        [
+          -0.46987887376514537,
+          0.03934453302677115,
+          0.1594643640640863,
+          -0.047296599283040065,
+          0.2874935117264526,
+          -0.7556617577173199,
+          0.3103591284927234
+        ],
+        [
+          -0.22786313832099328,
+          -0.40718735046810955,
+          -0.7223394629151044,
+          -0.5103945063661911,
+          6.298642435967489e-17,
+          6.7123738521698354e-18,
+          2.7967945655915083e-16
+        ],
+        [
+          0.12206346188886587,
+          0.7607138969108475,
+          -0.01703220741185508,
+          -0.6372792027275781,
+          -1.2923453889880456e-16,
+          1.1806291606163605e-16,
+          4.830891907295433e-16
+        ],
+        [
+          0.2236834312661707,
+          -0.4993203976897952,
+          0.6133678102091312,
+          -0.5695829987167388,
+          -2.524076014609904e-16,
+          -2.0314296645510453e-17,
+          6.872981037464302e-16
+        ]
+      ],
+      "explained_variance_ratio": [
+        0.6307159849062488,
+        0.1999411481420786,
+        0.12571031856541812,
+        0.043632548386254515,
+        3.8599293906663424e-17,
+        -5.42649758531297e-18,
+        -6.791542367777146e-17
+      ],
+      "cumulative_variance": [
+        0.6307159849062488,
+        0.8306571330483274,
+        0.9563674516137456,
+        1.0,
+        1.0,
+        1.0,
+        0.9999999999999999
+      ],
+      "effective_dimension": 3
+    },
+    "clustering": {
+      "linkage": [
+        [
+          0.0,
+          1.0,
+          0.0,
+          2.0
+        ],
+        [
+          2.0,
+          7.0,
+          0.0,
+          3.0
+        ],
+        [
+          3.0,
+          8.0,
+          0.0,
+          4.0
+        ],
+        [
+          4.0,
+          9.0,
+          0.7176094324714476,
+          5.0
+        ],
+        [
+          5.0,
+          6.0,
+          0.8091358691226429,
+          2.0
+        ],
+        [
+          10.0,
+          11.0,
+          1.120668489496907,
+          7.0
+        ]
+      ],
+      "labels": [
+        "HypothesisH136GoldenDeathCrossAsym",
+        "HypothesisH236MomentumReversalAsym",
+        "HypothesisH371MaxMinDualTriggerFreq",
+        "HypothesisH426RSIGarchBullBear",
+        "HypothesisH434MaxMinDualHorizon",
+        "HypothesisH72AsymmetricRSIDrawdownShield",
+        "HypothesisH86WonhamMarkovRefinado"
+      ],
+      "distance_matrix": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.567320069257642,
+          0.7760533823512737,
+          0.8358328785053348
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.567320069257642,
+          0.7760533823512737,
+          0.8358328785053348
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.567320069257642,
+          0.7760533823512737,
+          0.8358328785053348
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.567320069257642,
+          0.7760533823512737,
+          0.8358328785053348
+        ],
+        [
+          0.567320069257642,
+          0.567320069257642,
+          0.567320069257642,
+          0.567320069257642,
+          0.0,
+          0.8503392987960294,
+          0.7878954377195115
+        ],
+        [
+          0.7760533823512737,
+          0.7760533823512737,
+          0.7760533823512737,
+          0.7760533823512737,
+          0.8503392987960294,
+          0.0,
+          0.8091358691226429
+        ],
+        [
+          0.8358328785053348,
+          0.8358328785053348,
+          0.8358328785053348,
+          0.8358328785053348,
+          0.7878954377195115,
+          0.8091358691226429,
+          0.0
+        ]
+      ]
+    },
+    "flags": [
+      "High correlation: HypothesisH136GoldenDeathCrossAsym and HypothesisH236MomentumReversalAsym (\u03c1=1.00 > 0.6)",
+      "High correlation: HypothesisH136GoldenDeathCrossAsym and HypothesisH371MaxMinDualTriggerFreq (\u03c1=1.00 > 0.6)",
+      "High correlation: HypothesisH136GoldenDeathCrossAsym and HypothesisH426RSIGarchBullBear (\u03c1=1.00 > 0.6)",
+      "High correlation: HypothesisH236MomentumReversalAsym and HypothesisH371MaxMinDualTriggerFreq (\u03c1=1.00 > 0.6)",
+      "High correlation: HypothesisH236MomentumReversalAsym and HypothesisH426RSIGarchBullBear (\u03c1=1.00 > 0.6)",
+      "High correlation: HypothesisH371MaxMinDualTriggerFreq and HypothesisH426RSIGarchBullBear (\u03c1=1.00 > 0.6)",
+      "High overlap: HypothesisH136GoldenDeathCrossAsym and HypothesisH236MomentumReversalAsym (overlap=1.00 > 0.5)",
+      "High overlap: HypothesisH136GoldenDeathCrossAsym and HypothesisH371MaxMinDualTriggerFreq (overlap=1.00 > 0.5)",
+      "High overlap: HypothesisH136GoldenDeathCrossAsym and HypothesisH426RSIGarchBullBear (overlap=1.00 > 0.5)",
+      "High overlap: HypothesisH236MomentumReversalAsym and HypothesisH371MaxMinDualTriggerFreq (overlap=1.00 > 0.5)",
+      "High overlap: HypothesisH236MomentumReversalAsym and HypothesisH426RSIGarchBullBear (overlap=1.00 > 0.5)",
+      "High overlap: HypothesisH371MaxMinDualTriggerFreq and HypothesisH426RSIGarchBullBear (overlap=1.00 > 0.5)",
+      "Low effective dimension: 3/7 = 0.43 < 0.7"
+    ]
+  },
+  "montecarlo": {
+    "permutation": {
+      "observed_sharpe": 1.3992898386957682,
+      "p_value": 0.05,
+      "mean_perm_sharpe": 1.258796202903483,
+      "std_perm_sharpe": 0.05778448515721801,
+      "n_permutations": 1000
+    },
+    "bootstrap": {
+      "sharpe_mean": 1.4254103488711125,
+      "sharpe_std": 0.3387920661449031,
+      "sharpe_ci_95": [
+        0.7463057899425716,
+        2.074477620609966
+      ],
+      "prob_negative_sharpe": 0.0,
+      "max_dd_ci_95": [
+        -0.019154155800590506,
+        -0.005528432671490611
+      ],
+      "n_bootstrap": 1000,
+      "block_size": 21
+    }
+  },
+  "per_strategy_source": [
+    {
+      "name": "HypothesisH136GoldenDeathCrossAsym",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002458",
+      "source_metrics": {
+        "sharpe": 0.6902913145011567,
+        "total_return": 0.07296321514020909,
+        "max_drawdown": -0.016600910525537915,
+        "calmar": 0.5466865058095421,
+        "sortino": 1.0543044340339223,
+        "profit_factor": 2.7414781896183644,
+        "n_trades": 59
+      },
+      "daily_bars": 2260
+    },
+    {
+      "name": "HypothesisH236MomentumReversalAsym",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002458",
+      "source_metrics": {
+        "sharpe": 0.6902913145011567,
+        "total_return": 0.07296321514020909,
+        "max_drawdown": -0.016600910525537915,
+        "calmar": 0.5466865058095421,
+        "sortino": 1.0543044340339223,
+        "profit_factor": 2.7414781896183644,
+        "n_trades": 59
+      },
+      "daily_bars": 2260
+    },
+    {
+      "name": "HypothesisH371MaxMinDualTriggerFreq",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002458",
+      "source_metrics": {
+        "sharpe": 0.6902913145011567,
+        "total_return": 0.07296321514020909,
+        "max_drawdown": -0.016600910525537915,
+        "calmar": 0.5466865058095421,
+        "sortino": 1.0543044340339223,
+        "profit_factor": 2.7414781896183644,
+        "n_trades": 59
+      },
+      "daily_bars": 2260
+    },
+    {
+      "name": "HypothesisH426RSIGarchBullBear",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002458",
+      "source_metrics": {
+        "sharpe": 0.6902913145011567,
+        "total_return": 0.07296321514020909,
+        "max_drawdown": -0.016600910525537915,
+        "calmar": 0.5466865058095421,
+        "sortino": 1.0543044340339223,
+        "profit_factor": 2.7414781896183644,
+        "n_trades": 59
+      },
+      "daily_bars": 2260
+    },
+    {
+      "name": "HypothesisH434MaxMinDualHorizon",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002544",
+      "source_metrics": {
+        "sharpe": 0.7227909753389671,
+        "total_return": 0.07840009419845084,
+        "max_drawdown": -0.012438314341836398,
+        "calmar": 0.7822606629597154,
+        "sortino": 1.019264990284784,
+        "profit_factor": 2.908712510723569,
+        "n_trades": 55
+      },
+      "daily_bars": 2260
+    },
+    {
+      "name": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002546",
+      "source_metrics": {
+        "sharpe": 0.4086191362971096,
+        "total_return": 0.05204385622276897,
+        "max_drawdown": -0.016845227645359784,
+        "calmar": 0.3876397809215702,
+        "sortino": 0.581379999665213,
+        "profit_factor": 2.3682687580854314,
+        "n_trades": 57
+      },
+      "daily_bars": 2260
+    },
+    {
+      "name": "HypothesisH86WonhamMarkovRefinado",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260412_002605",
+      "source_metrics": {
+        "sharpe": 0.6163546793692859,
+        "total_return": 0.11470746507146767,
+        "max_drawdown": -0.03735620886422131,
+        "calmar": 0.37553361143951536,
+        "sortino": 0.8616471458322871,
+        "profit_factor": 2.120036629930478,
+        "n_trades": 41
+      },
+      "daily_bars": 2260
+    }
+  ]
+}

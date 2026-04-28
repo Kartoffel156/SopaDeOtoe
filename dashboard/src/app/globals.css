@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-display), system-ui, sans-serif;
+  --font-mono: var(--font-mono-face), ui-monospace, monospace;
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+}
+
+/*
+ * ─── SOPADEOTO: Deep Obsidian Portfolio ───
+ */
+:root {
+  --background:    #0a0a0f;
+  --foreground:    #e8e8f0;
+  --card:          #111118;
+  --card-foreground: #e8e8f0;
+  --popover:       #111118;
+  --popover-foreground: #e8e8f0;
+  --primary:       #00e5a0;
+  --primary-foreground: #0a0a0f;
+  --secondary:     #1a1a22;
+  --secondary-foreground: #a8a8b8;
+  --muted:         #1a1a22;
+  --muted-foreground: #6b6b7b;
+  --accent:        #2a2a3a;
+  --accent-foreground: #e8e8f0;
+  --destructive:   #ff4060;
+  --border:        #2a2a3a;
+  --input:         #2a2a3a;
+  --ring:          #00e5a0;
+  
+  --sf-green:      #00e5a0;
+  --sf-red:        #ff4060;
+  --sf-amber:      #f59e0b;
+  --sf-blue:       #3b82f6;
+  --sf-purple:     #a78bfa;
+  --sf-cyan:       #22d3ee;
+
+  --grade-excellent: #00e5a0;
+  --grade-good:      #34d399;
+  --grade-fair:      #f59e0b;
+  --grade-poor:      #ff4060;
+
+  --chart-1: #00e5a0;
+  --chart-2: #3b82f6;
+  --chart-3: #a78bfa;
+  --chart-4: #22d3ee;
+  --chart-5: #f59e0b;
+
+  --radius: 0.75rem;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.grain::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 9999;
+}
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--background); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted-foreground); }

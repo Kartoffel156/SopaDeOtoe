@@ -1,0 +1,194 @@
+{
+  "timestamp": "20260414_215056",
+  "finding": "CFI audit 2026-04-14: corr(Sharpe, best_cMDA) = -0.381",
+  "v2_off_strategies": [
+    "HypothesisH136GoldenDeathCrossAsym",
+    "HypothesisH236MomentumReversalAsym",
+    "HypothesisH371MaxMinDualTriggerFreq",
+    "HypothesisH426RSIGarchBullBear",
+    "HypothesisH434MaxMinDualHorizon",
+    "HypothesisH481GoldenCrossPSAR"
+  ],
+  "v2_on_strategies": [
+    "HypothesisH72AsymmetricRSIDrawdownShield",
+    "HypothesisH86WonhamMarkovRefinado"
+  ],
+  "results": [
+    {
+      "strategy": "H136GoldenDeathCrossAsym",
+      "cfi_signal": false,
+      "v2_on": {
+        "sharpe": 0.942237875765123,
+        "total_return": 0.08904042865584882,
+        "max_drawdown": -0.02132008702972399,
+        "calmar": 0.516069371602512,
+        "n_trades": 59,
+        "win_rate": 0.0,
+        "profit_factor": 2.0627923517548528,
+        "source": "HypothesisH136GoldenDeathCrossAsym_010204_REPRO.json"
+      },
+      "v2_off": {
+        "sharpe": -1.376795497974647,
+        "total_return": -0.2544151464225195,
+        "max_drawdown": -0.2686316780174631,
+        "calmar": -0.13759761178076638,
+        "n_trades": 603,
+        "win_rate": 0.4096185737976783,
+        "profit_factor": 0.5268010184285068
+      },
+      "delta_sharpe": -2.31903337373977
+    },
+    {
+      "strategy": "H371MaxMinDualTriggerFreq",
+      "cfi_signal": false,
+      "v2_on": {
+        "sharpe": 0.9332387061177184,
+        "total_return": 0.08716480031004825,
+        "max_drawdown": -0.026845205896731117,
+        "calmar": 0.40152786244984034,
+        "n_trades": 73,
+        "win_rate": 0.0,
+        "profit_factor": 3.1925057049762238,
+        "source": "HypothesisH371MaxMinDualTriggerFreq_040215_REPRO.json"
+      },
+      "v2_off": {
+        "sharpe": -1.4705921859392583,
+        "total_return": -0.566351068339886,
+        "max_drawdown": -0.5699284298558893,
+        "calmar": -0.17834223298624122,
+        "n_trades": 2338,
+        "win_rate": 0.4178785286569718,
+        "profit_factor": 0.6315623432699232
+      },
+      "delta_sharpe": -2.403830892056977
+    },
+    {
+      "strategy": "H434MaxMinDualHorizon",
+      "cfi_signal": false,
+      "v2_on": {
+        "sharpe": 0.7227909753389671,
+        "total_return": 0.07840009419845084,
+        "max_drawdown": -0.012438314341836398,
+        "calmar": 0.7822606629597154,
+        "n_trades": 55,
+        "win_rate": 0.0,
+        "profit_factor": 2.908712510723569,
+        "source": "HypothesisH434MaxMinDualHorizon_051302_REPRO.json"
+      },
+      "v2_off": {
+        "sharpe": -0.26185803492569354,
+        "total_return": -0.1792559406704336,
+        "max_drawdown": -0.21250032852305978,
+        "calmar": -0.11776002206955391,
+        "n_trades": 825,
+        "win_rate": 0.44727272727272727,
+        "profit_factor": 0.7707362890084846
+      },
+      "delta_sharpe": -0.9846490102646606
+    },
+    {
+      "strategy": "H426RSIGarchBullBear",
+      "cfi_signal": false,
+      "v2_on": {
+        "sharpe": 0.6902913145011567,
+        "total_return": 0.07296321514020909,
+        "max_drawdown": -0.016600910525537915,
+        "calmar": 0.5466865058095421,
+        "n_trades": 59,
+        "win_rate": 0.0,
+        "profit_factor": 2.7414781896183644,
+        "source": "HypothesisH426RSIGarchBullBear_050222_REPRO.json"
+      },
+      "v2_off": {
+        "sharpe": -1.3405082839562015,
+        "total_return": -0.3750952056271921,
+        "max_drawdown": -0.3817260234153015,
+        "calmar": -0.1533359112574117,
+        "n_trades": 1132,
+        "win_rate": 0.4107773851590106,
+        "profit_factor": 0.5888989684779775
+      },
+      "delta_sharpe": -2.0307995984573584
+    },
+    {
+      "strategy": "H236MomentumReversalAsym",
+      "cfi_signal": false,
+      "v2_on": {
+        "sharpe": 0.6336556148067292,
+        "total_return": 0.15166764186508952,
+        "max_drawdown": -0.07676580047754822,
+        "calmar": 0.23813632406698287,
+        "n_trades": 159,
+        "win_rate": 0.0,
+        "profit_factor": 1.4870671732232548,
+        "source": "HypothesisH236MomentumReversalAsym_021821_REPRO.json"
+      },
+      "v2_off": {
+        "sharpe": -0.6427896655924779,
+        "total_return": -0.2653914796583823,
+        "max_drawdown": -0.28920875361988185,
+        "calmar": -0.13413726173488622,
+        "n_trades": 987,
+        "win_rate": 0.43465045592705165,
+        "profit_factor": 0.7120790364015308
+      },
+      "delta_sharpe": -1.276445280399207
+    },
+    {
+      "strategy": "H86WonhamMarkovRefinado",
+      "cfi_signal": true,
+      "v2_on": {
+        "sharpe": 0.6163546793692859,
+        "total_return": 0.11470746507146767,
+        "max_drawdown": -0.03735620886422131,
+        "calmar": 0.37553361143951536,
+        "n_trades": 41,
+        "win_rate": 0.0,
+        "profit_factor": 2.120036629930478,
+        "source": "HypothesisH86WonhamMarkovRefinado_061114_REPRO.json"
+      },
+      "v2_off": {},
+      "delta_sharpe": null
+    },
+    {
+      "strategy": "H481GoldenCrossPSAR",
+      "cfi_signal": false,
+      "v2_on": {
+        "sharpe": 0.6020911247235311,
+        "total_return": 0.0707505579145069,
+        "max_drawdown": -0.026775466340676624,
+        "calmar": 0.32896900342981655,
+        "n_trades": 106,
+        "win_rate": 0.0,
+        "profit_factor": 1.4510870383991459,
+        "source": "HypothesisH481GoldenCrossPSAR_153957_REPRO.json"
+      },
+      "v2_off": {
+        "sharpe": -0.520847384874923,
+        "total_return": -0.1241464091029918,
+        "max_drawdown": -0.1382569411961344,
+        "calmar": -0.1219582730081781,
+        "n_trades": 415,
+        "win_rate": 0.3927710843373494,
+        "profit_factor": 0.6581819305078253
+      },
+      "delta_sharpe": -1.122938509598454
+    },
+    {
+      "strategy": "H72AsymmetricRSIDrawdownShield",
+      "cfi_signal": true,
+      "v2_on": {
+        "sharpe": 0.4086191362971096,
+        "total_return": 0.05204385622276897,
+        "max_drawdown": -0.016845227645359784,
+        "calmar": 0.3876397809215702,
+        "n_trades": 57,
+        "win_rate": 0.0,
+        "profit_factor": 2.3682687580854314,
+        "source": "HypothesisH72AsymmetricRSIDrawdownShield_060037_REPRO.json"
+      },
+      "v2_off": {},
+      "delta_sharpe": null
+    }
+  ]
+}

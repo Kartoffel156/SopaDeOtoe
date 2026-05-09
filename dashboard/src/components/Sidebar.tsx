@@ -13,6 +13,7 @@ import {
   ListChecks,
   ChevronLeft,
   ChevronRight,
+  TrendingUp,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -22,6 +23,7 @@ const navItems = [
   { href: "/correlation", label: "Correlation", icon: Grid3x3 },
   { href: "/strategies", label: "Strategies", icon: Layers },
   { href: "/rebalance", label: "Rebalance", icon: Scale },
+  { href: "/quantstats", label: "QuantStats", icon: TrendingUp },
   { href: "/montecarlo", label: "Monte Carlo", icon: GitBranch },
   { href: "/trades", label: "Trades", icon: ListChecks },
 ];

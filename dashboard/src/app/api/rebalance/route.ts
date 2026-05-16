@@ -4,7 +4,6 @@
  * for each allocation method (equal_weight, inverse_vol, erc, risk_budget, hrp).
  */
 
-import { NextResponse } from "next/server";
 import * as fs from "fs";
 import * as path from "path";
 
@@ -302,6 +301,11 @@ function loadStrategyDailyReturns(
 
 /**
  * Equal Risk Contribution allocation.
+ * Uses daily volatilities and daily correlations so the covariance matrix
+ * is dimensionally consistent (no spurious 365x inflation of portfolio variance).
+ *
+ * Clamps minimum weight to 0.01 to prevent the optimizer from collapsing to
+ * a single dominant strategy when correlations are near zero.
  */
 function computeERC(
   strategyIds: string[],
@@ -316,8 +320,9 @@ function computeERC(
   );
 
   const riskTarget = 1 / n;
+  const MIN_W = 0.01; // prevent zero collapse
 
-  for (let iter = 0; iter < 100; iter++) {
+  for (let iter = 0; iter < 300; iter++) {
     const risks = computeRiskContributions(weights, volatilities, correlations);
     const totalRisk = Object.values(risks).reduce((a, b) => a + b, 0);
     if (totalRisk === 0) break;
@@ -329,15 +334,17 @@ function computeERC(
 
     let maxDelta = 0;
     for (const id of strategyIds) {
-      const delta = (contributions[id] - riskTarget) * 0.5;
-      weights[id] = Math.max(0.001, weights[id] + delta);
+      // Gradient step: push weight away from over-contributing strategies
+      const delta = (contributions[id] - riskTarget) * 0.25;
+      const newW = weights[id] + delta;
+      weights[id] = Math.max(MIN_W, newW);
       maxDelta = Math.max(maxDelta, Math.abs(delta));
     }
 
     const sumW = Object.values(weights).reduce((a, b) => a + b, 0);
     for (const id of strategyIds) weights[id] /= sumW;
 
-    if (maxDelta < 1e-6) break;
+    if (maxDelta < 1e-8) break;
   }
 
   return weights;
@@ -510,7 +517,9 @@ function clusterVariance(cluster: number[], cov: number[][]): number {
 }
 
 /**
- * Compute per-strategy annualized volatilities from daily returns.
+ * Compute per-strategy daily volatilities from daily returns.
+ * Returns daily vol (not annualized) so it matches the daily correlation matrix
+ * used throughout the allocation methods. Annualization happens only in computeMetrics.
  */
 function computeVolatilities(
   strategyReturns: Map<string, Map<string, number>>
@@ -524,7 +533,7 @@ function computeVolatilities(
       return;
     }
     const avg = rets.reduce((a, b) => a + b, 0) / rets.length;
-    const vol = Math.sqrt(rets.reduce((a, b) => a + (b - avg) ** 2, 0) / rets.length) * Math.sqrt(365);
+    const vol = Math.sqrt(rets.reduce((a, b) => a + (b - avg) ** 2, 0) / rets.length);
     result[strategyId] = vol;
   });
 
@@ -587,17 +596,38 @@ function buildRiskAttribution(
 
 export async function GET() {
   try {
-    // Load cohort
+    // Find latest cohort with valid v12_run_dir paths
     const cohortFiles = fs.readdirSync(PORTFOLIO_DIR)
       .filter((f) => f.startsWith("first_cohort_") && f.endsWith(".json"))
       .sort()
       .reverse();
 
     if (cohortFiles.length === 0) {
-      return NextResponse.json({ error: "No cohort found" }, { status: 404 });
+      return Response.json({ error: "No cohort found" }, { status: 404 });
     }
 
-    const cohortRaw = fs.readFileSync(path.join(PORTFOLIO_DIR, cohortFiles[0]), "utf-8");
+    // Try cohorts in order; fall back when vdirs are deleted
+    let cohortRaw = null;
+    let cohortFile = null;
+    for (const f of cohortFiles) {
+      const raw = fs.readFileSync(path.join(PORTFOLIO_DIR, f), "utf-8");
+      const data = JSON.parse(raw);
+      const perStrategySource: Array<{ name: string; v12_run_dir: string }> =
+        data.per_strategy_source ?? [];
+      const hasValid = perStrategySource.some((s) =>
+        fs.existsSync(path.join(s.v12_run_dir, "backtest_trades.csv"))
+      );
+      if (hasValid || cohortRaw === null) {
+        cohortRaw = raw;
+        cohortFile = f;
+        if (hasValid) break; // stop at first cohort with valid vdirs
+      }
+    }
+
+    if (!cohortRaw) {
+      return Response.json({ error: "No cohort with valid data found" }, { status: 404 });
+    }
+
     const cohort = JSON.parse(cohortRaw);
 
     const weights = cohort.weights ?? {};
@@ -616,7 +646,7 @@ export async function GET() {
     );
 
     if (strategyReturns.size === 0) {
-      return NextResponse.json({ error: "No trade data found" }, { status: 404 });
+      return Response.json({ error: "No trade data found" }, { status: 404 });
     }
 
     // Compute volatilities
@@ -686,7 +716,7 @@ export async function GET() {
       });
     }
 
-    return NextResponse.json(
+    return Response.json(
       {
         timestamp: cohort.timestamp ?? cohortFiles[0],
         methods,
@@ -699,6 +729,6 @@ export async function GET() {
     );
   } catch (err) {
     console.error("[/api/rebalance]", err);
-    return NextResponse.json({ error: "Internal error" }, { status: 500 });
+    return Response.json({ error: "Internal error" }, { status: 500 });
   }
 }

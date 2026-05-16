@@ -50,13 +50,13 @@ export default function PortfolioPage() {
   const timestamp = data.portfolio?.timestamp ?? '';
 
   const metrics = [
-    { label: 'Sharpe', value: m.sharpe.toFixed(3), numericValue: m.sharpe, scaleType: 'sharpe' as ScaleType },
-    { label: 'DSR', value: m.dsr.toFixed(3), numericValue: m.dsr, scaleType: 'dsr' as ScaleType },
-    { label: 'Ann. Return', value: `${(m.annualized_return * 100).toFixed(1)}%` },
-    { label: 'Max DD', value: `${(m.max_drawdown * 100).toFixed(1)}%`, numericValue: m.max_drawdown, scaleType: 'maxDrawdown' as ScaleType },
-    { label: 'Sortino', value: m.sortino.toFixed(3), numericValue: m.sortino, scaleType: 'sortino' as ScaleType },
-    { label: 'Diversif. Ratio', value: m.diversification_ratio.toFixed(2), numericValue: m.diversification_ratio, scaleType: 'divRatio' as ScaleType },
-    { label: 'Exposure', value: `${(m.exposure * 100).toFixed(1)}%` },
+    { label: 'Sharpe', value: (m.sharpe ?? 0).toFixed(3), numericValue: m.sharpe ?? 0, scaleType: 'sharpe' as ScaleType },
+    { label: 'DSR', value: (m.dsr ?? 0).toFixed(3), numericValue: m.dsr ?? 0, scaleType: 'dsr' as ScaleType },
+    { label: 'Ann. Return', value: `${((m.annualized_return ?? 0) * 100).toFixed(1)}%` },
+    { label: 'Max DD', value: `${((m.max_drawdown ?? 0) * 100).toFixed(1)}%`, numericValue: m.max_drawdown ?? 0, scaleType: 'maxDrawdown' as ScaleType },
+    { label: 'Sortino', value: (m.sortino ?? 0).toFixed(3), numericValue: m.sortino ?? 0, scaleType: 'sortino' as ScaleType },
+    { label: 'Diversif. Ratio', value: (m.diversification_ratio ?? 0).toFixed(2), numericValue: m.diversification_ratio ?? 0, scaleType: 'divRatio' as ScaleType },
+    { label: 'Exposure', value: `${((m.exposure ?? 0) * 100).toFixed(1)}%` },
   ];
 
   // equity_curve from API already has { date, portfolio, buyHold, drawdown }
@@ -93,26 +93,25 @@ export default function PortfolioPage() {
         ))}
       </div>
 
-      {/* Charts Row */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base font-medium">Equity Curve</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <EquityChart data={equityData} />
-          </CardContent>
-        </Card>
+      {/* Full-width Equity Curve */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base font-medium">Equity Curve</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <EquityChart data={equityData} />
+        </CardContent>
+      </Card>
 
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base font-medium">Drawdown</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <DrawdownBands data={drawdownBands} />
-          </CardContent>
-        </Card>
-      </div>
+      {/* Drawdown */}
+      <Card>
+        <CardHeader>
+          <CardTitle className="text-base font-medium">Drawdown</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <DrawdownBands data={drawdownBands} />
+        </CardContent>
+      </Card>
     </div>
   );
 }

@@ -354,14 +354,17 @@ export default function TradesPage() {
                     trade.return >= 0 ? "text-green-500" : "text-red-500"
                   }`}
                 >
-                  {(trade.return * 100).toFixed(2)}%
+                  {Math.abs(trade.return) < 0.00005 ? "0.00%" : (trade.return * 100).toFixed(2) + "%"}
                 </td>
                 <td className="px-4 py-2 text-muted-foreground">
                   {trade.bet_size.toFixed(4)}
                 </td>
                 <td
                   className={`px-4 py-2 font-medium ${
-                    trade.pnl >= 0 ? "text-green-500" : "text-red-500"
+                    // Handle -0.0 display edge case
+                    !Object.is(Math.abs(trade.pnl), 0) && trade.pnl < 0
+                      ? "text-red-500"
+                      : "text-green-500"
                   }`}
                 >
                   {trade.pnl >= 0 ? "+" : ""}{trade.pnl.toFixed(2)}

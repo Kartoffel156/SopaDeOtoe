@@ -88,7 +88,7 @@ export async function GET() {
           const entryPrice = parseFloat(cols[entryPriceIdx]);
           const exitPrice = parseFloat(cols[exitPriceIdx]);
           const betSize = betSizeIdx >= 0 ? parseFloat(cols[betSizeIdx]) : 1.0;
-          const pnl = betSize * ret; // absolute PnL in quote currency
+          const pnl = entryPrice * ret * betSize; // absolute PnL in quote currency
 
           // Infer barrier from return and bars
           let barrier: "profit" | "stop" | "time";

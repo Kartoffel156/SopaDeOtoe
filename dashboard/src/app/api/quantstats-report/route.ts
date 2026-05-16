@@ -19,15 +19,12 @@ export async function GET() {
     const outputPath = path.join(OUTPUT_DIR, "portfolio_tearsheet.html");
     const metricsPath = path.join(OUTPUT_DIR, "metrics.json");
 
-    // Check cache: if HTML exists and is newer than latest portfolio JSON, skip generation
-    const portfolioDir = "/Users/nongo/Documents/Patacon/SopaDeOtoe/results/portfolio";
-    const portfolioFiles = fs.readdirSync(portfolioDir).filter((f) => f.startsWith("first_cohort_") && f.endsWith(".json"));
-    const latestPortfolioMtime = Math.max(...portfolioFiles.map((f) => fs.statSync(path.join(portfolioDir, f)).mtimeMs));
-
+    // Check cache: if HTML and metrics exist and are non-empty, use them
+    // (metrics.json mtime tracks the cohort used for generation; don't regenerate
+    //  just because a newer cohort exists — the HTML is cohort-agnostic)
     if (fs.existsSync(outputPath) && fs.existsSync(metricsPath)) {
-      const htmlMtime = fs.statSync(outputPath).mtimeMs;
-      if (htmlMtime > latestPortfolioMtime) {
-        // Cache is fresh — read existing metrics and return
+      const stats = fs.statSync(metricsPath);
+      if (stats.size > 100) {
         const metrics = JSON.parse(fs.readFileSync(metricsPath, "utf-8"));
         return Response.json({
           status: "ready",

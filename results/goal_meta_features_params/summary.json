@@ -1,0 +1,2714 @@
+{
+  "DualMovingAverageCrossover_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "BASELINE",
+      "config_id": "DualMovingAverageCrossover_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5952655592780979,
+      "cum_return": -0.047617015079137515,
+      "max_drawdown": -0.05629745472583125,
+      "n_trades": 53,
+      "profit_factor": 0.614242059857924,
+      "calmar": -0.134501312992468,
+      "long_pct": 0.3774
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "A_windows_short",
+      "config_id": "DualMovingAverageCrossover_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -1.1137068680768196,
+      "cum_return": -0.10277524877976674,
+      "max_drawdown": -0.10982807560425911,
+      "n_trades": 86,
+      "profit_factor": 0.5040625486556936,
+      "calmar": -0.1525455394728794,
+      "long_pct": 0.3023
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "B_windows_long",
+      "config_id": "DualMovingAverageCrossover_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.7524509483481794,
+      "cum_return": -0.05115584768547665,
+      "max_drawdown": -0.054952873129635926,
+      "n_trades": 46,
+      "profit_factor": 0.5326314630218132,
+      "calmar": -0.14826333742523418,
+      "long_pct": 0.3261
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "DualMovingAverageCrossover_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5952655592780979,
+      "cum_return": -0.047617015079137515,
+      "max_drawdown": -0.05629745472583125,
+      "n_trades": 53,
+      "profit_factor": 0.614242059857924,
+      "calmar": -0.134501312992468,
+      "long_pct": 0.3774
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "DualMovingAverageCrossover_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5952655592780979,
+      "cum_return": -0.047617015079137515,
+      "max_drawdown": -0.05629745472583125,
+      "n_trades": 53,
+      "profit_factor": 0.614242059857924,
+      "calmar": -0.134501312992468,
+      "long_pct": 0.3774
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "E_kronos_temp_low",
+      "config_id": "DualMovingAverageCrossover_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5952655592780979,
+      "cum_return": -0.047617015079137515,
+      "max_drawdown": -0.05629745472583125,
+      "n_trades": 53,
+      "profit_factor": 0.614242059857924,
+      "calmar": -0.134501312992468,
+      "long_pct": 0.3774
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "F_kronos_temp_high",
+      "config_id": "DualMovingAverageCrossover_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5952655592780979,
+      "cum_return": -0.047617015079137515,
+      "max_drawdown": -0.05629745472583125,
+      "n_trades": 53,
+      "profit_factor": 0.614242059857924,
+      "calmar": -0.134501312992468,
+      "long_pct": 0.3774
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "G_kronos_stride3",
+      "config_id": "DualMovingAverageCrossover_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5952655592780979,
+      "cum_return": -0.047617015079137515,
+      "max_drawdown": -0.05629745472583125,
+      "n_trades": 53,
+      "profit_factor": 0.614242059857924,
+      "calmar": -0.134501312992468,
+      "long_pct": 0.3774
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "DualMovingAverageCrossover_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5887625083734527,
+      "cum_return": -0.04977099627844217,
+      "max_drawdown": -0.06365846585369639,
+      "n_trades": 76,
+      "profit_factor": 0.6799937043392205,
+      "calmar": -0.12444698071122719,
+      "long_pct": 0.3553
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "DualMovingAverageCrossover_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.28225256306585655,
+      "cum_return": -0.024933679939826647,
+      "max_drawdown": -0.04609657670251044,
+      "n_trades": 63,
+      "profit_factor": 0.8181360755937068,
+      "calmar": -0.08516999732326686,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH110BollingerKyleGate_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.17940091318367904,
+      "cum_return": -0.019718290675113215,
+      "max_drawdown": -0.08474055572252737,
+      "n_trades": 104,
+      "profit_factor": 0.9070205847436194,
+      "calmar": -0.0365572260357508,
+      "long_pct": 0.4423
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH110BollingerKyleGate_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.23919496714176153,
+      "cum_return": -0.022624481058246437,
+      "max_drawdown": -0.07929436394246014,
+      "n_trades": 111,
+      "profit_factor": 0.8901738957889916,
+      "calmar": -0.044882146382164416,
+      "long_pct": 0.4955
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH110BollingerKyleGate_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.17940091318367904,
+      "cum_return": -0.019718290675113215,
+      "max_drawdown": -0.08474055572252737,
+      "n_trades": 104,
+      "profit_factor": 0.9070205847436194,
+      "calmar": -0.0365572260357508,
+      "long_pct": 0.4423
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH110BollingerKyleGate_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19050208776587013,
+      "cum_return": -0.0297193193458416,
+      "max_drawdown": -0.10253773271815614,
+      "n_trades": 147,
+      "profit_factor": 0.9175895533808108,
+      "calmar": -0.04573210574510714,
+      "long_pct": 0.4694
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH110BollingerKyleGate_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19050208776587013,
+      "cum_return": -0.0297193193458416,
+      "max_drawdown": -0.10253773271815614,
+      "n_trades": 147,
+      "profit_factor": 0.9175895533808108,
+      "calmar": -0.04573210574510714,
+      "long_pct": 0.4694
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH110BollingerKyleGate_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19050208776587013,
+      "cum_return": -0.0297193193458416,
+      "max_drawdown": -0.10253773271815614,
+      "n_trades": 147,
+      "profit_factor": 0.9175895533808108,
+      "calmar": -0.04573210574510714,
+      "long_pct": 0.4694
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH110BollingerKyleGate_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19050208776587013,
+      "cum_return": -0.0297193193458416,
+      "max_drawdown": -0.10253773271815614,
+      "n_trades": 147,
+      "profit_factor": 0.9175895533808108,
+      "calmar": -0.04573210574510714,
+      "long_pct": 0.4694
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH110BollingerKyleGate_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19050208776587013,
+      "cum_return": -0.0297193193458416,
+      "max_drawdown": -0.10253773271815614,
+      "n_trades": 147,
+      "profit_factor": 0.9175895533808108,
+      "calmar": -0.04573210574510714,
+      "long_pct": 0.4694
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH110BollingerKyleGate_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.18028669139690265,
+      "cum_return": 0.02653736421699393,
+      "max_drawdown": -0.05719150151253094,
+      "n_trades": 134,
+      "profit_factor": 1.1086103095430415,
+      "calmar": 0.0714931322700859,
+      "long_pct": 0.5075
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH110BollingerKyleGate_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.06329747428666099,
+      "cum_return": -0.008609814340842736,
+      "max_drawdown": -0.08157043079501525,
+      "n_trades": 146,
+      "profit_factor": 0.9773012332541017,
+      "calmar": -0.016504270732715712,
+      "long_pct": 0.4589
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3595934929405101,
+      "cum_return": -0.02584053759060112,
+      "max_drawdown": -0.044333567052388556,
+      "n_trades": 56,
+      "profit_factor": 0.6763260535154976,
+      "calmar": -0.0756305891610819,
+      "long_pct": 0.4821
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.17292414425088737,
+      "cum_return": 0.014061001573578924,
+      "max_drawdown": -0.014805081729188041,
+      "n_trades": 52,
+      "profit_factor": 1.3079305458117807,
+      "calmar": 0.1210999777249028,
+      "long_pct": 0.4423
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.17292414425088737,
+      "cum_return": 0.014061001573578924,
+      "max_drawdown": -0.014805081729188041,
+      "n_trades": 52,
+      "profit_factor": 1.3079305458117807,
+      "calmar": 0.1210999777249028,
+      "long_pct": 0.4423
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3595934929405101,
+      "cum_return": -0.02584053759060112,
+      "max_drawdown": -0.044333567052388556,
+      "n_trades": 56,
+      "profit_factor": 0.6763260535154976,
+      "calmar": -0.0756305891610819,
+      "long_pct": 0.4821
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3595934929405101,
+      "cum_return": -0.02584053759060112,
+      "max_drawdown": -0.044333567052388556,
+      "n_trades": 56,
+      "profit_factor": 0.6763260535154976,
+      "calmar": -0.0756305891610819,
+      "long_pct": 0.4821
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3595934929405101,
+      "cum_return": -0.02584053759060112,
+      "max_drawdown": -0.044333567052388556,
+      "n_trades": 56,
+      "profit_factor": 0.6763260535154976,
+      "calmar": -0.0756305891610819,
+      "long_pct": 0.4821
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3595934929405101,
+      "cum_return": -0.02584053759060112,
+      "max_drawdown": -0.044333567052388556,
+      "n_trades": 56,
+      "profit_factor": 0.6763260535154976,
+      "calmar": -0.0756305891610819,
+      "long_pct": 0.4821
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3595934929405101,
+      "cum_return": -0.02584053759060112,
+      "max_drawdown": -0.044333567052388556,
+      "n_trades": 56,
+      "profit_factor": 0.6763260535154976,
+      "calmar": -0.0756305891610819,
+      "long_pct": 0.4821
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {},
+    "status": "error"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.00918061689528,
+      "cum_return": 0.0009734584319140982,
+      "max_drawdown": -0.030716777324557576,
+      "n_trades": 75,
+      "profit_factor": 1.0133729505820845,
+      "calmar": 0.0040638972723575075,
+      "long_pct": 0.4933
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19261440356695522,
+      "cum_return": -0.014617766113169006,
+      "max_drawdown": -0.05753746301213469,
+      "n_trades": 91,
+      "profit_factor": 0.9264423074992414,
+      "calmar": -0.0398269825818974,
+      "long_pct": 0.4505
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19261440356695522,
+      "cum_return": -0.014617766113169006,
+      "max_drawdown": -0.05753746301213469,
+      "n_trades": 91,
+      "profit_factor": 0.9264423074992414,
+      "calmar": -0.0398269825818974,
+      "long_pct": 0.4505
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19261440356695522,
+      "cum_return": -0.014617766113169006,
+      "max_drawdown": -0.05753746301213469,
+      "n_trades": 91,
+      "profit_factor": 0.9264423074992414,
+      "calmar": -0.0398269825818974,
+      "long_pct": 0.4505
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2580105796865001,
+      "cum_return": -0.035375002305930825,
+      "max_drawdown": -0.061949641764833974,
+      "n_trades": 123,
+      "profit_factor": 0.8806402618142524,
+      "calmar": -0.0903209634956216,
+      "long_pct": 0.4065
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19400433405590578,
+      "cum_return": -0.027570559755900947,
+      "max_drawdown": -0.05856134344652686,
+      "n_trades": 98,
+      "profit_factor": 0.8957012677569086,
+      "calmar": -0.07421596741242326,
+      "long_pct": 0.398
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19400433405590578,
+      "cum_return": -0.027570559755900947,
+      "max_drawdown": -0.05856134344652686,
+      "n_trades": 98,
+      "profit_factor": 0.8957012677569086,
+      "calmar": -0.07421596741242326,
+      "long_pct": 0.398
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19400433405590578,
+      "cum_return": -0.027570559755900947,
+      "max_drawdown": -0.05856134344652686,
+      "n_trades": 98,
+      "profit_factor": 0.8957012677569086,
+      "calmar": -0.07421596741242326,
+      "long_pct": 0.398
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19400433405590578,
+      "cum_return": -0.027570559755900947,
+      "max_drawdown": -0.05856134344652686,
+      "n_trades": 98,
+      "profit_factor": 0.8957012677569086,
+      "calmar": -0.07421596741242326,
+      "long_pct": 0.398
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19400433405590578,
+      "cum_return": -0.027570559755900947,
+      "max_drawdown": -0.05856134344652686,
+      "n_trades": 98,
+      "profit_factor": 0.8957012677569086,
+      "calmar": -0.07421596741242326,
+      "long_pct": 0.398
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.19400433405590578,
+      "cum_return": -0.027570559755900947,
+      "max_drawdown": -0.05856134344652686,
+      "n_trades": 98,
+      "profit_factor": 0.8957012677569086,
+      "calmar": -0.07421596741242326,
+      "long_pct": 0.398
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH203VolExpansionEntry_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.37412501426169686,
+      "cum_return": 0.0847011723136708,
+      "max_drawdown": -0.0416070308005263,
+      "n_trades": 121,
+      "profit_factor": 1.331855659360144,
+      "calmar": 0.3063747421453108,
+      "long_pct": 0.4463
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH203VolExpansionEntry_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.4347438684080295,
+      "cum_return": 0.1143105107277469,
+      "max_drawdown": -0.04733332344066965,
+      "n_trades": 198,
+      "profit_factor": 1.2751609565067015,
+      "calmar": 0.35927115420171035,
+      "long_pct": 0.4798
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH203VolExpansionEntry_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.37412501426169686,
+      "cum_return": 0.0847011723136708,
+      "max_drawdown": -0.0416070308005263,
+      "n_trades": 121,
+      "profit_factor": 1.331855659360144,
+      "calmar": 0.3063747421453108,
+      "long_pct": 0.4463
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH203VolExpansionEntry_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.01928413833610721,
+      "cum_return": 0.018774668728723576,
+      "max_drawdown": -0.08595873113233687,
+      "n_trades": 220,
+      "profit_factor": 1.0462673368383753,
+      "calmar": 0.033761197517523586,
+      "long_pct": 0.4364
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH203VolExpansionEntry_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.01928413833610721,
+      "cum_return": 0.018774668728723576,
+      "max_drawdown": -0.08595873113233687,
+      "n_trades": 220,
+      "profit_factor": 1.0462673368383753,
+      "calmar": 0.033761197517523586,
+      "long_pct": 0.4364
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH203VolExpansionEntry_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1933041295396357,
+      "cum_return": 0.052205218578946555,
+      "max_drawdown": -0.07556571696001002,
+      "n_trades": 175,
+      "profit_factor": 1.1453848159500415,
+      "calmar": 0.10533342242672919,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH203VolExpansionEntry_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1933041295396357,
+      "cum_return": 0.052205218578946555,
+      "max_drawdown": -0.07556571696001002,
+      "n_trades": 175,
+      "profit_factor": 1.1453848159500415,
+      "calmar": 0.10533342242672919,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH203VolExpansionEntry_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1933041295396357,
+      "cum_return": 0.052205218578946555,
+      "max_drawdown": -0.07556571696001002,
+      "n_trades": 175,
+      "profit_factor": 1.1453848159500415,
+      "calmar": 0.10533342242672919,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH203VolExpansionEntry_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1933041295396357,
+      "cum_return": 0.052205218578946555,
+      "max_drawdown": -0.07556571696001002,
+      "n_trades": 175,
+      "profit_factor": 1.1453848159500415,
+      "calmar": 0.10533342242672919,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH203VolExpansionEntry_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1192158629049189,
+      "cum_return": 0.03557557609510997,
+      "max_drawdown": -0.07308911305487209,
+      "n_trades": 165,
+      "profit_factor": 1.1033857382374928,
+      "calmar": 0.07471724718300837,
+      "long_pct": 0.4606
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12042326246856207,
+      "cum_return": 0.04747327697392145,
+      "max_drawdown": -0.06962175589098507,
+      "n_trades": 154,
+      "profit_factor": 1.157778680593211,
+      "calmar": 0.08571793038004497,
+      "long_pct": 0.5649
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12159938357791601,
+      "cum_return": 0.06434927852543693,
+      "max_drawdown": -0.07159070187688543,
+      "n_trades": 244,
+      "profit_factor": 1.1459936642676136,
+      "calmar": 0.11220137921577,
+      "long_pct": 0.5615
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.20899575982853147,
+      "cum_return": 0.06995010579376038,
+      "max_drawdown": -0.028129261886853163,
+      "n_trades": 174,
+      "profit_factor": 1.2579954659923775,
+      "calmar": 0.30969597535396404,
+      "long_pct": 0.5805
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12042326246856207,
+      "cum_return": 0.04747327697392145,
+      "max_drawdown": -0.06962175589098507,
+      "n_trades": 154,
+      "profit_factor": 1.157778680593211,
+      "calmar": 0.08571793038004497,
+      "long_pct": 0.5649
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12042326246856207,
+      "cum_return": 0.04747327697392145,
+      "max_drawdown": -0.06962175589098507,
+      "n_trades": 154,
+      "profit_factor": 1.157778680593211,
+      "calmar": 0.08571793038004497,
+      "long_pct": 0.5649
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12042326246856207,
+      "cum_return": 0.04747327697392145,
+      "max_drawdown": -0.06962175589098507,
+      "n_trades": 154,
+      "profit_factor": 1.157778680593211,
+      "calmar": 0.08571793038004497,
+      "long_pct": 0.5649
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12042326246856207,
+      "cum_return": 0.04747327697392145,
+      "max_drawdown": -0.06962175589098507,
+      "n_trades": 154,
+      "profit_factor": 1.157778680593211,
+      "calmar": 0.08571793038004497,
+      "long_pct": 0.5649
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.12042326246856207,
+      "cum_return": 0.04747327697392145,
+      "max_drawdown": -0.06962175589098507,
+      "n_trades": 154,
+      "profit_factor": 1.157778680593211,
+      "calmar": 0.08571793038004497,
+      "long_pct": 0.5649
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2176410832890699,
+      "cum_return": 0.06644746263267143,
+      "max_drawdown": -0.07762777707944002,
+      "n_trades": 156,
+      "profit_factor": 1.2407620244607827,
+      "calmar": 0.10675670452812473,
+      "long_pct": 0.5513
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH236MomentumReversalAsym_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.278351488091978,
+      "cum_return": 0.09179071811964068,
+      "max_drawdown": -0.06783215718680435,
+      "n_trades": 179,
+      "profit_factor": 1.272365955426928,
+      "calmar": 0.16702741109843747,
+      "long_pct": 0.5866
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.535874095044686,
+      "cum_return": -0.082131247428755,
+      "max_drawdown": -0.12214662297027701,
+      "n_trades": 168,
+      "profit_factor": 0.7702757058778098,
+      "calmar": -0.10858233449927374,
+      "long_pct": 0.3988
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.382549032192693,
+      "cum_return": -0.04415978930307707,
+      "max_drawdown": -0.059740110998715124,
+      "n_trades": 150,
+      "profit_factor": 0.829111303103295,
+      "calmar": -0.1173696594429266,
+      "long_pct": 0.4
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.30599495287299966,
+      "cum_return": -0.02413552808805719,
+      "max_drawdown": -0.052953234873503785,
+      "n_trades": 153,
+      "profit_factor": 0.8863819984194123,
+      "calmar": -0.07174373131754695,
+      "long_pct": 0.4118
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.535874095044686,
+      "cum_return": -0.082131247428755,
+      "max_drawdown": -0.12214662297027701,
+      "n_trades": 168,
+      "profit_factor": 0.7702757058778098,
+      "calmar": -0.10858233449927374,
+      "long_pct": 0.3988
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.535874095044686,
+      "cum_return": -0.082131247428755,
+      "max_drawdown": -0.12214662297027701,
+      "n_trades": 168,
+      "profit_factor": 0.7702757058778098,
+      "calmar": -0.10858233449927374,
+      "long_pct": 0.3988
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.535874095044686,
+      "cum_return": -0.082131247428755,
+      "max_drawdown": -0.12214662297027701,
+      "n_trades": 168,
+      "profit_factor": 0.7702757058778098,
+      "calmar": -0.10858233449927374,
+      "long_pct": 0.3988
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.535874095044686,
+      "cum_return": -0.082131247428755,
+      "max_drawdown": -0.12214662297027701,
+      "n_trades": 168,
+      "profit_factor": 0.7702757058778098,
+      "calmar": -0.10858233449927374,
+      "long_pct": 0.3988
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.535874095044686,
+      "cum_return": -0.082131247428755,
+      "max_drawdown": -0.12214662297027701,
+      "n_trades": 168,
+      "profit_factor": 0.7702757058778098,
+      "calmar": -0.10858233449927374,
+      "long_pct": 0.3988
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.8994963235427644,
+      "cum_return": -0.09003893498038718,
+      "max_drawdown": -0.11358771948622781,
+      "n_trades": 159,
+      "profit_factor": 0.6604988284517214,
+      "calmar": -0.1284664883878211,
+      "long_pct": 0.3899
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.8994963235427644,
+      "cum_return": -0.09003893498038718,
+      "max_drawdown": -0.11358771948622781,
+      "n_trades": 159,
+      "profit_factor": 0.6604988284517214,
+      "calmar": -0.1284664883878211,
+      "long_pct": 0.3899
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.15220009560026726,
+      "cum_return": 0.028237220188205958,
+      "max_drawdown": -0.08647796675360864,
+      "n_trades": 193,
+      "profit_factor": 1.1116453939092783,
+      "calmar": 0.041382514392924584,
+      "long_pct": 0.5959
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.23566882236136869,
+      "cum_return": -0.0066512323792862205,
+      "max_drawdown": -0.06638598480441948,
+      "n_trades": 215,
+      "profit_factor": 0.9915831447468314,
+      "calmar": -0.012890604856240013,
+      "long_pct": 0.5628
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2559456451113341,
+      "cum_return": 0.008692783607272325,
+      "max_drawdown": -0.036549625006578434,
+      "n_trades": 138,
+      "profit_factor": 1.0670498668074564,
+      "calmar": 0.03039634861428949,
+      "long_pct": 0.5942
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.15220009560026726,
+      "cum_return": 0.028237220188205958,
+      "max_drawdown": -0.08647796675360864,
+      "n_trades": 193,
+      "profit_factor": 1.1116453939092783,
+      "calmar": 0.041382514392924584,
+      "long_pct": 0.5959
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.15220009560026726,
+      "cum_return": 0.028237220188205958,
+      "max_drawdown": -0.08647796675360864,
+      "n_trades": 193,
+      "profit_factor": 1.1116453939092783,
+      "calmar": 0.041382514392924584,
+      "long_pct": 0.5959
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.15220009560026726,
+      "cum_return": 0.028237220188205958,
+      "max_drawdown": -0.08647796675360864,
+      "n_trades": 193,
+      "profit_factor": 1.1116453939092783,
+      "calmar": 0.041382514392924584,
+      "long_pct": 0.5959
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.15220009560026726,
+      "cum_return": 0.028237220188205958,
+      "max_drawdown": -0.08647796675360864,
+      "n_trades": 193,
+      "profit_factor": 1.1116453939092783,
+      "calmar": 0.041382514392924584,
+      "long_pct": 0.5959
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.15220009560026726,
+      "cum_return": 0.028237220188205958,
+      "max_drawdown": -0.08647796675360864,
+      "n_trades": 193,
+      "profit_factor": 1.1116453939092783,
+      "calmar": 0.041382514392924584,
+      "long_pct": 0.5959
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.37033384076416,
+      "cum_return": -0.02841063240335573,
+      "max_drawdown": -0.07305482978135547,
+      "n_trades": 238,
+      "profit_factor": 0.9306545925721608,
+      "calmar": -0.05051938490540891,
+      "long_pct": 0.542
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.23952237368748525,
+      "cum_return": -0.003974358918237719,
+      "max_drawdown": -0.08092080706786053,
+      "n_trades": 241,
+      "profit_factor": 0.9979131259587563,
+      "calmar": -0.006311688465508518,
+      "long_pct": 0.5643
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2725821547110845,
+      "cum_return": 0.03686224501990765,
+      "max_drawdown": -0.03760626996048344,
+      "n_trades": 78,
+      "profit_factor": 1.200987541481906,
+      "calmar": 0.15038826572250785,
+      "long_pct": 0.5385
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.21468146720147266,
+      "cum_return": 0.03135867559920791,
+      "max_drawdown": -0.04245659697351445,
+      "n_trades": 88,
+      "profit_factor": 1.160577780232356,
+      "calmar": 0.11357608231517245,
+      "long_pct": 0.5341
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.30834389121375544,
+      "cum_return": 0.046171096977096315,
+      "max_drawdown": -0.03539753354965147,
+      "n_trades": 83,
+      "profit_factor": 1.2623615793862997,
+      "calmar": 0.19936013832638805,
+      "long_pct": 0.5301
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2725821547110845,
+      "cum_return": 0.03686224501990765,
+      "max_drawdown": -0.03760626996048344,
+      "n_trades": 78,
+      "profit_factor": 1.200987541481906,
+      "calmar": 0.15038826572250785,
+      "long_pct": 0.5385
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2725821547110845,
+      "cum_return": 0.03686224501990765,
+      "max_drawdown": -0.03760626996048344,
+      "n_trades": 78,
+      "profit_factor": 1.200987541481906,
+      "calmar": 0.15038826572250785,
+      "long_pct": 0.5385
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2725821547110845,
+      "cum_return": 0.03686224501990765,
+      "max_drawdown": -0.03760626996048344,
+      "n_trades": 78,
+      "profit_factor": 1.200987541481906,
+      "calmar": 0.15038826572250785,
+      "long_pct": 0.5385
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2725821547110845,
+      "cum_return": 0.03686224501990765,
+      "max_drawdown": -0.03760626996048344,
+      "n_trades": 78,
+      "profit_factor": 1.200987541481906,
+      "calmar": 0.15038826572250785,
+      "long_pct": 0.5385
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2725821547110845,
+      "cum_return": 0.03686224501990765,
+      "max_drawdown": -0.03760626996048344,
+      "n_trades": 78,
+      "profit_factor": 1.200987541481906,
+      "calmar": 0.15038826572250785,
+      "long_pct": 0.5385
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.5312221784541011,
+      "cum_return": 0.06562875800755652,
+      "max_drawdown": -0.03675285072091439,
+      "n_trades": 71,
+      "profit_factor": 1.4313053802270486,
+      "calmar": 0.27078882851113145,
+      "long_pct": 0.5634
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH37DynamicGridInformedGate_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.24370462531229634,
+      "cum_return": 0.03283455899373333,
+      "max_drawdown": -0.03812306526266096,
+      "n_trades": 74,
+      "profit_factor": 1.204763096151113,
+      "calmar": 0.13235915684301658,
+      "long_pct": 0.5405
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1440592673448172,
+      "cum_return": 0.0504754617069294,
+      "max_drawdown": -0.028551658601515983,
+      "n_trades": 132,
+      "profit_factor": 1.4058590672328966,
+      "calmar": 0.22195747391804518,
+      "long_pct": 0.5379
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.4320344746462001,
+      "cum_return": -0.018911128569120028,
+      "max_drawdown": -0.06820911206790514,
+      "n_trades": 143,
+      "profit_factor": 0.9357207622235645,
+      "calmar": -0.03586473967987125,
+      "long_pct": 0.5105
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.03158049927547639,
+      "cum_return": 0.0047738452232581885,
+      "max_drawdown": -0.027147867827031047,
+      "n_trades": 22,
+      "profit_factor": 1.1427996747175233,
+      "calmar": 0.022512092591604436,
+      "long_pct": 0.6364
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1440592673448172,
+      "cum_return": 0.0504754617069294,
+      "max_drawdown": -0.028551658601515983,
+      "n_trades": 132,
+      "profit_factor": 1.4058590672328966,
+      "calmar": 0.22195747391804518,
+      "long_pct": 0.5379
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1440592673448172,
+      "cum_return": 0.0504754617069294,
+      "max_drawdown": -0.028551658601515983,
+      "n_trades": 132,
+      "profit_factor": 1.4058590672328966,
+      "calmar": 0.22195747391804518,
+      "long_pct": 0.5379
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1440592673448172,
+      "cum_return": 0.0504754617069294,
+      "max_drawdown": -0.028551658601515983,
+      "n_trades": 132,
+      "profit_factor": 1.4058590672328966,
+      "calmar": 0.22195747391804518,
+      "long_pct": 0.5379
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1440592673448172,
+      "cum_return": 0.0504754617069294,
+      "max_drawdown": -0.028551658601515983,
+      "n_trades": 132,
+      "profit_factor": 1.4058590672328966,
+      "calmar": 0.22195747391804518,
+      "long_pct": 0.5379
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.1440592673448172,
+      "cum_return": 0.0504754617069294,
+      "max_drawdown": -0.028551658601515983,
+      "n_trades": 132,
+      "profit_factor": 1.4058590672328966,
+      "calmar": 0.22195747391804518,
+      "long_pct": 0.5379
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.3545413739284141,
+      "cum_return": -0.03495641959074991,
+      "max_drawdown": -0.11945266189863823,
+      "n_trades": 139,
+      "profit_factor": 0.8912884799389512,
+      "calmar": -0.038126685137674476,
+      "long_pct": 0.5324
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH426RSIGarchBullBear_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.3374551109095991,
+      "cum_return": 0.05835605688081391,
+      "max_drawdown": -0.02643833093126924,
+      "n_trades": 57,
+      "profit_factor": 1.851655957785402,
+      "calmar": 0.2762128543707866,
+      "long_pct": 0.6667
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.07339577627949459,
+      "cum_return": 0.014250722871928412,
+      "max_drawdown": -0.030595982763713225,
+      "n_trades": 101,
+      "profit_factor": 1.1012604786106852,
+      "calmar": 0.059384840995168345,
+      "long_pct": 0.505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.2221036121351597,
+      "cum_return": 0.06212657392853038,
+      "max_drawdown": -0.03686066482143591,
+      "n_trades": 109,
+      "profit_factor": 1.3598202036959277,
+      "calmar": 0.21058413465562453,
+      "long_pct": 0.5688
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.10079476666187401,
+      "cum_return": 0.0366074031861372,
+      "max_drawdown": -0.05691768379300699,
+      "n_trades": 108,
+      "profit_factor": 1.2216584269931572,
+      "calmar": 0.08122285659644643,
+      "long_pct": 0.5556
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.07339577627949459,
+      "cum_return": 0.014250722871928412,
+      "max_drawdown": -0.030595982763713225,
+      "n_trades": 101,
+      "profit_factor": 1.1012604786106852,
+      "calmar": 0.059384840995168345,
+      "long_pct": 0.505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.07339577627949459,
+      "cum_return": 0.014250722871928412,
+      "max_drawdown": -0.030595982763713225,
+      "n_trades": 101,
+      "profit_factor": 1.1012604786106852,
+      "calmar": 0.059384840995168345,
+      "long_pct": 0.505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.07339577627949459,
+      "cum_return": 0.014250722871928412,
+      "max_drawdown": -0.030595982763713225,
+      "n_trades": 101,
+      "profit_factor": 1.1012604786106852,
+      "calmar": 0.059384840995168345,
+      "long_pct": 0.505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.07339577627949459,
+      "cum_return": 0.014250722871928412,
+      "max_drawdown": -0.030595982763713225,
+      "n_trades": 101,
+      "profit_factor": 1.1012604786106852,
+      "calmar": 0.059384840995168345,
+      "long_pct": 0.505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.07339577627949459,
+      "cum_return": 0.014250722871928412,
+      "max_drawdown": -0.030595982763713225,
+      "n_trades": 101,
+      "profit_factor": 1.1012604786106852,
+      "calmar": 0.059384840995168345,
+      "long_pct": 0.505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.02597241642060667,
+      "cum_return": 0.03193296496728881,
+      "max_drawdown": -0.03578562517595041,
+      "n_trades": 123,
+      "profit_factor": 1.200153671136207,
+      "calmar": 0.11291408482405955,
+      "long_pct": 0.5122
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH434MaxMinDualHorizon_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.06881027580328707,
+      "cum_return": 0.03271023985130861,
+      "max_drawdown": -0.04533218473019063,
+      "n_trades": 126,
+      "profit_factor": 1.1617636791505497,
+      "calmar": 0.09127486213481982,
+      "long_pct": 0.5238
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.05438970494771656,
+      "cum_return": 0.007381869174733824,
+      "max_drawdown": -0.052543464095299974,
+      "n_trades": 115,
+      "profit_factor": 1.039568797824919,
+      "calmar": 0.017965514165770826,
+      "long_pct": 0.4348
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2883013741169831,
+      "cum_return": -0.0080665729682321,
+      "max_drawdown": -0.020741330580281603,
+      "n_trades": 27,
+      "profit_factor": 0.7955119682415212,
+      "calmar": -0.050069073022005174,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.4067238091488795,
+      "cum_return": -0.027003500514341416,
+      "max_drawdown": -0.0346647848345456,
+      "n_trades": 50,
+      "profit_factor": 0.6933032845762034,
+      "calmar": -0.10113119640611674,
+      "long_pct": 0.36
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH481GoldenCrossPSAR_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.03560571978461858,
+      "cum_return": 0.0056287977477460505,
+      "max_drawdown": -0.0310517992975482,
+      "n_trades": 75,
+      "profit_factor": 1.0534782554412885,
+      "calmar": 0.023198023184962252,
+      "long_pct": 0.4533
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21847735621271155,
+      "cum_return": 0.016313173889770383,
+      "max_drawdown": -0.053701550302194034,
+      "n_trades": 97,
+      "profit_factor": 1.1334120462043529,
+      "calmar": 0.03869627238435807,
+      "long_pct": 0.6701
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.48231581100268456,
+      "cum_return": -0.014547100683027558,
+      "max_drawdown": -0.06022986609435976,
+      "n_trades": 118,
+      "profit_factor": 0.9176810892871159,
+      "calmar": -0.031183131207108732,
+      "long_pct": 0.6102
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.1091870595807062,
+      "cum_return": 0.027902473980927045,
+      "max_drawdown": -0.04565215526850985,
+      "n_trades": 124,
+      "profit_factor": 1.1656810328040033,
+      "calmar": 0.07747182477019368,
+      "long_pct": 0.6855
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21847735621271155,
+      "cum_return": 0.016313173889770383,
+      "max_drawdown": -0.053701550302194034,
+      "n_trades": 97,
+      "profit_factor": 1.1334120462043529,
+      "calmar": 0.03869627238435807,
+      "long_pct": 0.6701
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21847735621271155,
+      "cum_return": 0.016313173889770383,
+      "max_drawdown": -0.053701550302194034,
+      "n_trades": 97,
+      "profit_factor": 1.1334120462043529,
+      "calmar": 0.03869627238435807,
+      "long_pct": 0.6701
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21847735621271155,
+      "cum_return": 0.016313173889770383,
+      "max_drawdown": -0.053701550302194034,
+      "n_trades": 97,
+      "profit_factor": 1.1334120462043529,
+      "calmar": 0.03869627238435807,
+      "long_pct": 0.6701
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21847735621271155,
+      "cum_return": 0.016313173889770383,
+      "max_drawdown": -0.053701550302194034,
+      "n_trades": 97,
+      "profit_factor": 1.1334120462043529,
+      "calmar": 0.03869627238435807,
+      "long_pct": 0.6701
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21847735621271155,
+      "cum_return": 0.016313173889770383,
+      "max_drawdown": -0.053701550302194034,
+      "n_trades": 97,
+      "profit_factor": 1.1334120462043529,
+      "calmar": 0.03869627238435807,
+      "long_pct": 0.6701
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.2512691620200773,
+      "cum_return": 0.0015281932679127586,
+      "max_drawdown": -0.02781864789505939,
+      "n_trades": 57,
+      "profit_factor": 1.0313727652920222,
+      "calmar": 0.007042685985559126,
+      "long_pct": 0.614
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.44671836556104566,
+      "cum_return": 0.0021551074138346227,
+      "max_drawdown": -0.04395053920837544,
+      "n_trades": 119,
+      "profit_factor": 1.02223243735293,
+      "calmar": 0.006284667161282616,
+      "long_pct": 0.6891
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "BASELINE",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.42788617979322796,
+      "cum_return": -0.023475103439717593,
+      "max_drawdown": -0.03181686372986914,
+      "n_trades": 42,
+      "profit_factor": 0.6437603730498275,
+      "calmar": -0.09563609705692976,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "A_windows_short",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.37544269050830276,
+      "cum_return": 0.07409819853185984,
+      "max_drawdown": -0.048508909140010936,
+      "n_trades": 52,
+      "profit_factor": 1.6931140411227728,
+      "calmar": 0.18991079227186772,
+      "long_pct": 0.4423
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "B_windows_long",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.1474451600893385,
+      "cum_return": -0.010572672457250354,
+      "max_drawdown": -0.05111196044313904,
+      "n_trades": 56,
+      "profit_factor": 0.9293914001862821,
+      "calmar": -0.026659827538763285,
+      "long_pct": 0.375
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.42788617979322796,
+      "cum_return": -0.023475103439717593,
+      "max_drawdown": -0.03181686372986914,
+      "n_trades": 42,
+      "profit_factor": 0.6437603730498275,
+      "calmar": -0.09563609705692976,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.42788617979322796,
+      "cum_return": -0.023475103439717593,
+      "max_drawdown": -0.03181686372986914,
+      "n_trades": 42,
+      "profit_factor": 0.6437603730498275,
+      "calmar": -0.09563609705692976,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "E_kronos_temp_low",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.42788617979322796,
+      "cum_return": -0.023475103439717593,
+      "max_drawdown": -0.03181686372986914,
+      "n_trades": 42,
+      "profit_factor": 0.6437603730498275,
+      "calmar": -0.09563609705692976,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "F_kronos_temp_high",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.42788617979322796,
+      "cum_return": -0.023475103439717593,
+      "max_drawdown": -0.03181686372986914,
+      "n_trades": 42,
+      "profit_factor": 0.6437603730498275,
+      "calmar": -0.09563609705692976,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "G_kronos_stride3",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.42788617979322796,
+      "cum_return": -0.023475103439717593,
+      "max_drawdown": -0.03181686372986914,
+      "n_trades": 42,
+      "profit_factor": 0.6437603730498275,
+      "calmar": -0.09563609705692976,
+      "long_pct": 0.4286
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.21428433948622685,
+      "cum_return": -0.011706412356827012,
+      "max_drawdown": -0.029242056171438824,
+      "n_trades": 36,
+      "profit_factor": 0.7934130463976709,
+      "calmar": -0.05162113790830152,
+      "long_pct": 0.3611
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.06768057395341634,
+      "cum_return": 0.017661798792463212,
+      "max_drawdown": -0.017876896212450255,
+      "n_trades": 40,
+      "profit_factor": 1.2837824742807604,
+      "calmar": 0.12577910244851626,
+      "long_pct": 0.375
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "BASELINE",
+      "config_id": "MultiTimeframeTrendSignal_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "A_windows_short",
+      "config_id": "MultiTimeframeTrendSignal_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6258746679042274,
+      "cum_return": -0.055670321465726924,
+      "max_drawdown": -0.06867877647335463,
+      "n_trades": 197,
+      "profit_factor": 0.7626851050464136,
+      "calmar": -0.1293585396467891,
+      "long_pct": 0.3249
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "B_windows_long",
+      "config_id": "MultiTimeframeTrendSignal_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "MultiTimeframeTrendSignal_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "MultiTimeframeTrendSignal_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "E_kronos_temp_low",
+      "config_id": "MultiTimeframeTrendSignal_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "F_kronos_temp_high",
+      "config_id": "MultiTimeframeTrendSignal_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "G_kronos_stride3",
+      "config_id": "MultiTimeframeTrendSignal_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.6345600774562513,
+      "cum_return": -0.0629298043027412,
+      "max_drawdown": -0.07069317604010528,
+      "n_trades": 183,
+      "profit_factor": 0.7277380129854719,
+      "calmar": -0.14251836638277227,
+      "long_pct": 0.3333
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "MultiTimeframeTrendSignal_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5744925831290181,
+      "cum_return": -0.055277899927541396,
+      "max_drawdown": -0.0648865598429047,
+      "n_trades": 158,
+      "profit_factor": 0.740789350225059,
+      "calmar": -0.13593002136971563,
+      "long_pct": 0.3481
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "MultiTimeframeTrendSignal_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.5744925831290181,
+      "cum_return": -0.055277899927541396,
+      "max_drawdown": -0.0648865598429047,
+      "n_trades": 158,
+      "profit_factor": 0.740789350225059,
+      "calmar": -0.13593002136971563,
+      "long_pct": 0.3481
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmBASELINE_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "BASELINE",
+      "config_id": "TSIMeanReversion_prmBASELINE_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.08231375762625587,
+      "cum_return": -0.014255914643207412,
+      "max_drawdown": -0.09836329936019861,
+      "n_trades": 197,
+      "profit_factor": 0.9684231740574663,
+      "calmar": -0.022716529656303764,
+      "long_pct": 0.4619
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmA_windows_short_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "A_windows_short",
+      "config_id": "TSIMeanReversion_prmA_windows_short_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.08231375762625587,
+      "cum_return": -0.014255914643207412,
+      "max_drawdown": -0.09836329936019861,
+      "n_trades": 197,
+      "profit_factor": 0.9684231740574663,
+      "calmar": -0.022716529656303764,
+      "long_pct": 0.4619
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmB_windows_long_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "B_windows_long",
+      "config_id": "TSIMeanReversion_prmB_windows_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.016629010491326805,
+      "cum_return": 0.010209472174521173,
+      "max_drawdown": -0.08150884412497572,
+      "n_trades": 179,
+      "profit_factor": 1.038679717273093,
+      "calmar": 0.019430596073354754,
+      "long_pct": 0.4749
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmC_kronos_lookback_long_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "C_kronos_lookback_long",
+      "config_id": "TSIMeanReversion_prmC_kronos_lookback_long_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.06999459348625786,
+      "cum_return": -0.010102195906320444,
+      "max_drawdown": -0.09342090139453008,
+      "n_trades": 242,
+      "profit_factor": 0.984063638861533,
+      "calmar": -0.01691931219030601,
+      "long_pct": 0.4835
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmD_kronos_lookback_short_more_paths_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "D_kronos_lookback_short_more_paths",
+      "config_id": "TSIMeanReversion_prmD_kronos_lookback_short_more_paths_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.06999459348625786,
+      "cum_return": -0.010102195906320444,
+      "max_drawdown": -0.09342090139453008,
+      "n_trades": 242,
+      "profit_factor": 0.984063638861533,
+      "calmar": -0.01691931219030601,
+      "long_pct": 0.4835
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmE_kronos_temp_low_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "E_kronos_temp_low",
+      "config_id": "TSIMeanReversion_prmE_kronos_temp_low_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.06999459348625786,
+      "cum_return": -0.010102195906320444,
+      "max_drawdown": -0.09342090139453008,
+      "n_trades": 242,
+      "profit_factor": 0.984063638861533,
+      "calmar": -0.01691931219030601,
+      "long_pct": 0.4835
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmF_kronos_temp_high_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "F_kronos_temp_high",
+      "config_id": "TSIMeanReversion_prmF_kronos_temp_high_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.06999459348625786,
+      "cum_return": -0.010102195906320444,
+      "max_drawdown": -0.09342090139453008,
+      "n_trades": 242,
+      "profit_factor": 0.984063638861533,
+      "calmar": -0.01691931219030601,
+      "long_pct": 0.4835
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmG_kronos_stride3_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "G_kronos_stride3",
+      "config_id": "TSIMeanReversion_prmG_kronos_stride3_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.06999459348625786,
+      "cum_return": -0.010102195906320444,
+      "max_drawdown": -0.09342090139453008,
+      "n_trades": 242,
+      "profit_factor": 0.984063638861533,
+      "calmar": -0.01691931219030601,
+      "long_pct": 0.4835
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmH_vol_regime_asymmetric_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "H_vol_regime_asymmetric",
+      "config_id": "TSIMeanReversion_prmH_vol_regime_asymmetric_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": 0.3087007584426735,
+      "cum_return": 0.05377563336660085,
+      "max_drawdown": -0.06421756104600052,
+      "n_trades": 205,
+      "profit_factor": 1.14671546969728,
+      "calmar": 0.1275947177341565,
+      "long_pct": 0.5073
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_prmI_entropy_high_granularity_20260525_230111": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "I_entropy_high_granularity",
+      "config_id": "TSIMeanReversion_prmI_entropy_high_granularity_20260525_230111"
+    },
+    "metrics": {
+      "sharpe": -0.0482039001622149,
+      "cum_return": -0.005083231418395728,
+      "max_drawdown": -0.11307006141749609,
+      "n_trades": 265,
+      "profit_factor": 0.9955619923338109,
+      "calmar": -0.0070190362291949185,
+      "long_pct": 0.483
+    },
+    "status": "success"
+  }
+}

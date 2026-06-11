@@ -1,0 +1,9 @@
+{
+  "config_id": "HypothesisH167BollingerRangingOFIGate_a40f8e2c5b0a",
+  "strategy": "HypothesisH167BollingerRangingOFIGate",
+  "status": "error",
+  "metrics": {},
+  "daily_returns": [],
+  "error": "ValueError: The labels array needs to contain at least two labels for log_loss, got [0.].",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/nongo/Documents/Patacon/SopaDeOtoe/core/worker.py\", line 125, in run_full_pipeline\n    main_mod.run(config_path=config_path, data_end_override=data_end)\n  File \"/Users/nongo/Documents/Patacon/StrategyParrot/v12/main.py\", line 1841, in run\n    _cmda_df = featImpMDA_Clustered(\n  File \"/Users/nongo/Documents/Patacon/StrategyParrot/v12/src/feature_importance.py\", line 425, in featImpMDA_Clustered\n    scr0.loc[i] = -log_loss(y1, prob, labels=clf.classes_)\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/sklearn/utils/_param_validation.py\", line 216, in wrapper\n    return func(*args, **kwargs)\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/sklearn/metrics/_classification.py\", line 2976, in log_loss\n    raise ValueError(\nValueError: The labels array needs to contain at least two labels for log_loss, got [0.].\n"
+}

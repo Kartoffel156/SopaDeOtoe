@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Virtual envs
+.venv/
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+.next/
+.tsbuildinfo
+package-lock.json.bak
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Env
+.env
+.env.local
+*.env
+!.env.example
+
+# Logs and runtime artifacts
+*.log
+logs/
+.cache/
+
+# Large / generated data
+data/raw/
+data/cache/
+*.parquet
+*.h5
+*.hdf5
+*.feather
+
+# Build / run outputs
+output/
+results/*/runs/
+.bg-shell/
+.playwright-cli/
+.artifacts/
+.gsd/
+
+# Session / temp files
+tmp/
+scratch/

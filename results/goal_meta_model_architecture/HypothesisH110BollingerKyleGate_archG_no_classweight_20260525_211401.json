@@ -1,0 +1,9 @@
+{
+  "config_id": "HypothesisH110BollingerKyleGate_bc9371eb2641",
+  "strategy": "HypothesisH110BollingerKyleGate",
+  "status": "error",
+  "metrics": {},
+  "daily_returns": [],
+  "error": "OSError: Cannot save file into a non-existent directory: 'output/runs/BTC-USD_1d_20260525_211849_6037bb8e1ab9'",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/nongo/Documents/Patacon/SopaDeOtoe/core/worker.py\", line 125, in run_full_pipeline\n    main_mod.run(config_path=config_path, data_end_override=data_end)\n  File \"/Users/nongo/Documents/Patacon/StrategyParrot/v12/main.py\", line 386, in run\n    _label_events_df.to_csv(run_dir / \"label_events.csv\", index=False)\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/util/_decorators.py\", line 333, in wrapper\n    return func(*args, **kwargs)\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/core/generic.py\", line 3989, in to_csv\n    return DataFrameRenderer(formatter).to_csv(\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/io/formats/format.py\", line 1014, in to_csv\n    csv_formatter.save()\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/io/formats/csvs.py\", line 251, in save\n    with get_handle(\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py\", line 749, in get_handle\n    check_parent_directory(str(handle))\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/io/common.py\", line 616, in check_parent_directory\n    raise OSError(rf\"Cannot save file into a non-existent directory: '{parent}'\")\nOSError: Cannot save file into a non-existent directory: 'output/runs/BTC-USD_1d_20260525_211849_6037bb8e1ab9'\n"
+}

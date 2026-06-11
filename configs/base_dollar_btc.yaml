@@ -93,7 +93,7 @@ v2:
   v2_enabled: true
   meta_model_method: rf
   meta_threshold: 0.55
-  bet_sizing_step: 0.1
+  bet_sizing_step: 0.01
   min_rebalance: 0.1
   random_state: 42
   slippage_bps: 2.0     # BTC/USDT is the most liquid pair - tight slippage

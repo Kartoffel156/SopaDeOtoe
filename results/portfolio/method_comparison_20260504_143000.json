@@ -1,0 +1,810 @@
+{
+  "timestamp": "20260504_143000",
+  "methods": [
+    {
+      "method": "equal_weight",
+      "fdm": 2.090814181633667,
+      "weights": {
+        "HypothesisH236MomentumReversalAsym": 0.1111111111111111,
+        "TSIMeanReversion": 0.1111111111111111,
+        "HypothesisH110BollingerKyleGate": 0.1111111111111111,
+        "HypothesisH203VolExpansionEntry": 0.1111111111111111,
+        "HypothesisH167BollingerRangingOFIGate": 0.1111111111111111,
+        "HypothesisH318TrendlineChannelSqueeze": 0.1111111111111111,
+        "HypothesisH37DynamicGridInformedGate": 0.1111111111111111,
+        "DualMovingAverageCrossover": 0.1111111111111111,
+        "MultiTimeframeTrendSignal": 0.1111111111111111
+      },
+      "metrics": {
+        "sharpe": 0.6516322535088346,
+        "dsr": 0.7382535091605029,
+        "annualized_return": 0.07537740416264496,
+        "annualized_volatility": 0.08507703943872044,
+        "max_drawdown": -0.13598605815737866,
+        "calmar": 0.5543024423533888,
+        "sortino": 1.0253911593096188,
+        "diversification_ratio": 3.0374261142544507,
+        "portfolio_volatility": 0.00648107573349982,
+        "exposure": 0.4451327433628319
+      },
+      "risk_attribution": [
+        {
+          "strategy": "HypothesisH236MomentumReversalAsym",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.0005500535088110187,
+          "risk_contribution": 6.111705653455763e-05,
+          "risk_contribution_pct": 0.14969786415446987
+        },
+        {
+          "strategy": "TSIMeanReversion",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.0003842803807814055,
+          "risk_contribution": 4.269782008682283e-05,
+          "risk_contribution_pct": 0.10458246573826863
+        },
+        {
+          "strategy": "HypothesisH110BollingerKyleGate",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.00044917650576085233,
+          "risk_contribution": 4.99085006400947e-05,
+          "risk_contribution_pct": 0.12224404074089702
+        },
+        {
+          "strategy": "HypothesisH203VolExpansionEntry",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.0003961466281507057,
+          "risk_contribution": 4.4016292016745074e-05,
+          "risk_contribution_pct": 0.10781188225549537
+        },
+        {
+          "strategy": "HypothesisH167BollingerRangingOFIGate",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.00046430402594770917,
+          "risk_contribution": 5.158933621641213e-05,
+          "risk_contribution_pct": 0.1263610174088963
+        },
+        {
+          "strategy": "HypothesisH318TrendlineChannelSqueeze",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.0003553467516874377,
+          "risk_contribution": 3.9482972409715296e-05,
+          "risk_contribution_pct": 0.09670813640807846
+        },
+        {
+          "strategy": "HypothesisH37DynamicGridInformedGate",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.0004058440783937457,
+          "risk_contribution": 4.5093786488193965e-05,
+          "risk_contribution_pct": 0.11045105747367599
+        },
+        {
+          "strategy": "DualMovingAverageCrossover",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.00035904409058306816,
+          "risk_contribution": 3.9893787842563126e-05,
+          "risk_contribution_pct": 0.09771437257758772
+        },
+        {
+          "strategy": "MultiTimeframeTrendSignal",
+          "weight": 0.1111111111111111,
+          "marginal_risk": 0.0003102285911017822,
+          "risk_contribution": 3.4469843455753576e-05,
+          "risk_contribution_pct": 0.08442916324263047
+        }
+      ],
+      "herfindahl_rc": null,
+      "montecarlo": {
+        "perm_observed_sharpe": 0.9690009041669341,
+        "perm_p_value": 1.0,
+        "perm_mean_sharpe": 0.9690009041669343,
+        "perm_std_sharpe": 2.220446049250313e-16,
+        "boot_sharpe_mean": 0.8857279230954439,
+        "boot_sharpe_std": 0.2915691953424218,
+        "boot_sharpe_ci_lo": 0.3314182819792334,
+        "boot_sharpe_ci_hi": 1.4469601856140897,
+        "boot_prob_neg_sharpe": 0.0,
+        "boot_maxdd_ci_lo": -0.2206551041367005,
+        "boot_maxdd_ci_hi": -0.07197855862220724,
+        "cpcv_mean": 0.9798131188282299,
+        "cpcv_std": 0.20396966337794395,
+        "cpcv_prob_neg": 0.0,
+        "cpcv_n_paths": 15,
+        "cpcv_n_valid": 15,
+        "cpcv_fdm_mean": 2.5,
+        "cpcv_fdm_std": 0.0,
+        "cpcv_p5": 0.6503194088003081,
+        "cpcv_p25": 0.8797433174097844,
+        "cpcv_p50": 0.9990136049021549,
+        "cpcv_p75": 1.1029117547766603,
+        "cpcv_p95": 1.2779391929582076,
+        "cpcv_weight_stability": {
+          "HypothesisH236MomentumReversalAsym": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "TSIMeanReversion": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "HypothesisH110BollingerKyleGate": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "HypothesisH203VolExpansionEntry": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "HypothesisH167BollingerRangingOFIGate": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "HypothesisH318TrendlineChannelSqueeze": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "HypothesisH37DynamicGridInformedGate": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "DualMovingAverageCrossover": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          },
+          "MultiTimeframeTrendSignal": {
+            "mean": 0.11111111111111113,
+            "std": 2.7755575615628914e-17
+          }
+        },
+        "cpcv_return_mean": 0.11248332246329808,
+        "cpcv_return_p5": 0.029437742620702388,
+        "cpcv_return_p50": 0.091587318491358,
+        "cpcv_maxdd_mean": -0.09338387146686657,
+        "cpcv_maxdd_p5": -0.18481716240551385
+      }
+    },
+    {
+      "method": "inverse_vol",
+      "fdm": 2.0563189583609933,
+      "weights": {
+        "HypothesisH236MomentumReversalAsym": 0.08886267508010481,
+        "TSIMeanReversion": 0.10801805905749892,
+        "HypothesisH110BollingerKyleGate": 0.11334187923814479,
+        "HypothesisH203VolExpansionEntry": 0.10988206384764157,
+        "HypothesisH167BollingerRangingOFIGate": 0.11280237397432427,
+        "HypothesisH318TrendlineChannelSqueeze": 0.11366532379504359,
+        "HypothesisH37DynamicGridInformedGate": 0.11083118800033058,
+        "DualMovingAverageCrossover": 0.11002672386650214,
+        "MultiTimeframeTrendSignal": 0.13256971314040938
+      },
+      "metrics": {
+        "sharpe": 0.6525837997532609,
+        "dsr": 0.7391797045036059,
+        "annualized_return": 0.07564917768548554,
+        "annualized_volatility": 0.085370193590335,
+        "max_drawdown": -0.13612112894927153,
+        "calmar": 0.5557489735019597,
+        "sortino": 1.0387736942664008,
+        "diversification_ratio": 3.0315916016844584,
+        "portfolio_volatility": 0.006433816747976937,
+        "exposure": 0.4451327433628319
+      },
+      "risk_attribution": [
+        {
+          "strategy": "HypothesisH236MomentumReversalAsym",
+          "weight": 0.08886267508010481,
+          "marginal_risk": 0.0004251307092323734,
+          "risk_contribution": 3.7778252081090915e-05,
+          "risk_contribution_pct": 0.09321234709213995
+        },
+        {
+          "strategy": "TSIMeanReversion",
+          "weight": 0.10801805905749892,
+          "marginal_risk": 0.0003663805753831113,
+          "risk_contribution": 3.9575718629253354e-05,
+          "risk_contribution_pct": 0.09764733459273132
+        },
+        {
+          "strategy": "HypothesisH110BollingerKyleGate",
+          "weight": 0.11334187923814479,
+          "marginal_risk": 0.0004611025518407012,
+          "risk_contribution": 5.2262229747129153e-05,
+          "risk_contribution_pct": 0.12894945717821818
+        },
+        {
+          "strategy": "HypothesisH203VolExpansionEntry",
+          "weight": 0.10988206384764157,
+          "marginal_risk": 0.0004069137961902322,
+          "risk_contribution": 4.47125277334613e-05,
+          "risk_contribution_pct": 0.11032166457866403
+        },
+        {
+          "strategy": "HypothesisH167BollingerRangingOFIGate",
+          "weight": 0.11280237397432427,
+          "marginal_risk": 0.0004812325086952308,
+          "risk_contribution": 5.428416941444168e-05,
+          "risk_contribution_pct": 0.1339382994799835
+        },
+        {
+          "strategy": "HypothesisH318TrendlineChannelSqueeze",
+          "weight": 0.11366532379504359,
+          "marginal_risk": 0.0003763713564568287,
+          "risk_contribution": 4.2780372098845206e-05,
+          "risk_contribution_pct": 0.10555435133020342
+        },
+        {
+          "strategy": "HypothesisH37DynamicGridInformedGate",
+          "weight": 0.11083118800033058,
+          "marginal_risk": 0.0003962556036730257,
+          "risk_contribution": 4.39174793068696e-05,
+          "risk_contribution_pct": 0.10835999812211511
+        },
+        {
+          "strategy": "DualMovingAverageCrossover",
+          "weight": 0.11002672386650214,
+          "marginal_risk": 0.0003726327749681963,
+          "risk_contribution": 4.099956343503416e-05,
+          "risk_contribution_pct": 0.10116046473853316
+        },
+        {
+          "strategy": "MultiTimeframeTrendSignal",
+          "weight": 0.13256971314040938,
+          "marginal_risk": 0.0003694814284856284,
+          "risk_contribution": 4.898204698504844e-05,
+          "risk_contribution_pct": 0.12085608288741131
+        }
+      ],
+      "herfindahl_rc": null,
+      "montecarlo": {
+        "perm_observed_sharpe": 0.9480768543709956,
+        "perm_p_value": 0.796,
+        "perm_mean_sharpe": 0.9641044080393417,
+        "perm_std_sharpe": 0.016367145612336573,
+        "boot_sharpe_mean": 0.8857303869436105,
+        "boot_sharpe_std": 0.28916217745255784,
+        "boot_sharpe_ci_lo": 0.3272901902132173,
+        "boot_sharpe_ci_hi": 1.4362240759873055,
+        "boot_prob_neg_sharpe": 0.0,
+        "boot_maxdd_ci_lo": -0.22201513271619802,
+        "boot_maxdd_ci_hi": -0.07304924412772291,
+        "cpcv_mean": 0.9651007306705416,
+        "cpcv_std": 0.1976722741238666,
+        "cpcv_prob_neg": 0.0,
+        "cpcv_n_paths": 15,
+        "cpcv_n_valid": 15,
+        "cpcv_fdm_mean": 2.499651311863743,
+        "cpcv_fdm_std": 0.0013046715407062724,
+        "cpcv_p5": 0.6524812025718236,
+        "cpcv_p25": 0.8621753514768042,
+        "cpcv_p50": 0.9634895006643474,
+        "cpcv_p75": 1.0931288994993105,
+        "cpcv_p95": 1.2404983140886003,
+        "cpcv_weight_stability": {
+          "HypothesisH236MomentumReversalAsym": {
+            "mean": 0.0911472896727664,
+            "std": 0.017167983557056923
+          },
+          "TSIMeanReversion": {
+            "mean": 0.1088203746436371,
+            "std": 0.007701745284731913
+          },
+          "HypothesisH110BollingerKyleGate": {
+            "mean": 0.11205555427723951,
+            "std": 0.004179454234068503
+          },
+          "HypothesisH203VolExpansionEntry": {
+            "mean": 0.11464068729263331,
+            "std": 0.01926023829725659
+          },
+          "HypothesisH167BollingerRangingOFIGate": {
+            "mean": 0.11108404358609794,
+            "std": 0.0025639376108002455
+          },
+          "HypothesisH318TrendlineChannelSqueeze": {
+            "mean": 0.11466157539676862,
+            "std": 0.006204675240831881
+          },
+          "HypothesisH37DynamicGridInformedGate": {
+            "mean": 0.1083132534898234,
+            "std": 0.010412613834267417
+          },
+          "DualMovingAverageCrossover": {
+            "mean": 0.11066120554454603,
+            "std": 0.0033112017541941873
+          },
+          "MultiTimeframeTrendSignal": {
+            "mean": 0.1286160160964877,
+            "std": 0.013287671859423348
+          }
+        },
+        "cpcv_return_mean": 0.12084553720208703,
+        "cpcv_return_p5": 0.02910225120429827,
+        "cpcv_return_p50": 0.09117134743954068,
+        "cpcv_maxdd_mean": -0.10199289207409859,
+        "cpcv_maxdd_p5": -0.22119737411949494
+      }
+    },
+    {
+      "method": "erc",
+      "fdm": 2.0725568004810913,
+      "weights": {
+        "HypothesisH236MomentumReversalAsym": 0.09663522204085019,
+        "TSIMeanReversion": 0.1145021490544375,
+        "HypothesisH110BollingerKyleGate": 0.1046192861272334,
+        "HypothesisH203VolExpansionEntry": 0.11036502446329209,
+        "HypothesisH167BollingerRangingOFIGate": 0.10158746350458465,
+        "HypothesisH318TrendlineChannelSqueeze": 0.11801555962267446,
+        "HypothesisH37DynamicGridInformedGate": 0.11248442830059995,
+        "DualMovingAverageCrossover": 0.11667302312285617,
+        "MultiTimeframeTrendSignal": 0.12511784376347163
+      },
+      "metrics": {
+        "sharpe": 0.6469778025264178,
+        "dsr": 0.7336988737591903,
+        "annualized_return": 0.07486494900280831,
+        "annualized_volatility": 0.08489415773021426,
+        "max_drawdown": -0.13696079682403556,
+        "calmar": 0.5466158984091869,
+        "sortino": 1.0216445298350623,
+        "diversification_ratio": 3.0477142319183113,
+        "portfolio_volatility": 0.006423172774499383,
+        "exposure": 0.4451327433628319
+      },
+      "risk_attribution": [
+        {
+          "strategy": "HypothesisH236MomentumReversalAsym",
+          "weight": 0.09663522204085019,
+          "marginal_risk": 0.00046934222795609186,
+          "risk_contribution": 4.5354990411684265e-05,
+          "risk_contribution_pct": 0.11209229104479894
+        },
+        {
+          "strategy": "TSIMeanReversion",
+          "weight": 0.1145021490544375,
+          "marginal_risk": 0.00039389897113028253,
+          "risk_contribution": 4.510227870474918e-05,
+          "risk_contribution_pct": 0.11146772836829802
+        },
+        {
+          "strategy": "HypothesisH110BollingerKyleGate",
+          "weight": 0.1046192861272334,
+          "marginal_risk": 0.00042366271323190913,
+          "risk_contribution": 4.432329061704913e-05,
+          "risk_contribution_pct": 0.10954250341169852
+        },
+        {
+          "strategy": "HypothesisH203VolExpansionEntry",
+          "weight": 0.11036502446329209,
+          "marginal_risk": 0.000408884942612631,
+          "risk_contribution": 4.51265966941148e-05,
+          "risk_contribution_pct": 0.11152782890226028
+        },
+        {
+          "strategy": "HypothesisH167BollingerRangingOFIGate",
+          "weight": 0.10158746350458465,
+          "marginal_risk": 0.00043480702339051885,
+          "risk_contribution": 4.417094262022142e-05,
+          "risk_contribution_pct": 0.10916598396266994
+        },
+        {
+          "strategy": "HypothesisH318TrendlineChannelSqueeze",
+          "weight": 0.11801555962267446,
+          "marginal_risk": 0.0003906280035880369,
+          "risk_contribution": 4.610018244773026e-05,
+          "risk_contribution_pct": 0.11393399097308765
+        },
+        {
+          "strategy": "HypothesisH37DynamicGridInformedGate",
+          "weight": 0.11248442830059995,
+          "marginal_risk": 0.00040166155511034147,
+          "risk_contribution": 4.518067039691668e-05,
+          "risk_contribution_pct": 0.11166146899737045
+        },
+        {
+          "strategy": "DualMovingAverageCrossover",
+          "weight": 0.11667302312285617,
+          "marginal_risk": 0.00039075642208941314,
+          "risk_contribution": 4.5590733069842644e-05,
+          "risk_contribution_pct": 0.11267491567794528
+        },
+        {
+          "strategy": "MultiTimeframeTrendSignal",
+          "weight": 0.12511784376347163,
+          "marginal_risk": 0.00034904827201996777,
+          "risk_contribution": 4.367216716450407e-05,
+          "risk_contribution_pct": 0.10793328866187084
+        }
+      ],
+      "herfindahl_rc": null,
+      "montecarlo": {
+        "perm_observed_sharpe": 0.9601688627865606,
+        "perm_p_value": 0.637,
+        "perm_mean_sharpe": 0.9654708493051833,
+        "perm_std_sharpe": 0.013062488935315171,
+        "boot_sharpe_mean": 0.8820476583126913,
+        "boot_sharpe_std": 0.29055867866333646,
+        "boot_sharpe_ci_lo": 0.3334115769675987,
+        "boot_sharpe_ci_hi": 1.435546213776803,
+        "boot_prob_neg_sharpe": 0.0,
+        "boot_maxdd_ci_lo": -0.21783914055152492,
+        "boot_maxdd_ci_hi": -0.07323534275054766,
+        "cpcv_mean": 0.9758758710929314,
+        "cpcv_std": 0.195327976817023,
+        "cpcv_prob_neg": 0.0,
+        "cpcv_n_paths": 15,
+        "cpcv_n_valid": 15,
+        "cpcv_fdm_mean": 2.5,
+        "cpcv_fdm_std": 0.0,
+        "cpcv_p5": 0.6522126450051309,
+        "cpcv_p25": 0.8954756069939469,
+        "cpcv_p50": 0.9745423534944522,
+        "cpcv_p75": 1.096958618238376,
+        "cpcv_p95": 1.2676689270058568,
+        "cpcv_weight_stability": {
+          "HypothesisH236MomentumReversalAsym": {
+            "mean": 0.09645229209381875,
+            "std": 0.013516732147938963
+          },
+          "TSIMeanReversion": {
+            "mean": 0.11457975341920434,
+            "std": 0.011931163516794468
+          },
+          "HypothesisH110BollingerKyleGate": {
+            "mean": 0.10465662490201327,
+            "std": 0.009638612216151903
+          },
+          "HypothesisH203VolExpansionEntry": {
+            "mean": 0.11234235349409151,
+            "std": 0.014022936951753684
+          },
+          "HypothesisH167BollingerRangingOFIGate": {
+            "mean": 0.10423714296988157,
+            "std": 0.006434652123684174
+          },
+          "HypothesisH318TrendlineChannelSqueeze": {
+            "mean": 0.1188499534939433,
+            "std": 0.010186818754251998
+          },
+          "HypothesisH37DynamicGridInformedGate": {
+            "mean": 0.10951295971031681,
+            "std": 0.007601237215546292
+          },
+          "DualMovingAverageCrossover": {
+            "mean": 0.11712353871948955,
+            "std": 0.00617162087562259
+          },
+          "MultiTimeframeTrendSignal": {
+            "mean": 0.12224538119724092,
+            "std": 0.00818546623660991
+          }
+        },
+        "cpcv_return_mean": 0.12069225069739072,
+        "cpcv_return_p5": 0.02966255808697848,
+        "cpcv_return_p50": 0.09300166354857553,
+        "cpcv_maxdd_mean": -0.10290456421574017,
+        "cpcv_maxdd_p5": -0.22735814785752104
+      }
+    },
+    {
+      "method": "hrp",
+      "fdm": 2.0412233528419805,
+      "weights": {
+        "HypothesisH236MomentumReversalAsym": 0.07383552375195732,
+        "TSIMeanReversion": 0.11144755468397369,
+        "HypothesisH110BollingerKyleGate": 0.10881914724232693,
+        "HypothesisH203VolExpansionEntry": 0.115327113179928,
+        "HypothesisH167BollingerRangingOFIGate": 0.10778565851886661,
+        "HypothesisH318TrendlineChannelSqueeze": 0.1177957582359639,
+        "HypothesisH37DynamicGridInformedGate": 0.11485517583609339,
+        "DualMovingAverageCrossover": 0.10202260434349335,
+        "MultiTimeframeTrendSignal": 0.14811146420739682
+      },
+      "metrics": {
+        "sharpe": 0.6482306302080096,
+        "dsr": 0.7349287685054346,
+        "annualized_return": 0.07545300440341973,
+        "annualized_volatility": 0.0856384545659493,
+        "max_drawdown": -0.13589827608639768,
+        "calmar": 0.5552167884414537,
+        "sortino": 1.0335966719206462,
+        "diversification_ratio": 3.014833916996049,
+        "portfolio_volatility": 0.0064300091765329285,
+        "exposure": 0.4451327433628319
+      },
+      "risk_attribution": [
+        {
+          "strategy": "HypothesisH236MomentumReversalAsym",
+          "weight": 0.07383552375195732,
+          "marginal_risk": 0.00033936953175348874,
+          "risk_contribution": 2.505752712247535e-05,
+          "risk_contribution_pct": 0.061862417377207476
+        },
+        {
+          "strategy": "TSIMeanReversion",
+          "weight": 0.11144755468397369,
+          "marginal_risk": 0.00037913670664159417,
+          "risk_contribution": 4.2253858846140754e-05,
+          "risk_contribution_pct": 0.10431699181492689
+        },
+        {
+          "strategy": "HypothesisH110BollingerKyleGate",
+          "weight": 0.10881914724232693,
+          "marginal_risk": 0.00044484313171099475,
+          "risk_contribution": 4.840745024939657e-05,
+          "risk_contribution_pct": 0.11950907513170238
+        },
+        {
+          "strategy": "HypothesisH203VolExpansionEntry",
+          "weight": 0.115327113179928,
+          "marginal_risk": 0.00043676473502865293,
+          "risk_contribution": 5.037081602965072e-05,
+          "risk_contribution_pct": 0.12435626347429292
+        },
+        {
+          "strategy": "HypothesisH167BollingerRangingOFIGate",
+          "weight": 0.10778565851886661,
+          "marginal_risk": 0.0004620536192019705,
+          "risk_contribution": 4.980275361671002e-05,
+          "risk_contribution_pct": 0.12295382204765586
+        },
+        {
+          "strategy": "HypothesisH318TrendlineChannelSqueeze",
+          "weight": 0.1177957582359639,
+          "marginal_risk": 0.00039544393064937775,
+          "risk_contribution": 4.658161765065338e-05,
+          "risk_contribution_pct": 0.11500143087246294
+        },
+        {
+          "strategy": "HypothesisH37DynamicGridInformedGate",
+          "weight": 0.11485517583609339,
+          "marginal_risk": 0.0004059301379732696,
+          "risk_contribution": 4.6623177374089534e-05,
+          "risk_contribution_pct": 0.11510403417185168
+        },
+        {
+          "strategy": "DualMovingAverageCrossover",
+          "weight": 0.10202260434349335,
+          "marginal_risk": 0.00035042570091754755,
+          "risk_contribution": 3.5751342636502284e-05,
+          "risk_contribution_pct": 0.08826347744391365
+        },
+        {
+          "strategy": "MultiTimeframeTrendSignal",
+          "weight": 0.14811146420739682,
+          "marginal_risk": 0.00040647739033583405,
+          "risk_contribution": 6.0203961449841954e-05,
+          "risk_contribution_pct": 0.1486324876659862
+        }
+      ],
+      "herfindahl_rc": null,
+      "montecarlo": {
+        "perm_observed_sharpe": 0.944086967378328,
+        "perm_p_value": 0.631,
+        "perm_mean_sharpe": 0.9548785769108813,
+        "perm_std_sharpe": 0.028130967551537957,
+        "boot_sharpe_mean": 0.8803250458856716,
+        "boot_sharpe_std": 0.28616662233512835,
+        "boot_sharpe_ci_lo": 0.32629788077155963,
+        "boot_sharpe_ci_hi": 1.4285427355127531,
+        "boot_prob_neg_sharpe": 0.0,
+        "boot_maxdd_ci_lo": -0.22047137349471024,
+        "boot_maxdd_ci_hi": -0.07281230837484746,
+        "cpcv_mean": 0.9420750063963048,
+        "cpcv_std": 0.18674695020071236,
+        "cpcv_prob_neg": 0.0,
+        "cpcv_n_paths": 15,
+        "cpcv_n_valid": 15,
+        "cpcv_fdm_mean": 2.4816888983248377,
+        "cpcv_fdm_std": 0.04241907295155124,
+        "cpcv_p5": 0.6529542710833269,
+        "cpcv_p25": 0.815855411103152,
+        "cpcv_p50": 0.9864014437141173,
+        "cpcv_p75": 1.0414474136000904,
+        "cpcv_p95": 1.247978921971176,
+        "cpcv_weight_stability": {
+          "HypothesisH236MomentumReversalAsym": {
+            "mean": 0.08238422814818307,
+            "std": 0.02962360483108394
+          },
+          "TSIMeanReversion": {
+            "mean": 0.10853199124043729,
+            "std": 0.01976589262341458
+          },
+          "HypothesisH110BollingerKyleGate": {
+            "mean": 0.10161979182878558,
+            "std": 0.01300207198451168
+          },
+          "HypothesisH203VolExpansionEntry": {
+            "mean": 0.12263819176652029,
+            "std": 0.046308396757428545
+          },
+          "HypothesisH167BollingerRangingOFIGate": {
+            "mean": 0.10064424771853599,
+            "std": 0.009266889182356488
+          },
+          "HypothesisH318TrendlineChannelSqueeze": {
+            "mean": 0.12131454288110541,
+            "std": 0.013445380530911023
+          },
+          "HypothesisH37DynamicGridInformedGate": {
+            "mean": 0.10755443274893789,
+            "std": 0.023434374073484136
+          },
+          "DualMovingAverageCrossover": {
+            "mean": 0.1063951170170367,
+            "std": 0.006711687752179859
+          },
+          "MultiTimeframeTrendSignal": {
+            "mean": 0.14891745665045777,
+            "std": 0.03370871353958631
+          }
+        },
+        "cpcv_return_mean": 0.13238326473148174,
+        "cpcv_return_p5": 0.02866523866384682,
+        "cpcv_return_p50": 0.08992934577867288,
+        "cpcv_maxdd_mean": -0.11785666537307032,
+        "cpcv_maxdd_p5": -0.2849450654336034
+      }
+    },
+    {
+      "method": "risk_budget",
+      "fdm": 2.1138724988479205,
+      "weights": {
+        "HypothesisH236MomentumReversalAsym": 0.10066323403721142,
+        "TSIMeanReversion": 0.14195548735964836,
+        "HypothesisH110BollingerKyleGate": 0.13200598500175337,
+        "HypothesisH203VolExpansionEntry": 0.1508562656636948,
+        "HypothesisH167BollingerRangingOFIGate": 0.0842591778001714,
+        "HypothesisH318TrendlineChannelSqueeze": 0.09244152871903208,
+        "HypothesisH37DynamicGridInformedGate": 0.15325707180355172,
+        "DualMovingAverageCrossover": 0.07832199200775947,
+        "MultiTimeframeTrendSignal": 0.06623925760717742
+      },
+      "metrics": {
+        "sharpe": 0.6145587380946809,
+        "dsr": 0.7009036665482796,
+        "annualized_return": 0.07308179450365072,
+        "annualized_volatility": 0.08645261269292409,
+        "max_drawdown": -0.13821591095179894,
+        "calmar": 0.5287509520458689,
+        "sortino": 0.9047336758922159,
+        "diversification_ratio": 2.8999024110112113,
+        "portfolio_volatility": 0.006829926515788809,
+        "exposure": 0.4451327433628319
+      },
+      "risk_attribution": [
+        {
+          "strategy": "HypothesisH236MomentumReversalAsym",
+          "weight": 0.10066323403721142,
+          "marginal_risk": 0.0004773288716924667,
+          "risk_contribution": 4.8049467923896835e-05,
+          "risk_contribution_pct": 0.11167933575425044
+        },
+        {
+          "strategy": "TSIMeanReversion",
+          "weight": 0.14195548735964836,
+          "marginal_risk": 0.0005307688421753459,
+          "risk_contribution": 7.534554966631751e-05,
+          "risk_contribution_pct": 0.1751224582153667
+        },
+        {
+          "strategy": "HypothesisH110BollingerKyleGate",
+          "weight": 0.13200598500175337,
+          "marginal_risk": 0.0005001751895157847,
+          "risk_contribution": 6.602611856546983e-05,
+          "risk_contribution_pct": 0.15346170066861042
+        },
+        {
+          "strategy": "HypothesisH203VolExpansionEntry",
+          "weight": 0.1508562656636948,
+          "marginal_risk": 0.0005141946126304993,
+          "risk_contribution": 7.756947908582725e-05,
+          "risk_contribution_pct": 0.18029144282781984
+        },
+        {
+          "strategy": "HypothesisH167BollingerRangingOFIGate",
+          "weight": 0.0842591778001714,
+          "marginal_risk": 0.0003427995084755689,
+          "risk_contribution": 2.8884004734454324e-05,
+          "risk_contribution_pct": 0.06713386437026907
+        },
+        {
+          "strategy": "HypothesisH318TrendlineChannelSqueeze",
+          "weight": 0.09244152871903208,
+          "marginal_risk": 0.0002533629908182298,
+          "risk_contribution": 2.3421262192063252e-05,
+          "risk_contribution_pct": 0.054437044095443365
+        },
+        {
+          "strategy": "HypothesisH37DynamicGridInformedGate",
+          "weight": 0.15325707180355172,
+          "marginal_risk": 0.0005665101357863839,
+          "risk_contribution": 8.682168455765367e-05,
+          "risk_contribution_pct": 0.20179595070274528
+        },
+        {
+          "strategy": "DualMovingAverageCrossover",
+          "weight": 0.07832199200775947,
+          "marginal_risk": 0.0001773674679312027,
+          "risk_contribution": 1.3891773405744192e-05,
+          "risk_contribution_pct": 0.032288058399716234
+        },
+        {
+          "strategy": "MultiTimeframeTrendSignal",
+          "weight": 0.06623925760717742,
+          "marginal_risk": 0.00015452451628083345,
+          "risk_contribution": 1.0235589240550607e-05,
+          "risk_contribution_pct": 0.023790144965778807
+        }
+      ],
+      "herfindahl_rc": null,
+      "montecarlo": {
+        "perm_observed_sharpe": 1.0511088241627564,
+        "perm_p_value": 0.0,
+        "perm_mean_sharpe": 0.9283908632173266,
+        "perm_std_sharpe": 0.049178013170411435,
+        "boot_sharpe_mean": 0.8401841153296922,
+        "boot_sharpe_std": 0.28416243437175975,
+        "boot_sharpe_ci_lo": 0.3043539359535164,
+        "boot_sharpe_ci_hi": 1.375885929163959,
+        "boot_prob_neg_sharpe": 0.0,
+        "boot_maxdd_ci_lo": -0.21260407458082933,
+        "boot_maxdd_ci_hi": -0.0711888713208581,
+        "cpcv_mean": 1.030265533059255,
+        "cpcv_std": 0.28840176115024124,
+        "cpcv_prob_neg": 0.0,
+        "cpcv_n_paths": 15,
+        "cpcv_n_valid": 15,
+        "cpcv_fdm_mean": 2.4904692057593527,
+        "cpcv_fdm_std": 0.02244113219965504,
+        "cpcv_p5": 0.6591549098361169,
+        "cpcv_p25": 0.7307753835857842,
+        "cpcv_p50": 1.0222290240430036,
+        "cpcv_p75": 1.2619094116571983,
+        "cpcv_p95": 1.4387946143135517,
+        "cpcv_weight_stability": {
+          "HypothesisH236MomentumReversalAsym": {
+            "mean": 0.10271632965391138,
+            "std": 0.015962416733414014
+          },
+          "TSIMeanReversion": {
+            "mean": 0.14147808420788105,
+            "std": 0.01362871176001211
+          },
+          "HypothesisH110BollingerKyleGate": {
+            "mean": 0.12803683929990167,
+            "std": 0.01092189215635554
+          },
+          "HypothesisH203VolExpansionEntry": {
+            "mean": 0.15518973412331583,
+            "std": 0.020561389882814515
+          },
+          "HypothesisH167BollingerRangingOFIGate": {
+            "mean": 0.0864449981645736,
+            "std": 0.0043905310768312744
+          },
+          "HypothesisH318TrendlineChannelSqueeze": {
+            "mean": 0.08920632877005087,
+            "std": 0.008266908597717443
+          },
+          "HypothesisH37DynamicGridInformedGate": {
+            "mean": 0.15431404574336346,
+            "std": 0.005417244957996726
+          },
+          "DualMovingAverageCrossover": {
+            "mean": 0.07636943690916126,
+            "std": 0.005350284116879365
+          },
+          "MultiTimeframeTrendSignal": {
+            "mean": 0.066244203127841,
+            "std": 0.008430817811554445
+          }
+        },
+        "cpcv_return_mean": 0.13359793647998588,
+        "cpcv_return_p5": 0.024814090800296562,
+        "cpcv_return_p50": 0.09026481320240694,
+        "cpcv_maxdd_mean": -0.0822128241153671,
+        "cpcv_maxdd_p5": -0.15396889844221628
+      }
+    }
+  ]
+}

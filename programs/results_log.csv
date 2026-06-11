@@ -1,0 +1,31 @@
+2026-05-25	H203_vol_expansion_baseline	HypothesisH203VolExpansionEntry	0.10167	0.5422	-0.0222	117	0.5043	baseline run config graduated	H203_vol_expansion_baseline	success	-
+2026-05-25	DualMA_autoresearch_i01_baseline	DualMovingAverageCrossover	0.01218	0.0967	-0.0763	109	1.0573	baseline run config graduated	success	-
+2026-05-25	DualMA_autoresearch_i02_pt3	DualMovingAverageCrossover	-0.10947	-0.7165	-0.11796	110	0.6664	pt_sl 3.0/1.5 - FAILED	discard	-
+2026-05-25	DualMA_autoresearch_i03	DualMovingAverageCrossover	-0.12003	-0.94159	-0.15434	174	0.6447	short=5, long=46, ptsl=[2.5, 1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i04	DualMovingAverageCrossover	-0.03070	-0.20310	-0.08531	145	0.9073	short=10, long=60, ptsl=[2.5, 1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i05	DualMovingAverageCrossover	-0.01851	-0.12256	-0.07243	93	0.9280	short=10, long=55, ptsl=[2.5, 1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i06	DualMovingAverageCrossover	-0.12232	-0.88639	-0.12742	131	0.5895	short=10, long=46, ptsl=[2.0, 1.0], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i07	DualMovingAverageCrossover	0.01218	0.09668	-0.07634	109	1.0573	short=10, long=46, ptsl=[2.5, 1.5], maxh=48, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i08	DualMovingAverageCrossover	0.01218	0.09668	-0.07634	109	1.0573	short=10, long=46, ptsl=[2.5, 1.5], maxh=24, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i09	DualMovingAverageCrossover	0.01633	0.12613	-0.07860	109	1.0741	short=10, long=46, ptsl=[2.5, 1.5], maxh=36, rf=0.015, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i10	DualMovingAverageCrossover	0.01218	0.09668	-0.07634	109	1.0573	short=10, long=46, ptsl=[2.5, 1.5], maxh=36, rf=0.01, rp=0.03	success	-
+2026-05-25	DualMA_autoresearch_i11	DualMovingAverageCrossover	-0.02633	-0.43957	-0.05504	151	0.8507	short=8, long=40, ptsl=[2.5, 1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i12	DualMovingAverageCrossover	-0.09229	-0.85490	-0.10531	83	0.6063	short=10, long=46, ptsl=[3.0, 2.0], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i13	DualMovingAverageCrossover	0.01633	0.12613	-0.07860	109	1.0741	short=10, long=46, ptsl=[2.5, 1.5], maxh=36, rf=0.02, rp=0.04	success	-
+2026-05-25	DualMA_autoresearch_i14	DualMovingAverageCrossover	-0.04539	-0.51495	-0.06384	61	0.6427	short=6, long=46, ptsl=[2.5, 1.5], maxh=30, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i15	DualMovingAverageCrossover	-0.08157	-0.56972	-0.10862	133	0.7484	short=12, long=50, ptsl=[2.5, 1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i01_baseline	DualMovingAverageCrossover	0.01218	0.0967	-0.0763	109	1.0573	baseline run config graduated	success	-
+2026-05-25	DualMA_autoresearch_i02_pt3	DualMovingAverageCrossover	-0.10947	-0.7165	-0.11796	110	0.6664	pt_sl 3.0/1.5 - FAILED	discard	-
+2026-05-25	DualMA_autoresearch_i03	DualMovingAverageCrossover	-0.12003	-0.94159	-0.15434	174	0.6447	short=5, long=46, ptsl=[2.5,1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i04	DualMovingAverageCrossover	-0.03070	-0.20310	-0.08531	145	0.9073	short=10, long=60, ptsl=[2.5,1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i05	DualMovingAverageCrossover	-0.01851	-0.12256	-0.07243	93	0.9280	short=10, long=55, ptsl=[2.5,1.5], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i06	DualMovingAverageCrossover	-0.12232	-0.88639	-0.12742	131	0.5895	short=10, long=46, ptsl=[2.0,1.0], maxh=36, rf=0.01, rp=0.02	success	-
+2026-05-25	DualMA_autoresearch_i07	DualMovingAverageCrossover	0.01280	0.0827	-0.04826	109	1.0779	rf=0.005, rp=0.01, maxh=42, short=10, long=46	success	-
+2026-05-25	DualMA_autoresearch_i08	DualMovingAverageCrossover	-0.03070	-0.20310	-0.08531	145	0.9073	long=60, maxh=48, short=10	success	-
+2026-05-25	DualMA_autoresearch_i09	DualMovingAverageCrossover	-0.05845	-0.48987	-0.08758	96	0.8661	short=7, long=46, maxh=42	success	-
+2026-05-25	DualMA_autoresearch_i10	DualMovingAverageCrossover	-0.08600	-1.00692	-0.10347	147	0.7212	short=5, long=46, pt_sl=[2.0,1.0], maxh=48	success	-
+2026-05-25	DualMA_autoresearch_i11	DualMovingAverageCrossover	-0.09229	-0.85490	-0.10531	83	0.6889	pt_sl=[3.0,2.0], maxh=36, baseline MA params	success	-
+2026-05-25	DualMA_autoresearch_i12	DualMovingAverageCrossover	-0.10130	-0.83626	-0.11094	82	0.6501	pt_sl=[3.5,2.5], maxh=60, baseline MA params	success	-
+2026-05-25	DualMA_autoresearch_i13	DualMovingAverageCrossover	-0.05351	-0.88941	-0.06481	68	0.8002	short=8, rf=0.005, rp=0.01, maxh=48	success	-
+2026-05-25	DualMA_autoresearch_i14	DualMovingAverageCrossover	0.01280	0.0827	-0.04826	109	1.0779	rf=0.005, rp=0.015, maxh=48	success	-
+2026-05-25	DualMA_autoresearch_i15	DualMovingAverageCrossover	-0.06630	-0.52995	-0.07196	119	0.7600	short=12, long=55, maxh=48	success	-

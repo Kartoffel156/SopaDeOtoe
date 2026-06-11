@@ -1,0 +1,1906 @@
+{
+  "DualMovingAverageCrossover_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "A_full_bayes",
+      "config_id": "DualMovingAverageCrossover_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.10431448844524056,
+      "cum_return": 0.013277809895646087,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 108,
+      "profit_factor": 1.0620369572853783,
+      "calmar": 0.026948194797664693,
+      "long_pct": 0.4537
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "B_full_aggressive",
+      "config_id": "DualMovingAverageCrossover_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.10431448844524056,
+      "cum_return": 0.013277809895646087,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 108,
+      "profit_factor": 1.0620369572853783,
+      "calmar": 0.026948194797664693,
+      "long_pct": 0.4537
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "C_conservative",
+      "config_id": "DualMovingAverageCrossover_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.09429091537558842,
+      "cum_return": 0.012597050658564646,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 113,
+      "profit_factor": 1.0587010735798021,
+      "calmar": 0.025573820547980942,
+      "long_pct": 0.4513
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "D_no_bayes",
+      "config_id": "DualMovingAverageCrossover_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.09314587168914214,
+      "cum_return": 0.012362204050963221,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 113,
+      "profit_factor": 1.0576051489659066,
+      "calmar": 0.025099511415932106,
+      "long_pct": 0.4513
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "E_alt_pivot",
+      "config_id": "DualMovingAverageCrossover_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.10645475892442784,
+      "cum_return": 0.013704008046356408,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 109,
+      "profit_factor": 1.064279474690406,
+      "calmar": 0.027808242900869563,
+      "long_pct": 0.4495
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "F_high_shrink",
+      "config_id": "DualMovingAverageCrossover_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.09429091537558842,
+      "cum_return": 0.012597050658564646,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 113,
+      "profit_factor": 1.0587010735798021,
+      "calmar": 0.025573820547980942,
+      "long_pct": 0.4513
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "G_adaptive_fast",
+      "config_id": "DualMovingAverageCrossover_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.10645475892442784,
+      "cum_return": 0.013704008046356408,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 109,
+      "profit_factor": 1.064279474690406,
+      "calmar": 0.027808242900869563,
+      "long_pct": 0.4495
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.41914676806152323,
+      "cum_return": 0.06481843458336978,
+      "max_drawdown": -0.06906559773232968,
+      "n_trades": 131,
+      "profit_factor": 1.2643625413244106,
+      "calmar": 0.1423657432313395,
+      "long_pct": 0.5267
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.41914676806152323,
+      "cum_return": 0.06481843458336978,
+      "max_drawdown": -0.06906559773232968,
+      "n_trades": 131,
+      "profit_factor": 1.2643625413244106,
+      "calmar": 0.1423657432313395,
+      "long_pct": 0.5267
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.4592810686510006,
+      "cum_return": 0.07030071494993151,
+      "max_drawdown": -0.06753044899969385,
+      "n_trades": 127,
+      "profit_factor": 1.2980103218820385,
+      "calmar": 0.15757074561509146,
+      "long_pct": 0.5276
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.46176068256347225,
+      "cum_return": 0.07051756578779989,
+      "max_drawdown": -0.067144658012952,
+      "n_trades": 126,
+      "profit_factor": 1.3005265632308838,
+      "calmar": 0.15895116211881635,
+      "long_pct": 0.5317
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.42784386646433265,
+      "cum_return": 0.0656117974759245,
+      "max_drawdown": -0.06831163112827165,
+      "n_trades": 130,
+      "profit_factor": 1.2723682703072077,
+      "calmar": 0.14565245936795157,
+      "long_pct": 0.5231
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.455050081941684,
+      "cum_return": 0.06971818879520941,
+      "max_drawdown": -0.06771988839867771,
+      "n_trades": 129,
+      "profit_factor": 1.2941981459,
+      "calmar": 0.1558642265265704,
+      "long_pct": 0.5271
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH110BollingerKyleGate_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.424586789268787,
+      "cum_return": 0.06504409515410292,
+      "max_drawdown": -0.06850103572066424,
+      "n_trades": 130,
+      "profit_factor": 1.268032734231102,
+      "calmar": 0.1440257544582872,
+      "long_pct": 0.5231
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.24745787020932752,
+      "cum_return": 0.02298264080066592,
+      "max_drawdown": -0.020345088932004707,
+      "n_trades": 50,
+      "profit_factor": 1.2849830452574615,
+      "calmar": 0.14348785942703204,
+      "long_pct": 0.46
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.24745787020932752,
+      "cum_return": 0.02298264080066592,
+      "max_drawdown": -0.020345088932004707,
+      "n_trades": 50,
+      "profit_factor": 1.2849830452574615,
+      "calmar": 0.14348785942703204,
+      "long_pct": 0.46
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.21888159197164989,
+      "cum_return": 0.021446903632669212,
+      "max_drawdown": -0.020894581999461592,
+      "n_trades": 56,
+      "profit_factor": 1.2357976898298693,
+      "calmar": 0.13046418029218068,
+      "long_pct": 0.4643
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.21596454265974324,
+      "cum_return": 0.02114796003577335,
+      "max_drawdown": -0.021657432073919902,
+      "n_trades": 56,
+      "profit_factor": 1.2275870125692279,
+      "calmar": 0.12413021956877103,
+      "long_pct": 0.4643
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.23954339744699008,
+      "cum_return": 0.022495935415554058,
+      "max_drawdown": -0.020185833065045955,
+      "n_trades": 51,
+      "profit_factor": 1.2706940298518248,
+      "calmar": 0.14158676530794578,
+      "long_pct": 0.4706
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.21696382052952187,
+      "cum_return": 0.021145126496665556,
+      "max_drawdown": -0.020419622516740232,
+      "n_trades": 56,
+      "profit_factor": 1.2357345120098395,
+      "calmar": 0.13163734338994565,
+      "long_pct": 0.4643
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.23840234114613065,
+      "cum_return": 0.02280256688995541,
+      "max_drawdown": -0.020066381421785517,
+      "n_trades": 51,
+      "profit_factor": 1.2719864637502494,
+      "calmar": 0.14435205149994906,
+      "long_pct": 0.4706
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.21764528300549418,
+      "cum_return": 0.03923220960732454,
+      "max_drawdown": -0.04206031256522447,
+      "n_trades": 118,
+      "profit_factor": 1.2056024674646533,
+      "calmar": 0.1429687633519347,
+      "long_pct": 0.4492
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.1479089367604926,
+      "cum_return": 0.029358111091690953,
+      "max_drawdown": -0.042858821235602584,
+      "n_trades": 119,
+      "profit_factor": 1.1536518719835804,
+      "calmar": 0.10541932291651264,
+      "long_pct": 0.4454
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.21764528300549418,
+      "cum_return": 0.03923220960732454,
+      "max_drawdown": -0.04206031256522447,
+      "n_trades": 118,
+      "profit_factor": 1.2056024674646533,
+      "calmar": 0.1429687633519347,
+      "long_pct": 0.4492
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.21611593671147514,
+      "cum_return": 0.03895313886264873,
+      "max_drawdown": -0.04227008099725171,
+      "n_trades": 119,
+      "profit_factor": 1.202646102238624,
+      "calmar": 0.14126346803679474,
+      "long_pct": 0.4454
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2262856436332658,
+      "cum_return": 0.04041087999207926,
+      "max_drawdown": -0.04213198157813236,
+      "n_trades": 118,
+      "profit_factor": 1.2112533811668948,
+      "calmar": 0.14694267823054305,
+      "long_pct": 0.4492
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2262856436332658,
+      "cum_return": 0.04041087999207926,
+      "max_drawdown": -0.04213198157813236,
+      "n_trades": 118,
+      "profit_factor": 1.2112533811668948,
+      "calmar": 0.14694267823054305,
+      "long_pct": 0.4492
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.1649334664851982,
+      "cum_return": 0.03143450124361147,
+      "max_drawdown": -0.04263837268454551,
+      "n_trades": 117,
+      "profit_factor": 1.1657800128281641,
+      "calmar": 0.11336180395503528,
+      "long_pct": 0.4359
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.49716732935439223,
+      "cum_return": 0.09471653488685305,
+      "max_drawdown": -0.022185527102577818,
+      "n_trades": 121,
+      "profit_factor": 1.5075529995229915,
+      "calmar": 0.6399905825727797,
+      "long_pct": 0.4959
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.49716732935439223,
+      "cum_return": 0.09471653488685305,
+      "max_drawdown": -0.022185527102577818,
+      "n_trades": 121,
+      "profit_factor": 1.5075529995229915,
+      "calmar": 0.6399905825727797,
+      "long_pct": 0.4959
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5861862856968015,
+      "cum_return": 0.1080526149215657,
+      "max_drawdown": -0.02215296755161411,
+      "n_trades": 116,
+      "profit_factor": 1.6366381044469742,
+      "calmar": 0.7273775823807218,
+      "long_pct": 0.5259
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5861862856968015,
+      "cum_return": 0.1080526149215657,
+      "max_drawdown": -0.02215296755161411,
+      "n_trades": 116,
+      "profit_factor": 1.6366381044469742,
+      "calmar": 0.7273775823807218,
+      "long_pct": 0.5259
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5329290806209518,
+      "cum_return": 0.0986635112818175,
+      "max_drawdown": -0.022185527102578262,
+      "n_trades": 112,
+      "profit_factor": 1.5705662797114217,
+      "calmar": 0.665629965022254,
+      "long_pct": 0.5089
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5773985132322371,
+      "cum_return": 0.10655598780899855,
+      "max_drawdown": -0.022152967551614,
+      "n_trades": 115,
+      "profit_factor": 1.6203162677989866,
+      "calmar": 0.7177201255736351,
+      "long_pct": 0.5217
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH203VolExpansionEntry_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5164101737977381,
+      "cum_return": 0.09844466587845835,
+      "max_drawdown": -0.022185527102578928,
+      "n_trades": 121,
+      "profit_factor": 1.5437559325143038,
+      "calmar": 0.6642103929361085,
+      "long_pct": 0.4876
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.33873322447213067,
+      "cum_return": 0.07981428681031177,
+      "max_drawdown": -0.025425347554047906,
+      "n_trades": 141,
+      "profit_factor": 1.418294299768173,
+      "calmar": 0.389366474397729,
+      "long_pct": 0.5887
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.33925134917335714,
+      "cum_return": 0.07998240977890614,
+      "max_drawdown": -0.02542534755404724,
+      "n_trades": 141,
+      "profit_factor": 1.4186851677665322,
+      "calmar": 0.3901597882573558,
+      "long_pct": 0.5887
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.3511851713953043,
+      "cum_return": 0.0745618486151598,
+      "max_drawdown": -0.023372362649338396,
+      "n_trades": 132,
+      "profit_factor": 1.4167423660112228,
+      "calmar": 0.3965470849103273,
+      "long_pct": 0.5833
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.3563115426798582,
+      "cum_return": 0.07462123083984151,
+      "max_drawdown": -0.02273916053053293,
+      "n_trades": 132,
+      "profit_factor": 1.4229901786087191,
+      "calmar": 0.4079041180690589,
+      "long_pct": 0.5909
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.3337932134976455,
+      "cum_return": 0.07138618997040713,
+      "max_drawdown": -0.02498265540669753,
+      "n_trades": 123,
+      "profit_factor": 1.4100124395341298,
+      "calmar": 0.3556509508002308,
+      "long_pct": 0.5691
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.35410690961702956,
+      "cum_return": 0.07553099043985134,
+      "max_drawdown": -0.023195608718971084,
+      "n_trades": 133,
+      "profit_factor": 1.4189906614835266,
+      "calmar": 0.4046011864335184,
+      "long_pct": 0.5789
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH236MomentumReversalAsym_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.33752971409879867,
+      "cum_return": 0.0773261149243849,
+      "max_drawdown": -0.024932534659763528,
+      "n_trades": 135,
+      "profit_factor": 1.4192185406829625,
+      "calmar": 0.38507689513300664,
+      "long_pct": 0.5778
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.046374460956471034,
+      "cum_return": 0.010288912574920372,
+      "max_drawdown": -0.05690120788092856,
+      "n_trades": 170,
+      "profit_factor": 1.0417573080434919,
+      "calmar": 0.02804924116190705,
+      "long_pct": 0.4294
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.046374460956471034,
+      "cum_return": 0.010288912574920372,
+      "max_drawdown": -0.05690120788092856,
+      "n_trades": 170,
+      "profit_factor": 1.0417573080434919,
+      "calmar": 0.02804924116190705,
+      "long_pct": 0.4294
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.08231860497007973,
+      "cum_return": 0.014207055032345872,
+      "max_drawdown": -0.05895528562274832,
+      "n_trades": 166,
+      "profit_factor": 1.0562879010514652,
+      "calmar": 0.037320134846138095,
+      "long_pct": 0.4337
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.09237159147734933,
+      "cum_return": 0.015527015161604707,
+      "max_drawdown": -0.05870952394378526,
+      "n_trades": 165,
+      "profit_factor": 1.0610851332420916,
+      "calmar": 0.04093569831476385,
+      "long_pct": 0.4364
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.07453220983683786,
+      "cum_return": 0.013143870163315086,
+      "max_drawdown": -0.05725970056495855,
+      "n_trades": 165,
+      "profit_factor": 1.053059240366198,
+      "calmar": 0.035565494431783674,
+      "long_pct": 0.4364
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.10115883696816726,
+      "cum_return": 0.016943998769722413,
+      "max_drawdown": -0.058406267890384944,
+      "n_trades": 167,
+      "profit_factor": 1.0658721497701809,
+      "calmar": 0.044876899058026165,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.06682301131641903,
+      "cum_return": 0.013078404665156196,
+      "max_drawdown": -0.057354133640618254,
+      "n_trades": 168,
+      "profit_factor": 1.0519510699848509,
+      "calmar": 0.035331053316160266,
+      "long_pct": 0.4345
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.10564303679828635,
+      "cum_return": 0.0014050631492319443,
+      "max_drawdown": -0.07329117451515366,
+      "n_trades": 156,
+      "profit_factor": 1.0131007573313962,
+      "calmar": 0.0024578959953100842,
+      "long_pct": 0.5513
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.12114995721127807,
+      "cum_return": -0.002142073172403669,
+      "max_drawdown": -0.07432714737139823,
+      "n_trades": 160,
+      "profit_factor": 1.0012282663908851,
+      "calmar": -0.00370064832102131,
+      "long_pct": 0.5625
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.12114995721127807,
+      "cum_return": -0.002142073172403669,
+      "max_drawdown": -0.07432714737139823,
+      "n_trades": 160,
+      "profit_factor": 1.0012282663908851,
+      "calmar": -0.00370064832102131,
+      "long_pct": 0.5625
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.14667320844908832,
+      "cum_return": -0.0073116365955452345,
+      "max_drawdown": -0.07467925108775886,
+      "n_trades": 160,
+      "profit_factor": 0.9848359908176142,
+      "calmar": -0.012600504722089814,
+      "long_pct": 0.5687
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.12137433844343509,
+      "cum_return": -0.0019314169874966591,
+      "max_drawdown": -0.07424557041505375,
+      "n_trades": 160,
+      "profit_factor": 1.001842978443818,
+      "calmar": -0.0033400774385931834,
+      "long_pct": 0.5563
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.12137433844343509,
+      "cum_return": -0.0019314169874966591,
+      "max_drawdown": -0.07424557041505375,
+      "n_trades": 160,
+      "profit_factor": 1.001842978443818,
+      "calmar": -0.0033400774385931834,
+      "long_pct": 0.5563
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.12070537919355355,
+      "cum_return": -0.001700528032283155,
+      "max_drawdown": -0.07376578796120159,
+      "n_trades": 157,
+      "profit_factor": 1.0024570940169106,
+      "calmar": -0.0029596208439991323,
+      "long_pct": 0.5541
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.6226034561264172,
+      "cum_return": 0.09071638159053608,
+      "max_drawdown": -0.03504241275881537,
+      "n_trades": 87,
+      "profit_factor": 1.472751131421901,
+      "calmar": 0.38867963748401896,
+      "long_pct": 0.5402
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.6172729752152667,
+      "cum_return": 0.08941277448739116,
+      "max_drawdown": -0.03504241275881537,
+      "n_trades": 85,
+      "profit_factor": 1.4663632770266608,
+      "calmar": 0.3832909022897068,
+      "long_pct": 0.5294
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.6028563082234278,
+      "cum_return": 0.08865014430016416,
+      "max_drawdown": -0.03437993950222418,
+      "n_trades": 92,
+      "profit_factor": 1.4666907660368862,
+      "calmar": 0.3874607920075926,
+      "long_pct": 0.5326
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5921061851404725,
+      "cum_return": 0.08689635782038474,
+      "max_drawdown": -0.03422082688803019,
+      "n_trades": 91,
+      "profit_factor": 1.4600866241271249,
+      "calmar": 0.38182542503482436,
+      "long_pct": 0.5275
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.6311381028344877,
+      "cum_return": 0.08954294061955093,
+      "max_drawdown": -0.03457171832181927,
+      "n_trades": 82,
+      "profit_factor": 1.474258384361763,
+      "calmar": 0.3890550562829803,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.6152923201171193,
+      "cum_return": 0.08891852329281069,
+      "max_drawdown": -0.03474612579238712,
+      "n_trades": 85,
+      "profit_factor": 1.4661612952131915,
+      "calmar": 0.38449734937288654,
+      "long_pct": 0.5294
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH37DynamicGridInformedGate_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.6152923201171193,
+      "cum_return": 0.08891852329281069,
+      "max_drawdown": -0.03474612579238712,
+      "n_trades": 85,
+      "profit_factor": 1.4661612952131915,
+      "calmar": 0.38449734937288654,
+      "long_pct": 0.5294
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.0245396854316389,
+      "cum_return": 0.020546754470285977,
+      "max_drawdown": -0.03664712488838917,
+      "n_trades": 57,
+      "profit_factor": 1.2861756760367342,
+      "calmar": 0.07129043048804506,
+      "long_pct": 0.5965
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.0245396854316389,
+      "cum_return": 0.020546754470285977,
+      "max_drawdown": -0.03664712488838917,
+      "n_trades": 57,
+      "profit_factor": 1.2861756760367342,
+      "calmar": 0.07129043048804506,
+      "long_pct": 0.5965
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.05220200596418232,
+      "cum_return": 0.029870913457669568,
+      "max_drawdown": -0.03773689016289872,
+      "n_trades": 74,
+      "profit_factor": 1.3036278586903034,
+      "calmar": 0.1002491435830568,
+      "long_pct": 0.6757
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.031410820100209916,
+      "cum_return": 0.027055295159450266,
+      "max_drawdown": -0.03766768220932315,
+      "n_trades": 72,
+      "profit_factor": 1.2897173971958544,
+      "calmar": 0.09107571870224444,
+      "long_pct": 0.6389
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.031410820100209916,
+      "cum_return": 0.027055295159450266,
+      "max_drawdown": -0.03766768220932315,
+      "n_trades": 72,
+      "profit_factor": 1.2897173971958544,
+      "calmar": 0.09107571870224444,
+      "long_pct": 0.6389
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.031410820100209916,
+      "cum_return": 0.027055295159450266,
+      "max_drawdown": -0.03766768220932315,
+      "n_trades": 72,
+      "profit_factor": 1.2897173971958544,
+      "calmar": 0.09107571870224444,
+      "long_pct": 0.6389
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH426RSIGarchBullBear_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.007682478083706029,
+      "cum_return": 0.020434860155253753,
+      "max_drawdown": -0.03769237694792793,
+      "n_trades": 63,
+      "profit_factor": 1.257336920950342,
+      "calmar": 0.06893930372944626,
+      "long_pct": 0.5873
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.09269228709175971,
+      "cum_return": 0.04446329841082575,
+      "max_drawdown": -0.039129975953168916,
+      "n_trades": 107,
+      "profit_factor": 1.3934748561036172,
+      "calmar": 0.14302397894296226,
+      "long_pct": 0.5794
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.09269228709175971,
+      "cum_return": 0.04446329841082575,
+      "max_drawdown": -0.039129975953168916,
+      "n_trades": 107,
+      "profit_factor": 1.3934748561036172,
+      "calmar": 0.14302397894296226,
+      "long_pct": 0.5794
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.1833814136517161,
+      "cum_return": 0.05937008508290198,
+      "max_drawdown": -0.03912997595316847,
+      "n_trades": 123,
+      "profit_factor": 1.4228758993197521,
+      "calmar": 0.1897871687846334,
+      "long_pct": 0.5691
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.22489633918593077,
+      "cum_return": 0.06561394121290132,
+      "max_drawdown": -0.03912997595316947,
+      "n_trades": 125,
+      "profit_factor": 1.4488363415090275,
+      "calmar": 0.20920412117709963,
+      "long_pct": 0.576
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.13774149145734182,
+      "cum_return": 0.050447708658189594,
+      "max_drawdown": -0.03912997595316925,
+      "n_trades": 109,
+      "profit_factor": 1.4418724494217208,
+      "calmar": 0.1618667798156579,
+      "long_pct": 0.5872
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.17531797899096005,
+      "cum_return": 0.0579489365259922,
+      "max_drawdown": -0.03912997595316858,
+      "n_trades": 121,
+      "profit_factor": 1.4213052858074324,
+      "calmar": 0.18535379111140224,
+      "long_pct": 0.562
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH434MaxMinDualHorizon_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.15361293610492888,
+      "cum_return": 0.052776431268454216,
+      "max_drawdown": -0.03912997595316936,
+      "n_trades": 109,
+      "profit_factor": 1.4345502118329823,
+      "calmar": 0.16917382368458622,
+      "long_pct": 0.578
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2683434870208686,
+      "cum_return": 0.024058522845745944,
+      "max_drawdown": -0.031403445980719646,
+      "n_trades": 70,
+      "profit_factor": 1.212722259648556,
+      "calmar": 0.09726724795622085,
+      "long_pct": 0.4714
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2683434870208686,
+      "cum_return": 0.024058522845745944,
+      "max_drawdown": -0.031403445980719646,
+      "n_trades": 70,
+      "profit_factor": 1.212722259648556,
+      "calmar": 0.09726724795622085,
+      "long_pct": 0.4714
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2729578266380718,
+      "cum_return": 0.02518362564825849,
+      "max_drawdown": -0.03167326081183186,
+      "n_trades": 74,
+      "profit_factor": 1.21751236989479,
+      "calmar": 0.1009001125431854,
+      "long_pct": 0.4595
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2729578266380718,
+      "cum_return": 0.02518362564825849,
+      "max_drawdown": -0.03167326081183186,
+      "n_trades": 74,
+      "profit_factor": 1.21751236989479,
+      "calmar": 0.1009001125431854,
+      "long_pct": 0.4595
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2729578266380718,
+      "cum_return": 0.02518362564825849,
+      "max_drawdown": -0.03167326081183186,
+      "n_trades": 74,
+      "profit_factor": 1.21751236989479,
+      "calmar": 0.1009001125431854,
+      "long_pct": 0.4595
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.2890785678766845,
+      "cum_return": 0.027338332753045647,
+      "max_drawdown": -0.033311114597518676,
+      "n_trades": 76,
+      "profit_factor": 1.2223282570253293,
+      "calmar": 0.10405181701625868,
+      "long_pct": 0.4605
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH481GoldenCrossPSAR_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.25781625316494405,
+      "cum_return": 0.024115246744897068,
+      "max_drawdown": -0.03225327876321182,
+      "n_trades": 76,
+      "profit_factor": 1.2033089197289817,
+      "calmar": 0.09492536691405923,
+      "long_pct": 0.4474
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.039896003503641385,
+      "cum_return": 0.025929427173555286,
+      "max_drawdown": -0.019144772869827853,
+      "n_trades": 55,
+      "profit_factor": 1.7312378062462175,
+      "calmar": 0.17181875542889571,
+      "long_pct": 0.7091
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.039896003503641385,
+      "cum_return": 0.025929427173555286,
+      "max_drawdown": -0.019144772869827853,
+      "n_trades": 55,
+      "profit_factor": 1.7312378062462175,
+      "calmar": 0.17181875542889571,
+      "long_pct": 0.7091
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.10955949022377653,
+      "cum_return": 0.018600757467042595,
+      "max_drawdown": -0.016649918097512484,
+      "n_trades": 30,
+      "profit_factor": 1.7882081073047762,
+      "calmar": 0.14217035428741834,
+      "long_pct": 0.6333
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.0841743253169444,
+      "cum_return": 0.01645364950878858,
+      "max_drawdown": -0.016441922220080785,
+      "n_trades": 28,
+      "profit_factor": 1.7258378934198209,
+      "calmar": 0.12746792019985081,
+      "long_pct": 0.6429
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.11631400472505769,
+      "cum_return": 0.01968726747954963,
+      "max_drawdown": -0.016778941860727814,
+      "n_trades": 34,
+      "profit_factor": 1.7882639867489483,
+      "calmar": 0.14924811957679507,
+      "long_pct": 0.6765
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.12870838235185736,
+      "cum_return": 0.019644694711728805,
+      "max_drawdown": -0.016610442072799714,
+      "n_trades": 31,
+      "profit_factor": 1.8577866177276134,
+      "calmar": 0.15043885543631,
+      "long_pct": 0.6774
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.1321593148341941,
+      "cum_return": 0.026493323488293807,
+      "max_drawdown": -0.0172025516561104,
+      "n_trades": 47,
+      "profit_factor": 1.946229804594547,
+      "calmar": 0.19532908549002304,
+      "long_pct": 0.7447
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "A_full_bayes",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.06448638444589903,
+      "cum_return": -0.0030195658733375152,
+      "max_drawdown": -0.04924192044197884,
+      "n_trades": 41,
+      "profit_factor": 0.9869272540958695,
+      "calmar": -0.007877110794820829,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "B_full_aggressive",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.06448638444589903,
+      "cum_return": -0.0030195658733375152,
+      "max_drawdown": -0.04924192044197884,
+      "n_trades": 41,
+      "profit_factor": 0.9869272540958695,
+      "calmar": -0.007877110794820829,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "C_conservative",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.07968124096849173,
+      "cum_return": -0.005527095503467749,
+      "max_drawdown": -0.050588286238746005,
+      "n_trades": 41,
+      "profit_factor": 0.9666148917294979,
+      "calmar": -0.01405014262501609,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "D_no_bayes",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.0723669439692748,
+      "cum_return": -0.004351563318978013,
+      "max_drawdown": -0.0494340411148948,
+      "n_trades": 41,
+      "profit_factor": 0.9761008732380225,
+      "calmar": -0.01131434745020339,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "E_alt_pivot",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.0810460647249389,
+      "cum_return": -0.005716871145956426,
+      "max_drawdown": -0.05085122551599264,
+      "n_trades": 41,
+      "profit_factor": 0.964991862716221,
+      "calmar": -0.014458618487315845,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "F_high_shrink",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.0810460647249389,
+      "cum_return": -0.005716871145956426,
+      "max_drawdown": -0.05085122551599264,
+      "n_trades": 41,
+      "profit_factor": 0.964991862716221,
+      "calmar": -0.014458618487315845,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "G_adaptive_fast",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": -0.08072700823242253,
+      "cum_return": -0.005217696065323851,
+      "max_drawdown": -0.05030592925318689,
+      "n_trades": 41,
+      "profit_factor": 0.9695822398798488,
+      "calmar": -0.013336274012700546,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "A_full_bayes",
+      "config_id": "MultiTimeframeTrendSignal_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.051751968683346174,
+      "cum_return": 0.001518255395475343,
+      "max_drawdown": -0.042991376717416596,
+      "n_trades": 153,
+      "profit_factor": 1.0127112174901238,
+      "calmar": 0.0054984059246369595,
+      "long_pct": 0.3922
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "B_full_aggressive",
+      "config_id": "MultiTimeframeTrendSignal_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.051751968683346174,
+      "cum_return": 0.001518255395475343,
+      "max_drawdown": -0.042991376717416596,
+      "n_trades": 153,
+      "profit_factor": 1.0127112174901238,
+      "calmar": 0.0054984059246369595,
+      "long_pct": 0.3922
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "C_conservative",
+      "config_id": "MultiTimeframeTrendSignal_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.06753364421338773,
+      "cum_return": 0.0025215120870341057,
+      "max_drawdown": -0.04243773056176414,
+      "n_trades": 145,
+      "profit_factor": 1.0184927651703868,
+      "calmar": 0.00924695208217826,
+      "long_pct": 0.4
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "D_no_bayes",
+      "config_id": "MultiTimeframeTrendSignal_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.06753364421338773,
+      "cum_return": 0.0025215120870341057,
+      "max_drawdown": -0.04243773056176414,
+      "n_trades": 145,
+      "profit_factor": 1.0184927651703868,
+      "calmar": 0.00924695208217826,
+      "long_pct": 0.4
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "E_alt_pivot",
+      "config_id": "MultiTimeframeTrendSignal_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.07931208693102453,
+      "cum_return": 0.0037901634442762955,
+      "max_drawdown": -0.04216904039921976,
+      "n_trades": 146,
+      "profit_factor": 1.0254885438198853,
+      "calmar": 0.013980475726519712,
+      "long_pct": 0.4041
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "F_high_shrink",
+      "config_id": "MultiTimeframeTrendSignal_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.06585074385879017,
+      "cum_return": 0.0022334398391885557,
+      "max_drawdown": -0.04283850158630076,
+      "n_trades": 145,
+      "profit_factor": 1.0168894932068093,
+      "calmar": 0.008114885537039382,
+      "long_pct": 0.4
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "G_adaptive_fast",
+      "config_id": "MultiTimeframeTrendSignal_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.07331282603457508,
+      "cum_return": 0.003264336394340317,
+      "max_drawdown": -0.042951529661427346,
+      "n_trades": 149,
+      "profit_factor": 1.0222404740579747,
+      "calmar": 0.011824155176912777,
+      "long_pct": 0.4027
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesA_full_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "A_full_bayes",
+      "config_id": "TSIMeanReversion_bayesA_full_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5223526614118933,
+      "cum_return": 0.08806989410719757,
+      "max_drawdown": -0.049782332376056004,
+      "n_trades": 160,
+      "profit_factor": 1.3754917389831702,
+      "calmar": 0.26589182508522974,
+      "long_pct": 0.5062
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesB_full_aggressive_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "B_full_aggressive",
+      "config_id": "TSIMeanReversion_bayesB_full_aggressive_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5223526614118933,
+      "cum_return": 0.08806989410719757,
+      "max_drawdown": -0.049782332376056004,
+      "n_trades": 160,
+      "profit_factor": 1.3754917389831702,
+      "calmar": 0.26589182508522974,
+      "long_pct": 0.5062
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesC_conservative_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "C_conservative",
+      "config_id": "TSIMeanReversion_bayesC_conservative_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.496885058206099,
+      "cum_return": 0.08321514465092905,
+      "max_drawdown": -0.051861310745380695,
+      "n_trades": 150,
+      "profit_factor": 1.3580944081657538,
+      "calmar": 0.24162638810685783,
+      "long_pct": 0.5067
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesD_no_bayes_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "D_no_bayes",
+      "config_id": "TSIMeanReversion_bayesD_no_bayes_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.48131367102105344,
+      "cum_return": 0.08069507012638,
+      "max_drawdown": -0.052453550515505154,
+      "n_trades": 148,
+      "profit_factor": 1.3493017176306257,
+      "calmar": 0.23189482073372852,
+      "long_pct": 0.5
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesE_alt_pivot_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "E_alt_pivot",
+      "config_id": "TSIMeanReversion_bayesE_alt_pivot_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.5108870586661701,
+      "cum_return": 0.08450006791673892,
+      "max_drawdown": -0.05295822667669514,
+      "n_trades": 149,
+      "profit_factor": 1.3686862333822392,
+      "calmar": 0.24015321642604043,
+      "long_pct": 0.5034
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesF_high_shrink_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "F_high_shrink",
+      "config_id": "TSIMeanReversion_bayesF_high_shrink_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.502753369427986,
+      "cum_return": 0.08447566197390666,
+      "max_drawdown": -0.05156026100809741,
+      "n_trades": 151,
+      "profit_factor": 1.362473287406807,
+      "calmar": 0.24659568348174937,
+      "long_pct": 0.5099
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_bayesG_adaptive_fast_20260526_160038": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "G_adaptive_fast",
+      "config_id": "TSIMeanReversion_bayesG_adaptive_fast_20260526_160038"
+    },
+    "metrics": {
+      "sharpe": 0.52032539157841,
+      "cum_return": 0.0870046959488,
+      "max_drawdown": -0.05080397784473867,
+      "n_trades": 158,
+      "profit_factor": 1.3716073468495587,
+      "calmar": 0.25750174720768326,
+      "long_pct": 0.5063
+    },
+    "status": "success"
+  }
+}

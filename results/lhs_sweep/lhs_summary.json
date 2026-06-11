@@ -1,0 +1,224 @@
+{
+  "HypothesisH236MomentumReversalAsym": [
+    {
+      "params": {
+        "dn_thresh": 0.0195,
+        "up_thresh": 0.0271
+      },
+      "sharpe": 0.4510242473213207,
+      "n_trades": 156,
+      "max_dd": -0.048291993615087625,
+      "profit_factor": 1.4165002192873908,
+      "cum_return": 0.1010448815406566
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0497,
+        "up_thresh": 0.0123
+      },
+      "sharpe": 0.39000508906732334,
+      "n_trades": 43,
+      "max_dd": -0.04192390976146654,
+      "profit_factor": 1.5422672391254546,
+      "cum_return": 0.052012123909626506
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0321,
+        "up_thresh": 0.034
+      },
+      "sharpe": 0.28601321766910237,
+      "n_trades": 83,
+      "max_dd": -0.04768830463871265,
+      "profit_factor": 1.2574572570843787,
+      "cum_return": 0.04450672635055586
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0255,
+        "up_thresh": 0.0598
+      },
+      "sharpe": 0.09539221591237551,
+      "n_trades": 109,
+      "max_dd": -0.030014121538192606,
+      "profit_factor": 1.1249679310640068,
+      "cum_return": 0.020185068402846396
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0467,
+        "up_thresh": 0.039
+      },
+      "sharpe": 0.09539221591237551,
+      "n_trades": 109,
+      "max_dd": -0.030014121538192606,
+      "profit_factor": 1.1249679310640068,
+      "cum_return": 0.020185068402846396
+    },
+    {
+      "params": {
+        "dn_thresh": 0.037,
+        "up_thresh": 0.0492
+      },
+      "sharpe": 0.03200588514472932,
+      "n_trades": 97,
+      "max_dd": -0.04782049808074629,
+      "profit_factor": 1.020849283512949,
+      "cum_return": 0.0031129897471291468
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0587,
+        "up_thresh": 0.0485
+      },
+      "sharpe": 0.009879939034752582,
+      "n_trades": 35,
+      "max_dd": -0.021388567020174665,
+      "profit_factor": 1.0417902833093973,
+      "cum_return": 0.0022008550457734977
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0536,
+        "up_thresh": 0.0452
+      },
+      "sharpe": -0.027233975815532434,
+      "n_trades": 43,
+      "max_dd": -0.04645455510080554,
+      "profit_factor": 0.9475402609838284,
+      "cum_return": -0.007775415648117234
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0414,
+        "up_thresh": 0.0065
+      },
+      "sharpe": -0.07873321369517958,
+      "n_trades": 102,
+      "max_dd": -0.053667460106538445,
+      "profit_factor": 0.9541620008222578,
+      "cum_return": -0.01343790785179777
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0065,
+        "up_thresh": 0.0434
+      },
+      "sharpe": -0.12034457198635919,
+      "n_trades": 173,
+      "max_dd": -0.04554084353464116,
+      "profit_factor": 1.0779810995307655,
+      "cum_return": 0.014382153232834094
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0142,
+        "up_thresh": 0.0357
+      },
+      "sharpe": -0.1390947978932453,
+      "n_trades": 147,
+      "max_dd": -0.05418484679279256,
+      "profit_factor": 0.9846460631010641,
+      "cum_return": -0.004187430946627768
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0285,
+        "up_thresh": 0.0209
+      },
+      "sharpe": -0.1390947978932453,
+      "n_trades": 147,
+      "max_dd": -0.05418484679279256,
+      "profit_factor": 0.9846460631010641,
+      "cum_return": -0.004187430946627768
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0551,
+        "up_thresh": 0.0265
+      },
+      "sharpe": -0.2033384060342898,
+      "n_trades": 23,
+      "max_dd": -0.02620249452334711,
+      "profit_factor": 0.7598305802451689,
+      "cum_return": -0.012817574704439783
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0346,
+        "up_thresh": 0.0307
+      },
+      "sharpe": -0.20476783116877623,
+      "n_trades": 131,
+      "max_dd": -0.0654931419512701,
+      "profit_factor": 0.9054985507584284,
+      "cum_return": -0.024660584566183807
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0109,
+        "up_thresh": 0.0086
+      },
+      "sharpe": -0.25234915787448564,
+      "n_trades": 82,
+      "max_dd": -0.06712131338810645,
+      "profit_factor": 0.7998933172567371,
+      "cum_return": -0.04409844771691074
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0185,
+        "up_thresh": 0.0518
+      },
+      "sharpe": -0.25234915787448564,
+      "n_trades": 82,
+      "max_dd": -0.06712131338810645,
+      "profit_factor": 0.7998933172567371,
+      "cum_return": -0.04409844771691074
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0442,
+        "up_thresh": 0.0551
+      },
+      "sharpe": -0.25234915787448564,
+      "n_trades": 82,
+      "max_dd": -0.06712131338810645,
+      "profit_factor": 0.7998933172567371,
+      "cum_return": -0.04409844771691074
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0238,
+        "up_thresh": 0.0224
+      },
+      "sharpe": -0.2637740254647419,
+      "n_trades": 50,
+      "max_dd": -0.04567414435667261,
+      "profit_factor": 0.7721847928596112,
+      "cum_return": -0.023427721142715296
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0381,
+        "up_thresh": 0.0135
+      },
+      "sharpe": -0.27673208621490974,
+      "n_trades": 77,
+      "max_dd": -0.060731945853426894,
+      "profit_factor": 0.7554478318836635,
+      "cum_return": -0.03906752360247889
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0101,
+        "up_thresh": 0.0174
+      },
+      "sharpe": -0.3074957671503693,
+      "n_trades": 149,
+      "max_dd": -0.04834004783146939,
+      "profit_factor": 0.9342569066355386,
+      "cum_return": -0.015375830717669015
+    }
+  ]
+}

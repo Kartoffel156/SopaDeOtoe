@@ -1,0 +1,9 @@
+{
+  "config_id": "MultiTimeframeTrendSignal_e5ce17eb1081",
+  "strategy": "MultiTimeframeTrendSignal",
+  "status": "error",
+  "metrics": {},
+  "daily_returns": [],
+  "error": "BrokenPipeError: [Errno 32] Broken pipe",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/nongo/Documents/Patacon/SopaDeOtoe/core/worker.py\", line 125, in run_full_pipeline\n    main_mod.run(config_path=config_path, data_end_override=data_end)\n  File \"/Users/nongo/Documents/Patacon/StrategyParrot/v12/main.py\", line 260, in run\n    print(f\"[SB] Dropped duplicate columns from tv_new_features: {overlap}\")\nBrokenPipeError: [Errno 32] Broken pipe\n"
+}

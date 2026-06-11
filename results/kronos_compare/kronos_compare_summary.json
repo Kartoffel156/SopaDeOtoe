@@ -1,0 +1,79 @@
+{
+  "graduated": {
+    "HypothesisH236MomentumReversalAsym": {
+      "sharpe": 0.6337,
+      "trades": 159,
+      "cumret": 0.152,
+      "maxdd": null,
+      "pf": null,
+      "source": "user_table"
+    },
+    "TSIMeanReversion": {
+      "sharpe": 0.4896,
+      "trades": 157,
+      "cumret": 0.083,
+      "maxdd": -0.054,
+      "pf": 1.354,
+      "source": "user_table"
+    },
+    "HypothesisH110BollingerKyleGate": {
+      "sharpe": 0.4337,
+      "trades": 130,
+      "cumret": 0.066,
+      "maxdd": -0.068,
+      "pf": 1.276,
+      "source": "user_table"
+    },
+    "HypothesisH203VolExpansionEntry": {
+      "sharpe": 0.212,
+      "trades": 109,
+      "cumret": 0.04,
+      "maxdd": -0.076,
+      "pf": 1.154,
+      "source": "user_table"
+    },
+    "HypothesisH167BollingerRangingOFIGate": {
+      "sharpe": 0.1961,
+      "trades": 117,
+      "cumret": 0.036,
+      "maxdd": -0.043,
+      "pf": 1.189,
+      "source": "user_table"
+    },
+    "HypothesisH318TrendlineChannelSqueeze": {
+      "sharpe": 0.1546,
+      "trades": 152,
+      "cumret": 0.026,
+      "maxdd": -0.054,
+      "pf": 1.107,
+      "source": "user_table"
+    },
+    "HypothesisH37DynamicGridInformedGate": {
+      "sharpe": 0.109,
+      "trades": 219,
+      "cumret": 0.036,
+      "maxdd": -0.058,
+      "pf": 1.082,
+      "source": "user_table"
+    },
+    "DualMovingAverageCrossover": {
+      "sharpe": 0.0974,
+      "trades": 111,
+      "cumret": 0.013,
+      "maxdd": -0.076,
+      "pf": 1.061,
+      "source": "user_table"
+    },
+    "MultiTimeframeTrendSignal": {
+      "sharpe": 0.0686,
+      "trades": 147,
+      "cumret": 0.003,
+      "maxdd": -0.043,
+      "pf": 1.019,
+      "source": "user_table"
+    }
+  },
+  "fresh": {},
+  "kronos": {},
+  "timestamp": "2026-05-08T05:05:48.237470+00:00"
+}

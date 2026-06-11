@@ -1,0 +1,9 @@
+{
+  "config_id": "HypothesisH203VolExpansionEntry_6edcbb5c7b5c",
+  "strategy": "HypothesisH203VolExpansionEntry",
+  "status": "error",
+  "metrics": {},
+  "daily_returns": [],
+  "error": "ValueError: min_periods 2 must be <= window 1",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/nongo/Documents/Patacon/SopaDeOtoe/core/worker.py\", line 125, in run_full_pipeline\n    main_mod.run(config_path=config_path, data_end_override=data_end)\n  File \"/Users/nongo/Documents/Patacon/StrategyParrot/v12/main.py\", line 313, in run\n    signals = BaseStrategy._REGISTRY[strategy_name](**strategy_params).generate_signals(feat)\n  File \"/Users/nongo/Documents/Patacon/SopaDeOtoe/strategies/HypothesisH203VolExpansionEntry.py\", line 59, in generate_signals\n    ofi_ma = ofi.rolling(self.ofi_window, min_periods=2).mean()\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/core/generic.py\", line 12645, in rolling\n    return Rolling(\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/core/window/rolling.py\", line 170, in __init__\n    self._validate()\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/core/window/rolling.py\", line 1869, in _validate\n    super()._validate()\n  File \"/Users/nongo/Library/Python/3.9/lib/python/site-packages/pandas/core/window/rolling.py\", line 181, in _validate\n    raise ValueError(\nValueError: min_periods 2 must be <= window 1\n"
+}

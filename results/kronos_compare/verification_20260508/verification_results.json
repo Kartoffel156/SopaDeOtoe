@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-05-08T13:14:43.437436+00:00",
+  "description": "Graduated vs Fresh (no KRONOS) vs KRONOS comparison",
+  "strategies": {
+    "HypothesisH236MomentumReversalAsym": {
+      "grad_sharpe": 0.6337,
+      "grad_trades": 159,
+      "fresh_sharpe": 0.3288,
+      "fresh_trades": 153,
+      "kronos_sharpe": 0.3288,
+      "kronos_trades": null,
+      "match_grad": false,
+      "notes": "KRONOS=Fresh. v12 run dir from 20260411 deleted."
+    },
+    "TSIMeanReversion": {
+      "grad_sharpe": 0.4896,
+      "grad_trades": 157,
+      "fresh_sharpe": 0.4896,
+      "fresh_trades": 157,
+      "kronos_sharpe": 0.0276,
+      "kronos_trades": null,
+      "match_grad": true,
+      "notes": "KRONOS DESTROYED result (0.49\u21920.03). Fresh=Grad exactly."
+    },
+    "HypothesisH110BollingerKyleGate": {
+      "grad_sharpe": 0.4337,
+      "grad_trades": 130,
+      "fresh_sharpe": 0.4337,
+      "fresh_trades": 130,
+      "kronos_sharpe": 0.4337,
+      "kronos_trades": null,
+      "match_grad": true,
+      "notes": "All 3 identical. Stable."
+    },
+    "HypothesisH203VolExpansionEntry": {
+      "grad_sharpe": 0.212,
+      "grad_trades": 109,
+      "fresh_sharpe": 0.5422,
+      "fresh_trades": 117,
+      "kronos_sharpe": 0.5422,
+      "kronos_trades": null,
+      "match_grad": false,
+      "notes": "KRONOS=Fresh. v12 run dir from 20260418 deleted."
+    },
+    "HypothesisH167BollingerRangingOFIGate": {
+      "grad_sharpe": 0.1961,
+      "grad_trades": 117,
+      "fresh_sharpe": 0.1961,
+      "fresh_trades": 117,
+      "kronos_sharpe": 0.1961,
+      "kronos_trades": null,
+      "match_grad": true,
+      "notes": "All 3 identical. Stable."
+    },
+    "HypothesisH318TrendlineChannelSqueeze": {
+      "grad_sharpe": 0.1546,
+      "grad_trades": 152,
+      "fresh_sharpe": 0.0802,
+      "fresh_trades": 167,
+      "kronos_sharpe": 0.0802,
+      "kronos_trades": null,
+      "match_grad": false,
+      "notes": "KRONOS=Fresh. v12 run dir from 20260419 deleted."
+    },
+    "HypothesisH37DynamicGridInformedGate": {
+      "grad_sharpe": 0.109,
+      "grad_trades": 219,
+      "fresh_sharpe": 0.6164,
+      "fresh_trades": 87,
+      "kronos_sharpe": 0.6164,
+      "kronos_trades": null,
+      "match_grad": false,
+      "notes": "KRONOS=Fresh. v12 run dir from 20260419 deleted."
+    },
+    "DualMovingAverageCrossover": {
+      "grad_sharpe": 0.0974,
+      "grad_trades": 111,
+      "fresh_sharpe": 0.0974,
+      "fresh_trades": 111,
+      "kronos_sharpe": 0.0974,
+      "kronos_trades": null,
+      "match_grad": true,
+      "notes": "All 3 identical. Stable."
+    },
+    "MultiTimeframeTrendSignal": {
+      "grad_sharpe": 0.0686,
+      "grad_trades": 147,
+      "fresh_sharpe": 0.0686,
+      "fresh_trades": 147,
+      "kronos_sharpe": 0.0686,
+      "kronos_trades": null,
+      "match_grad": true,
+      "notes": "All 3 identical. Stable."
+    }
+  },
+  "summary": {
+    "total": 9,
+    "match_grad": 5,
+    "diverge_from_grad": 4,
+    "kronos_impact": {
+      "unchanged": 8,
+      "destroyed": [
+        "TSIMeanReversion"
+      ]
+    }
+  }
+}

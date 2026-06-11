@@ -1,0 +1,233 @@
+_config_id: HypothesisH110BollingerKyleGate_bc9371eb2641
+_data_end_override: '2024-12-17'
+_meta_strategy_class: HypothesisH110BollingerKyleGate
+atr_multiplier: 2.0
+atr_span: 14
+auto_bpd: false
+bar_type: dollar
+bars_per_day: 6
+calibration_bayes:
+  enabled: true
+  fallback_pivot: 0.5
+  min_obs_per_regime: 10
+  pivot_shrinkage: 0.5
+config_hash: bc9371eb2641
+config_id: HypothesisH110BollingerKyleGate_ablpfG_all_no_microstructure_pfON_20260526_021326
+cost: 0.001
+cusum_filter:
+  enabled: false
+  h: 0.02
+  mode: primary
+dollar_bar_dir: data/dollar_bars
+dollar_threshold: 301763406
+drawdown_threshold_1: 0.1
+drawdown_threshold_2: 0.2
+end: '2026-03-17'
+initial_capital: 100000.0
+interval: 1d
+kelly_half: true
+market_type: crypto
+max_holding: 36
+max_position_pct: 0.2
+metrics:
+  omega_threshold: 0.0
+  sterling_n_worst: 5
+montecarlo:
+  bootstrap:
+    block_size: 10
+    enabled: false
+    method: block
+    n_paths: 100
+  random_state: 42
+  reality_check:
+    block_size: 10
+    enabled: false
+    n_bootstrap: 200
+  reshuffling:
+    enabled: true
+    n_permutations: 200
+  stress:
+    enabled: false
+    gap_counts:
+    - 3
+    - 5
+    regime_shift: true
+    sharpe_degradation:
+    - 0.1
+    - 0.3
+    vol_inflation:
+    - 0.2
+    - 0.5
+n_trials: 1
+pipeline_gated:
+  cascade:
+    alpha: 0.1
+    bh_return: -0.5
+    dsr_threshold: 0.9
+    enabled: false
+    max_dd: -0.4
+    max_sharpe_cv: 1.5
+    min_calmar: 0.05
+    min_pf: 1.05
+    min_sharpe: 0.1
+    null_sharpe_p75: -0.5
+  embargo_pct: 0.01
+  enabled: true
+  gate_2b:
+    cpcv_p50_min: 0.0
+    p50_over_abs_p5_min: 0.5
+    score_robustez_min: 0.0
+  hp_defaults:
+    bagged_rf:
+      n_estimators: 10
+    framework:
+      embargo_pct: 0.01
+      meta_threshold: 0.55
+    rf:
+      class_weight: balanced
+      max_depth: 5
+      max_features: sqrt
+      min_samples_leaf: 5
+      n_estimators: 200
+  lambda_variance: 0.4
+  margin_tuning: 0.15
+  min_trades_cpcv: 100
+  min_trades_tuning: 100
+  n_paths_cpcv: 15
+  seed_bootstrap: 44
+  seed_cpcv: 42
+  seed_hp: 43
+  top_pct_2a: 0.4
+pt_sl:
+- 2.5
+- 1.5
+regime:
+  bet_size_multipliers: {}
+  direction:
+    mode: gmm
+    vol_ratio_cyclic_threshold: 1.2
+    window: 20
+    z_threshold: 1.96
+  enabled: true
+  gmm:
+    cluster_names:
+      '0': BEAR
+      '1': CONGESTED
+      '2': CYCLIC
+      '3': BULL
+    features_csv: output/features_btcusd.csv
+    meta_path: models/gmm_meta.json
+    model_path: models/gmm_regime.pkl
+    scaler_path: models/gmm_scaler.pkl
+    train_end_date: '2024-12-31'
+    trend_window: 20
+    use_sadf: true
+  structural:
+    cusum_critical: 1.5
+    sadf_critical: -0.5
+  volatility:
+    levels:
+    - 25
+    - 75
+    - 95
+    quantile_window: 252
+rf_rate: 0.05
+risk_fraction: 0.01
+risk_pct: 0.02
+scale_1: 0.5
+scale_2: 0.25
+sequential_bootstrap:
+  enabled: true
+  n_samples: 50
+sizing_method: atr
+start: '2020-01-01'
+strategy:
+  name: HypothesisH110BollingerKyleGate
+  params:
+    bb_period: 21
+    bb_std: 2.4333
+    bw_percentile: 65
+    lam_thresh: 0.5302
+    lookback: 34
+structural_breaks:
+  cusum_window: 60
+  enabled: true
+  sadf_max_lookback: 120
+  sadf_min_window: 20
+ticker: BTC-USD
+trend_filter:
+  ema_period: 420
+  enabled: false
+  mode: long_only_in_uptrend
+v2:
+  arima_min_train: 50
+  arima_order:
+  - 1
+  - 0
+  - 1
+  arima_refit_every: 21
+  arima_threshold: 0.0001
+  bayes_calibration:
+    enabled: true
+    fallback_pivot: 0.5
+    min_obs_per_regime: 10
+    pivot_shrinkage: 0.5
+  bet_sizing_step: 0.01
+  calibrate_probabilities: true
+  cpcv_mode: replay
+  cpcv_n_splits: 4
+  cpcv_n_test_groups: 2
+  feature_prefilter:
+    enabled: true
+    method: mutual_info
+    min_features: 2
+    threshold: 0.01
+  features:
+    amihud_window: 50
+    entropy_bins: 10
+    entropy_window: 50
+    fracdiff: true
+    fracdiff_d: auto
+    kyle_lambda_window: 50
+    meta_features:
+      disabled_meta_features:
+      - roll_spread
+      - parkinson_vol
+      enabled_experimental_features:
+      - variance_ratio_5
+      - variance_ratio_20
+      - vol_accel
+      - autocorr_momentum
+      - kyle_entropy_ratio
+      kronos_features:
+        enabled: true
+  garch_dist: t
+  garch_p: 1
+  garch_q: 1
+  importance_threshold: 0.05
+  meta_direction_feature: true
+  meta_model:
+    max_depth: null
+    max_features: sqrt
+    min_samples_leaf: 1
+    n_estimators: 100
+  meta_model_hp_search:
+    embargo_pct: 0.01
+    n_iter: 10
+    n_splits: 3
+    scoring: roc_auc
+  meta_model_method: rf
+  meta_rel_vol_window: 50
+  meta_threshold: 0.55
+  meta_vol_regime_fast: 20
+  meta_vol_regime_slow: 60
+  min_meta_samples: 20
+  min_rebalance: 0.1
+  oos_predictions: true
+  random_state: 42
+  slippage_bps: 2.0
+  spread_bps: 1.0
+  v2_enabled: true
+  walkforward_mode: expanding
+  wf_prediction_splits: 3
+validation_method: cpcv

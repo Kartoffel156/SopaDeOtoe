@@ -1,0 +1,89 @@
+graduated_on: '2026-04-11'
+cohort: first_cohort
+# Updated 2026-05-09: removed H236, H203, H37 (non-reproducible results).
+# Only 6 strategies with exact REPRO match retained.
+strategies:
+- run_id: BTC-USD_1d_20260419_095451
+  strategy_class: TSIMeanReversion
+  config_hash: 11c8699351f9
+  config_file: configs/graduated/TSIMeanReversion_20260419_095451.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_095451
+  metrics:
+    sharpe: 0.4896
+    total_return: 0.0833
+    max_drawdown: -0.0539
+    calmar: 0.2330
+    sortino: 0.6281
+    profit_factor: 1.3544
+    n_trades: 157
+    win_rate: 0.5032
+- run_id: BTC-USD_1d_20260418_160334
+  strategy_class: HypothesisH110BollingerKyleGate
+  config_hash: bc9371eb2641
+  config_file: configs/graduated/HypothesisH110BollingerKyleGate_20260418_160334.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_160334
+  metrics:
+    sharpe: 0.4337
+    total_return: 0.0665
+    max_drawdown: -0.0681
+    calmar: 0.1479
+    sortino: 0.5787
+    profit_factor: 1.2764
+    n_trades: 130
+    win_rate: 0.5231
+- run_id: BTC-USD_1d_20260418_162324
+  strategy_class: HypothesisH167BollingerRangingOFIGate
+  config_hash: a40f8e2c5b0a
+  config_file: configs/graduated/HypothesisH167BollingerRangingOFIGate_20260418_162324.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_162324
+  metrics:
+    sharpe: 0.1961
+    total_return: 0.0358
+    max_drawdown: -0.0429
+    calmar: 0.1282
+    sortino: 0.2553
+    profit_factor: 1.1888
+    n_trades: 117
+    win_rate: 0.4530
+- run_id: BTC-USD_1d_20260419_051527
+  strategy_class: HypothesisH318TrendlineChannelSqueeze
+  config_hash: 19e38d5f80f0
+  config_file: configs/graduated/HypothesisH318TrendlineChannelSqueeze_20260419_051527.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_051527
+  metrics:
+    sharpe: 0.1546
+    total_return: 0.0260
+    max_drawdown: -0.0544
+    calmar: 0.0737
+    sortino: 0.2076
+    profit_factor: 1.1065
+    n_trades: 152
+    win_rate: 0.4408
+- run_id: BTC-USD_1d_20260418_162631
+  strategy_class: DualMovingAverageCrossover
+  config_hash: 767ba59891d3
+  config_file: configs/graduated/DualMovingAverageCrossover_20260418_162631.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_162631
+  metrics:
+    sharpe: 0.0974
+    total_return: 0.0131
+    max_drawdown: -0.0763
+    calmar: 0.0265
+    sortino: 0.1234
+    profit_factor: 1.0609
+    n_trades: 111
+    win_rate: 0.4505
+- run_id: BTC-USD_1d_20260419_134237
+  strategy_class: MultiTimeframeTrendSignal
+  config_hash: e5ce17eb1081
+  config_file: configs/graduated/MultiTimeframeTrendSignal_20260419_134237.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_134237
+  metrics:
+    sharpe: 0.0686
+    total_return: 0.0026
+    max_drawdown: -0.0428
+    calmar: 0.0095
+    sortino: 0.0950
+    profit_factor: 1.0189
+    n_trades: 147
+    win_rate: 0.4014

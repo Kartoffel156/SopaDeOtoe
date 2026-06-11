@@ -1,0 +1,6816 @@
+{
+  "HypothesisH236MomentumReversalAsym": [
+    {
+      "params": {
+        "dn_thresh": 0.0554,
+        "up_thresh": 0.058
+      },
+      "sharpe": 0.8848307774779298,
+      "n_trades": 18,
+      "max_dd": -0.010190364408458108,
+      "profit_factor": 4.786719138945395,
+      "cum_return": 0.05982646123944724
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0695,
+        "up_thresh": 0.0299
+      },
+      "sharpe": 0.6339536966251849,
+      "n_trades": 26,
+      "max_dd": -0.016750018848147308,
+      "profit_factor": 2.000564614143903,
+      "cum_return": 0.06559264011243848
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0379,
+        "up_thresh": 0.065
+      },
+      "sharpe": 0.6339536966251849,
+      "n_trades": 26,
+      "max_dd": -0.016750018848147308,
+      "profit_factor": 2.000564614143903,
+      "cum_return": 0.06559264011243848
+    },
+    {
+      "params": {
+        "dn_thresh": 0.056,
+        "up_thresh": 0.0443
+      },
+      "sharpe": 0.6339536966251849,
+      "n_trades": 26,
+      "max_dd": -0.016750018848147308,
+      "profit_factor": 2.000564614143903,
+      "cum_return": 0.06559264011243848
+    },
+    {
+      "params": {
+        "dn_thresh": 0.064,
+        "up_thresh": 0.01
+      },
+      "sharpe": 0.6339536966251849,
+      "n_trades": 26,
+      "max_dd": -0.016750018848147308,
+      "profit_factor": 2.000564614143903,
+      "cum_return": 0.06559264011243848
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0464,
+        "up_thresh": 0.0406
+      },
+      "sharpe": 0.62131091826652,
+      "n_trades": 11,
+      "max_dd": -0.01375023467081471,
+      "profit_factor": 3.3948886226162895,
+      "cum_return": 0.03953060342087644
+    },
+    {
+      "params": {
+        "dn_thresh": 0.014,
+        "up_thresh": 0.0551
+      },
+      "sharpe": 0.62131091826652,
+      "n_trades": 11,
+      "max_dd": -0.01375023467081471,
+      "profit_factor": 3.3948886226162895,
+      "cum_return": 0.03953060342087644
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0347,
+        "up_thresh": 0.0176
+      },
+      "sharpe": 0.62131091826652,
+      "n_trades": 11,
+      "max_dd": -0.01375023467081471,
+      "profit_factor": 3.3948886226162895,
+      "cum_return": 0.03953060342087644
+    },
+    {
+      "params": {
+        "dn_thresh": 0.077,
+        "up_thresh": 0.0799
+      },
+      "sharpe": 0.62131091826652,
+      "n_trades": 11,
+      "max_dd": -0.01375023467081471,
+      "profit_factor": 3.3948886226162895,
+      "cum_return": 0.03953060342087644
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0426,
+        "up_thresh": 0.012
+      },
+      "sharpe": 0.6031436144473791,
+      "n_trades": 21,
+      "max_dd": -0.02135558059005105,
+      "profit_factor": 1.9632112234557906,
+      "cum_return": 0.054341653868846596
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0655,
+        "up_thresh": 0.0043
+      },
+      "sharpe": 0.6031436144473791,
+      "n_trades": 21,
+      "max_dd": -0.02135558059005105,
+      "profit_factor": 1.9632112234557906,
+      "cum_return": 0.054341653868846596
+    },
+    {
+      "params": {
+        "dn_thresh": 0.073,
+        "up_thresh": 0.0466
+      },
+      "sharpe": 0.5785128889389027,
+      "n_trades": 12,
+      "max_dd": -0.01128945744182186,
+      "profit_factor": 4.137471602387534,
+      "cum_return": 0.030851414662328436
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0322,
+        "up_thresh": 0.0756
+      },
+      "sharpe": 0.5640772512710216,
+      "n_trades": 62,
+      "max_dd": -0.0348208552974868,
+      "profit_factor": 1.6527623829166005,
+      "cum_return": 0.09559561740769063
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0507,
+        "up_thresh": 0.0771
+      },
+      "sharpe": 0.5640772512710216,
+      "n_trades": 62,
+      "max_dd": -0.0348208552974868,
+      "profit_factor": 1.6527623829166005,
+      "cum_return": 0.09559561740769063
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0708,
+        "up_thresh": 0.0239
+      },
+      "sharpe": 0.5194649643159917,
+      "n_trades": 22,
+      "max_dd": -0.020736965308141397,
+      "profit_factor": 2.1538516482481853,
+      "cum_return": 0.03866173216586977
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0629,
+        "up_thresh": 0.0089
+      },
+      "sharpe": 0.4550859751041296,
+      "n_trades": 17,
+      "max_dd": -0.011799540066296355,
+      "profit_factor": 1.9384109493758281,
+      "cum_return": 0.024769937384351515
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0666,
+        "up_thresh": 0.0169
+      },
+      "sharpe": 0.4542462185357362,
+      "n_trades": 23,
+      "max_dd": -0.0288510005947743,
+      "profit_factor": 1.784002280410107,
+      "cum_return": 0.041107572169948536
+    },
+    {
+      "params": {
+        "dn_thresh": 0.072,
+        "up_thresh": 0.0535
+      },
+      "sharpe": 0.41282139043419,
+      "n_trades": 21,
+      "max_dd": -0.024998212950672283,
+      "profit_factor": 2.166951848236374,
+      "cum_return": 0.046295473791395425
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0056,
+        "up_thresh": 0.0224
+      },
+      "sharpe": 0.3385906255982421,
+      "n_trades": 55,
+      "max_dd": -0.04975726669508573,
+      "profit_factor": 1.4405935170239443,
+      "cum_return": 0.05798031776267987
+    },
+    {
+      "params": {
+        "dn_thresh": 0.049,
+        "up_thresh": 0.0717
+      },
+      "sharpe": 0.3385906255982421,
+      "n_trades": 55,
+      "max_dd": -0.04975726669508573,
+      "profit_factor": 1.4405935170239443,
+      "cum_return": 0.05798031776267987
+    },
+    {
+      "params": {
+        "dn_thresh": 0.08,
+        "up_thresh": 0.0606
+      },
+      "sharpe": 0.3228416820651798,
+      "n_trades": 6,
+      "max_dd": -0.008235671420557256,
+      "profit_factor": 3.2836056544078387,
+      "cum_return": 0.00929739641001004
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0277,
+        "up_thresh": 0.0438
+      },
+      "sharpe": 0.3120936325303054,
+      "n_trades": 18,
+      "max_dd": -0.02711377558926298,
+      "profit_factor": 1.5807463702260849,
+      "cum_return": 0.025968345499073786
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0675,
+        "up_thresh": 0.0672
+      },
+      "sharpe": 0.3120936325303054,
+      "n_trades": 18,
+      "max_dd": -0.02711377558926298,
+      "profit_factor": 1.5807463702260849,
+      "cum_return": 0.025968345499073786
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0206,
+        "up_thresh": 0.0151
+      },
+      "sharpe": 0.26370931679429466,
+      "n_trades": 105,
+      "max_dd": -0.047730987483052045,
+      "profit_factor": 1.3075384682881261,
+      "cum_return": 0.04509748723383411
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0161,
+        "up_thresh": 0.0611
+      },
+      "sharpe": 0.2294208145585492,
+      "n_trades": 219,
+      "max_dd": -0.039765107755037055,
+      "profit_factor": 1.1736860276977954,
+      "cum_return": 0.06428400567498604
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0444,
+        "up_thresh": 0.0332
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0157,
+        "up_thresh": 0.0364
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0303,
+        "up_thresh": 0.0315
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0093,
+        "up_thresh": 0.064
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0539,
+        "up_thresh": 0.0275
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0112,
+        "up_thresh": 0.0032
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0588,
+        "up_thresh": 0.0273
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0392,
+        "up_thresh": 0.0783
+      },
+      "sharpe": 0.22046122258704284,
+      "n_trades": 28,
+      "max_dd": -0.025630554132270778,
+      "profit_factor": 1.3346887032957122,
+      "cum_return": 0.018805547764766617
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0781,
+        "up_thresh": 0.0143
+      },
+      "sharpe": 0.20079739668870478,
+      "n_trades": 3,
+      "max_dd": -0.006987660625075387,
+      "profit_factor": 2.742804301670587,
+      "cum_return": 0.005174256881139927
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0183,
+        "up_thresh": 0.0737
+      },
+      "sharpe": 0.16466585056944963,
+      "n_trades": 138,
+      "max_dd": -0.020645538506028016,
+      "profit_factor": 1.2320987937113355,
+      "cum_return": 0.0395853023427426
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0189,
+        "up_thresh": 0.0421
+      },
+      "sharpe": 0.1588125543565051,
+      "n_trades": 120,
+      "max_dd": -0.025846855343204522,
+      "profit_factor": 1.333461926093779,
+      "cum_return": 0.03627559421257032
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0219,
+        "up_thresh": 0.0522
+      },
+      "sharpe": 0.12529024676764045,
+      "n_trades": 140,
+      "max_dd": -0.07095353376896996,
+      "profit_factor": 1.1514474317290604,
+      "cum_return": 0.03189839926627358
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0289,
+        "up_thresh": 0.0631
+      },
+      "sharpe": 0.12529024676764045,
+      "n_trades": 140,
+      "max_dd": -0.07095353376896996,
+      "profit_factor": 1.1514474317290604,
+      "cum_return": 0.03189839926627358
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0743,
+        "up_thresh": 0.0468
+      },
+      "sharpe": 6.465792905497885e-05,
+      "n_trades": 17,
+      "max_dd": -0.029883922030679577,
+      "profit_factor": 0.9928192480927671,
+      "cum_return": -0.0005989376199121432
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0329,
+        "up_thresh": 0.0396
+      },
+      "sharpe": -0.005153952175880163,
+      "n_trades": 153,
+      "max_dd": -0.07463703585774772,
+      "profit_factor": 1.0078444886570623,
+      "cum_return": 0.000428000251425642
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0605,
+        "up_thresh": 0.0486
+      },
+      "sharpe": -0.020140276000045945,
+      "n_trades": 15,
+      "max_dd": -0.03195822804884896,
+      "profit_factor": 0.9585035092419135,
+      "cum_return": -0.0022821933181338405
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0122,
+        "up_thresh": 0.0071
+      },
+      "sharpe": -0.060853123238469156,
+      "n_trades": 44,
+      "max_dd": -0.054363112417025405,
+      "profit_factor": 0.9525475262466775,
+      "cum_return": -0.0057826384393355745
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0051,
+        "up_thresh": 0.0219
+      },
+      "sharpe": -0.060853123238469156,
+      "n_trades": 44,
+      "max_dd": -0.054363112417025405,
+      "profit_factor": 0.9525475262466775,
+      "cum_return": -0.0057826384393355745
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0034,
+        "up_thresh": 0.0195
+      },
+      "sharpe": -0.060853123238469156,
+      "n_trades": 44,
+      "max_dd": -0.054363112417025405,
+      "profit_factor": 0.9525475262466775,
+      "cum_return": -0.0057826384393355745
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0522,
+        "up_thresh": 0.073
+      },
+      "sharpe": -0.060853123238469156,
+      "n_trades": 44,
+      "max_dd": -0.054363112417025405,
+      "profit_factor": 0.9525475262466775,
+      "cum_return": -0.0057826384393355745
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0409,
+        "up_thresh": 0.0258
+      },
+      "sharpe": -0.07532181313094842,
+      "n_trades": 95,
+      "max_dd": -0.05739962939032772,
+      "profit_factor": 0.9571983424574109,
+      "cum_return": -0.01219458238242932
+    },
+    {
+      "params": {
+        "dn_thresh": 0.007,
+        "up_thresh": 0.0688
+      },
+      "sharpe": -0.08860576518031647,
+      "n_trades": 118,
+      "max_dd": -0.03671101659570464,
+      "profit_factor": 1.1102887739963312,
+      "cum_return": 0.013069373196317402
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0096,
+        "up_thresh": 0.0497
+      },
+      "sharpe": -0.08860576518031647,
+      "n_trades": 118,
+      "max_dd": -0.03671101659570464,
+      "profit_factor": 1.1102887739963312,
+      "cum_return": 0.013069373196317402
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0609,
+        "up_thresh": 0.0509
+      },
+      "sharpe": -0.11694285386571157,
+      "n_trades": 19,
+      "max_dd": -0.03195822804884907,
+      "profit_factor": 0.8625971801096822,
+      "cum_return": -0.010542986026477297
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0368,
+        "up_thresh": 0.0346
+      },
+      "sharpe": -0.12250884830835748,
+      "n_trades": 138,
+      "max_dd": -0.08637560661746091,
+      "profit_factor": 0.915391851752364,
+      "cum_return": -0.03731505870931995
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0573,
+        "up_thresh": 0.0206
+      },
+      "sharpe": -0.13138622780195927,
+      "n_trades": 55,
+      "max_dd": -0.08374558568590729,
+      "profit_factor": 0.8633547711232452,
+      "cum_return": -0.02816177015329735
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0498,
+        "up_thresh": 0.0668
+      },
+      "sharpe": -0.1380003826625824,
+      "n_trades": 60,
+      "max_dd": -0.049055062560693585,
+      "profit_factor": 0.8454490406816425,
+      "cum_return": -0.027076980874145673
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0478,
+        "up_thresh": 0.0591
+      },
+      "sharpe": -0.1380003826625824,
+      "n_trades": 60,
+      "max_dd": -0.049055062560693585,
+      "profit_factor": 0.8454490406816425,
+      "cum_return": -0.027076980874145673
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0241,
+        "up_thresh": 0.0059
+      },
+      "sharpe": -0.14504745628567894,
+      "n_trades": 78,
+      "max_dd": -0.09052044003106285,
+      "profit_factor": 0.8841330667345416,
+      "cum_return": -0.0250466162810552
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0261,
+        "up_thresh": 0.0563
+      },
+      "sharpe": -0.17243508160154541,
+      "n_trades": 8,
+      "max_dd": -0.017585594048932673,
+      "profit_factor": 0.6722124971190174,
+      "cum_return": -0.009163594657248475
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0754,
+        "up_thresh": 0.07
+      },
+      "sharpe": -0.17243508160154541,
+      "n_trades": 8,
+      "max_dd": -0.017585594048932673,
+      "profit_factor": 0.6722124971190174,
+      "cum_return": -0.009163594657248475
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0233,
+        "up_thresh": 0.0353
+      },
+      "sharpe": -0.24277641077922285,
+      "n_trades": 104,
+      "max_dd": -0.0761299444027711,
+      "profit_factor": 0.8305398149117069,
+      "cum_return": -0.05296019085796788
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0435,
+        "up_thresh": 0.0304
+      },
+      "sharpe": -0.24277641077922285,
+      "n_trades": 104,
+      "max_dd": -0.0761299444027711,
+      "profit_factor": 0.8305398149117069,
+      "cum_return": -0.05296019085796788
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0264,
+        "up_thresh": 0.038
+      },
+      "sharpe": -0.29693117322780654,
+      "n_trades": 140,
+      "max_dd": -0.11044276628733996,
+      "profit_factor": 0.8222350597564135,
+      "cum_return": -0.07417026758259981
+    },
+    {
+      "params": {
+        "dn_thresh": 0.0358,
+        "up_thresh": 0.0116
+      },
+      "sharpe": -0.29693117322780654,
+      "n_trades": 140,
+      "max_dd": -0.11044276628733996,
+      "profit_factor": 0.8222350597564135,
+      "cum_return": -0.07417026758259981
+    }
+  ],
+  "TSIMeanReversion": [
+    {
+      "params": {
+        "tsi_r": 12,
+        "tsi_s": 4,
+        "tsi_oversold": -10,
+        "tsi_overbought": 9,
+        "rsi_period": 5,
+        "rsi_oversold": 40,
+        "rsi_overbought": 65
+      },
+      "sharpe": 0.5173905154196168,
+      "n_trades": 39,
+      "max_dd": -0.024959660706374343,
+      "profit_factor": 1.5878644370311832,
+      "cum_return": 0.040211120546068235
+    },
+    {
+      "params": {
+        "tsi_r": 2,
+        "tsi_s": 6,
+        "tsi_oversold": -29,
+        "tsi_overbought": 35,
+        "rsi_period": 7,
+        "rsi_oversold": 42,
+        "rsi_overbought": 65
+      },
+      "sharpe": 0.5173905154196168,
+      "n_trades": 39,
+      "max_dd": -0.024959660706374343,
+      "profit_factor": 1.5878644370311832,
+      "cum_return": 0.040211120546068235
+    },
+    {
+      "params": {
+        "tsi_r": 8,
+        "tsi_s": 4,
+        "tsi_oversold": -39,
+        "tsi_overbought": 8,
+        "rsi_period": 9,
+        "rsi_oversold": 24,
+        "rsi_overbought": 78
+      },
+      "sharpe": 0.5173905154196168,
+      "n_trades": 39,
+      "max_dd": -0.024959660706374343,
+      "profit_factor": 1.5878644370311832,
+      "cum_return": 0.040211120546068235
+    },
+    {
+      "params": {
+        "tsi_r": 10,
+        "tsi_s": 8,
+        "tsi_oversold": -5,
+        "tsi_overbought": 13,
+        "rsi_period": 8,
+        "rsi_oversold": 40,
+        "rsi_overbought": 67
+      },
+      "sharpe": 0.4929049390319491,
+      "n_trades": 54,
+      "max_dd": -0.026436105438017,
+      "profit_factor": 1.7215843964515327,
+      "cum_return": 0.05558486697593934
+    },
+    {
+      "params": {
+        "tsi_r": 3,
+        "tsi_s": 3,
+        "tsi_oversold": -12,
+        "tsi_overbought": 24,
+        "rsi_period": 10,
+        "rsi_oversold": 36,
+        "rsi_overbought": 75
+      },
+      "sharpe": 0.4929049390319491,
+      "n_trades": 54,
+      "max_dd": -0.026436105438017,
+      "profit_factor": 1.7215843964515327,
+      "cum_return": 0.05558486697593934
+    },
+    {
+      "params": {
+        "tsi_r": 12,
+        "tsi_s": 6,
+        "tsi_oversold": -22,
+        "tsi_overbought": 35,
+        "rsi_period": 4,
+        "rsi_oversold": 17,
+        "rsi_overbought": 58
+      },
+      "sharpe": 0.38794448682706095,
+      "n_trades": 170,
+      "max_dd": -0.06338987522590855,
+      "profit_factor": 1.175602516125874,
+      "cum_return": 0.06434499876271027
+    },
+    {
+      "params": {
+        "tsi_r": 4,
+        "tsi_s": 6,
+        "tsi_oversold": -18,
+        "tsi_overbought": 23,
+        "rsi_period": 11,
+        "rsi_oversold": 31,
+        "rsi_overbought": 58
+      },
+      "sharpe": 0.3528123461582636,
+      "n_trades": 34,
+      "max_dd": -0.026903929641555524,
+      "profit_factor": 1.4198001496660944,
+      "cum_return": 0.02667206642776776
+    },
+    {
+      "params": {
+        "tsi_r": 10,
+        "tsi_s": 2,
+        "tsi_oversold": -19,
+        "tsi_overbought": 20,
+        "rsi_period": 16,
+        "rsi_oversold": 37,
+        "rsi_overbought": 80
+      },
+      "sharpe": 0.3528123461582636,
+      "n_trades": 34,
+      "max_dd": -0.026903929641555524,
+      "profit_factor": 1.4198001496660944,
+      "cum_return": 0.02667206642776776
+    },
+    {
+      "params": {
+        "tsi_r": 4,
+        "tsi_s": 5,
+        "tsi_oversold": -23,
+        "tsi_overbought": 28,
+        "rsi_period": 12,
+        "rsi_oversold": 18,
+        "rsi_overbought": 68
+      },
+      "sharpe": 0.32356383370948066,
+      "n_trades": 4,
+      "max_dd": -0.0025041755251767883,
+      "profit_factor": 3.9119081812875565,
+      "cum_return": 0.0029019031906305504
+    },
+    {
+      "params": {
+        "tsi_r": 7,
+        "tsi_s": 5,
+        "tsi_oversold": -6,
+        "tsi_overbought": 16,
+        "rsi_period": 14,
+        "rsi_oversold": 32,
+        "rsi_overbought": 74
+      },
+      "sharpe": 0.32356383370948066,
+      "n_trades": 4,
+      "max_dd": -0.0025041755251767883,
+      "profit_factor": 3.9119081812875565,
+      "cum_return": 0.0029019031906305504
+    },
+    {
+      "params": {
+        "tsi_r": 7,
+        "tsi_s": 4,
+        "tsi_oversold": -20,
+        "tsi_overbought": 33,
+        "rsi_period": 17,
+        "rsi_oversold": 34,
+        "rsi_overbought": 75
+      },
+      "sharpe": 0.1989117848619888,
+      "n_trades": 66,
+      "max_dd": -0.035330096016046086,
+      "profit_factor": 1.1572094867308371,
+      "cum_return": 0.02143896174216553
+    },
+    {
+      "params": {
+        "tsi_r": 5,
+        "tsi_s": 4,
+        "tsi_oversold": -32,
+        "tsi_overbought": 14,
+        "rsi_period": 15,
+        "rsi_oversold": 28,
+        "rsi_overbought": 68
+      },
+      "sharpe": 0.1989117848619888,
+      "n_trades": 66,
+      "max_dd": -0.035330096016046086,
+      "profit_factor": 1.1572094867308371,
+      "cum_return": 0.02143896174216553
+    },
+    {
+      "params": {
+        "tsi_r": 3,
+        "tsi_s": 7,
+        "tsi_oversold": -17,
+        "tsi_overbought": 37,
+        "rsi_period": 16,
+        "rsi_oversold": 30,
+        "rsi_overbought": 60
+      },
+      "sharpe": 0.1989117848619888,
+      "n_trades": 66,
+      "max_dd": -0.035330096016046086,
+      "profit_factor": 1.1572094867308371,
+      "cum_return": 0.02143896174216553
+    },
+    {
+      "params": {
+        "tsi_r": 2,
+        "tsi_s": 2,
+        "tsi_oversold": -33,
+        "tsi_overbought": 22,
+        "rsi_period": 11,
+        "rsi_oversold": 37,
+        "rsi_overbought": 69
+      },
+      "sharpe": 0.11907330998258446,
+      "n_trades": 31,
+      "max_dd": -0.023073257608598352,
+      "profit_factor": 1.1897435180976221,
+      "cum_return": 0.009675364467856884
+    },
+    {
+      "params": {
+        "tsi_r": 9,
+        "tsi_s": 5,
+        "tsi_oversold": -34,
+        "tsi_overbought": 18,
+        "rsi_period": 8,
+        "rsi_oversold": 38,
+        "rsi_overbought": 70
+      },
+      "sharpe": 0.11907330998258446,
+      "n_trades": 31,
+      "max_dd": -0.023073257608598352,
+      "profit_factor": 1.1897435180976221,
+      "cum_return": 0.009675364467856884
+    },
+    {
+      "params": {
+        "tsi_r": 8,
+        "tsi_s": 3,
+        "tsi_oversold": -12,
+        "tsi_overbought": 25,
+        "rsi_period": 12,
+        "rsi_oversold": 39,
+        "rsi_overbought": 80
+      },
+      "sharpe": 0.11907330998258446,
+      "n_trades": 31,
+      "max_dd": -0.023073257608598352,
+      "profit_factor": 1.1897435180976221,
+      "cum_return": 0.009675364467856884
+    },
+    {
+      "params": {
+        "tsi_r": 5,
+        "tsi_s": 4,
+        "tsi_oversold": -28,
+        "tsi_overbought": 6,
+        "rsi_period": 14,
+        "rsi_oversold": 29,
+        "rsi_overbought": 79
+      },
+      "sharpe": 0.051798136184988484,
+      "n_trades": 18,
+      "max_dd": -0.01824620145342959,
+      "profit_factor": 1.0937649678003953,
+      "cum_return": 0.0020066280249046997
+    },
+    {
+      "params": {
+        "tsi_r": 11,
+        "tsi_s": 7,
+        "tsi_oversold": -30,
+        "tsi_overbought": 23,
+        "rsi_period": 17,
+        "rsi_oversold": 33,
+        "rsi_overbought": 59
+      },
+      "sharpe": 0.02182596491677303,
+      "n_trades": 20,
+      "max_dd": -0.02009552345631893,
+      "profit_factor": 1.0341564882974148,
+      "cum_return": 0.0012946719690622999
+    },
+    {
+      "params": {
+        "tsi_r": 5,
+        "tsi_s": 6,
+        "tsi_oversold": -17,
+        "tsi_overbought": 40,
+        "rsi_period": 13,
+        "rsi_oversold": 29,
+        "rsi_overbought": 76
+      },
+      "sharpe": 0.02182596491677303,
+      "n_trades": 20,
+      "max_dd": -0.02009552345631893,
+      "profit_factor": 1.0341564882974148,
+      "cum_return": 0.0012946719690622999
+    },
+    {
+      "params": {
+        "tsi_r": 5,
+        "tsi_s": 7,
+        "tsi_oversold": -21,
+        "tsi_overbought": 19,
+        "rsi_period": 15,
+        "rsi_oversold": 22,
+        "rsi_overbought": 76
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "tsi_r": 3,
+        "tsi_s": 6,
+        "tsi_oversold": -38,
+        "tsi_overbought": 12,
+        "rsi_period": 15,
+        "rsi_oversold": 16,
+        "rsi_overbought": 63
+      },
+      "sharpe": -0.05532950392659017,
+      "n_trades": 79,
+      "max_dd": -0.04258806956874417,
+      "profit_factor": 0.9672753392262613,
+      "cum_return": -0.0066034166144873785
+    },
+    {
+      "params": {
+        "tsi_r": 3,
+        "tsi_s": 5,
+        "tsi_oversold": -30,
+        "tsi_overbought": 26,
+        "rsi_period": 5,
+        "rsi_oversold": 15,
+        "rsi_overbought": 63
+      },
+      "sharpe": -0.06268144494690467,
+      "n_trades": 122,
+      "max_dd": -0.04309006237262836,
+      "profit_factor": 1.0503108821745537,
+      "cum_return": 0.00886213426062299
+    },
+    {
+      "params": {
+        "tsi_r": 2,
+        "tsi_s": 5,
+        "tsi_oversold": -40,
+        "tsi_overbought": 22,
+        "rsi_period": 18,
+        "rsi_oversold": 43,
+        "rsi_overbought": 57
+      },
+      "sharpe": -0.06268144494690467,
+      "n_trades": 122,
+      "max_dd": -0.04309006237262836,
+      "profit_factor": 1.0503108821745537,
+      "cum_return": 0.00886213426062299
+    },
+    {
+      "params": {
+        "tsi_r": 4,
+        "tsi_s": 8,
+        "tsi_oversold": -29,
+        "tsi_overbought": 17,
+        "rsi_period": 7,
+        "rsi_oversold": 28,
+        "rsi_overbought": 78
+      },
+      "sharpe": -0.1426766085868178,
+      "n_trades": 117,
+      "max_dd": -0.06188031052007481,
+      "profit_factor": 0.9803597180599526,
+      "cum_return": -0.005165460127885213
+    },
+    {
+      "params": {
+        "tsi_r": 10,
+        "tsi_s": 3,
+        "tsi_oversold": -25,
+        "tsi_overbought": 33,
+        "rsi_period": 15,
+        "rsi_oversold": 19,
+        "rsi_overbought": 64
+      },
+      "sharpe": -0.2021771353402821,
+      "n_trades": 103,
+      "max_dd": -0.061116739112573426,
+      "profit_factor": 0.9335199227554685,
+      "cum_return": -0.017106421928986704
+    },
+    {
+      "params": {
+        "tsi_r": 5,
+        "tsi_s": 3,
+        "tsi_oversold": -22,
+        "tsi_overbought": 30,
+        "rsi_period": 10,
+        "rsi_oversold": 25,
+        "rsi_overbought": 77
+      },
+      "sharpe": -0.2123776206465912,
+      "n_trades": 38,
+      "max_dd": -0.0368468607735043,
+      "profit_factor": 0.8184773472722375,
+      "cum_return": -0.01728603746372459
+    },
+    {
+      "params": {
+        "tsi_r": 8,
+        "tsi_s": 2,
+        "tsi_oversold": -8,
+        "tsi_overbought": 39,
+        "rsi_period": 8,
+        "rsi_oversold": 20,
+        "rsi_overbought": 62
+      },
+      "sharpe": -0.2472970505459474,
+      "n_trades": 164,
+      "max_dd": -0.043748638347359314,
+      "profit_factor": 0.9695575484567993,
+      "cum_return": -0.007548591904817492
+    },
+    {
+      "params": {
+        "tsi_r": 10,
+        "tsi_s": 6,
+        "tsi_oversold": -21,
+        "tsi_overbought": 28,
+        "rsi_period": 9,
+        "rsi_oversold": 38,
+        "rsi_overbought": 73
+      },
+      "sharpe": -0.2472970505459474,
+      "n_trades": 164,
+      "max_dd": -0.043748638347359314,
+      "profit_factor": 0.9695575484567993,
+      "cum_return": -0.007548591904817492
+    },
+    {
+      "params": {
+        "tsi_r": 11,
+        "tsi_s": 6,
+        "tsi_oversold": -16,
+        "tsi_overbought": 34,
+        "rsi_period": 11,
+        "rsi_oversold": 41,
+        "rsi_overbought": 67
+      },
+      "sharpe": -0.2592739953574424,
+      "n_trades": 202,
+      "max_dd": -0.08512979471600401,
+      "profit_factor": 0.934052291955206,
+      "cum_return": -0.030684197193032503
+    },
+    {
+      "params": {
+        "tsi_r": 9,
+        "tsi_s": 7,
+        "tsi_oversold": -37,
+        "tsi_overbought": 31,
+        "rsi_period": 12,
+        "rsi_oversold": 32,
+        "rsi_overbought": 72
+      },
+      "sharpe": -0.2592739953574424,
+      "n_trades": 202,
+      "max_dd": -0.08512979471600401,
+      "profit_factor": 0.934052291955206,
+      "cum_return": -0.030684197193032503
+    },
+    {
+      "params": {
+        "tsi_r": 7,
+        "tsi_s": 6,
+        "tsi_oversold": -9,
+        "tsi_overbought": 9,
+        "rsi_period": 6,
+        "rsi_oversold": 18,
+        "rsi_overbought": 72
+      },
+      "sharpe": -0.2592739953574424,
+      "n_trades": 202,
+      "max_dd": -0.08512979471600401,
+      "profit_factor": 0.934052291955206,
+      "cum_return": -0.030684197193032503
+    },
+    {
+      "params": {
+        "tsi_r": 11,
+        "tsi_s": 6,
+        "tsi_oversold": -36,
+        "tsi_overbought": 26,
+        "rsi_period": 15,
+        "rsi_oversold": 35,
+        "rsi_overbought": 61
+      },
+      "sharpe": -0.2592739953574424,
+      "n_trades": 202,
+      "max_dd": -0.08512979471600401,
+      "profit_factor": 0.934052291955206,
+      "cum_return": -0.030684197193032503
+    },
+    {
+      "params": {
+        "tsi_r": 9,
+        "tsi_s": 8,
+        "tsi_oversold": -24,
+        "tsi_overbought": 15,
+        "rsi_period": 9,
+        "rsi_oversold": 16,
+        "rsi_overbought": 56
+      },
+      "sharpe": -0.2814565433101739,
+      "n_trades": 121,
+      "max_dd": -0.05320236392743094,
+      "profit_factor": 0.9125074719056394,
+      "cum_return": -0.0216941649765775
+    },
+    {
+      "params": {
+        "tsi_r": 11,
+        "tsi_s": 3,
+        "tsi_oversold": -14,
+        "tsi_overbought": 27,
+        "rsi_period": 10,
+        "rsi_oversold": 19,
+        "rsi_overbought": 59
+      },
+      "sharpe": -0.2814565433101739,
+      "n_trades": 121,
+      "max_dd": -0.05320236392743094,
+      "profit_factor": 0.9125074719056394,
+      "cum_return": -0.0216941649765775
+    },
+    {
+      "params": {
+        "tsi_r": 3,
+        "tsi_s": 3,
+        "tsi_oversold": -37,
+        "tsi_overbought": 11,
+        "rsi_period": 14,
+        "rsi_oversold": 31,
+        "rsi_overbought": 60
+      },
+      "sharpe": -0.4009189984119684,
+      "n_trades": 139,
+      "max_dd": -0.05613387368158429,
+      "profit_factor": 0.8782478182487087,
+      "cum_return": -0.03206660533977734
+    },
+    {
+      "params": {
+        "tsi_r": 6,
+        "tsi_s": 2,
+        "tsi_oversold": -31,
+        "tsi_overbought": 15,
+        "rsi_period": 17,
+        "rsi_oversold": 26,
+        "rsi_overbought": 57
+      },
+      "sharpe": -0.4059036725481832,
+      "n_trades": 159,
+      "max_dd": -0.08249683710765754,
+      "profit_factor": 0.8689795188738009,
+      "cum_return": -0.04585580442166848
+    },
+    {
+      "params": {
+        "tsi_r": 10,
+        "tsi_s": 8,
+        "tsi_oversold": -15,
+        "tsi_overbought": 31,
+        "rsi_period": 8,
+        "rsi_oversold": 27,
+        "rsi_overbought": 67
+      },
+      "sharpe": -0.4059036725481832,
+      "n_trades": 159,
+      "max_dd": -0.08249683710765754,
+      "profit_factor": 0.8689795188738009,
+      "cum_return": -0.04585580442166848
+    },
+    {
+      "params": {
+        "tsi_r": 7,
+        "tsi_s": 5,
+        "tsi_oversold": -27,
+        "tsi_overbought": 11,
+        "rsi_period": 7,
+        "rsi_oversold": 17,
+        "rsi_overbought": 78
+      },
+      "sharpe": -0.4143040485099761,
+      "n_trades": 31,
+      "max_dd": -0.035987060604097953,
+      "profit_factor": 0.679984491662474,
+      "cum_return": -0.02814715367040621
+    },
+    {
+      "params": {
+        "tsi_r": 8,
+        "tsi_s": 3,
+        "tsi_oversold": -26,
+        "tsi_overbought": 29,
+        "rsi_period": 12,
+        "rsi_oversold": 24,
+        "rsi_overbought": 73
+      },
+      "sharpe": -0.4143040485099761,
+      "n_trades": 31,
+      "max_dd": -0.035987060604097953,
+      "profit_factor": 0.679984491662474,
+      "cum_return": -0.02814715367040621
+    },
+    {
+      "params": {
+        "tsi_r": 4,
+        "tsi_s": 4,
+        "tsi_oversold": -18,
+        "tsi_overbought": 7,
+        "rsi_period": 12,
+        "rsi_oversold": 44,
+        "rsi_overbought": 66
+      },
+      "sharpe": -0.4979891657755306,
+      "n_trades": 161,
+      "max_dd": -0.07945998172523328,
+      "profit_factor": 0.8288428434923004,
+      "cum_return": -0.04804095535140329
+    },
+    {
+      "params": {
+        "tsi_r": 7,
+        "tsi_s": 7,
+        "tsi_oversold": -32,
+        "tsi_overbought": 37,
+        "rsi_period": 4,
+        "rsi_oversold": 41,
+        "rsi_overbought": 57
+      },
+      "sharpe": -0.5478353272271025,
+      "n_trades": 69,
+      "max_dd": -0.05955590883422157,
+      "profit_factor": 0.6726397635688738,
+      "cum_return": -0.051116395731065856
+    },
+    {
+      "params": {
+        "tsi_r": 8,
+        "tsi_s": 5,
+        "tsi_oversold": -36,
+        "tsi_overbought": 17,
+        "rsi_period": 6,
+        "rsi_oversold": 45,
+        "rsi_overbought": 66
+      },
+      "sharpe": -0.5478353272271025,
+      "n_trades": 69,
+      "max_dd": -0.05955590883422157,
+      "profit_factor": 0.6726397635688738,
+      "cum_return": -0.051116395731065856
+    },
+    {
+      "params": {
+        "tsi_r": 4,
+        "tsi_s": 7,
+        "tsi_oversold": -11,
+        "tsi_overbought": 32,
+        "rsi_period": 5,
+        "rsi_oversold": 27,
+        "rsi_overbought": 64
+      },
+      "sharpe": -0.5478353272271025,
+      "n_trades": 69,
+      "max_dd": -0.05955590883422157,
+      "profit_factor": 0.6726397635688738,
+      "cum_return": -0.051116395731065856
+    },
+    {
+      "params": {
+        "tsi_r": 7,
+        "tsi_s": 5,
+        "tsi_oversold": -32,
+        "tsi_overbought": 10,
+        "rsi_period": 8,
+        "rsi_oversold": 22,
+        "rsi_overbought": 70
+      },
+      "sharpe": -0.5478353272271025,
+      "n_trades": 69,
+      "max_dd": -0.05955590883422157,
+      "profit_factor": 0.6726397635688738,
+      "cum_return": -0.051116395731065856
+    },
+    {
+      "params": {
+        "tsi_r": 5,
+        "tsi_s": 4,
+        "tsi_oversold": -15,
+        "tsi_overbought": 38,
+        "rsi_period": 13,
+        "rsi_oversold": 34,
+        "rsi_overbought": 55
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 4,
+        "tsi_s": 6,
+        "tsi_oversold": -9,
+        "tsi_overbought": 21,
+        "rsi_period": 7,
+        "rsi_oversold": 33,
+        "rsi_overbought": 73
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 11,
+        "tsi_s": 7,
+        "tsi_oversold": -14,
+        "tsi_overbought": 36,
+        "rsi_period": 16,
+        "rsi_oversold": 44,
+        "rsi_overbought": 71
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 3,
+        "tsi_s": 8,
+        "tsi_oversold": -26,
+        "tsi_overbought": 17,
+        "rsi_period": 13,
+        "rsi_oversold": 39,
+        "rsi_overbought": 74
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 9,
+        "tsi_s": 4,
+        "tsi_oversold": -10,
+        "tsi_overbought": 29,
+        "rsi_period": 6,
+        "rsi_oversold": 43,
+        "rsi_overbought": 71
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 11,
+        "tsi_s": 3,
+        "tsi_oversold": -39,
+        "tsi_overbought": 25,
+        "rsi_period": 13,
+        "rsi_oversold": 42,
+        "rsi_overbought": 71
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 12,
+        "tsi_s": 5,
+        "tsi_oversold": -25,
+        "tsi_overbought": 36,
+        "rsi_period": 7,
+        "rsi_oversold": 35,
+        "rsi_overbought": 62
+      },
+      "sharpe": -0.6605462283333235,
+      "n_trades": 151,
+      "max_dd": -0.08184056033254328,
+      "profit_factor": 0.7867922685697525,
+      "cum_return": -0.05229628502566974
+    },
+    {
+      "params": {
+        "tsi_r": 8,
+        "tsi_s": 7,
+        "tsi_oversold": -27,
+        "tsi_overbought": 7,
+        "rsi_period": 18,
+        "rsi_oversold": 30,
+        "rsi_overbought": 61
+      },
+      "sharpe": -0.721942854630565,
+      "n_trades": 71,
+      "max_dd": -0.08355834762230174,
+      "profit_factor": 0.5870277210384789,
+      "cum_return": -0.06850172533102727
+    },
+    {
+      "params": {
+        "tsi_r": 6,
+        "tsi_s": 5,
+        "tsi_oversold": -8,
+        "tsi_overbought": 30,
+        "rsi_period": 16,
+        "rsi_oversold": 23,
+        "rsi_overbought": 60
+      },
+      "sharpe": -0.8408099499672395,
+      "n_trades": 23,
+      "max_dd": -0.05073618390465806,
+      "profit_factor": 0.34514261186028,
+      "cum_return": -0.04033913230478514
+    },
+    {
+      "params": {
+        "tsi_r": 9,
+        "tsi_s": 7,
+        "tsi_oversold": -6,
+        "tsi_overbought": 6,
+        "rsi_period": 14,
+        "rsi_oversold": 26,
+        "rsi_overbought": 63
+      },
+      "sharpe": -0.8408099499672395,
+      "n_trades": 23,
+      "max_dd": -0.05073618390465806,
+      "profit_factor": 0.34514261186028,
+      "cum_return": -0.04033913230478514
+    },
+    {
+      "params": {
+        "tsi_r": 6,
+        "tsi_s": 2,
+        "tsi_oversold": -13,
+        "tsi_overbought": 19,
+        "rsi_period": 17,
+        "rsi_oversold": 36,
+        "rsi_overbought": 62
+      },
+      "sharpe": -0.8644450526343943,
+      "n_trades": 205,
+      "max_dd": -0.09844924503290631,
+      "profit_factor": 0.7289805511728182,
+      "cum_return": -0.07508367799951443
+    },
+    {
+      "params": {
+        "tsi_r": 6,
+        "tsi_s": 4,
+        "tsi_oversold": -35,
+        "tsi_overbought": 38,
+        "rsi_period": 5,
+        "rsi_oversold": 20,
+        "rsi_overbought": 77
+      },
+      "sharpe": -0.8644450526343943,
+      "n_trades": 205,
+      "max_dd": -0.09844924503290631,
+      "profit_factor": 0.7289805511728182,
+      "cum_return": -0.07508367799951443
+    },
+    {
+      "params": {
+        "tsi_r": 6,
+        "tsi_s": 7,
+        "tsi_oversold": -34,
+        "tsi_overbought": 13,
+        "rsi_period": 11,
+        "rsi_oversold": 21,
+        "rsi_overbought": 70
+      },
+      "sharpe": -1.013764420953669,
+      "n_trades": 49,
+      "max_dd": -0.08297854450946629,
+      "profit_factor": 0.3737396224047832,
+      "cum_return": -0.07736451166823677
+    },
+    {
+      "params": {
+        "tsi_r": 10,
+        "tsi_s": 4,
+        "tsi_oversold": -7,
+        "tsi_overbought": 21,
+        "rsi_period": 6,
+        "rsi_oversold": 25,
+        "rsi_overbought": 76
+      },
+      "sharpe": -1.1258859711244513,
+      "n_trades": 33,
+      "max_dd": -0.08493376106359674,
+      "profit_factor": 0.2464107939549266,
+      "cum_return": -0.0712813117240898
+    },
+    {
+      "params": {
+        "tsi_r": 6,
+        "tsi_s": 3,
+        "tsi_oversold": -23,
+        "tsi_overbought": 10,
+        "rsi_period": 10,
+        "rsi_oversold": 21,
+        "rsi_overbought": 56
+      },
+      "sharpe": -1.1258859711244513,
+      "n_trades": 33,
+      "max_dd": -0.08493376106359674,
+      "profit_factor": 0.2464107939549266,
+      "cum_return": -0.0712813117240898
+    },
+    {
+      "params": {
+        "tsi_r": 9,
+        "tsi_s": 3,
+        "tsi_oversold": -17,
+        "tsi_overbought": 5,
+        "rsi_period": 10,
+        "rsi_oversold": 23,
+        "rsi_overbought": 69
+      },
+      "sharpe": -1.1258859711244513,
+      "n_trades": 33,
+      "max_dd": -0.08493376106359674,
+      "profit_factor": 0.2464107939549266,
+      "cum_return": -0.0712813117240898
+    }
+  ],
+  "HypothesisH110BollingerKyleGate": [
+    {
+      "params": {
+        "bb_period": 26,
+        "bb_std": 3.2569,
+        "bw_percentile": 35,
+        "lam_thresh": 0.5318,
+        "lookback": 28
+      },
+      "sharpe": 0.430809356420204,
+      "n_trades": 21,
+      "max_dd": -0.017902994983221898,
+      "profit_factor": 2.061564435088446,
+      "cum_return": 0.02894879932605754
+    },
+    {
+      "params": {
+        "bb_period": 31,
+        "bb_std": 2.7572,
+        "bw_percentile": 68,
+        "lam_thresh": 0.432,
+        "lookback": 42
+      },
+      "sharpe": 0.38430982774685146,
+      "n_trades": 75,
+      "max_dd": -0.029987294932198982,
+      "profit_factor": 1.3770920159221811,
+      "cum_return": 0.04762938310870424
+    },
+    {
+      "params": {
+        "bb_period": 26,
+        "bb_std": 1.8623,
+        "bw_percentile": 37,
+        "lam_thresh": 0.3642,
+        "lookback": 56
+      },
+      "sharpe": 0.2947305816663133,
+      "n_trades": 2,
+      "max_dd": -0.000711900711492075,
+      "profit_factor": 100.939296152449,
+      "cum_return": 0.0011203192477904356
+    },
+    {
+      "params": {
+        "bb_period": 16,
+        "bb_std": 1.617,
+        "bw_percentile": 51,
+        "lam_thresh": 0.4572,
+        "lookback": 32
+      },
+      "sharpe": 0.2947305816663133,
+      "n_trades": 2,
+      "max_dd": -0.000711900711492075,
+      "profit_factor": 100.939296152449,
+      "cum_return": 0.0011203192477904356
+    },
+    {
+      "params": {
+        "bb_period": 21,
+        "bb_std": 3.4844,
+        "bw_percentile": 67,
+        "lam_thresh": 0.8881,
+        "lookback": 17
+      },
+      "sharpe": 0.2947305816663133,
+      "n_trades": 2,
+      "max_dd": -0.000711900711492075,
+      "profit_factor": 100.939296152449,
+      "cum_return": 0.0011203192477904356
+    },
+    {
+      "params": {
+        "bb_period": 39,
+        "bb_std": 2.0875,
+        "bw_percentile": 62,
+        "lam_thresh": 0.623,
+        "lookback": 37
+      },
+      "sharpe": 0.1854218029537321,
+      "n_trades": 126,
+      "max_dd": -0.04338388301233531,
+      "profit_factor": 1.1056577405216041,
+      "cum_return": 0.025439129188557397
+    },
+    {
+      "params": {
+        "bb_period": 33,
+        "bb_std": 2.2253,
+        "bw_percentile": 49,
+        "lam_thresh": 0.7036,
+        "lookback": 22
+      },
+      "sharpe": 0.1854218029537321,
+      "n_trades": 126,
+      "max_dd": -0.04338388301233531,
+      "profit_factor": 1.1056577405216041,
+      "cum_return": 0.025439129188557397
+    },
+    {
+      "params": {
+        "bb_period": 31,
+        "bb_std": 2.6009,
+        "bw_percentile": 46,
+        "lam_thresh": 0.5017,
+        "lookback": 25
+      },
+      "sharpe": 0.1854218029537321,
+      "n_trades": 126,
+      "max_dd": -0.04338388301233531,
+      "profit_factor": 1.1056577405216041,
+      "cum_return": 0.025439129188557397
+    },
+    {
+      "params": {
+        "bb_period": 37,
+        "bb_std": 2.694,
+        "bw_percentile": 40,
+        "lam_thresh": 0.5704,
+        "lookback": 51
+      },
+      "sharpe": 0.11651942665916096,
+      "n_trades": 61,
+      "max_dd": -0.030499507754529476,
+      "profit_factor": 1.0985431453194243,
+      "cum_return": 0.011960173553332343
+    },
+    {
+      "params": {
+        "bb_period": 33,
+        "bb_std": 2.9266,
+        "bw_percentile": 53,
+        "lam_thresh": 0.6366,
+        "lookback": 29
+      },
+      "sharpe": 0.11540956579413143,
+      "n_trades": 45,
+      "max_dd": -0.031791342983278126,
+      "profit_factor": 1.1604662718772518,
+      "cum_return": 0.011384284372000453
+    },
+    {
+      "params": {
+        "bb_period": 39,
+        "bb_std": 2.7894,
+        "bw_percentile": 38,
+        "lam_thresh": 0.6915,
+        "lookback": 38
+      },
+      "sharpe": 0.08019599481166256,
+      "n_trades": 43,
+      "max_dd": -0.0386322928239613,
+      "profit_factor": 1.1051083659988388,
+      "cum_return": 0.008559653670850764
+    },
+    {
+      "params": {
+        "bb_period": 34,
+        "bb_std": 2.2747,
+        "bw_percentile": 84,
+        "lam_thresh": 0.8016,
+        "lookback": 21
+      },
+      "sharpe": 0.05789131395557923,
+      "n_trades": 72,
+      "max_dd": -0.037192798965385965,
+      "profit_factor": 1.0776087008615114,
+      "cum_return": 0.008547468843454809
+    },
+    {
+      "params": {
+        "bb_period": 37,
+        "bb_std": 1.9522,
+        "bw_percentile": 45,
+        "lam_thresh": 0.6796,
+        "lookback": 45
+      },
+      "sharpe": 0.04292605445970804,
+      "n_trades": 130,
+      "max_dd": -0.03319339162753654,
+      "profit_factor": 1.0364925698390461,
+      "cum_return": 0.007060338881168526
+    },
+    {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.4036,
+        "bw_percentile": 60,
+        "lam_thresh": 0.7213,
+        "lookback": 20
+      },
+      "sharpe": 0.04292605445970804,
+      "n_trades": 130,
+      "max_dd": -0.03319339162753654,
+      "profit_factor": 1.0364925698390461,
+      "cum_return": 0.007060338881168526
+    },
+    {
+      "params": {
+        "bb_period": 36,
+        "bb_std": 2.4546,
+        "bw_percentile": 57,
+        "lam_thresh": 0.8286,
+        "lookback": 16
+      },
+      "sharpe": -0.019374381525278404,
+      "n_trades": 88,
+      "max_dd": -0.05443067660677314,
+      "profit_factor": 1.0055413928574068,
+      "cum_return": -1.4910869294504359e-05
+    },
+    {
+      "params": {
+        "bb_period": 11,
+        "bb_std": 1.7028,
+        "bw_percentile": 75,
+        "lam_thresh": 0.7946,
+        "lookback": 47
+      },
+      "sharpe": -0.06019064858918129,
+      "n_trades": 127,
+      "max_dd": -0.06502974929427019,
+      "profit_factor": 0.9810249549859626,
+      "cum_return": -0.006604255385495472
+    },
+    {
+      "params": {
+        "bb_period": 35,
+        "bb_std": 2.0057,
+        "bw_percentile": 31,
+        "lam_thresh": 0.8963,
+        "lookback": 15
+      },
+      "sharpe": -0.06019064858918129,
+      "n_trades": 127,
+      "max_dd": -0.06502974929427019,
+      "profit_factor": 0.9810249549859626,
+      "cum_return": -0.006604255385495472
+    },
+    {
+      "params": {
+        "bb_period": 27,
+        "bb_std": 1.817,
+        "bw_percentile": 41,
+        "lam_thresh": 0.7767,
+        "lookback": 57
+      },
+      "sharpe": -0.06038048955081641,
+      "n_trades": 178,
+      "max_dd": -0.08646019509554703,
+      "profit_factor": 0.9863132105597001,
+      "cum_return": -0.00741176614785366
+    },
+    {
+      "params": {
+        "bb_period": 22,
+        "bb_std": 2.5394,
+        "bw_percentile": 43,
+        "lam_thresh": 0.2459,
+        "lookback": 59
+      },
+      "sharpe": -0.06569807068390855,
+      "n_trades": 128,
+      "max_dd": -0.07803126670415073,
+      "profit_factor": 0.9982187892398148,
+      "cum_return": -0.0021907338639864937
+    },
+    {
+      "params": {
+        "bb_period": 32,
+        "bb_std": 3.0854,
+        "bw_percentile": 73,
+        "lam_thresh": 0.2852,
+        "lookback": 30
+      },
+      "sharpe": -0.07113307541680579,
+      "n_trades": 43,
+      "max_dd": -0.02240978054011078,
+      "profit_factor": 1.0272722448916485,
+      "cum_return": 0.0012829290616118705
+    },
+    {
+      "params": {
+        "bb_period": 23,
+        "bb_std": 2.3649,
+        "bw_percentile": 81,
+        "lam_thresh": 0.5955,
+        "lookback": 34
+      },
+      "sharpe": -0.17852761705421638,
+      "n_trades": 123,
+      "max_dd": -0.05318720216042827,
+      "profit_factor": 0.9243229036174562,
+      "cum_return": -0.017827299109398398
+    },
+    {
+      "params": {
+        "bb_period": 28,
+        "bb_std": 3.448,
+        "bw_percentile": 72,
+        "lam_thresh": 0.4913,
+        "lookback": 60
+      },
+      "sharpe": -0.21417538181033252,
+      "n_trades": 16,
+      "max_dd": -0.03654412206718227,
+      "profit_factor": 0.7010309091866962,
+      "cum_return": -0.01098176305623988
+    },
+    {
+      "params": {
+        "bb_period": 40,
+        "bb_std": 1.751,
+        "bw_percentile": 59,
+        "lam_thresh": 0.3777,
+        "lookback": 26
+      },
+      "sharpe": -0.28750515832975754,
+      "n_trades": 68,
+      "max_dd": -0.04319773352673051,
+      "profit_factor": 0.7897967372404802,
+      "cum_return": -0.03092719851992598
+    },
+    {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 1.6864,
+        "bw_percentile": 56,
+        "lam_thresh": 0.2089,
+        "lookback": 37
+      },
+      "sharpe": -0.28750515832975754,
+      "n_trades": 68,
+      "max_dd": -0.04319773352673051,
+      "profit_factor": 0.7897967372404802,
+      "cum_return": -0.03092719851992598
+    },
+    {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.8768,
+        "bw_percentile": 77,
+        "lam_thresh": 0.3939,
+        "lookback": 52
+      },
+      "sharpe": -0.28750515832975754,
+      "n_trades": 68,
+      "max_dd": -0.04319773352673051,
+      "profit_factor": 0.7897967372404802,
+      "cum_return": -0.03092719851992598
+    },
+    {
+      "params": {
+        "bb_period": 17,
+        "bb_std": 3.0215,
+        "bw_percentile": 76,
+        "lam_thresh": 0.8312,
+        "lookback": 32
+      },
+      "sharpe": -0.3043712472926355,
+      "n_trades": 55,
+      "max_dd": -0.029138325395805964,
+      "profit_factor": 0.792353464777196,
+      "cum_return": -0.019436917988965963
+    },
+    {
+      "params": {
+        "bb_period": 25,
+        "bb_std": 2.6623,
+        "bw_percentile": 41,
+        "lam_thresh": 0.8157,
+        "lookback": 33
+      },
+      "sharpe": -0.3043712472926355,
+      "n_trades": 55,
+      "max_dd": -0.029138325395805964,
+      "profit_factor": 0.792353464777196,
+      "cum_return": -0.019436917988965963
+    },
+    {
+      "params": {
+        "bb_period": 25,
+        "bb_std": 2.8664,
+        "bw_percentile": 48,
+        "lam_thresh": 0.5539,
+        "lookback": 22
+      },
+      "sharpe": -0.3043712472926355,
+      "n_trades": 55,
+      "max_dd": -0.029138325395805964,
+      "profit_factor": 0.792353464777196,
+      "cum_return": -0.019436917988965963
+    },
+    {
+      "params": {
+        "bb_period": 38,
+        "bb_std": 2.2401,
+        "bw_percentile": 84,
+        "lam_thresh": 0.7538,
+        "lookback": 30
+      },
+      "sharpe": -0.3119618861176838,
+      "n_trades": 21,
+      "max_dd": -0.03543303802853959,
+      "profit_factor": 0.6085763062867674,
+      "cum_return": -0.01809000203680977
+    },
+    {
+      "params": {
+        "bb_period": 30,
+        "bb_std": 1.5799,
+        "bw_percentile": 31,
+        "lam_thresh": 0.7323,
+        "lookback": 23
+      },
+      "sharpe": -0.3119618861176838,
+      "n_trades": 21,
+      "max_dd": -0.03543303802853959,
+      "profit_factor": 0.6085763062867674,
+      "cum_return": -0.01809000203680977
+    },
+    {
+      "params": {
+        "bb_period": 32,
+        "bb_std": 3.4044,
+        "bw_percentile": 83,
+        "lam_thresh": 0.6171,
+        "lookback": 58
+      },
+      "sharpe": -0.3119618861176838,
+      "n_trades": 21,
+      "max_dd": -0.03543303802853959,
+      "profit_factor": 0.6085763062867674,
+      "cum_return": -0.01809000203680977
+    },
+    {
+      "params": {
+        "bb_period": 13,
+        "bb_std": 2.5184,
+        "bw_percentile": 61,
+        "lam_thresh": 0.8755,
+        "lookback": 19
+      },
+      "sharpe": -0.36414823226057164,
+      "n_trades": 83,
+      "max_dd": -0.06821799728951139,
+      "profit_factor": 0.7928359438765997,
+      "cum_return": -0.04103311713221347
+    },
+    {
+      "params": {
+        "bb_period": 19,
+        "bb_std": 3.2162,
+        "bw_percentile": 63,
+        "lam_thresh": 0.3174,
+        "lookback": 55
+      },
+      "sharpe": -0.3806851644270894,
+      "n_trades": 47,
+      "max_dd": -0.0474305873464238,
+      "profit_factor": 0.7092075057317894,
+      "cum_return": -0.03323318786897189
+    },
+    {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 3.18,
+        "bw_percentile": 78,
+        "lam_thresh": 0.3494,
+        "lookback": 18
+      },
+      "sharpe": -0.4033716289717851,
+      "n_trades": 46,
+      "max_dd": -0.07347740327470142,
+      "profit_factor": 0.703632503385976,
+      "cum_return": -0.03965579759995386
+    },
+    {
+      "params": {
+        "bb_period": 36,
+        "bb_std": 1.545,
+        "bw_percentile": 55,
+        "lam_thresh": 0.5801,
+        "lookback": 57
+      },
+      "sharpe": -0.41649130881064433,
+      "n_trades": 29,
+      "max_dd": -0.038597112740085704,
+      "profit_factor": 0.6736169684726664,
+      "cum_return": -0.024682293900368135
+    },
+    {
+      "params": {
+        "bb_period": 29,
+        "bb_std": 1.9014,
+        "bw_percentile": 71,
+        "lam_thresh": 0.5409,
+        "lookback": 52
+      },
+      "sharpe": -0.41649130881064433,
+      "n_trades": 29,
+      "max_dd": -0.038597112740085704,
+      "profit_factor": 0.6736169684726664,
+      "cum_return": -0.024682293900368135
+    },
+    {
+      "params": {
+        "bb_period": 24,
+        "bb_std": 1.7889,
+        "bw_percentile": 64,
+        "lam_thresh": 0.2299,
+        "lookback": 53
+      },
+      "sharpe": -0.41649130881064433,
+      "n_trades": 29,
+      "max_dd": -0.038597112740085704,
+      "profit_factor": 0.6736169684726664,
+      "cum_return": -0.024682293900368135
+    },
+    {
+      "params": {
+        "bb_period": 18,
+        "bb_std": 3.2701,
+        "bw_percentile": 81,
+        "lam_thresh": 0.4152,
+        "lookback": 44
+      },
+      "sharpe": -0.41649130881064433,
+      "n_trades": 29,
+      "max_dd": -0.038597112740085704,
+      "profit_factor": 0.6736169684726664,
+      "cum_return": -0.024682293900368135
+    },
+    {
+      "params": {
+        "bb_period": 29,
+        "bb_std": 2.065,
+        "bw_percentile": 73,
+        "lam_thresh": 0.8589,
+        "lookback": 40
+      },
+      "sharpe": -0.45759873412313756,
+      "n_trades": 97,
+      "max_dd": -0.0689652785021666,
+      "profit_factor": 0.7782696931214103,
+      "cum_return": -0.057888672242748185
+    },
+    {
+      "params": {
+        "bb_period": 30,
+        "bb_std": 1.9692,
+        "bw_percentile": 44,
+        "lam_thresh": 0.336,
+        "lookback": 45
+      },
+      "sharpe": -0.49245936086693715,
+      "n_trades": 92,
+      "max_dd": -0.054546037002693226,
+      "profit_factor": 0.760268935764661,
+      "cum_return": -0.047368752991356566
+    },
+    {
+      "params": {
+        "bb_period": 27,
+        "bb_std": 3.3527,
+        "bw_percentile": 33,
+        "lam_thresh": 0.2164,
+        "lookback": 42
+      },
+      "sharpe": -0.49404997238993337,
+      "n_trades": 56,
+      "max_dd": -0.06747577893367007,
+      "profit_factor": 0.6691666892849858,
+      "cum_return": -0.040784952988141554
+    },
+    {
+      "params": {
+        "bb_period": 23,
+        "bb_std": 3.3725,
+        "bw_percentile": 80,
+        "lam_thresh": 0.455,
+        "lookback": 48
+      },
+      "sharpe": -0.4958306211518685,
+      "n_trades": 13,
+      "max_dd": -0.03598508939430012,
+      "profit_factor": 0.5386775650490788,
+      "cum_return": -0.01867083894238908
+    },
+    {
+      "params": {
+        "bb_period": 22,
+        "bb_std": 1.5007,
+        "bw_percentile": 79,
+        "lam_thresh": 0.8442,
+        "lookback": 36
+      },
+      "sharpe": -0.498547423113385,
+      "n_trades": 150,
+      "max_dd": -0.058961596384226045,
+      "profit_factor": 0.8795580774584504,
+      "cum_return": -0.01990276987416084
+    },
+    {
+      "params": {
+        "bb_period": 24,
+        "bb_std": 3.1557,
+        "bw_percentile": 47,
+        "lam_thresh": 0.3038,
+        "lookback": 25
+      },
+      "sharpe": -0.518749488710297,
+      "n_trades": 54,
+      "max_dd": -0.05802732571176472,
+      "profit_factor": 0.6459546220683802,
+      "cum_return": -0.046903566168888355
+    },
+    {
+      "params": {
+        "bb_period": 35,
+        "bb_std": 2.1847,
+        "bw_percentile": 36,
+        "lam_thresh": 0.315,
+        "lookback": 31
+      },
+      "sharpe": -0.5235080153940751,
+      "n_trades": 75,
+      "max_dd": -0.06777380781924813,
+      "profit_factor": 0.6840448910162492,
+      "cum_return": -0.057002369642667805
+    },
+    {
+      "params": {
+        "bb_period": 16,
+        "bb_std": 2.8093,
+        "bw_percentile": 66,
+        "lam_thresh": 0.6765,
+        "lookback": 43
+      },
+      "sharpe": -0.5235080153940751,
+      "n_trades": 75,
+      "max_dd": -0.06777380781924813,
+      "profit_factor": 0.6840448910162492,
+      "cum_return": -0.057002369642667805
+    },
+    {
+      "params": {
+        "bb_period": 28,
+        "bb_std": 3.3275,
+        "bw_percentile": 35,
+        "lam_thresh": 0.4381,
+        "lookback": 50
+      },
+      "sharpe": -0.6584621119171677,
+      "n_trades": 27,
+      "max_dd": -0.041142857611978445,
+      "profit_factor": 0.4475116818158047,
+      "cum_return": -0.03610420642045331
+    },
+    {
+      "params": {
+        "bb_period": 12,
+        "bb_std": 2.4767,
+        "bw_percentile": 66,
+        "lam_thresh": 0.247,
+        "lookback": 54
+      },
+      "sharpe": -0.6704165005914448,
+      "n_trades": 139,
+      "max_dd": -0.1267702476839161,
+      "profit_factor": 0.7029064834710872,
+      "cum_return": -0.10657466508480762
+    },
+    {
+      "params": {
+        "bb_period": 11,
+        "bb_std": 3.124,
+        "bw_percentile": 39,
+        "lam_thresh": 0.6582,
+        "lookback": 53
+      },
+      "sharpe": -0.6704531714245691,
+      "n_trades": 81,
+      "max_dd": -0.10114294120515122,
+      "profit_factor": 0.6547006906055961,
+      "cum_return": -0.07179517217178222
+    },
+    {
+      "params": {
+        "bb_period": 19,
+        "bb_std": 2.9658,
+        "bw_percentile": 50,
+        "lam_thresh": 0.2743,
+        "lookback": 27
+      },
+      "sharpe": -0.722092827124921,
+      "n_trades": 113,
+      "max_dd": -0.13110301099775956,
+      "profit_factor": 0.6497398243294684,
+      "cum_return": -0.10636540975795461
+    },
+    {
+      "params": {
+        "bb_period": 14,
+        "bb_std": 2.9865,
+        "bw_percentile": 63,
+        "lam_thresh": 0.7464,
+        "lookback": 46
+      },
+      "sharpe": -0.8009437518280107,
+      "n_trades": 45,
+      "max_dd": -0.07206300987618741,
+      "profit_factor": 0.43825619443025393,
+      "cum_return": -0.06667396209708643
+    },
+    {
+      "params": {
+        "bb_period": 13,
+        "bb_std": 2.1623,
+        "bw_percentile": 75,
+        "lam_thresh": 0.6536,
+        "lookback": 18
+      },
+      "sharpe": -0.9117604514164044,
+      "n_trades": 156,
+      "max_dd": -0.1238382389298548,
+      "profit_factor": 0.6635596281260111,
+      "cum_return": -0.12209594540809465
+    },
+    {
+      "params": {
+        "bb_period": 17,
+        "bb_std": 2.5806,
+        "bw_percentile": 69,
+        "lam_thresh": 0.354,
+        "lookback": 47
+      },
+      "sharpe": -0.9117604514164044,
+      "n_trades": 156,
+      "max_dd": -0.1238382389298548,
+      "profit_factor": 0.6635596281260111,
+      "cum_return": -0.12209594540809465
+    },
+    {
+      "params": {
+        "bb_period": 10,
+        "bb_std": 1.6413,
+        "bw_percentile": 70,
+        "lam_thresh": 0.4785,
+        "lookback": 35
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    },
+    {
+      "params": {
+        "bb_period": 21,
+        "bb_std": 3.0358,
+        "bw_percentile": 32,
+        "lam_thresh": 0.5987,
+        "lookback": 49
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    },
+    {
+      "params": {
+        "bb_period": 14,
+        "bb_std": 2.3815,
+        "bw_percentile": 54,
+        "lam_thresh": 0.5053,
+        "lookback": 24
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    },
+    {
+      "params": {
+        "bb_period": 12,
+        "bb_std": 2.3178,
+        "bw_percentile": 51,
+        "lam_thresh": 0.7699,
+        "lookback": 39
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    },
+    {
+      "params": {
+        "bb_period": 38,
+        "bb_std": 2.7011,
+        "bw_percentile": 58,
+        "lam_thresh": 0.4057,
+        "lookback": 27
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    },
+    {
+      "params": {
+        "bb_period": 34,
+        "bb_std": 2.1056,
+        "bw_percentile": 43,
+        "lam_thresh": 0.2664,
+        "lookback": 38
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    },
+    {
+      "params": {
+        "bb_period": 18,
+        "bb_std": 1.8871,
+        "bw_percentile": 55,
+        "lam_thresh": 0.5187,
+        "lookback": 41
+      },
+      "sharpe": -1.238097888622718,
+      "n_trades": 151,
+      "max_dd": -0.1732867473621338,
+      "profit_factor": 0.5262262864721224,
+      "cum_return": -0.1704229996111707
+    }
+  ],
+  "HypothesisH203VolExpansionEntry": [
+    {
+      "params": {
+        "ofi_window": 3
+      },
+      "sharpe": 0.5453102467507219,
+      "n_trades": 116,
+      "max_dd": -0.02218552710257815,
+      "profit_factor": 1.5789982950887012,
+      "cum_return": 0.101777011556762
+    },
+    {
+      "params": {
+        "ofi_window": 3
+      },
+      "sharpe": 0.5453102467507219,
+      "n_trades": 116,
+      "max_dd": -0.02218552710257815,
+      "profit_factor": 1.5789982950887012,
+      "cum_return": 0.101777011556762
+    },
+    {
+      "params": {
+        "ofi_window": 3
+      },
+      "sharpe": 0.5453102467507219,
+      "n_trades": 116,
+      "max_dd": -0.02218552710257815,
+      "profit_factor": 1.5789982950887012,
+      "cum_return": 0.101777011556762
+    },
+    {
+      "params": {
+        "ofi_window": 3
+      },
+      "sharpe": 0.5453102467507219,
+      "n_trades": 116,
+      "max_dd": -0.02218552710257815,
+      "profit_factor": 1.5789982950887012,
+      "cum_return": 0.101777011556762
+    },
+    {
+      "params": {
+        "ofi_window": 8
+      },
+      "sharpe": 0.2687094920346007,
+      "n_trades": 91,
+      "max_dd": -0.05604809899721963,
+      "profit_factor": 1.2767478406632928,
+      "cum_return": 0.052617704443587154
+    },
+    {
+      "params": {
+        "ofi_window": 2
+      },
+      "sharpe": 0.2687094920346007,
+      "n_trades": 91,
+      "max_dd": -0.05604809899721963,
+      "profit_factor": 1.2767478406632928,
+      "cum_return": 0.052617704443587154
+    },
+    {
+      "params": {
+        "ofi_window": 2
+      },
+      "sharpe": 0.2687094920346007,
+      "n_trades": 91,
+      "max_dd": -0.05604809899721963,
+      "profit_factor": 1.2767478406632928,
+      "cum_return": 0.052617704443587154
+    },
+    {
+      "params": {
+        "ofi_window": 8
+      },
+      "sharpe": 0.130789222112119,
+      "n_trades": 132,
+      "max_dd": -0.06625481141744682,
+      "profit_factor": 1.1722154158472888,
+      "cum_return": 0.034805176260599424
+    },
+    {
+      "params": {
+        "ofi_window": 8
+      },
+      "sharpe": 0.130789222112119,
+      "n_trades": 132,
+      "max_dd": -0.06625481141744682,
+      "profit_factor": 1.1722154158472888,
+      "cum_return": 0.034805176260599424
+    },
+    {
+      "params": {
+        "ofi_window": 4
+      },
+      "sharpe": -0.014259878909105688,
+      "n_trades": 124,
+      "max_dd": -0.08034739794372825,
+      "profit_factor": 1.0234112940361257,
+      "cum_return": 0.004472317302752327
+    },
+    {
+      "params": {
+        "ofi_window": 12
+      },
+      "sharpe": -0.03453092505623006,
+      "n_trades": 148,
+      "max_dd": -0.07475410228945112,
+      "profit_factor": 1.0667933276001524,
+      "cum_return": 0.01494969175033889
+    },
+    {
+      "params": {
+        "ofi_window": 12
+      },
+      "sharpe": -0.03453092505623006,
+      "n_trades": 148,
+      "max_dd": -0.07475410228945112,
+      "profit_factor": 1.0667933276001524,
+      "cum_return": 0.01494969175033889
+    },
+    {
+      "params": {
+        "ofi_window": 9
+      },
+      "sharpe": -0.038655053702231656,
+      "n_trades": 101,
+      "max_dd": -0.07566991040800708,
+      "profit_factor": 1.0242081739758058,
+      "cum_return": 0.0032601942613972312
+    },
+    {
+      "params": {
+        "ofi_window": 9
+      },
+      "sharpe": -0.038655053702231656,
+      "n_trades": 101,
+      "max_dd": -0.07566991040800708,
+      "profit_factor": 1.0242081739758058,
+      "cum_return": 0.0032601942613972312
+    },
+    {
+      "params": {
+        "ofi_window": 5
+      },
+      "sharpe": -0.15318742359991422,
+      "n_trades": 124,
+      "max_dd": -0.07248235612000198,
+      "profit_factor": 0.9560675094327638,
+      "cum_return": -0.013841712862613487
+    },
+    {
+      "params": {
+        "ofi_window": 11
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 11
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 7
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 11
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 5
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 11
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 11
+      },
+      "sharpe": -0.28097303139434543,
+      "n_trades": 79,
+      "max_dd": -0.045725388756303276,
+      "profit_factor": 0.8235204073907163,
+      "cum_return": -0.03517656851203177
+    },
+    {
+      "params": {
+        "ofi_window": 10
+      },
+      "sharpe": -0.2866545662790281,
+      "n_trades": 177,
+      "max_dd": -0.0891435737859888,
+      "profit_factor": 0.899101860095257,
+      "cum_return": -0.04436332101315488
+    },
+    {
+      "params": {
+        "ofi_window": 10
+      },
+      "sharpe": -0.2866545662790281,
+      "n_trades": 177,
+      "max_dd": -0.0891435737859888,
+      "profit_factor": 0.899101860095257,
+      "cum_return": -0.04436332101315488
+    },
+    {
+      "params": {
+        "ofi_window": 10
+      },
+      "sharpe": -0.2866545662790281,
+      "n_trades": 177,
+      "max_dd": -0.0891435737859888,
+      "profit_factor": 0.899101860095257,
+      "cum_return": -0.04436332101315488
+    },
+    {
+      "params": {
+        "ofi_window": 10
+      },
+      "sharpe": -0.2866545662790281,
+      "n_trades": 177,
+      "max_dd": -0.0891435737859888,
+      "profit_factor": 0.899101860095257,
+      "cum_return": -0.04436332101315488
+    },
+    {
+      "params": {
+        "ofi_window": 10
+      },
+      "sharpe": -0.2866545662790281,
+      "n_trades": 177,
+      "max_dd": -0.0891435737859888,
+      "profit_factor": 0.899101860095257,
+      "cum_return": -0.04436332101315488
+    },
+    {
+      "params": {
+        "ofi_window": 9
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 6
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 5
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 2
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 8
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 4
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 6
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 12
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 6
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 9
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 5
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 9
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 8
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 6
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 4
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 5
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 6
+      },
+      "sharpe": -0.38644904098958577,
+      "n_trades": 162,
+      "max_dd": -0.0809577191548505,
+      "profit_factor": 0.8590119756769218,
+      "cum_return": -0.050492056245957984
+    },
+    {
+      "params": {
+        "ofi_window": 8
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 2
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 5
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 2
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 2
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 7
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 7
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 4
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 4
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 7
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 10
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 3
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    },
+    {
+      "params": {
+        "ofi_window": 7
+      },
+      "sharpe": -0.422078321011009,
+      "n_trades": 182,
+      "max_dd": -0.11106899551297433,
+      "profit_factor": 0.8508842120551114,
+      "cum_return": -0.04747518780789406
+    }
+  ],
+  "HypothesisH167BollingerRangingOFIGate": [
+    {
+      "params": {
+        "bb_period": 39,
+        "bb_std": 2.7894,
+        "bw_pct": 23,
+        "ofi_thresh": 0.3659,
+        "ofi_window": 9
+      },
+      "sharpe": 0.5481855676361115,
+      "n_trades": 57,
+      "max_dd": -0.03260991560307691,
+      "profit_factor": 1.7060693206494875,
+      "cum_return": 0.060031542168908825
+    },
+    {
+      "params": {
+        "bb_period": 37,
+        "bb_std": 2.694,
+        "bw_pct": 25,
+        "ofi_thresh": 0.2881,
+        "ofi_window": 12
+      },
+      "sharpe": 0.5481855676361115,
+      "n_trades": 57,
+      "max_dd": -0.03260991560307691,
+      "profit_factor": 1.7060693206494875,
+      "cum_return": 0.060031542168908825
+    },
+    {
+      "params": {
+        "bb_period": 37,
+        "bb_std": 1.9522,
+        "bw_pct": 30,
+        "ofi_thresh": 0.3583,
+        "ofi_window": 11
+      },
+      "sharpe": 0.48881404691519686,
+      "n_trades": 129,
+      "max_dd": -0.035920859579597786,
+      "profit_factor": 1.4249846834021749,
+      "cum_return": 0.08626572474265237
+    },
+    {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.4036,
+        "bw_pct": 45,
+        "ofi_thresh": 0.3851,
+        "ofi_window": 3
+      },
+      "sharpe": 0.48740218555267983,
+      "n_trades": 62,
+      "max_dd": -0.03147383346264743,
+      "profit_factor": 1.47206523116038,
+      "cum_return": 0.0499914433413724
+    },
+    {
+      "params": {
+        "bb_period": 31,
+        "bb_std": 2.6009,
+        "bw_pct": 31,
+        "ofi_thresh": 0.2439,
+        "ofi_window": 5
+      },
+      "sharpe": 0.48740218555267983,
+      "n_trades": 62,
+      "max_dd": -0.03147383346264743,
+      "profit_factor": 1.47206523116038,
+      "cum_return": 0.0499914433413724
+    },
+    {
+      "params": {
+        "bb_period": 32,
+        "bb_std": 3.4044,
+        "bw_pct": 68,
+        "ofi_thresh": 0.3181,
+        "ofi_window": 15
+      },
+      "sharpe": 0.455997056538117,
+      "n_trades": 1,
+      "max_dd": -0.00024044591993388487,
+      "profit_factor": 0.0,
+      "cum_return": 0.0010112772593582342
+    },
+    {
+      "params": {
+        "bb_period": 30,
+        "bb_std": 1.5799,
+        "bw_pct": 16,
+        "ofi_thresh": 0.3922,
+        "ofi_window": 4
+      },
+      "sharpe": 0.4121407232158883,
+      "n_trades": 33,
+      "max_dd": -0.022887672266557635,
+      "profit_factor": 1.614594224040835,
+      "cum_return": 0.03457006026497855
+    },
+    {
+      "params": {
+        "bb_period": 22,
+        "bb_std": 2.5394,
+        "bw_pct": 28,
+        "ofi_thresh": 0.0795,
+        "ofi_window": 15
+      },
+      "sharpe": 0.4121407232158883,
+      "n_trades": 33,
+      "max_dd": -0.022887672266557635,
+      "profit_factor": 1.614594224040835,
+      "cum_return": 0.03457006026497855
+    },
+    {
+      "params": {
+        "bb_period": 31,
+        "bb_std": 2.7572,
+        "bw_pct": 53,
+        "ofi_thresh": 0.1991,
+        "ofi_window": 10
+      },
+      "sharpe": 0.4121407232158883,
+      "n_trades": 33,
+      "max_dd": -0.022887672266557635,
+      "profit_factor": 1.614594224040835,
+      "cum_return": 0.03457006026497855
+    },
+    {
+      "params": {
+        "bb_period": 40,
+        "bb_std": 1.751,
+        "bw_pct": 44,
+        "ofi_thresh": 0.1643,
+        "ofi_window": 5
+      },
+      "sharpe": 0.4078111064530234,
+      "n_trades": 67,
+      "max_dd": -0.03010923781518471,
+      "profit_factor": 1.3131854820147741,
+      "cum_return": 0.03446129725134206
+    },
+    {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 1.6864,
+        "bw_pct": 41,
+        "ofi_thresh": 0.0557,
+        "ofi_window": 8
+      },
+      "sharpe": 0.4078111064530234,
+      "n_trades": 67,
+      "max_dd": -0.03010923781518471,
+      "profit_factor": 1.3131854820147741,
+      "cum_return": 0.03446129725134206
+    },
+    {
+      "params": {
+        "bb_period": 36,
+        "bb_std": 2.4546,
+        "bw_pct": 42,
+        "ofi_thresh": 0.4541,
+        "ofi_window": 2
+      },
+      "sharpe": 0.4078111064530234,
+      "n_trades": 67,
+      "max_dd": -0.03010923781518471,
+      "profit_factor": 1.3131854820147741,
+      "cum_return": 0.03446129725134206
+    },
+    {
+      "params": {
+        "bb_period": 16,
+        "bb_std": 2.8093,
+        "bw_pct": 51,
+        "ofi_thresh": 0.3563,
+        "ofi_window": 10
+      },
+      "sharpe": 0.34421776106811114,
+      "n_trades": 8,
+      "max_dd": -0.008506838399374383,
+      "profit_factor": 2.1259903056111984,
+      "cum_return": 0.010176797892649692
+    },
+    {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.8768,
+        "bw_pct": 62,
+        "ofi_thresh": 0.1746,
+        "ofi_window": 13
+      },
+      "sharpe": 0.34421776106811114,
+      "n_trades": 8,
+      "max_dd": -0.008506838399374383,
+      "profit_factor": 2.1259903056111984,
+      "cum_return": 0.010176797892649692
+    },
+    {
+      "params": {
+        "bb_period": 36,
+        "bb_std": 1.545,
+        "bw_pct": 40,
+        "ofi_thresh": 0.2944,
+        "ofi_window": 14
+      },
+      "sharpe": 0.2552725237876494,
+      "n_trades": 134,
+      "max_dd": -0.03229834276455257,
+      "profit_factor": 1.2454090853950683,
+      "cum_return": 0.04246834457948223
+    },
+    {
+      "params": {
+        "bb_period": 30,
+        "bb_std": 1.9692,
+        "bw_pct": 29,
+        "ofi_thresh": 0.1374,
+        "ofi_window": 11
+      },
+      "sharpe": 0.2552725237876494,
+      "n_trades": 134,
+      "max_dd": -0.03229834276455257,
+      "profit_factor": 1.2454090853950683,
+      "cum_return": 0.04246834457948223
+    },
+    {
+      "params": {
+        "bb_period": 11,
+        "bb_std": 1.7028,
+        "bw_pct": 60,
+        "ofi_thresh": 0.4322,
+        "ofi_window": 11
+      },
+      "sharpe": 0.2327059638604913,
+      "n_trades": 5,
+      "max_dd": -0.0029124480627963356,
+      "profit_factor": 1.926154441734133,
+      "cum_return": 0.002504075430110886
+    },
+    {
+      "params": {
+        "bb_period": 35,
+        "bb_std": 2.0057,
+        "bw_pct": 16,
+        "ofi_thresh": 0.4976,
+        "ofi_window": 2
+      },
+      "sharpe": 0.2327059638604913,
+      "n_trades": 5,
+      "max_dd": -0.0029124480627963356,
+      "profit_factor": 1.926154441734133,
+      "cum_return": 0.002504075430110886
+    },
+    {
+      "params": {
+        "bb_period": 39,
+        "bb_std": 2.0875,
+        "bw_pct": 47,
+        "ofi_thresh": 0.3219,
+        "ofi_window": 8
+      },
+      "sharpe": 0.2327059638604913,
+      "n_trades": 5,
+      "max_dd": -0.0029124480627963356,
+      "profit_factor": 1.926154441734133,
+      "cum_return": 0.002504075430110886
+    },
+    {
+      "params": {
+        "bb_period": 33,
+        "bb_std": 2.2253,
+        "bw_pct": 34,
+        "ofi_thresh": 0.3738,
+        "ofi_window": 4
+      },
+      "sharpe": 0.2327059638604913,
+      "n_trades": 5,
+      "max_dd": -0.0029124480627963356,
+      "profit_factor": 1.926154441734133,
+      "cum_return": 0.002504075430110886
+    },
+    {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 3.18,
+        "bw_pct": 63,
+        "ofi_thresh": 0.146,
+        "ofi_window": 3
+      },
+      "sharpe": 0.2327059638604913,
+      "n_trades": 5,
+      "max_dd": -0.0029124480627963356,
+      "profit_factor": 1.926154441734133,
+      "cum_return": 0.002504075430110886
+    },
+    {
+      "params": {
+        "bb_period": 29,
+        "bb_std": 2.065,
+        "bw_pct": 58,
+        "ofi_thresh": 0.4736,
+        "ofi_window": 9
+      },
+      "sharpe": 0.19891810355066292,
+      "n_trades": 60,
+      "max_dd": -0.02397374057241841,
+      "profit_factor": 1.3823629475170454,
+      "cum_return": 0.02367328991393003
+    },
+    {
+      "params": {
+        "bb_period": 27,
+        "bb_std": 1.817,
+        "bw_pct": 26,
+        "ofi_thresh": 0.4207,
+        "ofi_window": 14
+      },
+      "sharpe": 0.06576275488532983,
+      "n_trades": 143,
+      "max_dd": -0.06218380806826407,
+      "profit_factor": 1.124203777189129,
+      "cum_return": 0.022044643717516355
+    },
+    {
+      "params": {
+        "bb_period": 28,
+        "bb_std": 3.448,
+        "bw_pct": 57,
+        "ofi_thresh": 0.2373,
+        "ofi_window": 15
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 33,
+        "bb_std": 2.9266,
+        "bw_pct": 38,
+        "ofi_thresh": 0.3307,
+        "ofi_window": 6
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 34,
+        "bb_std": 2.2747,
+        "bw_pct": 69,
+        "ofi_thresh": 0.4368,
+        "ofi_window": 4
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 24,
+        "bb_std": 3.1557,
+        "bw_pct": 32,
+        "ofi_thresh": 0.1167,
+        "ofi_window": 5
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 29,
+        "bb_std": 1.9014,
+        "bw_pct": 56,
+        "ofi_thresh": 0.2691,
+        "ofi_window": 13
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 24,
+        "bb_std": 1.7889,
+        "bw_pct": 49,
+        "ofi_thresh": 0.0692,
+        "ofi_window": 13
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 11,
+        "bb_std": 3.124,
+        "bw_pct": 24,
+        "ofi_thresh": 0.3445,
+        "ofi_window": 13
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 19,
+        "bb_std": 3.2162,
+        "bw_pct": 48,
+        "ofi_thresh": 0.1255,
+        "ofi_window": 14
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 26,
+        "bb_std": 1.8623,
+        "bw_pct": 22,
+        "ofi_thresh": 0.1555,
+        "ofi_window": 14
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 16,
+        "bb_std": 1.617,
+        "bw_pct": 36,
+        "ofi_thresh": 0.2153,
+        "ofi_window": 7
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 38,
+        "bb_std": 2.2401,
+        "bw_pct": 69,
+        "ofi_thresh": 0.406,
+        "ofi_window": 6
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 23,
+        "bb_std": 3.3725,
+        "bw_pct": 65,
+        "ofi_thresh": 0.2139,
+        "ofi_window": 12
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "bb_period": 10,
+        "bb_std": 1.6413,
+        "bw_pct": 55,
+        "ofi_thresh": 0.229,
+        "ofi_window": 8
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 14,
+        "bb_std": 2.3815,
+        "bw_pct": 39,
+        "ofi_thresh": 0.2463,
+        "ofi_window": 4
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 12,
+        "bb_std": 2.3178,
+        "bw_pct": 36,
+        "ofi_thresh": 0.4163,
+        "ofi_window": 9
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 38,
+        "bb_std": 2.7011,
+        "bw_pct": 43,
+        "ofi_thresh": 0.1822,
+        "ofi_window": 6
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 25,
+        "bb_std": 2.6623,
+        "bw_pct": 26,
+        "ofi_thresh": 0.4458,
+        "ofi_window": 7
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 34,
+        "bb_std": 2.1056,
+        "bw_pct": 28,
+        "ofi_thresh": 0.0927,
+        "ofi_window": 9
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 18,
+        "bb_std": 1.8871,
+        "bw_pct": 40,
+        "ofi_thresh": 0.2549,
+        "ofi_window": 10
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 25,
+        "bb_std": 2.8664,
+        "bw_pct": 33,
+        "ofi_thresh": 0.2775,
+        "ofi_window": 4
+      },
+      "sharpe": -0.08988744923653429,
+      "n_trades": 82,
+      "max_dd": -0.05552198720245627,
+      "profit_factor": 0.9429595521452511,
+      "cum_return": -0.012201054605073258
+    },
+    {
+      "params": {
+        "bb_period": 32,
+        "bb_std": 3.0854,
+        "bw_pct": 58,
+        "ofi_thresh": 0.1048,
+        "ofi_window": 6
+      },
+      "sharpe": -0.13555907963254832,
+      "n_trades": 4,
+      "max_dd": -0.010451598900356296,
+      "profit_factor": 0.6800619852666089,
+      "cum_return": -0.0026661542037438313
+    },
+    {
+      "params": {
+        "bb_period": 21,
+        "bb_std": 3.0358,
+        "bw_pct": 17,
+        "ofi_thresh": 0.3063,
+        "ofi_window": 12
+      },
+      "sharpe": -0.13555907963254832,
+      "n_trades": 4,
+      "max_dd": -0.010451598900356296,
+      "profit_factor": 0.6800619852666089,
+      "cum_return": -0.0026661542037438313
+    },
+    {
+      "params": {
+        "bb_period": 17,
+        "bb_std": 3.0215,
+        "bw_pct": 61,
+        "ofi_thresh": 0.4558,
+        "ofi_window": 7
+      },
+      "sharpe": -0.13555907963254832,
+      "n_trades": 4,
+      "max_dd": -0.010451598900356296,
+      "profit_factor": 0.6800619852666089,
+      "cum_return": -0.0026661542037438313
+    },
+    {
+      "params": {
+        "bb_period": 28,
+        "bb_std": 3.3275,
+        "bw_pct": 20,
+        "ofi_thresh": 0.2031,
+        "ofi_window": 12
+      },
+      "sharpe": -0.22240022065133988,
+      "n_trades": 5,
+      "max_dd": -0.0065880383163224865,
+      "profit_factor": 0.4891458190729714,
+      "cum_return": -0.003343745010618626
+    },
+    {
+      "params": {
+        "bb_period": 19,
+        "bb_std": 2.9658,
+        "bw_pct": 35,
+        "ofi_thresh": 0.0977,
+        "ofi_window": 5
+      },
+      "sharpe": -0.26325638696246884,
+      "n_trades": 8,
+      "max_dd": -0.015392470536714886,
+      "profit_factor": 0.40331728764127023,
+      "cum_return": -0.009255436056222144
+    },
+    {
+      "params": {
+        "bb_period": 27,
+        "bb_std": 3.3527,
+        "bw_pct": 18,
+        "ofi_thresh": 0.0605,
+        "ofi_window": 10
+      },
+      "sharpe": -0.26325638696246884,
+      "n_trades": 8,
+      "max_dd": -0.015392470536714886,
+      "profit_factor": 0.40331728764127023,
+      "cum_return": -0.009255436056222144
+    },
+    {
+      "params": {
+        "bb_period": 21,
+        "bb_std": 3.4844,
+        "bw_pct": 52,
+        "ofi_thresh": 0.4924,
+        "ofi_window": 3
+      },
+      "sharpe": -0.26325638696246884,
+      "n_trades": 8,
+      "max_dd": -0.015392470536714886,
+      "profit_factor": 0.40331728764127023,
+      "cum_return": -0.009255436056222144
+    },
+    {
+      "params": {
+        "bb_period": 13,
+        "bb_std": 2.5184,
+        "bw_pct": 46,
+        "ofi_thresh": 0.4843,
+        "ofi_window": 3
+      },
+      "sharpe": -0.2987203411908755,
+      "n_trades": 30,
+      "max_dd": -0.03374266417593219,
+      "profit_factor": 0.7370753943757513,
+      "cum_return": -0.023730727166824117
+    },
+    {
+      "params": {
+        "bb_period": 12,
+        "bb_std": 2.4767,
+        "bw_pct": 51,
+        "ofi_thresh": 0.0802,
+        "ofi_window": 13
+      },
+      "sharpe": -0.3307827705614529,
+      "n_trades": 39,
+      "max_dd": -0.044622940937958155,
+      "profit_factor": 0.7488287690690882,
+      "cum_return": -0.02307613337218528
+    },
+    {
+      "params": {
+        "bb_period": 35,
+        "bb_std": 2.1847,
+        "bw_pct": 21,
+        "ofi_thresh": 0.124,
+        "ofi_window": 7
+      },
+      "sharpe": -0.42204103321570735,
+      "n_trades": 1,
+      "max_dd": -0.0026147340042166345,
+      "profit_factor": 0.0,
+      "cum_return": -0.0022584847428400723
+    },
+    {
+      "params": {
+        "bb_period": 26,
+        "bb_std": 3.2569,
+        "bw_pct": 20,
+        "ofi_thresh": 0.2633,
+        "ofi_window": 6
+      },
+      "sharpe": -0.42204103321570735,
+      "n_trades": 1,
+      "max_dd": -0.0026147340042166345,
+      "profit_factor": 0.0,
+      "cum_return": -0.0022584847428400723
+    },
+    {
+      "params": {
+        "bb_period": 14,
+        "bb_std": 2.9865,
+        "bw_pct": 48,
+        "ofi_thresh": 0.4012,
+        "ofi_window": 11
+      },
+      "sharpe": -0.42204103321570735,
+      "n_trades": 1,
+      "max_dd": -0.0026147340042166345,
+      "profit_factor": 0.0,
+      "cum_return": -0.0022584847428400723
+    },
+    {
+      "params": {
+        "bb_period": 23,
+        "bb_std": 2.3649,
+        "bw_pct": 66,
+        "ofi_thresh": 0.3043,
+        "ofi_window": 7
+      },
+      "sharpe": -0.4366979014404422,
+      "n_trades": 83,
+      "max_dd": -0.05588429596061961,
+      "profit_factor": 0.7607416505744599,
+      "cum_return": -0.04562288172247386
+    },
+    {
+      "params": {
+        "bb_period": 13,
+        "bb_std": 2.1623,
+        "bw_pct": 60,
+        "ofi_thresh": 0.3416,
+        "ofi_window": 3
+      },
+      "sharpe": -0.5406402350037802,
+      "n_trades": 46,
+      "max_dd": -0.06439736029269616,
+      "profit_factor": 0.6169718395754735,
+      "cum_return": -0.046357849142480645
+    },
+    {
+      "params": {
+        "bb_period": 17,
+        "bb_std": 2.5806,
+        "bw_pct": 54,
+        "ofi_thresh": 0.149,
+        "ofi_window": 11
+      },
+      "sharpe": -0.5406402350037802,
+      "n_trades": 46,
+      "max_dd": -0.06439736029269616,
+      "profit_factor": 0.6169718395754735,
+      "cum_return": -0.046357849142480645
+    },
+    {
+      "params": {
+        "bb_period": 22,
+        "bb_std": 1.5007,
+        "bw_pct": 64,
+        "ofi_thresh": 0.4642,
+        "ofi_window": 8
+      },
+      "sharpe": -0.6862623891103955,
+      "n_trades": 182,
+      "max_dd": -0.09938077630707498,
+      "profit_factor": 0.7598055419048537,
+      "cum_return": -0.07095307086268066
+    }
+  ],
+  "HypothesisH318TrendlineChannelSqueeze": [
+    {
+      "params": {
+        "tl_channel_width": 1.0282
+      },
+      "sharpe": 0.11066603157394007,
+      "n_trades": 155,
+      "max_dd": -0.054265373017132745,
+      "profit_factor": 1.0660629216735398,
+      "cum_return": 0.017463360092145885
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.4306
+      },
+      "sharpe": 0.013528238745796258,
+      "n_trades": 145,
+      "max_dd": -0.04764569198162971,
+      "profit_factor": 1.025740158212189,
+      "cum_return": 0.005429434414791157
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.0983
+      },
+      "sharpe": -0.06595648028595624,
+      "n_trades": 153,
+      "max_dd": -0.04756842588927168,
+      "profit_factor": 0.9912430042634668,
+      "cum_return": -0.0036643337123448694
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.3564
+      },
+      "sharpe": -0.06926714317442381,
+      "n_trades": 166,
+      "max_dd": -0.07293872896836784,
+      "profit_factor": 0.9723486522896485,
+      "cum_return": -0.010330140744629901
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.1591
+      },
+      "sharpe": -0.11236207241055585,
+      "n_trades": 149,
+      "max_dd": -0.06256523947802906,
+      "profit_factor": 0.9606537349692789,
+      "cum_return": -0.011751762636762031
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.9297
+      },
+      "sharpe": -0.12321871072678085,
+      "n_trades": 138,
+      "max_dd": -0.04787556872743137,
+      "profit_factor": 0.9471995239257955,
+      "cum_return": -0.015311452585089813
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.9708
+      },
+      "sharpe": -0.12321871072678085,
+      "n_trades": 138,
+      "max_dd": -0.04787556872743137,
+      "profit_factor": 0.9471995239257955,
+      "cum_return": -0.015311452585089813
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.7997
+      },
+      "sharpe": -0.13448968140480025,
+      "n_trades": 133,
+      "max_dd": -0.05530416108685776,
+      "profit_factor": 0.9480690997126452,
+      "cum_return": -0.014419860092423464
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.475
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.783
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.7377
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.4644
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.0315
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.6962
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.4094
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.5026
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.6421
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.4473
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.3428
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.751
+      },
+      "sharpe": -0.1637013938004439,
+      "n_trades": 137,
+      "max_dd": -0.05586097254661948,
+      "profit_factor": 0.9269678147548003,
+      "cum_return": -0.022188524579954794
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.2996
+      },
+      "sharpe": -0.1795646541301123,
+      "n_trades": 148,
+      "max_dd": -0.043621676157897915,
+      "profit_factor": 0.9505873867425729,
+      "cum_return": -0.011541907986381883
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.485
+      },
+      "sharpe": -0.1795646541301123,
+      "n_trades": 148,
+      "max_dd": -0.043621676157897915,
+      "profit_factor": 0.9505873867425729,
+      "cum_return": -0.011541907986381883
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.8127
+      },
+      "sharpe": -0.1795646541301123,
+      "n_trades": 148,
+      "max_dd": -0.043621676157897915,
+      "profit_factor": 0.9505873867425729,
+      "cum_return": -0.011541907986381883
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.6212
+      },
+      "sharpe": -0.2345151454946491,
+      "n_trades": 133,
+      "max_dd": -0.0698655706028255,
+      "profit_factor": 0.8908052396549985,
+      "cum_return": -0.027904268499456708
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.6152
+      },
+      "sharpe": -0.2345151454946491,
+      "n_trades": 133,
+      "max_dd": -0.0698655706028255,
+      "profit_factor": 0.8908052396549985,
+      "cum_return": -0.027904268499456708
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.5532
+      },
+      "sharpe": -0.2449096206564673,
+      "n_trades": 148,
+      "max_dd": -0.06661689455474429,
+      "profit_factor": 0.9062449084129841,
+      "cum_return": -0.028915280213940298
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.8516
+      },
+      "sharpe": -0.2449096206564673,
+      "n_trades": 148,
+      "max_dd": -0.06661689455474429,
+      "profit_factor": 0.9062449084129841,
+      "cum_return": -0.028915280213940298
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.9793
+      },
+      "sharpe": -0.2449096206564673,
+      "n_trades": 148,
+      "max_dd": -0.06661689455474429,
+      "profit_factor": 0.9062449084129841,
+      "cum_return": -0.028915280213940298
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.7664
+      },
+      "sharpe": -0.2449096206564673,
+      "n_trades": 148,
+      "max_dd": -0.06661689455474429,
+      "profit_factor": 0.9062449084129841,
+      "cum_return": -0.028915280213940298
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.569
+      },
+      "sharpe": -0.2449096206564673,
+      "n_trades": 148,
+      "max_dd": -0.06661689455474429,
+      "profit_factor": 0.9062449084129841,
+      "cum_return": -0.028915280213940298
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.1214
+      },
+      "sharpe": -0.2611447064470289,
+      "n_trades": 145,
+      "max_dd": -0.07235086286896142,
+      "profit_factor": 0.8798329603987013,
+      "cum_return": -0.03785918107405983
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.1319
+      },
+      "sharpe": -0.2668332124097209,
+      "n_trades": 144,
+      "max_dd": -0.06881220839926883,
+      "profit_factor": 0.8725021599789762,
+      "cum_return": -0.03252319327891995
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.178
+      },
+      "sharpe": -0.33710230619966647,
+      "n_trades": 123,
+      "max_dd": -0.07128727601908713,
+      "profit_factor": 0.8326195267422026,
+      "cum_return": -0.036546492836118216
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.3949
+      },
+      "sharpe": -0.33710230619966647,
+      "n_trades": 123,
+      "max_dd": -0.07128727601908713,
+      "profit_factor": 0.8326195267422026,
+      "cum_return": -0.036546492836118216
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.7258
+      },
+      "sharpe": -0.33710230619966647,
+      "n_trades": 123,
+      "max_dd": -0.07128727601908713,
+      "profit_factor": 0.8326195267422026,
+      "cum_return": -0.036546492836118216
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.2611
+      },
+      "sharpe": -0.38126466414286464,
+      "n_trades": 168,
+      "max_dd": -0.08389648894687907,
+      "profit_factor": 0.8369600646326839,
+      "cum_return": -0.05008397852397928
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.8332
+      },
+      "sharpe": -0.39590686174619605,
+      "n_trades": 123,
+      "max_dd": -0.07987899390347541,
+      "profit_factor": 0.8102156207923393,
+      "cum_return": -0.048855938927238496
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.665
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.0385
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.2178
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.5942
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.5188
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.4078
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.9186
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.8702
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.5697
+      },
+      "sharpe": -0.4117597876392574,
+      "n_trades": 147,
+      "max_dd": -0.0857283457627025,
+      "profit_factor": 0.8237604114639758,
+      "cum_return": -0.048019942865190623
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.1865
+      },
+      "sharpe": -0.49930115304470934,
+      "n_trades": 143,
+      "max_dd": -0.07544012437408387,
+      "profit_factor": 0.7732452642817949,
+      "cum_return": -0.06547289711611515
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.3937
+      },
+      "sharpe": -0.49930115304470934,
+      "n_trades": 143,
+      "max_dd": -0.07544012437408387,
+      "profit_factor": 0.7732452642817949,
+      "cum_return": -0.06547289711611515
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.9358
+      },
+      "sharpe": -0.5139025753512582,
+      "n_trades": 115,
+      "max_dd": -0.06018993900225411,
+      "profit_factor": 0.7558414600297158,
+      "cum_return": -0.05199674650050423
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.2302
+      },
+      "sharpe": -0.553694997266749,
+      "n_trades": 125,
+      "max_dd": -0.052666187074687176,
+      "profit_factor": 0.7343571587968366,
+      "cum_return": -0.045891897719535724
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.0689
+      },
+      "sharpe": -0.553694997266749,
+      "n_trades": 125,
+      "max_dd": -0.052666187074687176,
+      "profit_factor": 0.7343571587968366,
+      "cum_return": -0.045891897719535724
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.157
+      },
+      "sharpe": -0.553694997266749,
+      "n_trades": 125,
+      "max_dd": -0.052666187074687176,
+      "profit_factor": 0.7343571587968366,
+      "cum_return": -0.045891897719535724
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.8794
+      },
+      "sharpe": -0.5673283051681464,
+      "n_trades": 153,
+      "max_dd": -0.06693798317583033,
+      "profit_factor": 0.7627167528379536,
+      "cum_return": -0.05069534249107577
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.3031
+      },
+      "sharpe": -0.5673283051681464,
+      "n_trades": 153,
+      "max_dd": -0.06693798317583033,
+      "profit_factor": 0.7627167528379536,
+      "cum_return": -0.05069534249107577
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.3228
+      },
+      "sharpe": -0.7981798627867802,
+      "n_trades": 134,
+      "max_dd": -0.07703588158271368,
+      "profit_factor": 0.6614743001205028,
+      "cum_return": -0.061644917567955315
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.0128
+      },
+      "sharpe": -0.7981798627867802,
+      "n_trades": 134,
+      "max_dd": -0.07703588158271368,
+      "profit_factor": 0.6614743001205028,
+      "cum_return": -0.061644917567955315
+    },
+    {
+      "params": {
+        "tl_channel_width": 0.3039
+      },
+      "sharpe": -0.8052187256008554,
+      "n_trades": 117,
+      "max_dd": -0.08055100296760564,
+      "profit_factor": 0.6307975439176925,
+      "cum_return": -0.06821250787092936
+    },
+    {
+      "params": {
+        "tl_channel_width": 1.4717
+      },
+      "sharpe": -0.8052187256008554,
+      "n_trades": 117,
+      "max_dd": -0.08055100296760564,
+      "profit_factor": 0.6307975439176925,
+      "cum_return": -0.06821250787092936
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.2743
+      },
+      "sharpe": -0.8052187256008554,
+      "n_trades": 117,
+      "max_dd": -0.08055100296760564,
+      "profit_factor": 0.6307975439176925,
+      "cum_return": -0.06821250787092936
+    },
+    {
+      "params": {
+        "tl_channel_width": 2.3605
+      },
+      "sharpe": -1.0329646076698953,
+      "n_trades": 106,
+      "max_dd": -0.08137596984313122,
+      "profit_factor": 0.5396568949849518,
+      "cum_return": -0.0678348984717384
+    }
+  ],
+  "HypothesisH37DynamicGridInformedGate": [
+    {
+      "params": {
+        "grid_period": 20,
+        "grid_mult": 0.6989,
+        "atr_period": 12,
+        "vpin_pct_thresh": 0.5627,
+        "ofi_neutral_thresh": 0.3437,
+        "mk_no_trend": 2.533
+      },
+      "sharpe": 0.8745183231368443,
+      "n_trades": 16,
+      "max_dd": -0.0044623314886858,
+      "profit_factor": 4.612088529477691,
+      "cum_return": 0.030799703632520048
+    },
+    {
+      "params": {
+        "grid_period": 17,
+        "grid_mult": 1.7495,
+        "atr_period": 15,
+        "vpin_pct_thresh": 0.4895,
+        "ofi_neutral_thresh": 0.2516,
+        "mk_no_trend": 0.4878
+      },
+      "sharpe": 0.8745183231368443,
+      "n_trades": 16,
+      "max_dd": -0.0044623314886858,
+      "profit_factor": 4.612088529477691,
+      "cum_return": 0.030799703632520048
+    },
+    {
+      "params": {
+        "grid_period": 13,
+        "grid_mult": 1.7834,
+        "atr_period": 11,
+        "vpin_pct_thresh": 0.6223,
+        "ofi_neutral_thresh": 0.2976,
+        "mk_no_trend": 1.0517
+      },
+      "sharpe": 0.8038576100700073,
+      "n_trades": 47,
+      "max_dd": -0.019669765069020517,
+      "profit_factor": 2.0343638414062126,
+      "cum_return": 0.07417971033350401
+    },
+    {
+      "params": {
+        "grid_period": 35,
+        "grid_mult": 1.9678,
+        "atr_period": 16,
+        "vpin_pct_thresh": 0.609,
+        "ofi_neutral_thresh": 0.1521,
+        "mk_no_trend": 0.6487
+      },
+      "sharpe": 0.7626096449583181,
+      "n_trades": 21,
+      "max_dd": -0.010304119168001225,
+      "profit_factor": 2.4908870733147,
+      "cum_return": 0.04535380672247702
+    },
+    {
+      "params": {
+        "grid_period": 14,
+        "grid_mult": 1.1885,
+        "atr_period": 24,
+        "vpin_pct_thresh": 0.6814,
+        "ofi_neutral_thresh": 0.1416,
+        "mk_no_trend": 0.736
+      },
+      "sharpe": 0.7122043661968172,
+      "n_trades": 62,
+      "max_dd": -0.028813737620297597,
+      "profit_factor": 1.7721092586303717,
+      "cum_return": 0.08747315310419657
+    },
+    {
+      "params": {
+        "grid_period": 19,
+        "grid_mult": 2.0061,
+        "atr_period": 13,
+        "vpin_pct_thresh": 0.5343,
+        "ofi_neutral_thresh": 0.2744,
+        "mk_no_trend": 1.9963
+      },
+      "sharpe": 0.7122043661968172,
+      "n_trades": 62,
+      "max_dd": -0.028813737620297597,
+      "profit_factor": 1.7721092586303717,
+      "cum_return": 0.08747315310419657
+    },
+    {
+      "params": {
+        "grid_period": 39,
+        "grid_mult": 1.8798,
+        "atr_period": 20,
+        "vpin_pct_thresh": 0.3451,
+        "ofi_neutral_thresh": 0.3316,
+        "mk_no_trend": 0.8595
+      },
+      "sharpe": 0.672108579374578,
+      "n_trades": 20,
+      "max_dd": -0.012398745607169914,
+      "profit_factor": 2.234278265730609,
+      "cum_return": 0.032421174253069784
+    },
+    {
+      "params": {
+        "grid_period": 27,
+        "grid_mult": 0.9336,
+        "atr_period": 25,
+        "vpin_pct_thresh": 0.2293,
+        "ofi_neutral_thresh": 0.253,
+        "mk_no_trend": 0.3566
+      },
+      "sharpe": 0.6687059567916462,
+      "n_trades": 24,
+      "max_dd": -0.016518170393230558,
+      "profit_factor": 2.26709248668648,
+      "cum_return": 0.03677971458517848
+    },
+    {
+      "params": {
+        "grid_period": 31,
+        "grid_mult": 1.1715,
+        "atr_period": 26,
+        "vpin_pct_thresh": 0.4344,
+        "ofi_neutral_thresh": 0.2433,
+        "mk_no_trend": 2.3472
+      },
+      "sharpe": 0.6527783012112234,
+      "n_trades": 46,
+      "max_dd": -0.02370298933497139,
+      "profit_factor": 1.7089818985604477,
+      "cum_return": 0.06492166440366942
+    },
+    {
+      "params": {
+        "grid_period": 21,
+        "grid_mult": 1.2749,
+        "atr_period": 27,
+        "vpin_pct_thresh": 0.2016,
+        "ofi_neutral_thresh": 0.0436,
+        "mk_no_trend": 1.2107
+      },
+      "sharpe": 0.6527783012112234,
+      "n_trades": 46,
+      "max_dd": -0.02370298933497139,
+      "profit_factor": 1.7089818985604477,
+      "cum_return": 0.06492166440366942
+    },
+    {
+      "params": {
+        "grid_period": 18,
+        "grid_mult": 2.1549,
+        "atr_period": 8,
+        "vpin_pct_thresh": 0.6419,
+        "ofi_neutral_thresh": 0.2056,
+        "mk_no_trend": 2.7478
+      },
+      "sharpe": 0.37261545067179846,
+      "n_trades": 71,
+      "max_dd": -0.02754733831179801,
+      "profit_factor": 1.3362809561135385,
+      "cum_return": 0.044875475900486794
+    },
+    {
+      "params": {
+        "grid_period": 32,
+        "grid_mult": 0.7871,
+        "atr_period": 8,
+        "vpin_pct_thresh": 0.5983,
+        "ofi_neutral_thresh": 0.2358,
+        "mk_no_trend": 2.772
+      },
+      "sharpe": 0.35060958840813033,
+      "n_trades": 50,
+      "max_dd": -0.03602300478828124,
+      "profit_factor": 1.3396848229465972,
+      "cum_return": 0.03430244984899011
+    },
+    {
+      "params": {
+        "grid_period": 28,
+        "grid_mult": 1.4862,
+        "atr_period": 18,
+        "vpin_pct_thresh": 0.51,
+        "ofi_neutral_thresh": 0.3107,
+        "mk_no_trend": 1.2636
+      },
+      "sharpe": 0.35060958840813033,
+      "n_trades": 50,
+      "max_dd": -0.03602300478828124,
+      "profit_factor": 1.3396848229465972,
+      "cum_return": 0.03430244984899011
+    },
+    {
+      "params": {
+        "grid_period": 24,
+        "grid_mult": 2.0636,
+        "atr_period": 20,
+        "vpin_pct_thresh": 0.4522,
+        "ofi_neutral_thresh": 0.0817,
+        "mk_no_trend": 2.4428
+      },
+      "sharpe": 0.346396400414988,
+      "n_trades": 15,
+      "max_dd": -0.010566045582462325,
+      "profit_factor": 2.4109179383990553,
+      "cum_return": 0.021422021194179575
+    },
+    {
+      "params": {
+        "grid_period": 12,
+        "grid_mult": 2.2769,
+        "atr_period": 25,
+        "vpin_pct_thresh": 0.2502,
+        "ofi_neutral_thresh": 0.1824,
+        "mk_no_trend": 2.2574
+      },
+      "sharpe": 0.346396400414988,
+      "n_trades": 15,
+      "max_dd": -0.010566045582462325,
+      "profit_factor": 2.4109179383990553,
+      "cum_return": 0.021422021194179575
+    },
+    {
+      "params": {
+        "grid_period": 10,
+        "grid_mult": 1.1414,
+        "atr_period": 12,
+        "vpin_pct_thresh": 0.6924,
+        "ofi_neutral_thresh": 0.3485,
+        "mk_no_trend": 0.9808
+      },
+      "sharpe": 0.330119999486574,
+      "n_trades": 5,
+      "max_dd": -0.0028284211963303107,
+      "profit_factor": 2.310923067981699,
+      "cum_return": 0.004664810727375901
+    },
+    {
+      "params": {
+        "grid_period": 34,
+        "grid_mult": 2.76,
+        "atr_period": 16,
+        "vpin_pct_thresh": 0.3974,
+        "ofi_neutral_thresh": 0.3388,
+        "mk_no_trend": 1.1125
+      },
+      "sharpe": 0.330119999486574,
+      "n_trades": 5,
+      "max_dd": -0.0028284211963303107,
+      "profit_factor": 2.310923067981699,
+      "cum_return": 0.004664810727375901
+    },
+    {
+      "params": {
+        "grid_period": 33,
+        "grid_mult": 0.9984,
+        "atr_period": 22,
+        "vpin_pct_thresh": 0.3145,
+        "ofi_neutral_thresh": 0.2681,
+        "mk_no_trend": 0.4057
+      },
+      "sharpe": 0.1746232514982445,
+      "n_trades": 18,
+      "max_dd": -0.01515639870133123,
+      "profit_factor": 1.2625728797042692,
+      "cum_return": 0.007865714961247106
+    },
+    {
+      "params": {
+        "grid_period": 26,
+        "grid_mult": 2.3042,
+        "atr_period": 26,
+        "vpin_pct_thresh": 0.651,
+        "ofi_neutral_thresh": 0.3268,
+        "mk_no_trend": 2.65
+      },
+      "sharpe": 0.11118117487555058,
+      "n_trades": 33,
+      "max_dd": -0.016196762009830223,
+      "profit_factor": 1.1132950606452074,
+      "cum_return": 0.00722386576144074
+    },
+    {
+      "params": {
+        "grid_period": 36,
+        "grid_mult": 1.6939,
+        "atr_period": 21,
+        "vpin_pct_thresh": 0.6203,
+        "ofi_neutral_thresh": 0.1376,
+        "mk_no_trend": 1.1741
+      },
+      "sharpe": 0.09983815680391789,
+      "n_trades": 7,
+      "max_dd": -0.010635933605446346,
+      "profit_factor": 1.287462745743943,
+      "cum_return": 0.003280993154206824
+    },
+    {
+      "params": {
+        "grid_period": 30,
+        "grid_mult": 1.0703,
+        "atr_period": 28,
+        "vpin_pct_thresh": 0.6621,
+        "ofi_neutral_thresh": 0.2638,
+        "mk_no_trend": 2.1169
+      },
+      "sharpe": 0.09983815680391789,
+      "n_trades": 7,
+      "max_dd": -0.010635933605446346,
+      "profit_factor": 1.287462745743943,
+      "cum_return": 0.003280993154206824
+    },
+    {
+      "params": {
+        "grid_period": 37,
+        "grid_mult": 2.5248,
+        "atr_period": 12,
+        "vpin_pct_thresh": 0.2564,
+        "ofi_neutral_thresh": 0.2051,
+        "mk_no_trend": 1.3341
+      },
+      "sharpe": 0.09983815680391789,
+      "n_trades": 7,
+      "max_dd": -0.010635933605446346,
+      "profit_factor": 1.287462745743943,
+      "cum_return": 0.003280993154206824
+    },
+    {
+      "params": {
+        "grid_period": 25,
+        "grid_mult": 1.9236,
+        "atr_period": 21,
+        "vpin_pct_thresh": 0.3356,
+        "ofi_neutral_thresh": 0.3019,
+        "mk_no_trend": 1.6092
+      },
+      "sharpe": 0.09075380785198636,
+      "n_trades": 37,
+      "max_dd": -0.02194317806403412,
+      "profit_factor": 1.136811002752426,
+      "cum_return": 0.009601842121408577
+    },
+    {
+      "params": {
+        "grid_period": 11,
+        "grid_mult": 0.782,
+        "atr_period": 29,
+        "vpin_pct_thresh": 0.3524,
+        "ofi_neutral_thresh": 0.1752,
+        "mk_no_trend": 2.183
+      },
+      "sharpe": 0.038252848682670815,
+      "n_trades": 41,
+      "max_dd": -0.03295734380806559,
+      "profit_factor": 1.0585451627280367,
+      "cum_return": 0.0052198275863653
+    },
+    {
+      "params": {
+        "grid_period": 34,
+        "grid_mult": 1.5517,
+        "atr_period": 14,
+        "vpin_pct_thresh": 0.6676,
+        "ofi_neutral_thresh": 0.0612,
+        "mk_no_trend": 1.6438
+      },
+      "sharpe": 0.038252848682670815,
+      "n_trades": 41,
+      "max_dd": -0.03295734380806559,
+      "profit_factor": 1.0585451627280367,
+      "cum_return": 0.0052198275863653
+    },
+    {
+      "params": {
+        "grid_period": 40,
+        "grid_mult": 1.5572,
+        "atr_period": 15,
+        "vpin_pct_thresh": 0.2246,
+        "ofi_neutral_thresh": 0.1445,
+        "mk_no_trend": 1.4808
+      },
+      "sharpe": 0.038252848682670815,
+      "n_trades": 41,
+      "max_dd": -0.03295734380806559,
+      "profit_factor": 1.0585451627280367,
+      "cum_return": 0.0052198275863653
+    },
+    {
+      "params": {
+        "grid_period": 29,
+        "grid_mult": 1.7275,
+        "atr_period": 17,
+        "vpin_pct_thresh": 0.462,
+        "ofi_neutral_thresh": 0.2929,
+        "mk_no_trend": 1.8261
+      },
+      "sharpe": 0.016716497658558108,
+      "n_trades": 5,
+      "max_dd": -0.003351084199306409,
+      "profit_factor": 1.1468208286147064,
+      "cum_return": 0.0006147880362439295
+    },
+    {
+      "params": {
+        "grid_period": 27,
+        "grid_mult": 2.0996,
+        "atr_period": 27,
+        "vpin_pct_thresh": 0.282,
+        "ofi_neutral_thresh": 0.1902,
+        "mk_no_trend": 0.7959
+      },
+      "sharpe": 0.016716497658558108,
+      "n_trades": 5,
+      "max_dd": -0.003351084199306409,
+      "profit_factor": 1.1468208286147064,
+      "cum_return": 0.0006147880362439295
+    },
+    {
+      "params": {
+        "grid_period": 37,
+        "grid_mult": 2.2416,
+        "atr_period": 28,
+        "vpin_pct_thresh": 0.368,
+        "ofi_neutral_thresh": 0.0807,
+        "mk_no_trend": 0.6956
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "grid_period": 11,
+        "grid_mult": 2.7955,
+        "atr_period": 9,
+        "vpin_pct_thresh": 0.3247,
+        "ofi_neutral_thresh": 0.2244,
+        "mk_no_trend": 1.0296
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "grid_period": 36,
+        "grid_mult": 2.3308,
+        "atr_period": 12,
+        "vpin_pct_thresh": 0.7268,
+        "ofi_neutral_thresh": 0.1144,
+        "mk_no_trend": 0.5555
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "grid_period": 24,
+        "grid_mult": 2.6809,
+        "atr_period": 28,
+        "vpin_pct_thresh": 0.7157,
+        "ofi_neutral_thresh": 0.0874,
+        "mk_no_trend": 0.6289
+      },
+      "sharpe": 0.0,
+      "n_trades": 0,
+      "max_dd": 0.0,
+      "profit_factor": 0.0,
+      "cum_return": 0.0
+    },
+    {
+      "params": {
+        "grid_period": 38,
+        "grid_mult": 1.3717,
+        "atr_period": 11,
+        "vpin_pct_thresh": 0.4794,
+        "ofi_neutral_thresh": 0.1007,
+        "mk_no_trend": 2.386
+      },
+      "sharpe": -0.08753345885198133,
+      "n_trades": 81,
+      "max_dd": -0.049638488853836926,
+      "profit_factor": 0.9664898309529427,
+      "cum_return": -0.006524642605269304
+    },
+    {
+      "params": {
+        "grid_period": 23,
+        "grid_mult": 2.4458,
+        "atr_period": 29,
+        "vpin_pct_thresh": 0.2938,
+        "ofi_neutral_thresh": 0.3236,
+        "mk_no_trend": 2.3035
+      },
+      "sharpe": -0.1509809236181722,
+      "n_trades": 27,
+      "max_dd": -0.024380457541852585,
+      "profit_factor": 0.8653414279428414,
+      "cum_return": -0.006060614515418394
+    },
+    {
+      "params": {
+        "grid_period": 23,
+        "grid_mult": 2.4206,
+        "atr_period": 22,
+        "vpin_pct_thresh": 0.4198,
+        "ofi_neutral_thresh": 0.0557,
+        "mk_no_trend": 1.5716
+      },
+      "sharpe": -0.18055138610877747,
+      "n_trades": 4,
+      "max_dd": -0.00942341885614717,
+      "profit_factor": 0.4960811240083379,
+      "cum_return": -0.004184329914132534
+    },
+    {
+      "params": {
+        "grid_period": 21,
+        "grid_mult": 2.6092,
+        "atr_period": 16,
+        "vpin_pct_thresh": 0.4029,
+        "ofi_neutral_thresh": 0.0962,
+        "mk_no_trend": 1.2327
+      },
+      "sharpe": -0.19207487140403603,
+      "n_trades": 7,
+      "max_dd": -0.007139710751639328,
+      "profit_factor": 0.5744178915398563,
+      "cum_return": -0.00411046850976593
+    },
+    {
+      "params": {
+        "grid_period": 32,
+        "grid_mult": 0.6499,
+        "atr_period": 30,
+        "vpin_pct_thresh": 0.2446,
+        "ofi_neutral_thresh": 0.1977,
+        "mk_no_trend": 1.741
+      },
+      "sharpe": -0.23894756979902462,
+      "n_trades": 29,
+      "max_dd": -0.02861989213086724,
+      "profit_factor": 0.7643340136181497,
+      "cum_return": -0.01595212015775138
+    },
+    {
+      "params": {
+        "grid_period": 15,
+        "grid_mult": 2.5665,
+        "atr_period": 13,
+        "vpin_pct_thresh": 0.7012,
+        "ofi_neutral_thresh": 0.1879,
+        "mk_no_trend": 1.7714
+      },
+      "sharpe": -0.23894756979902462,
+      "n_trades": 29,
+      "max_dd": -0.02861989213086724,
+      "profit_factor": 0.7643340136181497,
+      "cum_return": -0.01595212015775138
+    },
+    {
+      "params": {
+        "grid_period": 30,
+        "grid_mult": 1.2439,
+        "atr_period": 16,
+        "vpin_pct_thresh": 0.3769,
+        "ofi_neutral_thresh": 0.055,
+        "mk_no_trend": 2.051
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 16,
+        "grid_mult": 1.8912,
+        "atr_period": 17,
+        "vpin_pct_thresh": 0.425,
+        "ofi_neutral_thresh": 0.0484,
+        "mk_no_trend": 0.8864
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 20,
+        "grid_mult": 2.6965,
+        "atr_period": 19,
+        "vpin_pct_thresh": 0.3904,
+        "ofi_neutral_thresh": 0.2851,
+        "mk_no_trend": 1.5473
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 22,
+        "grid_mult": 1.4202,
+        "atr_period": 14,
+        "vpin_pct_thresh": 0.7376,
+        "ofi_neutral_thresh": 0.1538,
+        "mk_no_trend": 2.6795
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 16,
+        "grid_mult": 0.7395,
+        "atr_period": 18,
+        "vpin_pct_thresh": 0.6396,
+        "ofi_neutral_thresh": 0.1219,
+        "mk_no_trend": 2.6049
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 26,
+        "grid_mult": 2.6179,
+        "atr_period": 11,
+        "vpin_pct_thresh": 0.7466,
+        "ofi_neutral_thresh": 0.1719,
+        "mk_no_trend": 0.5421
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 25,
+        "grid_mult": 2.1226,
+        "atr_period": 20,
+        "vpin_pct_thresh": 0.3039,
+        "ofi_neutral_thresh": 0.1617,
+        "mk_no_trend": 1.432
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 14,
+        "grid_mult": 1.3219,
+        "atr_period": 21,
+        "vpin_pct_thresh": 0.4676,
+        "ofi_neutral_thresh": 0.0742,
+        "mk_no_trend": 1.413
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 13,
+        "grid_mult": 2.2082,
+        "atr_period": 23,
+        "vpin_pct_thresh": 0.2916,
+        "ofi_neutral_thresh": 0.1031,
+        "mk_no_trend": 1.939
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 22,
+        "grid_mult": 1.818,
+        "atr_period": 29,
+        "vpin_pct_thresh": 0.2131,
+        "ofi_neutral_thresh": 0.2408,
+        "mk_no_trend": 0.4619
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 19,
+        "grid_mult": 0.8761,
+        "atr_period": 24,
+        "vpin_pct_thresh": 0.5413,
+        "ofi_neutral_thresh": 0.2124,
+        "mk_no_trend": 1.8603
+      },
+      "sharpe": -0.23990492005246059,
+      "n_trades": 4,
+      "max_dd": -0.0042536694053414426,
+      "profit_factor": 0.7039133497829313,
+      "cum_return": -0.0009350382946418101
+    },
+    {
+      "params": {
+        "grid_period": 35,
+        "grid_mult": 1.1099,
+        "atr_period": 10,
+        "vpin_pct_thresh": 0.5826,
+        "ofi_neutral_thresh": 0.1075,
+        "mk_no_trend": 2.4983
+      },
+      "sharpe": -0.3169990607311687,
+      "n_trades": 103,
+      "max_dd": -0.05835294201388119,
+      "profit_factor": 0.8737538965731003,
+      "cum_return": -0.02526617098039774
+    },
+    {
+      "params": {
+        "grid_period": 15,
+        "grid_mult": 2.3653,
+        "atr_period": 10,
+        "vpin_pct_thresh": 0.7067,
+        "ofi_neutral_thresh": 0.3064,
+        "mk_no_trend": 1.3572
+      },
+      "sharpe": -0.37447231093498784,
+      "n_trades": 33,
+      "max_dd": -0.039248128373018165,
+      "profit_factor": 0.6665482592991824,
+      "cum_return": -0.02500556450299618
+    },
+    {
+      "params": {
+        "grid_period": 33,
+        "grid_mult": 0.9268,
+        "atr_period": 22,
+        "vpin_pct_thresh": 0.5853,
+        "ofi_neutral_thresh": 0.1645,
+        "mk_no_trend": 2.0208
+      },
+      "sharpe": -0.5579209372074074,
+      "n_trades": 60,
+      "max_dd": -0.06236321724375504,
+      "profit_factor": 0.6954505163721493,
+      "cum_return": -0.03818468930957519
+    },
+    {
+      "params": {
+        "grid_period": 38,
+        "grid_mult": 1.0113,
+        "atr_period": 18,
+        "vpin_pct_thresh": 0.3613,
+        "ofi_neutral_thresh": 0.2166,
+        "mk_no_trend": 1.918
+      },
+      "sharpe": -0.5700815352818658,
+      "n_trades": 23,
+      "max_dd": -0.033537991318823734,
+      "profit_factor": 0.5617608747656693,
+      "cum_return": -0.019102650813437316
+    },
+    {
+      "params": {
+        "grid_period": 12,
+        "grid_mult": 0.6011,
+        "atr_period": 19,
+        "vpin_pct_thresh": 0.4409,
+        "ofi_neutral_thresh": 0.3167,
+        "mk_no_trend": 0.3303
+      },
+      "sharpe": -0.5700815352818658,
+      "n_trades": 23,
+      "max_dd": -0.033537991318823734,
+      "profit_factor": 0.5617608747656693,
+      "cum_return": -0.019102650813437316
+    },
+    {
+      "params": {
+        "grid_period": 39,
+        "grid_mult": 1.4686,
+        "atr_period": 9,
+        "vpin_pct_thresh": 0.5486,
+        "ofi_neutral_thresh": 0.1252,
+        "mk_no_trend": 2.294
+      },
+      "sharpe": -0.7658073640427294,
+      "n_trades": 62,
+      "max_dd": -0.1013064514412142,
+      "profit_factor": 0.5533669001700144,
+      "cum_return": -0.07981288151377364
+    },
+    {
+      "params": {
+        "grid_period": 17,
+        "grid_mult": 1.642,
+        "atr_period": 24,
+        "vpin_pct_thresh": 0.266,
+        "ofi_neutral_thresh": 0.2585,
+        "mk_no_trend": 2.5609
+      },
+      "sharpe": -0.8590991318433061,
+      "n_trades": 3,
+      "max_dd": -0.01368148411941783,
+      "profit_factor": 0.0,
+      "cum_return": -0.012472250078382152
+    },
+    {
+      "params": {
+        "grid_period": 29,
+        "grid_mult": 1.335,
+        "atr_period": 25,
+        "vpin_pct_thresh": 0.5215,
+        "ofi_neutral_thresh": 0.2827,
+        "mk_no_trend": 2.1519
+      },
+      "sharpe": -0.8590991318433061,
+      "n_trades": 3,
+      "max_dd": -0.01368148411941783,
+      "profit_factor": 0.0,
+      "cum_return": -0.012472250078382152
+    },
+    {
+      "params": {
+        "grid_period": 28,
+        "grid_mult": 1.6228,
+        "atr_period": 23,
+        "vpin_pct_thresh": 0.517,
+        "ofi_neutral_thresh": 0.128,
+        "mk_no_trend": 0.9418
+      },
+      "sharpe": -0.8590991318433061,
+      "n_trades": 3,
+      "max_dd": -0.01368148411941783,
+      "profit_factor": 0.0,
+      "cum_return": -0.012472250078382152
+    },
+    {
+      "params": {
+        "grid_period": 18,
+        "grid_mult": 2.4772,
+        "atr_period": 27,
+        "vpin_pct_thresh": 0.4953,
+        "ofi_neutral_thresh": 0.0709,
+        "mk_no_trend": 0.8371
+      },
+      "sharpe": -0.8590991318433061,
+      "n_trades": 3,
+      "max_dd": -0.01368148411941783,
+      "profit_factor": 0.0,
+      "cum_return": -0.012472250078382152
+    },
+    {
+      "params": {
+        "grid_period": 31,
+        "grid_mult": 0.8514,
+        "atr_period": 15,
+        "vpin_pct_thresh": 0.5704,
+        "ofi_neutral_thresh": 0.2303,
+        "mk_no_trend": 1.6781
+      },
+      "sharpe": -0.8603415134753073,
+      "n_trades": 71,
+      "max_dd": -0.09853863386614081,
+      "profit_factor": 0.5441871280811003,
+      "cum_return": -0.08207988556352674
+    }
+  ],
+  "DualMovingAverageCrossover": [
+    {
+      "params": {
+        "short_period": 9,
+        "long_period": 84
+      },
+      "sharpe": 0.32505494498820353,
+      "n_trades": 82,
+      "max_dd": -0.04256896538011823,
+      "profit_factor": 1.2327699833643524,
+      "cum_return": 0.04386706403628038
+    },
+    {
+      "params": {
+        "short_period": 10,
+        "long_period": 56
+      },
+      "sharpe": 0.06553642597314521,
+      "n_trades": 99,
+      "max_dd": -0.06279442226552712,
+      "profit_factor": 1.0563618467553948,
+      "cum_return": 0.010657418375523475
+    },
+    {
+      "params": {
+        "short_period": 7,
+        "long_period": 37
+      },
+      "sharpe": -0.07792916004522507,
+      "n_trades": 110,
+      "max_dd": -0.07314374100364252,
+      "profit_factor": 0.9698552255212782,
+      "cum_return": -0.008095213596472028
+    },
+    {
+      "params": {
+        "short_period": 7,
+        "long_period": 56
+      },
+      "sharpe": -0.07792916004522507,
+      "n_trades": 110,
+      "max_dd": -0.07314374100364252,
+      "profit_factor": 0.9698552255212782,
+      "cum_return": -0.008095213596472028
+    },
+    {
+      "params": {
+        "short_period": 6,
+        "long_period": 82
+      },
+      "sharpe": -0.07792916004522507,
+      "n_trades": 110,
+      "max_dd": -0.07314374100364252,
+      "profit_factor": 0.9698552255212782,
+      "cum_return": -0.008095213596472028
+    },
+    {
+      "params": {
+        "short_period": 12,
+        "long_period": 52
+      },
+      "sharpe": -0.07792916004522507,
+      "n_trades": 110,
+      "max_dd": -0.07314374100364252,
+      "profit_factor": 0.9698552255212782,
+      "cum_return": -0.008095213596472028
+    },
+    {
+      "params": {
+        "short_period": 13,
+        "long_period": 87
+      },
+      "sharpe": -0.1149014916481972,
+      "n_trades": 96,
+      "max_dd": -0.045810494465313045,
+      "profit_factor": 0.9532475565464914,
+      "cum_return": -0.009386344510661782
+    },
+    {
+      "params": {
+        "short_period": 11,
+        "long_period": 47
+      },
+      "sharpe": -0.18220349705788244,
+      "n_trades": 121,
+      "max_dd": -0.08129128792633256,
+      "profit_factor": 0.9133778121671345,
+      "cum_return": -0.022108847568456214
+    },
+    {
+      "params": {
+        "short_period": 12,
+        "long_period": 54
+      },
+      "sharpe": -0.21430848563353316,
+      "n_trades": 86,
+      "max_dd": -0.03403810816060027,
+      "profit_factor": 0.8911293410690319,
+      "cum_return": -0.021341871720046757
+    },
+    {
+      "params": {
+        "short_period": 4,
+        "long_period": 84
+      },
+      "sharpe": -0.21430848563353316,
+      "n_trades": 86,
+      "max_dd": -0.03403810816060027,
+      "profit_factor": 0.8911293410690319,
+      "cum_return": -0.021341871720046757
+    },
+    {
+      "params": {
+        "short_period": 11,
+        "long_period": 98
+      },
+      "sharpe": -0.21430848563353316,
+      "n_trades": 86,
+      "max_dd": -0.03403810816060027,
+      "profit_factor": 0.8911293410690319,
+      "cum_return": -0.021341871720046757
+    },
+    {
+      "params": {
+        "short_period": 19,
+        "long_period": 90
+      },
+      "sharpe": -0.2253715466079568,
+      "n_trades": 55,
+      "max_dd": -0.041313862919703626,
+      "profit_factor": 0.8293198089227641,
+      "cum_return": -0.024100174044600187
+    },
+    {
+      "params": {
+        "short_period": 16,
+        "long_period": 31
+      },
+      "sharpe": -0.23763470888944782,
+      "n_trades": 108,
+      "max_dd": -0.0739691467556367,
+      "profit_factor": 0.8777156737047993,
+      "cum_return": -0.02806617812712342
+    },
+    {
+      "params": {
+        "short_period": 17,
+        "long_period": 39
+      },
+      "sharpe": -0.23763470888944782,
+      "n_trades": 108,
+      "max_dd": -0.0739691467556367,
+      "profit_factor": 0.8777156737047993,
+      "cum_return": -0.02806617812712342
+    },
+    {
+      "params": {
+        "short_period": 19,
+        "long_period": 68
+      },
+      "sharpe": -0.23763470888944782,
+      "n_trades": 108,
+      "max_dd": -0.0739691467556367,
+      "profit_factor": 0.8777156737047993,
+      "cum_return": -0.02806617812712342
+    },
+    {
+      "params": {
+        "short_period": 16,
+        "long_period": 69
+      },
+      "sharpe": -0.2599047958696758,
+      "n_trades": 117,
+      "max_dd": -0.05883609892620756,
+      "profit_factor": 0.8865022661197706,
+      "cum_return": -0.023036518566055042
+    },
+    {
+      "params": {
+        "short_period": 13,
+        "long_period": 62
+      },
+      "sharpe": -0.2599047958696758,
+      "n_trades": 117,
+      "max_dd": -0.05883609892620756,
+      "profit_factor": 0.8865022661197706,
+      "cum_return": -0.023036518566055042
+    },
+    {
+      "params": {
+        "short_period": 15,
+        "long_period": 42
+      },
+      "sharpe": -0.2610466998317289,
+      "n_trades": 110,
+      "max_dd": -0.07213868669057255,
+      "profit_factor": 0.8641027592205737,
+      "cum_return": -0.030906619997050133
+    },
+    {
+      "params": {
+        "short_period": 10,
+        "long_period": 39
+      },
+      "sharpe": -0.2685585088252501,
+      "n_trades": 46,
+      "max_dd": -0.029336007703847033,
+      "profit_factor": 0.8049737588110025,
+      "cum_return": -0.02101058138448153
+    },
+    {
+      "params": {
+        "short_period": 19,
+        "long_period": 100
+      },
+      "sharpe": -0.2685585088252501,
+      "n_trades": 46,
+      "max_dd": -0.029336007703847033,
+      "profit_factor": 0.8049737588110025,
+      "cum_return": -0.02101058138448153
+    },
+    {
+      "params": {
+        "short_period": 13,
+        "long_period": 80
+      },
+      "sharpe": -0.2771303777244687,
+      "n_trades": 117,
+      "max_dd": -0.10322084281014687,
+      "profit_factor": 0.8822369216837507,
+      "cum_return": -0.030335248708354245
+    },
+    {
+      "params": {
+        "short_period": 18,
+        "long_period": 45
+      },
+      "sharpe": -0.2861460592810423,
+      "n_trades": 106,
+      "max_dd": -0.08640001021033306,
+      "profit_factor": 0.860357525457352,
+      "cum_return": -0.033151868654171524
+    },
+    {
+      "params": {
+        "short_period": 13,
+        "long_period": 92
+      },
+      "sharpe": -0.2861460592810423,
+      "n_trades": 106,
+      "max_dd": -0.08640001021033306,
+      "profit_factor": 0.860357525457352,
+      "cum_return": -0.033151868654171524
+    },
+    {
+      "params": {
+        "short_period": 18,
+        "long_period": 74
+      },
+      "sharpe": -0.2861460592810423,
+      "n_trades": 106,
+      "max_dd": -0.08640001021033306,
+      "profit_factor": 0.860357525457352,
+      "cum_return": -0.033151868654171524
+    },
+    {
+      "params": {
+        "short_period": 5,
+        "long_period": 25
+      },
+      "sharpe": -0.4041555933299423,
+      "n_trades": 188,
+      "max_dd": -0.07577943367919793,
+      "profit_factor": 0.8473158674231093,
+      "cum_return": -0.04822253374322627
+    },
+    {
+      "params": {
+        "short_period": 20,
+        "long_period": 81
+      },
+      "sharpe": -0.40464939191548005,
+      "n_trades": 129,
+      "max_dd": -0.08098991159330482,
+      "profit_factor": 0.8366787848977697,
+      "cum_return": -0.04334479318557094
+    },
+    {
+      "params": {
+        "short_period": 18,
+        "long_period": 67
+      },
+      "sharpe": -0.4048482212622548,
+      "n_trades": 110,
+      "max_dd": -0.06720106284714067,
+      "profit_factor": 0.793129456990589,
+      "cum_return": -0.041814925916666246
+    },
+    {
+      "params": {
+        "short_period": 10,
+        "long_period": 61
+      },
+      "sharpe": -0.44943241281477314,
+      "n_trades": 133,
+      "max_dd": -0.0785167408332057,
+      "profit_factor": 0.7967324976316004,
+      "cum_return": -0.06116411990739379
+    },
+    {
+      "params": {
+        "short_period": 3,
+        "long_period": 43
+      },
+      "sharpe": -0.5084255227892982,
+      "n_trades": 83,
+      "max_dd": -0.06874269159035595,
+      "profit_factor": 0.7224039908224471,
+      "cum_return": -0.05489138556428752
+    },
+    {
+      "params": {
+        "short_period": 15,
+        "long_period": 65
+      },
+      "sharpe": -0.5084255227892982,
+      "n_trades": 83,
+      "max_dd": -0.06874269159035595,
+      "profit_factor": 0.7224039908224471,
+      "cum_return": -0.05489138556428752
+    },
+    {
+      "params": {
+        "short_period": 8,
+        "long_period": 65
+      },
+      "sharpe": -0.5530104418068373,
+      "n_trades": 93,
+      "max_dd": -0.08890540360523225,
+      "profit_factor": 0.7185114697706619,
+      "cum_return": -0.06191347541673242
+    },
+    {
+      "params": {
+        "short_period": 17,
+        "long_period": 88
+      },
+      "sharpe": -0.5530104418068373,
+      "n_trades": 93,
+      "max_dd": -0.08890540360523225,
+      "profit_factor": 0.7185114697706619,
+      "cum_return": -0.06191347541673242
+    },
+    {
+      "params": {
+        "short_period": 8,
+        "long_period": 77
+      },
+      "sharpe": -0.636528005453502,
+      "n_trades": 159,
+      "max_dd": -0.11306272880934964,
+      "profit_factor": 0.740173016284865,
+      "cum_return": -0.09433569386113039
+    },
+    {
+      "params": {
+        "short_period": 9,
+        "long_period": 96
+      },
+      "sharpe": -0.636528005453502,
+      "n_trades": 159,
+      "max_dd": -0.11306272880934964,
+      "profit_factor": 0.740173016284865,
+      "cum_return": -0.09433569386113039
+    },
+    {
+      "params": {
+        "short_period": 14,
+        "long_period": 97
+      },
+      "sharpe": -0.636528005453502,
+      "n_trades": 159,
+      "max_dd": -0.11306272880934964,
+      "profit_factor": 0.740173016284865,
+      "cum_return": -0.09433569386113039
+    },
+    {
+      "params": {
+        "short_period": 7,
+        "long_period": 73
+      },
+      "sharpe": -0.636528005453502,
+      "n_trades": 159,
+      "max_dd": -0.11306272880934964,
+      "profit_factor": 0.740173016284865,
+      "cum_return": -0.09433569386113039
+    },
+    {
+      "params": {
+        "short_period": 8,
+        "long_period": 28
+      },
+      "sharpe": -0.6579580075300846,
+      "n_trades": 171,
+      "max_dd": -0.11962929841825165,
+      "profit_factor": 0.7341594549074628,
+      "cum_return": -0.0994348051554158
+    },
+    {
+      "params": {
+        "short_period": 7,
+        "long_period": 63
+      },
+      "sharpe": -0.6579580075300846,
+      "n_trades": 171,
+      "max_dd": -0.11962929841825165,
+      "profit_factor": 0.7341594549074628,
+      "cum_return": -0.0994348051554158
+    },
+    {
+      "params": {
+        "short_period": 5,
+        "long_period": 76
+      },
+      "sharpe": -0.6870449779750675,
+      "n_trades": 109,
+      "max_dd": -0.10478638738262269,
+      "profit_factor": 0.6824505879504223,
+      "cum_return": -0.08465834149976548
+    },
+    {
+      "params": {
+        "short_period": 12,
+        "long_period": 34
+      },
+      "sharpe": -0.6870449779750675,
+      "n_trades": 109,
+      "max_dd": -0.10478638738262269,
+      "profit_factor": 0.6824505879504223,
+      "cum_return": -0.08465834149976548
+    },
+    {
+      "params": {
+        "short_period": 16,
+        "long_period": 72
+      },
+      "sharpe": -0.6870449779750675,
+      "n_trades": 109,
+      "max_dd": -0.10478638738262269,
+      "profit_factor": 0.6824505879504223,
+      "cum_return": -0.08465834149976548
+    },
+    {
+      "params": {
+        "short_period": 17,
+        "long_period": 26
+      },
+      "sharpe": -0.7298640513668305,
+      "n_trades": 136,
+      "max_dd": -0.108165275855862,
+      "profit_factor": 0.6815891278141771,
+      "cum_return": -0.09306194706526827
+    },
+    {
+      "params": {
+        "short_period": 8,
+        "long_period": 59
+      },
+      "sharpe": -0.7298640513668305,
+      "n_trades": 136,
+      "max_dd": -0.108165275855862,
+      "profit_factor": 0.6815891278141771,
+      "cum_return": -0.09306194706526827
+    },
+    {
+      "params": {
+        "short_period": 6,
+        "long_period": 58
+      },
+      "sharpe": -0.7300749941298809,
+      "n_trades": 137,
+      "max_dd": -0.11191250239122952,
+      "profit_factor": 0.6697290597228843,
+      "cum_return": -0.09781374688297206
+    },
+    {
+      "params": {
+        "short_period": 9,
+        "long_period": 53
+      },
+      "sharpe": -0.7300749941298809,
+      "n_trades": 137,
+      "max_dd": -0.11191250239122952,
+      "profit_factor": 0.6697290597228843,
+      "cum_return": -0.09781374688297206
+    },
+    {
+      "params": {
+        "short_period": 14,
+        "long_period": 49
+      },
+      "sharpe": -0.7300749941298809,
+      "n_trades": 137,
+      "max_dd": -0.11191250239122952,
+      "profit_factor": 0.6697290597228843,
+      "cum_return": -0.09781374688297206
+    },
+    {
+      "params": {
+        "short_period": 20,
+        "long_period": 36
+      },
+      "sharpe": -0.7300749941298809,
+      "n_trades": 137,
+      "max_dd": -0.11191250239122952,
+      "profit_factor": 0.6697290597228843,
+      "cum_return": -0.09781374688297206
+    },
+    {
+      "params": {
+        "short_period": 15,
+        "long_period": 49
+      },
+      "sharpe": -0.7300749941298809,
+      "n_trades": 137,
+      "max_dd": -0.11191250239122952,
+      "profit_factor": 0.6697290597228843,
+      "cum_return": -0.09781374688297206
+    },
+    {
+      "params": {
+        "short_period": 4,
+        "long_period": 70
+      },
+      "sharpe": -0.7300749941298809,
+      "n_trades": 137,
+      "max_dd": -0.11191250239122952,
+      "profit_factor": 0.6697290597228843,
+      "cum_return": -0.09781374688297206
+    },
+    {
+      "params": {
+        "short_period": 5,
+        "long_period": 29
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 3,
+        "long_period": 41
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 18,
+        "long_period": 51
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 11,
+        "long_period": 85
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 16,
+        "long_period": 32
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 15,
+        "long_period": 79
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 14,
+        "long_period": 93
+      },
+      "sharpe": -0.7652656553743563,
+      "n_trades": 96,
+      "max_dd": -0.10100943121078254,
+      "profit_factor": 0.6378461645483581,
+      "cum_return": -0.0831573850700299
+    },
+    {
+      "params": {
+        "short_period": 4,
+        "long_period": 89
+      },
+      "sharpe": -0.8319938143105218,
+      "n_trades": 200,
+      "max_dd": -0.16628293921377746,
+      "profit_factor": 0.7142074693863499,
+      "cum_return": -0.12949790154652252
+    },
+    {
+      "params": {
+        "short_period": 10,
+        "long_period": 33
+      },
+      "sharpe": -0.9103247872034206,
+      "n_trades": 140,
+      "max_dd": -0.10078630177949399,
+      "profit_factor": 0.6492673856802751,
+      "cum_return": -0.09159147129114786
+    },
+    {
+      "params": {
+        "short_period": 6,
+        "long_period": 94
+      },
+      "sharpe": -0.9103247872034206,
+      "n_trades": 140,
+      "max_dd": -0.10078630177949399,
+      "profit_factor": 0.6492673856802751,
+      "cum_return": -0.09159147129114786
+    },
+    {
+      "params": {
+        "short_period": 4,
+        "long_period": 44
+      },
+      "sharpe": -0.9870176252213022,
+      "n_trades": 151,
+      "max_dd": -0.110202947852853,
+      "profit_factor": 0.6091047278560433,
+      "cum_return": -0.1033914211536161
+    }
+  ],
+  "MultiTimeframeTrendSignal": [
+    {
+      "params": {
+        "short_window": 18,
+        "mid_window": 78,
+        "long_window": 220,
+        "vol_window": 76
+      },
+      "sharpe": 0.19783843671423662,
+      "n_trades": 161,
+      "max_dd": -0.02626739498703934,
+      "profit_factor": 1.1670867013974437,
+      "cum_return": 0.027309144085917447
+    },
+    {
+      "params": {
+        "short_window": 42,
+        "mid_window": 61,
+        "long_window": 134,
+        "vol_window": 78
+      },
+      "sharpe": 0.19783843671423662,
+      "n_trades": 161,
+      "max_dd": -0.02626739498703934,
+      "profit_factor": 1.1670867013974437,
+      "cum_return": 0.027309144085917447
+    },
+    {
+      "params": {
+        "short_window": 31,
+        "mid_window": 60,
+        "long_window": 123,
+        "vol_window": 85
+      },
+      "sharpe": 0.12473769328098953,
+      "n_trades": 129,
+      "max_dd": -0.01848846659851433,
+      "profit_factor": 1.3088712949712988,
+      "cum_return": 0.023684008973728243
+    },
+    {
+      "params": {
+        "short_window": 12,
+        "mid_window": 32,
+        "long_window": 367,
+        "vol_window": 95
+      },
+      "sharpe": -0.07221282511505783,
+      "n_trades": 86,
+      "max_dd": -0.025059055581450718,
+      "profit_factor": 1.0335419162442234,
+      "cum_return": 0.0022420351705925157
+    },
+    {
+      "params": {
+        "short_window": 47,
+        "mid_window": 68,
+        "long_window": 364,
+        "vol_window": 36
+      },
+      "sharpe": -0.07221282511505783,
+      "n_trades": 86,
+      "max_dd": -0.025059055581450718,
+      "profit_factor": 1.0335419162442234,
+      "cum_return": 0.0022420351705925157
+    },
+    {
+      "params": {
+        "short_window": 17,
+        "mid_window": 43,
+        "long_window": 249,
+        "vol_window": 62
+      },
+      "sharpe": -0.09420184059034453,
+      "n_trades": 137,
+      "max_dd": -0.0267037776268213,
+      "profit_factor": 1.0278815865355986,
+      "cum_return": 0.00285932354745011
+    },
+    {
+      "params": {
+        "short_window": 47,
+        "mid_window": 71,
+        "long_window": 201,
+        "vol_window": 87
+      },
+      "sharpe": -0.14635646209694547,
+      "n_trades": 73,
+      "max_dd": -0.01538860008740206,
+      "profit_factor": 0.9394049836326309,
+      "cum_return": -0.00452109538286416
+    },
+    {
+      "params": {
+        "short_window": 36,
+        "mid_window": 56,
+        "long_window": 260,
+        "vol_window": 46
+      },
+      "sharpe": -0.17383917243368444,
+      "n_trades": 54,
+      "max_dd": -0.019507950684172992,
+      "profit_factor": 0.9727548966403704,
+      "cum_return": -0.001483483303935329
+    },
+    {
+      "params": {
+        "short_window": 20,
+        "mid_window": 80,
+        "long_window": 179,
+        "vol_window": 22
+      },
+      "sharpe": -0.2981900227204934,
+      "n_trades": 168,
+      "max_dd": -0.07268706745308962,
+      "profit_factor": 0.846698549473698,
+      "cum_return": -0.034992039056642055
+    },
+    {
+      "params": {
+        "short_window": 48,
+        "mid_window": 63,
+        "long_window": 219,
+        "vol_window": 28
+      },
+      "sharpe": -0.2981900227204934,
+      "n_trades": 168,
+      "max_dd": -0.07268706745308962,
+      "profit_factor": 0.846698549473698,
+      "cum_return": -0.034992039056642055
+    },
+    {
+      "params": {
+        "short_window": 44,
+        "mid_window": 66,
+        "long_window": 160,
+        "vol_window": 71
+      },
+      "sharpe": -0.2981900227204934,
+      "n_trades": 168,
+      "max_dd": -0.07268706745308962,
+      "profit_factor": 0.846698549473698,
+      "cum_return": -0.034992039056642055
+    },
+    {
+      "params": {
+        "short_window": 41,
+        "mid_window": 44,
+        "long_window": 136,
+        "vol_window": 32
+      },
+      "sharpe": -0.3254422429170676,
+      "n_trades": 230,
+      "max_dd": -0.05718058334965881,
+      "profit_factor": 0.8902866770573364,
+      "cum_return": -0.028644581447386464
+    },
+    {
+      "params": {
+        "short_window": 36,
+        "mid_window": 40,
+        "long_window": 192,
+        "vol_window": 30
+      },
+      "sharpe": -0.3504654535167197,
+      "n_trades": 227,
+      "max_dd": -0.054086612132884904,
+      "profit_factor": 0.8802722484598431,
+      "cum_return": -0.02290109871935808
+    },
+    {
+      "params": {
+        "short_window": 30,
+        "mid_window": 37,
+        "long_window": 114,
+        "vol_window": 116
+      },
+      "sharpe": -0.3504654535167197,
+      "n_trades": 227,
+      "max_dd": -0.054086612132884904,
+      "profit_factor": 0.8802722484598431,
+      "cum_return": -0.02290109871935808
+    },
+    {
+      "params": {
+        "short_window": 15,
+        "mid_window": 31,
+        "long_window": 340,
+        "vol_window": 98
+      },
+      "sharpe": -0.3504654535167197,
+      "n_trades": 227,
+      "max_dd": -0.054086612132884904,
+      "profit_factor": 0.8802722484598431,
+      "cum_return": -0.02290109871935808
+    },
+    {
+      "params": {
+        "short_window": 29,
+        "mid_window": 41,
+        "long_window": 316,
+        "vol_window": 102
+      },
+      "sharpe": -0.35237250915848134,
+      "n_trades": 172,
+      "max_dd": -0.06358992330829927,
+      "profit_factor": 0.8085170407825543,
+      "cum_return": -0.04675280298962026
+    },
+    {
+      "params": {
+        "short_window": 30,
+        "mid_window": 81,
+        "long_window": 301,
+        "vol_window": 41
+      },
+      "sharpe": -0.35237250915848134,
+      "n_trades": 172,
+      "max_dd": -0.06358992330829927,
+      "profit_factor": 0.8085170407825543,
+      "cum_return": -0.04675280298962026
+    },
+    {
+      "params": {
+        "short_window": 17,
+        "mid_window": 99,
+        "long_window": 328,
+        "vol_window": 70
+      },
+      "sharpe": -0.35237250915848134,
+      "n_trades": 172,
+      "max_dd": -0.06358992330829927,
+      "profit_factor": 0.8085170407825543,
+      "cum_return": -0.04675280298962026
+    },
+    {
+      "params": {
+        "short_window": 26,
+        "mid_window": 83,
+        "long_window": 173,
+        "vol_window": 30
+      },
+      "sharpe": -0.35237250915848134,
+      "n_trades": 172,
+      "max_dd": -0.06358992330829927,
+      "profit_factor": 0.8085170407825543,
+      "cum_return": -0.04675280298962026
+    },
+    {
+      "params": {
+        "short_window": 11,
+        "mid_window": 64,
+        "long_window": 293,
+        "vol_window": 53
+      },
+      "sharpe": -0.3553230798826363,
+      "n_trades": 71,
+      "max_dd": -0.04651457660469571,
+      "profit_factor": 0.7591812380924382,
+      "cum_return": -0.024617963883770466
+    },
+    {
+      "params": {
+        "short_window": 35,
+        "mid_window": 75,
+        "long_window": 399,
+        "vol_window": 83
+      },
+      "sharpe": -0.3553230798826363,
+      "n_trades": 71,
+      "max_dd": -0.04651457660469571,
+      "profit_factor": 0.7591812380924382,
+      "cum_return": -0.024617963883770466
+    },
+    {
+      "params": {
+        "short_window": 34,
+        "mid_window": 93,
+        "long_window": 297,
+        "vol_window": 37
+      },
+      "sharpe": -0.3553230798826363,
+      "n_trades": 71,
+      "max_dd": -0.04651457660469571,
+      "profit_factor": 0.7591812380924382,
+      "cum_return": -0.024617963883770466
+    },
+    {
+      "params": {
+        "short_window": 44,
+        "mid_window": 84,
+        "long_window": 381,
+        "vol_window": 45
+      },
+      "sharpe": -0.3553230798826363,
+      "n_trades": 71,
+      "max_dd": -0.04651457660469571,
+      "profit_factor": 0.7591812380924382,
+      "cum_return": -0.024617963883770466
+    },
+    {
+      "params": {
+        "short_window": 43,
+        "mid_window": 67,
+        "long_window": 164,
+        "vol_window": 61
+      },
+      "sharpe": -0.37671446095772326,
+      "n_trades": 180,
+      "max_dd": -0.072152289226047,
+      "profit_factor": 0.8491868429628832,
+      "cum_return": -0.03138072016481752
+    },
+    {
+      "params": {
+        "short_window": 14,
+        "mid_window": 49,
+        "long_window": 144,
+        "vol_window": 107
+      },
+      "sharpe": -0.39153786097355125,
+      "n_trades": 231,
+      "max_dd": -0.06769842095091261,
+      "profit_factor": 0.8423160743462025,
+      "cum_return": -0.04169675280437102
+    },
+    {
+      "params": {
+        "short_window": 38,
+        "mid_window": 47,
+        "long_window": 307,
+        "vol_window": 95
+      },
+      "sharpe": -0.4072521202417531,
+      "n_trades": 152,
+      "max_dd": -0.0633557728007974,
+      "profit_factor": 0.8154095902865203,
+      "cum_return": -0.03567128775745276
+    },
+    {
+      "params": {
+        "short_window": 49,
+        "mid_window": 99,
+        "long_window": 240,
+        "vol_window": 72
+      },
+      "sharpe": -0.42592481183828057,
+      "n_trades": 195,
+      "max_dd": -0.06341570498347371,
+      "profit_factor": 0.8326734017107644,
+      "cum_return": -0.030517921163617845
+    },
+    {
+      "params": {
+        "short_window": 19,
+        "mid_window": 88,
+        "long_window": 373,
+        "vol_window": 66
+      },
+      "sharpe": -0.554101317144344,
+      "n_trades": 170,
+      "max_dd": -0.08071667353235845,
+      "profit_factor": 0.7772294423226209,
+      "cum_return": -0.05342891695113039
+    },
+    {
+      "params": {
+        "short_window": 38,
+        "mid_window": 62,
+        "long_window": 289,
+        "vol_window": 90
+      },
+      "sharpe": -0.554101317144344,
+      "n_trades": 170,
+      "max_dd": -0.08071667353235845,
+      "profit_factor": 0.7772294423226209,
+      "cum_return": -0.05342891695113039
+    },
+    {
+      "params": {
+        "short_window": 45,
+        "mid_window": 96,
+        "long_window": 343,
+        "vol_window": 65
+      },
+      "sharpe": -0.554101317144344,
+      "n_trades": 170,
+      "max_dd": -0.08071667353235845,
+      "profit_factor": 0.7772294423226209,
+      "cum_return": -0.05342891695113039
+    },
+    {
+      "params": {
+        "short_window": 27,
+        "mid_window": 86,
+        "long_window": 264,
+        "vol_window": 110
+      },
+      "sharpe": -0.554101317144344,
+      "n_trades": 170,
+      "max_dd": -0.08071667353235845,
+      "profit_factor": 0.7772294423226209,
+      "cum_return": -0.05342891695113039
+    },
+    {
+      "params": {
+        "short_window": 39,
+        "mid_window": 57,
+        "long_window": 183,
+        "vol_window": 99
+      },
+      "sharpe": -0.554101317144344,
+      "n_trades": 170,
+      "max_dd": -0.08071667353235845,
+      "profit_factor": 0.7772294423226209,
+      "cum_return": -0.05342891695113039
+    },
+    {
+      "params": {
+        "short_window": 12,
+        "mid_window": 82,
+        "long_window": 269,
+        "vol_window": 25
+      },
+      "sharpe": -0.6239750444572222,
+      "n_trades": 188,
+      "max_dd": -0.08884356435730645,
+      "profit_factor": 0.7388804666531814,
+      "cum_return": -0.07277821979398869
+    },
+    {
+      "params": {
+        "short_window": 26,
+        "mid_window": 70,
+        "long_window": 118,
+        "vol_window": 23
+      },
+      "sharpe": -0.6239750444572222,
+      "n_trades": 188,
+      "max_dd": -0.08884356435730645,
+      "profit_factor": 0.7388804666531814,
+      "cum_return": -0.07277821979398869
+    },
+    {
+      "params": {
+        "short_window": 48,
+        "mid_window": 31,
+        "long_window": 152,
+        "vol_window": 86
+      },
+      "sharpe": -0.6304306528911714,
+      "n_trades": 141,
+      "max_dd": -0.06837801629630169,
+      "profit_factor": 0.6931623573957462,
+      "cum_return": -0.05762376717045958
+    },
+    {
+      "params": {
+        "short_window": 37,
+        "mid_window": 74,
+        "long_window": 357,
+        "vol_window": 115
+      },
+      "sharpe": -0.630965437821805,
+      "n_trades": 103,
+      "max_dd": -0.0514513600330746,
+      "profit_factor": 0.6801640747500747,
+      "cum_return": -0.04761724680209789
+    },
+    {
+      "params": {
+        "short_window": 40,
+        "mid_window": 69,
+        "long_window": 185,
+        "vol_window": 42
+      },
+      "sharpe": -0.630965437821805,
+      "n_trades": 103,
+      "max_dd": -0.0514513600330746,
+      "profit_factor": 0.6801640747500747,
+      "cum_return": -0.04761724680209789
+    },
+    {
+      "params": {
+        "short_window": 24,
+        "mid_window": 76,
+        "long_window": 377,
+        "vol_window": 109
+      },
+      "sharpe": -0.6503846407330124,
+      "n_trades": 208,
+      "max_dd": -0.08875241695187086,
+      "profit_factor": 0.7634837574677127,
+      "cum_return": -0.05384184340369369
+    },
+    {
+      "params": {
+        "short_window": 28,
+        "mid_window": 91,
+        "long_window": 349,
+        "vol_window": 119
+      },
+      "sharpe": -0.6503846407330124,
+      "n_trades": 208,
+      "max_dd": -0.08875241695187086,
+      "profit_factor": 0.7634837574677127,
+      "cum_return": -0.05384184340369369
+    },
+    {
+      "params": {
+        "short_window": 46,
+        "mid_window": 73,
+        "long_window": 103,
+        "vol_window": 101
+      },
+      "sharpe": -0.6639307231272478,
+      "n_trades": 150,
+      "max_dd": -0.06782923546497399,
+      "profit_factor": 0.7120630867326512,
+      "cum_return": -0.057171165721960016
+    },
+    {
+      "params": {
+        "short_window": 34,
+        "mid_window": 85,
+        "long_window": 254,
+        "vol_window": 80
+      },
+      "sharpe": -0.6639307231272478,
+      "n_trades": 150,
+      "max_dd": -0.06782923546497399,
+      "profit_factor": 0.7120630867326512,
+      "cum_return": -0.057171165721960016
+    },
+    {
+      "params": {
+        "short_window": 33,
+        "mid_window": 50,
+        "long_window": 209,
+        "vol_window": 90
+      },
+      "sharpe": -0.6910052068932967,
+      "n_trades": 194,
+      "max_dd": -0.06475805606999996,
+      "profit_factor": 0.7452174559871727,
+      "cum_return": -0.0440472058422382
+    },
+    {
+      "params": {
+        "short_window": 28,
+        "mid_window": 78,
+        "long_window": 273,
+        "vol_window": 53
+      },
+      "sharpe": -0.7057209845369399,
+      "n_trades": 131,
+      "max_dd": -0.0587646322968185,
+      "profit_factor": 0.6666315810631311,
+      "cum_return": -0.05336157260548935
+    },
+    {
+      "params": {
+        "short_window": 31,
+        "mid_window": 51,
+        "long_window": 285,
+        "vol_window": 118
+      },
+      "sharpe": -0.7496251638566259,
+      "n_trades": 204,
+      "max_dd": -0.08156075497255966,
+      "profit_factor": 0.7100854212396829,
+      "cum_return": -0.07278834354626229
+    },
+    {
+      "params": {
+        "short_window": 32,
+        "mid_window": 36,
+        "long_window": 228,
+        "vol_window": 24
+      },
+      "sharpe": -0.8100445596872935,
+      "n_trades": 112,
+      "max_dd": -0.0498746697249155,
+      "profit_factor": 0.5811654875317166,
+      "cum_return": -0.0472826282152643
+    },
+    {
+      "params": {
+        "short_window": 14,
+        "mid_window": 46,
+        "long_window": 321,
+        "vol_window": 67
+      },
+      "sharpe": -0.8194964686196128,
+      "n_trades": 173,
+      "max_dd": -0.06699011387088494,
+      "profit_factor": 0.6538490117097326,
+      "cum_return": -0.060840194769247735
+    },
+    {
+      "params": {
+        "short_window": 21,
+        "mid_window": 90,
+        "long_window": 276,
+        "vol_window": 112
+      },
+      "sharpe": -0.8299418341225216,
+      "n_trades": 239,
+      "max_dd": -0.11353692781490543,
+      "profit_factor": 0.6685709367617241,
+      "cum_return": -0.11116147823424316
+    },
+    {
+      "params": {
+        "short_window": 39,
+        "mid_window": 97,
+        "long_window": 196,
+        "vol_window": 108
+      },
+      "sharpe": -0.8734768092367559,
+      "n_trades": 260,
+      "max_dd": -0.11726529266530461,
+      "profit_factor": 0.6725985870412194,
+      "cum_return": -0.10753887076224278
+    },
+    {
+      "params": {
+        "short_window": 16,
+        "mid_window": 54,
+        "long_window": 394,
+        "vol_window": 47
+      },
+      "sharpe": -0.8734768092367559,
+      "n_trades": 260,
+      "max_dd": -0.11726529266530461,
+      "profit_factor": 0.6725985870412194,
+      "cum_return": -0.10753887076224278
+    },
+    {
+      "params": {
+        "short_window": 13,
+        "mid_window": 37,
+        "long_window": 166,
+        "vol_window": 39
+      },
+      "sharpe": -0.981520634520553,
+      "n_trades": 230,
+      "max_dd": -0.11360322980238935,
+      "profit_factor": 0.643510964497207,
+      "cum_return": -0.10046783526270209
+    },
+    {
+      "params": {
+        "short_window": 23,
+        "mid_window": 94,
+        "long_window": 333,
+        "vol_window": 60
+      },
+      "sharpe": -0.981520634520553,
+      "n_trades": 230,
+      "max_dd": -0.11360322980238935,
+      "profit_factor": 0.643510964497207,
+      "cum_return": -0.10046783526270209
+    },
+    {
+      "params": {
+        "short_window": 23,
+        "mid_window": 59,
+        "long_window": 145,
+        "vol_window": 74
+      },
+      "sharpe": -0.981520634520553,
+      "n_trades": 230,
+      "max_dd": -0.11360322980238935,
+      "profit_factor": 0.643510964497207,
+      "cum_return": -0.10046783526270209
+    },
+    {
+      "params": {
+        "short_window": 49,
+        "mid_window": 52,
+        "long_window": 311,
+        "vol_window": 51
+      },
+      "sharpe": -0.981520634520553,
+      "n_trades": 230,
+      "max_dd": -0.11360322980238935,
+      "profit_factor": 0.643510964497207,
+      "cum_return": -0.10046783526270209
+    },
+    {
+      "params": {
+        "short_window": 18,
+        "mid_window": 39,
+        "long_window": 386,
+        "vol_window": 104
+      },
+      "sharpe": -1.0124570648640563,
+      "n_trades": 358,
+      "max_dd": -0.1425115093099103,
+      "profit_factor": 0.7053328714467795,
+      "cum_return": -0.13528761469809425
+    },
+    {
+      "params": {
+        "short_window": 10,
+        "mid_window": 48,
+        "long_window": 109,
+        "vol_window": 56
+      },
+      "sharpe": -1.0154891004838429,
+      "n_trades": 311,
+      "max_dd": -0.1335163982450125,
+      "profit_factor": 0.6558427155451317,
+      "cum_return": -0.12034629891748638
+    },
+    {
+      "params": {
+        "short_window": 22,
+        "mid_window": 55,
+        "long_window": 126,
+        "vol_window": 49
+      },
+      "sharpe": -1.0859769306274982,
+      "n_trades": 280,
+      "max_dd": -0.15700217796605254,
+      "profit_factor": 0.6398604930165653,
+      "cum_return": -0.1442016156221979
+    },
+    {
+      "params": {
+        "short_window": 20,
+        "mid_window": 35,
+        "long_window": 211,
+        "vol_window": 79
+      },
+      "sharpe": -1.1440458312353778,
+      "n_trades": 122,
+      "max_dd": -0.0938303971539528,
+      "profit_factor": 0.5039392059376954,
+      "cum_return": -0.06419922578671355
+    },
+    {
+      "params": {
+        "short_window": 43,
+        "mid_window": 92,
+        "long_window": 231,
+        "vol_window": 92
+      },
+      "sharpe": -1.1440458312353778,
+      "n_trades": 122,
+      "max_dd": -0.0938303971539528,
+      "profit_factor": 0.5039392059376954,
+      "cum_return": -0.06419922578671355
+    },
+    {
+      "params": {
+        "short_window": 25,
+        "mid_window": 42,
+        "long_window": 352,
+        "vol_window": 34
+      },
+      "sharpe": -1.5901608913521468,
+      "n_trades": 205,
+      "max_dd": -0.18037491827912977,
+      "profit_factor": 0.4200135530032339,
+      "cum_return": -0.16661152223111686
+    },
+    {
+      "params": {
+        "short_window": 23,
+        "mid_window": 89,
+        "long_window": 235,
+        "vol_window": 58
+      },
+      "sharpe": -1.5901608913521468,
+      "n_trades": 205,
+      "max_dd": -0.18037491827912977,
+      "profit_factor": 0.4200135530032339,
+      "cum_return": -0.16661152223111686
+    }
+  ]
+}

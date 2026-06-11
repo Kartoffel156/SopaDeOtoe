@@ -1,0 +1,9 @@
+{
+  "config_id": "DualMovingAverageCrossover_iter7",
+  "strategy": "DualMovingAverageCrossover",
+  "status": "error",
+  "metrics": {},
+  "daily_returns": [],
+  "error": "KeyError: 'cost'",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/nongo/Documents/Patacon/SopaDeOtoe/core/worker.py\", line 125, in run_full_pipeline\n    main_mod.run(config_path=config_path, data_end_override=data_end)\n  File \"/Users/nongo/Documents/Patacon/StrategyParrot/v12/main.py\", line 1157, in run\n    df['Close'], backtest_input, cfg['cost'], cfg['initial_capital'],\nKeyError: 'cost'\n"
+}

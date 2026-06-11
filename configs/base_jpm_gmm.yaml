@@ -1,0 +1,174 @@
+# SopaDeOtoe/configs/base_jpm_gmm.yaml
+# Base config for JPM equity via v12 pipeline with JPM-specific GMM.
+# Uses time bars (1d) with JPM cache, not dollar bars.
+# GMM trained on JPM daily data (2024-12-31 cutoff, K=4: BEAR/CONGESTED/CYCLIC/BULL)
+
+ticker: JPM
+start: '2020-01-01'
+end: '2026-05-27'
+interval: 1d
+bar_type: time
+market_type: equity
+
+# Execution
+initial_capital: 100000.0
+cost: 0.001            # IBKR equity ~0.10% per side (market order)
+rf_rate: 0.05
+pt_sl: [2.0, 1.5]
+max_holding: 15        # ~3 weeks for daily equity
+
+# Risk
+risk_fraction: 0.01
+risk_pct: 0.02
+atr_span: 14
+atr_multiplier: 2.0
+max_position_pct: 0.2
+sizing_method: atr
+kelly_half: true
+drawdown_threshold_1: 0.1
+drawdown_threshold_2: 0.2
+scale_1: 0.5
+scale_2: 0.25
+
+# Montecarlo
+montecarlo:
+  random_state: 42
+  reshuffling:
+    enabled: true
+    n_permutations: 200
+  bootstrap:
+    enabled: true
+    method: block
+    block_size: 10
+    n_paths: 100
+  stress:
+    enabled: true
+    vol_inflation: [0.2, 0.5]
+    sharpe_degradation: [0.1, 0.3]
+    gap_counts: [3, 5]
+    regime_shift: true
+  reality_check:
+    enabled: true
+    n_bootstrap: 200
+    block_size: 10
+
+# Metrics
+metrics:
+  omega_threshold: 0.0
+  sterling_n_worst: 5
+n_trials: 1
+
+# Sequential bootstrap
+sequential_bootstrap:
+  enabled: true
+  n_samples: 50
+
+# CUSUM
+cusum_filter:
+  enabled: false
+  h: 0.02
+  mode: primary
+
+# Structural breaks
+structural_breaks:
+  enabled: true
+  cusum_window: 60
+  sadf_min_window: 20
+  sadf_max_lookback: 120
+
+# v2 meta-model pipeline
+v2:
+  v2_enabled: true
+  meta_model_method: rf
+  meta_threshold: 0.55
+  bet_sizing_step: 0.01
+  min_rebalance: 0.1
+  random_state: 42
+  slippage_bps: 5.0     # equity wider spread than crypto
+  spread_bps: 2.0
+  calibrate_probabilities: true
+  min_meta_samples: 20
+  meta_direction_feature: true
+  oos_predictions: true
+  wf_prediction_splits: 3
+  walkforward_mode: expanding
+  arima_order: [1, 0, 1]
+  arima_refit_every: 21
+  arima_threshold: 0.0001
+  arima_min_train: 50
+  cpcv_n_splits: 4
+  cpcv_n_test_groups: 2
+  cpcv_mode: replay
+  importance_threshold: 0.05
+  meta_vol_regime_fast: 20
+  meta_vol_regime_slow: 60
+  meta_rel_vol_window: 50
+  garch_p: 1
+  garch_q: 1
+  garch_dist: t
+  features:
+    kyle_lambda_window: 50
+    amihud_window: 50
+    entropy_bins: 10
+    entropy_window: 50
+  meta_model:
+    n_estimators: 100
+    max_depth: null
+    min_samples_leaf: 1
+    max_features: sqrt
+  meta_model_hp_search:
+    n_splits: 3
+    n_iter: 10
+    embargo_pct: 0.01
+    scoring: roc_auc
+  feature_prefilter:
+    enabled: true
+    method: mutual_info
+    min_features: 2
+    threshold: 0.01
+
+# Validation
+validation_method: cpcv
+
+# Regime Detection — JPM-specific GMM
+regime:
+  enabled: true
+  direction:
+    mode: gmm
+    window: 20
+    z_threshold: 1.96
+    vol_ratio_cyclic_threshold: 1.2
+  volatility:
+    quantile_window: 252
+    levels: [25, 75, 95]
+  structural:
+    cusum_critical: 1.5
+    sadf_critical: -0.5
+  gmm:
+    model_path: models/gmm_regime_jpm.pkl
+    scaler_path: models/gmm_scaler_jpm.pkl
+    meta_path: models/gmm_meta_jpm.json
+    features_csv: output/features_jpm.csv
+    train_end_date: "2024-12-31"
+    trend_window: 20
+    use_sadf: true
+    cluster_names:
+      0: BEAR
+      1: CONGESTED
+      2: CYCLIC
+      3: BULL
+  bet_size_multipliers: {}
+
+calibration_bayes:
+  enabled: false
+  min_obs_per_regime: 10
+  fallback_pivot: 0.5
+  pivot_shrinkage: 0.5
+
+# Strategy — PLACEHOLDER, overwritten by config_generator
+strategy:
+  name: EMACrossover
+  params:
+    fast: 10
+    slow: 50
+    close_col: Close

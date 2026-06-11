@@ -1,0 +1,1906 @@
+{
+  "DualMovingAverageCrossover_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "A_boost_bull",
+      "config_id": "DualMovingAverageCrossover_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.056274175141060735,
+      "cum_return": 0.007928737420232146,
+      "max_drawdown": -0.07606736708383666,
+      "n_trades": 108,
+      "profit_factor": 1.0412370401401598,
+      "calmar": 0.016184835129527966,
+      "long_pct": 0.4537
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "B_bull_cyclic",
+      "config_id": "DualMovingAverageCrossover_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.0951359871215678,
+      "cum_return": 0.014083143551218091,
+      "max_drawdown": -0.06650315568927945,
+      "n_trades": 107,
+      "profit_factor": 1.080580331092801,
+      "calmar": 0.03279757247678655,
+      "long_pct": 0.4579
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "C_penalize_congested",
+      "config_id": "DualMovingAverageCrossover_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.029517810034153477,
+      "cum_return": 0.0049359182852284356,
+      "max_drawdown": -0.06864383664782936,
+      "n_trades": 105,
+      "profit_factor": 1.0304666895807464,
+      "calmar": 0.011179305963419163,
+      "long_pct": 0.4667
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "D_boost_bear",
+      "config_id": "DualMovingAverageCrossover_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.056274175141060735,
+      "cum_return": 0.007928737420232146,
+      "max_drawdown": -0.07606736708383666,
+      "n_trades": 108,
+      "profit_factor": 1.0412370401401598,
+      "calmar": 0.016184835129527966,
+      "long_pct": 0.4537
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "E_aggressive_trend",
+      "config_id": "DualMovingAverageCrossover_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.029517810034153477,
+      "cum_return": 0.0049359182852284356,
+      "max_drawdown": -0.06864383664782936,
+      "n_trades": 105,
+      "profit_factor": 1.0304666895807464,
+      "calmar": 0.011179305963419163,
+      "long_pct": 0.4667
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "F_vol_aware",
+      "config_id": "DualMovingAverageCrossover_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.056274175141060735,
+      "cum_return": 0.007928737420232146,
+      "max_drawdown": -0.07606736708383666,
+      "n_trades": 108,
+      "profit_factor": 1.0412370401401598,
+      "calmar": 0.016184835129527966,
+      "long_pct": 0.4537
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "G_short_qwindow",
+      "config_id": "DualMovingAverageCrossover_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.056274175141060735,
+      "cum_return": 0.007928737420232146,
+      "max_drawdown": -0.07606736708383666,
+      "n_trades": 108,
+      "profit_factor": 1.0412370401401598,
+      "calmar": 0.016184835129527966,
+      "long_pct": 0.4537
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH110BollingerKyleGate_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.2919128228714967,
+      "cum_return": 0.04619659936436027,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 128,
+      "profit_factor": 1.2277503970536343,
+      "calmar": 0.10364726814269949,
+      "long_pct": 0.5234
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH110BollingerKyleGate_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.20977234234617767,
+      "cum_return": 0.03447245184583947,
+      "max_drawdown": -0.057623529543081364,
+      "n_trades": 126,
+      "profit_factor": 1.2025422456160975,
+      "calmar": 0.0918735725455675,
+      "long_pct": 0.5159
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH110BollingerKyleGate_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.20088948287278652,
+      "cum_return": 0.03556194987943884,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 127,
+      "profit_factor": 1.1932572943749888,
+      "calmar": 0.08013473985303571,
+      "long_pct": 0.5197
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH110BollingerKyleGate_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.2936699591780463,
+      "cum_return": 0.04572082661367638,
+      "max_drawdown": -0.0677445328987607,
+      "n_trades": 128,
+      "profit_factor": 1.2187121470655575,
+      "calmar": 0.10317169260197794,
+      "long_pct": 0.5234
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH110BollingerKyleGate_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.20497938134868474,
+      "cum_return": 0.03642074189673772,
+      "max_drawdown": -0.06266851174644428,
+      "n_trades": 126,
+      "profit_factor": 1.221076968058748,
+      "calmar": 0.08918061262185828,
+      "long_pct": 0.5238
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH110BollingerKyleGate_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.24624804590640217,
+      "cum_return": 0.04067757485258072,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 127,
+      "profit_factor": 1.2103032373946938,
+      "calmar": 0.09147037554077535,
+      "long_pct": 0.5197
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH110BollingerKyleGate_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.2919128228714967,
+      "cum_return": 0.04619659936436027,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 128,
+      "profit_factor": 1.2277503970536343,
+      "calmar": 0.10364726814269949,
+      "long_pct": 0.5234
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.23901356145958558,
+      "cum_return": 0.023104239257148107,
+      "max_drawdown": -0.019867276791389554,
+      "n_trades": 54,
+      "profit_factor": 1.277285085553371,
+      "calmar": 0.14770852299072618,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.23901356145958558,
+      "cum_return": 0.023104239257148107,
+      "max_drawdown": -0.019867276791389554,
+      "n_trades": 54,
+      "profit_factor": 1.277285085553371,
+      "calmar": 0.14770852299072618,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.23901356145958558,
+      "cum_return": 0.023104239257148107,
+      "max_drawdown": -0.019867276791389554,
+      "n_trades": 54,
+      "profit_factor": 1.277285085553371,
+      "calmar": 0.14770852299072618,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.23901356145958558,
+      "cum_return": 0.023104239257148107,
+      "max_drawdown": -0.019867276791389554,
+      "n_trades": 54,
+      "profit_factor": 1.277285085553371,
+      "calmar": 0.14770852299072618,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.22912280402064467,
+      "cum_return": 0.020890987742170353,
+      "max_drawdown": -0.019867276791390998,
+      "n_trades": 52,
+      "profit_factor": 1.2754699418520736,
+      "calmar": 0.13368554859707638,
+      "long_pct": 0.4615
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3107484841449786,
+      "cum_return": 0.026192322425326875,
+      "max_drawdown": -0.019867276791391886,
+      "n_trades": 54,
+      "profit_factor": 1.3614091910513897,
+      "calmar": 0.16723023357604377,
+      "long_pct": 0.5185
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.30976918321871233,
+      "cum_return": 0.024481829264534127,
+      "max_drawdown": -0.01986727679139033,
+      "n_trades": 48,
+      "profit_factor": 1.3963116813294874,
+      "calmar": 0.1564234704527494,
+      "long_pct": 0.4583
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.16167296073899934,
+      "cum_return": 0.032128289060610715,
+      "max_drawdown": -0.04291715923405892,
+      "n_trades": 115,
+      "profit_factor": 1.1806001090143021,
+      "calmar": 0.11507829485853971,
+      "long_pct": 0.4522
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12279847464792888,
+      "cum_return": 0.02724036977412103,
+      "max_drawdown": -0.0401363102542428,
+      "n_trades": 114,
+      "profit_factor": 1.1831256409186308,
+      "calmar": 0.10454119309387978,
+      "long_pct": 0.4386
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.1571394695793714,
+      "cum_return": 0.03127245771571907,
+      "max_drawdown": -0.04291715923405892,
+      "n_trades": 112,
+      "profit_factor": 1.182188152741304,
+      "calmar": 0.11205231039450396,
+      "long_pct": 0.4464
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.15268739401844855,
+      "cum_return": 0.029475674905051097,
+      "max_drawdown": -0.038720599377983556,
+      "n_trades": 105,
+      "profit_factor": 1.1867981921152595,
+      "calmar": 0.11714748500412203,
+      "long_pct": 0.4476
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.15268739401844855,
+      "cum_return": 0.029475674905051097,
+      "max_drawdown": -0.038720599377983556,
+      "n_trades": 105,
+      "profit_factor": 1.1867981921152595,
+      "calmar": 0.11714748500412203,
+      "long_pct": 0.4476
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.18146093410950512,
+      "cum_return": 0.03463651196161499,
+      "max_drawdown": -0.04291715923405892,
+      "n_trades": 112,
+      "profit_factor": 1.2111210596940702,
+      "calmar": 0.12393449714851283,
+      "long_pct": 0.4464
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.37338701896408866,
+      "cum_return": 0.05011845288043326,
+      "max_drawdown": -0.02295112948409206,
+      "n_trades": 101,
+      "profit_factor": 1.3645431283776281,
+      "calmar": 0.3332253981304592,
+      "long_pct": 0.4653
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH203VolExpansionEntry_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.549060493947237,
+      "cum_return": 0.10122514603000976,
+      "max_drawdown": -0.022152967551614222,
+      "n_trades": 114,
+      "profit_factor": 1.5864075228693943,
+      "calmar": 0.6832313628593238,
+      "long_pct": 0.5088
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH203VolExpansionEntry_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.5209810095391691,
+      "cum_return": 0.08992396554199988,
+      "max_drawdown": -0.020565483272277918,
+      "n_trades": 107,
+      "profit_factor": 1.593620352803498,
+      "calmar": 0.6567076123454536,
+      "long_pct": 0.514
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH203VolExpansionEntry_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.5394382557787849,
+      "cum_return": 0.09932878951766444,
+      "max_drawdown": -0.022152967551614222,
+      "n_trades": 114,
+      "profit_factor": 1.5794191041167662,
+      "calmar": 0.6709285792638299,
+      "long_pct": 0.5088
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH203VolExpansionEntry_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.513829854341685,
+      "cum_return": 0.09551104919766962,
+      "max_drawdown": -0.02215296755161389,
+      "n_trades": 117,
+      "profit_factor": 1.5549777663526023,
+      "calmar": 0.6461062059873472,
+      "long_pct": 0.5043
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH203VolExpansionEntry_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.5335653672496261,
+      "cum_return": 0.08999319892443336,
+      "max_drawdown": -0.021784904631430124,
+      "n_trades": 114,
+      "profit_factor": 1.5966111728515298,
+      "calmar": 0.6204084563969156,
+      "long_pct": 0.5
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH203VolExpansionEntry_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.556813055707638,
+      "cum_return": 0.10036615231868207,
+      "max_drawdown": -0.022152967551614222,
+      "n_trades": 108,
+      "profit_factor": 1.594045388282971,
+      "calmar": 0.6776607815045317,
+      "long_pct": 0.5278
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH203VolExpansionEntry_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.565648689561077,
+      "cum_return": 0.118629764242705,
+      "max_drawdown": -0.022152967551614222,
+      "n_trades": 143,
+      "profit_factor": 1.516008941484445,
+      "calmar": 0.7953177913605279,
+      "long_pct": 0.5315
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH236MomentumReversalAsym_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3521019116379547,
+      "cum_return": 0.07907087285891135,
+      "max_drawdown": -0.025425347554047906,
+      "n_trades": 135,
+      "profit_factor": 1.4366969244549512,
+      "calmar": 0.38585727113363233,
+      "long_pct": 0.5778
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH236MomentumReversalAsym_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3521019116379547,
+      "cum_return": 0.07907087285891135,
+      "max_drawdown": -0.025425347554047906,
+      "n_trades": 135,
+      "profit_factor": 1.4366969244549512,
+      "calmar": 0.38585727113363233,
+      "long_pct": 0.5778
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH236MomentumReversalAsym_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3521019116379547,
+      "cum_return": 0.07907087285891135,
+      "max_drawdown": -0.025425347554047906,
+      "n_trades": 135,
+      "profit_factor": 1.4366969244549512,
+      "calmar": 0.38585727113363233,
+      "long_pct": 0.5778
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH236MomentumReversalAsym_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3422625089620817,
+      "cum_return": 0.0787424426124479,
+      "max_drawdown": -0.024754198240364067,
+      "n_trades": 138,
+      "profit_factor": 1.434847090609958,
+      "calmar": 0.3947258026245696,
+      "long_pct": 0.5942
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH236MomentumReversalAsym_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.29611216523134226,
+      "cum_return": 0.06378554791184543,
+      "max_drawdown": -0.023369570380879723,
+      "n_trades": 132,
+      "profit_factor": 1.3916616453133108,
+      "calmar": 0.34078788733678245,
+      "long_pct": 0.5682
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH236MomentumReversalAsym_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.21866980207575545,
+      "cum_return": 0.06894390420379048,
+      "max_drawdown": -0.06394222565178109,
+      "n_trades": 166,
+      "profit_factor": 1.2344757166078995,
+      "calmar": 0.13433648819307534,
+      "long_pct": 0.5723
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH236MomentumReversalAsym_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.4775913133638784,
+      "cum_return": 0.09801957425587826,
+      "max_drawdown": -0.029470118330323758,
+      "n_trades": 106,
+      "profit_factor": 1.5725181184919874,
+      "calmar": 0.409506050554197,
+      "long_pct": 0.6038
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.01732813391112134,
+      "cum_return": 0.013196321311208514,
+      "max_drawdown": -0.050259763412788594,
+      "n_trades": 167,
+      "profit_factor": 1.0617901720511356,
+      "calmar": 0.04067968583003812,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.13764363571233174,
+      "cum_return": 0.0009648068864185344,
+      "max_drawdown": -0.04561751421782145,
+      "n_trades": 166,
+      "profit_factor": 1.00956845771222,
+      "calmar": 0.003293695541753991,
+      "long_pct": 0.4337
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.025996887242854712,
+      "cum_return": 0.011963784239749753,
+      "max_drawdown": -0.04713872190313495,
+      "n_trades": 166,
+      "profit_factor": 1.0622960875369944,
+      "calmar": 0.03934228616240398,
+      "long_pct": 0.4398
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.00427631602836576,
+      "cum_return": 0.012585702469287474,
+      "max_drawdown": -0.0484364082312676,
+      "n_trades": 167,
+      "profit_factor": 1.0619595896945004,
+      "calmar": 0.04026813012118341,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.00427631602836576,
+      "cum_return": 0.012585702469287474,
+      "max_drawdown": -0.0484364082312676,
+      "n_trades": 167,
+      "profit_factor": 1.0619595896945004,
+      "calmar": 0.04026813012118341,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.00427631602836576,
+      "cum_return": 0.012585702469287474,
+      "max_drawdown": -0.0484364082312676,
+      "n_trades": 167,
+      "profit_factor": 1.0619595896945004,
+      "calmar": 0.04026813012118341,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.233324286981539,
+      "cum_return": -0.01177151099231899,
+      "max_drawdown": -0.06334499924365211,
+      "n_trades": 170,
+      "profit_factor": 0.9509048748470003,
+      "calmar": -0.029096422240022696,
+      "long_pct": 0.4353
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.11199773650116013,
+      "cum_return": 0.0014960639198917658,
+      "max_drawdown": -0.07402989602179966,
+      "n_trades": 159,
+      "profit_factor": 1.0133607111338756,
+      "calmar": 0.002590867149423415,
+      "long_pct": 0.5597
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.21984293452562212,
+      "cum_return": -0.0070989293162215805,
+      "max_drawdown": -0.061785152720336356,
+      "n_trades": 154,
+      "profit_factor": 0.975665333892828,
+      "calmar": -0.0147856875549944,
+      "long_pct": 0.5519
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.10315461133013094,
+      "cum_return": 0.0035450462703747743,
+      "max_drawdown": -0.0740298960217981,
+      "n_trades": 158,
+      "profit_factor": 1.0207919609438745,
+      "calmar": 0.006133803279461101,
+      "long_pct": 0.557
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.10446509835412664,
+      "cum_return": 0.0030239366198703266,
+      "max_drawdown": -0.07402989602179832,
+      "n_trades": 158,
+      "profit_factor": 1.0187987543835189,
+      "calmar": 0.005233340569573767,
+      "long_pct": 0.557
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.10749985112348039,
+      "cum_return": 0.004104611179909012,
+      "max_drawdown": -0.07268952745258428,
+      "n_trades": 157,
+      "profit_factor": 1.0230740295645964,
+      "calmar": 0.007231188134269767,
+      "long_pct": 0.5669
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.10446509835412664,
+      "cum_return": 0.0030239366198703266,
+      "max_drawdown": -0.07402989602179832,
+      "n_trades": 158,
+      "profit_factor": 1.0187987543835189,
+      "calmar": 0.005233340569573767,
+      "long_pct": 0.557
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.11199773650116013,
+      "cum_return": 0.0014960639198917658,
+      "max_drawdown": -0.07402989602179966,
+      "n_trades": 159,
+      "profit_factor": 1.0133607111338756,
+      "calmar": 0.002590867149423415,
+      "long_pct": 0.5597
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.6585836225319568,
+      "cum_return": 0.09200731498890868,
+      "max_drawdown": -0.029165080124185838,
+      "n_trades": 82,
+      "profit_factor": 1.5290576045905295,
+      "calmar": 0.47341145617010133,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.5591193146785769,
+      "cum_return": 0.06952730758564196,
+      "max_drawdown": -0.026221714749220748,
+      "n_trades": 82,
+      "profit_factor": 1.4716991350343205,
+      "calmar": 0.40146163390229606,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.6731954878381673,
+      "cum_return": 0.09392857391347142,
+      "max_drawdown": -0.026440024198814194,
+      "n_trades": 82,
+      "profit_factor": 1.5659077428976047,
+      "calmar": 0.5327061390566257,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.6948850850101795,
+      "cum_return": 0.09050149024780874,
+      "max_drawdown": -0.02379785210505525,
+      "n_trades": 82,
+      "profit_factor": 1.619473173502457,
+      "calmar": 0.5710245284535902,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.6948850850101795,
+      "cum_return": 0.09050149024780874,
+      "max_drawdown": -0.02379785210505525,
+      "n_trades": 82,
+      "profit_factor": 1.619473173502457,
+      "calmar": 0.5710245284535902,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.6662340733060721,
+      "cum_return": 0.09296920423729826,
+      "max_drawdown": -0.02780308058242209,
+      "n_trades": 82,
+      "profit_factor": 1.5470359292322007,
+      "calmar": 0.501604729513902,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH37DynamicGridInformedGate_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.6585836225319568,
+      "cum_return": 0.09200731498890868,
+      "max_drawdown": -0.029165080124185838,
+      "n_trades": 82,
+      "profit_factor": 1.5290576045905295,
+      "calmar": 0.47341145617010133,
+      "long_pct": 0.5366
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH426RSIGarchBullBear_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.0009079437008876845,
+      "cum_return": 0.02215662355151604,
+      "max_drawdown": -0.03783782031256133,
+      "n_trades": 66,
+      "profit_factor": 1.2608643947899474,
+      "calmar": 0.074405636437732,
+      "long_pct": 0.6061
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH426RSIGarchBullBear_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.05704936156380492,
+      "cum_return": 0.015632263800168245,
+      "max_drawdown": -0.031097494971867645,
+      "n_trades": 63,
+      "profit_factor": 1.2257491307449255,
+      "calmar": 0.06405325429711098,
+      "long_pct": 0.5714
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH426RSIGarchBullBear_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.00860770883601618,
+      "cum_return": 0.021329587139064854,
+      "max_drawdown": -0.03783782031256133,
+      "n_trades": 66,
+      "profit_factor": 1.2514814832745158,
+      "calmar": 0.07165368729226387,
+      "long_pct": 0.6061
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH426RSIGarchBullBear_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.032774303138833685,
+      "cum_return": 0.019380360891555704,
+      "max_drawdown": -0.03571209053822677,
+      "n_trades": 66,
+      "profit_factor": 1.2423115981985489,
+      "calmar": 0.06903856726031164,
+      "long_pct": 0.6061
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH426RSIGarchBullBear_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.032774303138833685,
+      "cum_return": 0.019380360891555704,
+      "max_drawdown": -0.03571209053822677,
+      "n_trades": 66,
+      "profit_factor": 1.2423115981985489,
+      "calmar": 0.06903856726031164,
+      "long_pct": 0.6061
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH426RSIGarchBullBear_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.004754158222767058,
+      "cum_return": 0.02174319999349672,
+      "max_drawdown": -0.03783782031256133,
+      "n_trades": 66,
+      "profit_factor": 1.2561740128371361,
+      "calmar": 0.07303021952573807,
+      "long_pct": 0.6061
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH426RSIGarchBullBear_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.0009079437008876845,
+      "cum_return": 0.02215662355151604,
+      "max_drawdown": -0.03783782031256133,
+      "n_trades": 66,
+      "profit_factor": 1.2608643947899474,
+      "calmar": 0.074405636437732,
+      "long_pct": 0.6061
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12083103855146789,
+      "cum_return": 0.04918386516078521,
+      "max_drawdown": -0.03912997595316903,
+      "n_trades": 112,
+      "profit_factor": 1.445005005688943,
+      "calmar": 0.15789519021324502,
+      "long_pct": 0.5625
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.004960909107042945,
+      "cum_return": 0.037604181261394976,
+      "max_drawdown": -0.036030457403237404,
+      "n_trades": 110,
+      "profit_factor": 1.4058613885126268,
+      "calmar": 0.1317466987627487,
+      "long_pct": 0.5636
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.07429747001351689,
+      "cum_return": 0.044746302951006234,
+      "max_drawdown": -0.03912997595316903,
+      "n_trades": 110,
+      "profit_factor": 1.4395264244341381,
+      "calmar": 0.1439171780302308,
+      "long_pct": 0.5545
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.13847659528734532,
+      "cum_return": 0.050953601236003454,
+      "max_drawdown": -0.033586651273284085,
+      "n_trades": 109,
+      "profit_factor": 1.4703620543548233,
+      "calmar": 0.19043293214688178,
+      "long_pct": 0.578
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.04876083903448969,
+      "cum_return": 0.042160889371666954,
+      "max_drawdown": -0.039129975953168694,
+      "n_trades": 109,
+      "profit_factor": 1.4419356872280056,
+      "calmar": 0.13574942654093672,
+      "long_pct": 0.5505
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.09071172382209604,
+      "cum_return": 0.04613231225828951,
+      "max_drawdown": -0.03912997595316925,
+      "n_trades": 111,
+      "profit_factor": 1.4355395737004277,
+      "calmar": 0.14828855990816708,
+      "long_pct": 0.5586
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH434MaxMinDualHorizon_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12083103855146789,
+      "cum_return": 0.04918386516078521,
+      "max_drawdown": -0.03912997595316903,
+      "n_trades": 112,
+      "profit_factor": 1.445005005688943,
+      "calmar": 0.15789519021324502,
+      "long_pct": 0.5625
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.335029409150336,
+      "cum_return": 0.031163845688350733,
+      "max_drawdown": -0.028097115509099324,
+      "n_trades": 76,
+      "profit_factor": 1.302551283140964,
+      "calmar": 0.1403940652856556,
+      "long_pct": 0.4605
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.28122284506207623,
+      "cum_return": 0.02415443053737798,
+      "max_drawdown": -0.020690629153162887,
+      "n_trades": 75,
+      "profit_factor": 1.3005187618667668,
+      "calmar": 0.14821094496481807,
+      "long_pct": 0.4533
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.36643256261753254,
+      "cum_return": 0.03336338438259023,
+      "max_drawdown": -0.02572508836554821,
+      "n_trades": 74,
+      "profit_factor": 1.3554406087760524,
+      "calmar": 0.164008712510287,
+      "long_pct": 0.4595
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3220766432081336,
+      "cum_return": 0.030027525287982026,
+      "max_drawdown": -0.029281490615786887,
+      "n_trades": 76,
+      "profit_factor": 1.2795023577033329,
+      "calmar": 0.12986606837166645,
+      "long_pct": 0.4605
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3736751985134781,
+      "cum_return": 0.03216370002134661,
+      "max_drawdown": -0.02439447841289366,
+      "n_trades": 68,
+      "profit_factor": 1.3755778908241636,
+      "calmar": 0.16682048471317387,
+      "long_pct": 0.4559
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.3488762110412002,
+      "cum_return": 0.03201410811802119,
+      "max_drawdown": -0.02691164826574244,
+      "n_trades": 75,
+      "profit_factor": 1.3250538919921715,
+      "calmar": 0.15052326176292463,
+      "long_pct": 0.4533
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH481GoldenCrossPSAR_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.11806897666745869,
+      "cum_return": 0.011765445643285188,
+      "max_drawdown": -0.042358156636473465,
+      "n_trades": 59,
+      "profit_factor": 1.1280682341201056,
+      "calmar": 0.03545193680560917,
+      "long_pct": 0.4746
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12498512842514412,
+      "cum_return": 0.022290201364001616,
+      "max_drawdown": -0.016820343651593794,
+      "n_trades": 38,
+      "profit_factor": 1.8497542519105856,
+      "calmar": 0.16837695728216112,
+      "long_pct": 0.7105
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.06419688811219268,
+      "cum_return": 0.018174207251252517,
+      "max_drawdown": -0.016820343651593794,
+      "n_trades": 37,
+      "profit_factor": 1.7352739501363474,
+      "calmar": 0.13752785972699272,
+      "long_pct": 0.7297
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.13244881601293962,
+      "cum_return": 0.022708789292822606,
+      "max_drawdown": -0.016820343651593794,
+      "n_trades": 38,
+      "profit_factor": 1.8654237207175817,
+      "calmar": 0.1715081770366651,
+      "long_pct": 0.7105
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.15898227193847558,
+      "cum_return": 0.022659418922203578,
+      "max_drawdown": -0.016820343651593683,
+      "n_trades": 36,
+      "profit_factor": 1.9304895699436775,
+      "calmar": 0.17113892331124478,
+      "long_pct": 0.7222
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.06041334922681831,
+      "cum_return": 0.01734337563462418,
+      "max_drawdown": -0.014179274908271755,
+      "n_trades": 38,
+      "profit_factor": 1.6971604305335013,
+      "calmar": 0.15574162999247224,
+      "long_pct": 0.7105
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12595715294275556,
+      "cum_return": 0.02233324667010339,
+      "max_drawdown": -0.016820343651593794,
+      "n_trades": 38,
+      "profit_factor": 1.8513656148640463,
+      "calmar": 0.16869900644338598,
+      "long_pct": 0.7105
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12498512842514412,
+      "cum_return": 0.022290201364001616,
+      "max_drawdown": -0.016820343651593794,
+      "n_trades": 38,
+      "profit_factor": 1.8497542519105856,
+      "calmar": 0.16837695728216112,
+      "long_pct": 0.7105
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "A_boost_bull",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.12019504045730674,
+      "cum_return": -0.009948482525936275,
+      "max_drawdown": -0.05486324551972621,
+      "n_trades": 41,
+      "profit_factor": 0.927974137012855,
+      "calmar": -0.023364220519578614,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "B_bull_cyclic",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.18364998613955044,
+      "cum_return": -0.014183304061024082,
+      "max_drawdown": -0.05380336740878977,
+      "n_trades": 41,
+      "profit_factor": 0.8736863833520548,
+      "calmar": -0.03402933435493631,
+      "long_pct": 0.3415
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "C_penalize_congested",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.13947115786766084,
+      "cum_return": -0.012129967913858897,
+      "max_drawdown": -0.05694576545237362,
+      "n_trades": 41,
+      "profit_factor": 0.9083875844860887,
+      "calmar": -0.02747203547575665,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "D_boost_bear",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.1216763872840118,
+      "cum_return": -0.009537992641287851,
+      "max_drawdown": -0.05017817352391518,
+      "n_trades": 40,
+      "profit_factor": 0.9281702804621009,
+      "calmar": -0.024487235777514348,
+      "long_pct": 0.4
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "E_aggressive_trend",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.1241533171713326,
+      "cum_return": -0.008821194961481038,
+      "max_drawdown": -0.052589108071531054,
+      "n_trades": 41,
+      "profit_factor": 0.9295355484064933,
+      "calmar": -0.021601929400590605,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "F_vol_aware",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.101029523896101,
+      "cum_return": -0.005092272492990713,
+      "max_drawdown": -0.04100957246965409,
+      "n_trades": 20,
+      "profit_factor": 0.9123537306610908,
+      "calmar": -0.015965313852483697,
+      "long_pct": 0.55
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "G_short_qwindow",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.12019504045730674,
+      "cum_return": -0.009948482525936275,
+      "max_drawdown": -0.05486324551972621,
+      "n_trades": 41,
+      "profit_factor": 0.927974137012855,
+      "calmar": -0.023364220519578614,
+      "long_pct": 0.3902
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "A_boost_bull",
+      "config_id": "MultiTimeframeTrendSignal_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.021188625025416918,
+      "cum_return": 0.0005891273961160515,
+      "max_drawdown": -0.043161632539560846,
+      "n_trades": 145,
+      "profit_factor": 1.0081149512973877,
+      "calmar": 0.002125958853436085,
+      "long_pct": 0.4138
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "B_bull_cyclic",
+      "config_id": "MultiTimeframeTrendSignal_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.025378295592260562,
+      "cum_return": 0.00428166933273344,
+      "max_drawdown": -0.0359070443018531,
+      "n_trades": 141,
+      "profit_factor": 1.0368997633190278,
+      "calmar": 0.018543913272941165,
+      "long_pct": 0.4113
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "C_penalize_congested",
+      "config_id": "MultiTimeframeTrendSignal_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.01693780702487377,
+      "cum_return": -0.0018566537635335,
+      "max_drawdown": -0.04462482468976292,
+      "n_trades": 141,
+      "profit_factor": 0.9924354027886904,
+      "calmar": -0.006487038579492792,
+      "long_pct": 0.4113
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "D_boost_bear",
+      "config_id": "MultiTimeframeTrendSignal_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.03398773388761374,
+      "cum_return": 0.0011265852940340881,
+      "max_drawdown": -0.042457333460104496,
+      "n_trades": 145,
+      "profit_factor": 1.0112396099772523,
+      "calmar": 0.004131962817754346,
+      "long_pct": 0.4138
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "E_aggressive_trend",
+      "config_id": "MultiTimeframeTrendSignal_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": -0.0645280540102858,
+      "cum_return": -0.0043444181019572925,
+      "max_drawdown": -0.04092961679628426,
+      "n_trades": 139,
+      "profit_factor": 0.9733723888601596,
+      "calmar": -0.01656697480531822,
+      "long_pct": 0.4101
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "F_vol_aware",
+      "config_id": "MultiTimeframeTrendSignal_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.007324992669150644,
+      "cum_return": 7.039346448611816e-05,
+      "max_drawdown": -0.043189238865721125,
+      "n_trades": 143,
+      "profit_factor": 1.0049515291443045,
+      "calmar": 0.0002539190915261343,
+      "long_pct": 0.4196
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "G_short_qwindow",
+      "config_id": "MultiTimeframeTrendSignal_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.021188625025416918,
+      "cum_return": 0.0005891273961160515,
+      "max_drawdown": -0.043161632539560846,
+      "n_trades": 145,
+      "profit_factor": 1.0081149512973877,
+      "calmar": 0.002125958853436085,
+      "long_pct": 0.4138
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regA_boost_bull_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "A_boost_bull",
+      "config_id": "TSIMeanReversion_regA_boost_bull_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.4870190653881457,
+      "cum_return": 0.0820787279834656,
+      "max_drawdown": -0.05494789740987671,
+      "n_trades": 151,
+      "profit_factor": 1.3713795312019363,
+      "calmar": 0.22504034327216674,
+      "long_pct": 0.5033
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regB_bull_cyclic_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "B_bull_cyclic",
+      "config_id": "TSIMeanReversion_regB_bull_cyclic_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.5015583525662752,
+      "cum_return": 0.077436422668272,
+      "max_drawdown": -0.04157972029072132,
+      "n_trades": 149,
+      "profit_factor": 1.4293962095919366,
+      "calmar": 0.28108933201689784,
+      "long_pct": 0.5101
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regC_penalize_congested_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "C_penalize_congested",
+      "config_id": "TSIMeanReversion_regC_penalize_congested_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.48604996486211344,
+      "cum_return": 0.0818931018485145,
+      "max_drawdown": -0.05511001719339581,
+      "n_trades": 150,
+      "profit_factor": 1.3818108506096138,
+      "calmar": 0.22388734431692334,
+      "long_pct": 0.5067
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regD_boost_bear_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "D_boost_bear",
+      "config_id": "TSIMeanReversion_regD_boost_bear_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.4850008867094025,
+      "cum_return": 0.08101669186401139,
+      "max_drawdown": -0.052921049435705636,
+      "n_trades": 151,
+      "profit_factor": 1.360627621780124,
+      "calmar": 0.23073295542103195,
+      "long_pct": 0.5099
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regE_aggressive_trend_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "E_aggressive_trend",
+      "config_id": "TSIMeanReversion_regE_aggressive_trend_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.4357859579865079,
+      "cum_return": 0.07016497498311725,
+      "max_drawdown": -0.05451830672214708,
+      "n_trades": 146,
+      "profit_factor": 1.3608737414651015,
+      "calmar": 0.1948126060764338,
+      "long_pct": 0.5137
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regF_vol_aware_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "F_vol_aware",
+      "config_id": "TSIMeanReversion_regF_vol_aware_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.4861173698963372,
+      "cum_return": 0.08208012504760287,
+      "max_drawdown": -0.054946677259838816,
+      "n_trades": 150,
+      "profit_factor": 1.3773373429670612,
+      "calmar": 0.2250490465281035,
+      "long_pct": 0.5067
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_regG_short_qwindow_20260526_154615": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "G_short_qwindow",
+      "config_id": "TSIMeanReversion_regG_short_qwindow_20260526_154615"
+    },
+    "metrics": {
+      "sharpe": 0.12345923657984947,
+      "cum_return": 0.030744286581455782,
+      "max_drawdown": -0.07915704931040013,
+      "n_trades": 212,
+      "profit_factor": 1.0963435146946854,
+      "calmar": 0.05973915222331836,
+      "long_pct": 0.4764
+    },
+    "status": "success"
+  }
+}

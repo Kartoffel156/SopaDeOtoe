@@ -1,0 +1,10 @@
+#,Strategy,Grad Sharpe,Grad Trades,Fresh Sharpe,Fresh Trades,KRONOS Sharpe,Match Grad,Notes
+1,HypothesisH236MomentumReversalAsym,0.6337,159,0.3288,153,0.3288,✗,v12 Apr dir deleted
+2,TSIMeanReversion,0.4896,157,0.4896,157,0.0276,✓,KRONOS DESTROYED
+3,HypothesisH110BollingerKyleGate,0.4337,130,0.4337,130,0.4337,✓,Stable
+4,HypothesisH203VolExpansionEntry,0.212,109,0.5422,117,0.5422,✗,v12 Apr dir deleted
+5,HypothesisH167BollingerRangingOFIGate,0.1961,117,0.1961,117,0.1961,✓,Stable
+6,HypothesisH318TrendlineChannelSqueeze,0.1546,152,0.0802,167,0.0802,✗,v12 Apr dir deleted
+7,HypothesisH37DynamicGridInformedGate,0.109,219,0.6164,87,0.6164,✗,v12 Apr dir deleted
+8,DualMovingAverageCrossover,0.0974,111,0.0974,111,0.0974,✓,Stable
+9,MultiTimeframeTrendSignal,0.0686,147,0.0686,147,0.0686,✓,Stable

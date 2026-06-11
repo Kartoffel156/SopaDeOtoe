@@ -1,0 +1,163 @@
+{
+  "timestamp": "20260509_215509",
+  "cohort": "first_cohort",
+  "allocation_method": "risk_budget",
+  "fdm": 1.0,
+  "weights": {
+    "TSIMeanReversion_11c86993": 0.34,
+    "HypothesisH110BollingerKyleGate_bc9371eb": 0.30118055555555556,
+    "HypothesisH167BollingerRangingOFIGate_a40f8e2c": 0.13618055555555555,
+    "DualMovingAverageCrossover_767ba598": 0.06763888888888889,
+    "MultiTimeframeTrendSignal_e5ce17eb": 0.04763888888888888,
+    "HypothesisH318TrendlineChannelSqueeze_19e38d5f": 0.1073611111111111
+  },
+  "portfolio_metrics": {
+    "sharpe": 0.26433599534463287,
+    "annualized_return": 0.0010102673238185922,
+    "annualized_volatility": 0.003847993567365681,
+    "max_drawdown": -0.015145513622847955,
+    "calmar": 0.06670406491164095,
+    "sortino": 0,
+    "diversification_ratio": 1.0,
+    "portfolio_volatility": 0.003847993567365681,
+    "exposure": 1.0
+  },
+  "risk_attribution": null,
+  "correlation": {
+    "TSIMeanReversion_11c86993": {
+      "TSIMeanReversion_11c86993": 1.0,
+      "HypothesisH110BollingerKyleGate_bc9371eb": 0.034437,
+      "HypothesisH167BollingerRangingOFIGate_a40f8e2c": -0.081506,
+      "HypothesisH318TrendlineChannelSqueeze_19e38d5f": -0.004171,
+      "DualMovingAverageCrossover_767ba598": -0.080444,
+      "MultiTimeframeTrendSignal_e5ce17eb": -0.099928
+    },
+    "HypothesisH110BollingerKyleGate_bc9371eb": {
+      "TSIMeanReversion_11c86993": 0.034437,
+      "HypothesisH110BollingerKyleGate_bc9371eb": 1.0,
+      "HypothesisH167BollingerRangingOFIGate_a40f8e2c": 0.18269,
+      "HypothesisH318TrendlineChannelSqueeze_19e38d5f": -0.01597,
+      "DualMovingAverageCrossover_767ba598": -0.075368,
+      "MultiTimeframeTrendSignal_e5ce17eb": -0.048073
+    },
+    "HypothesisH167BollingerRangingOFIGate_a40f8e2c": {
+      "TSIMeanReversion_11c86993": -0.081506,
+      "HypothesisH110BollingerKyleGate_bc9371eb": 0.18269,
+      "HypothesisH167BollingerRangingOFIGate_a40f8e2c": 1.0,
+      "HypothesisH318TrendlineChannelSqueeze_19e38d5f": -0.015857,
+      "DualMovingAverageCrossover_767ba598": 0.097603,
+      "MultiTimeframeTrendSignal_e5ce17eb": 0.135046
+    },
+    "HypothesisH318TrendlineChannelSqueeze_19e38d5f": {
+      "TSIMeanReversion_11c86993": -0.004171,
+      "HypothesisH110BollingerKyleGate_bc9371eb": -0.01597,
+      "HypothesisH167BollingerRangingOFIGate_a40f8e2c": -0.015857,
+      "HypothesisH318TrendlineChannelSqueeze_19e38d5f": 1.0,
+      "DualMovingAverageCrossover_767ba598": 0.111149,
+      "MultiTimeframeTrendSignal_e5ce17eb": 0.066371
+    },
+    "DualMovingAverageCrossover_767ba598": {
+      "TSIMeanReversion_11c86993": -0.080444,
+      "HypothesisH110BollingerKyleGate_bc9371eb": -0.075368,
+      "HypothesisH167BollingerRangingOFIGate_a40f8e2c": 0.097603,
+      "HypothesisH318TrendlineChannelSqueeze_19e38d5f": 0.111149,
+      "DualMovingAverageCrossover_767ba598": 1.0,
+      "MultiTimeframeTrendSignal_e5ce17eb": 0.144102
+    },
+    "MultiTimeframeTrendSignal_e5ce17eb": {
+      "TSIMeanReversion_11c86993": -0.099928,
+      "HypothesisH110BollingerKyleGate_bc9371eb": -0.048073,
+      "HypothesisH167BollingerRangingOFIGate_a40f8e2c": 0.135046,
+      "HypothesisH318TrendlineChannelSqueeze_19e38d5f": 0.066371,
+      "DualMovingAverageCrossover_767ba598": 0.144102,
+      "MultiTimeframeTrendSignal_e5ce17eb": 1.0
+    }
+  },
+  "orthogonality": {
+    "effective_dimension": 6,
+    "pass_all_checks": true
+  },
+  "montecarlo": {},
+  "per_strategy_source": [
+    {
+      "name": "TSIMeanReversion_11c86993",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260420_041905_a3295bf4",
+      "source_metrics": {
+        "sharpe": 0.4895627127042455,
+        "total_return": 0.0833297558737025,
+        "max_drawdown": -0.05385529064523864,
+        "calmar": 0.23299012805708225,
+        "sortino": 0,
+        "profit_factor": 1.3543989464962463,
+        "n_trades": 157
+      },
+      "daily_bars": 14057
+    },
+    {
+      "name": "HypothesisH110BollingerKyleGate_bc9371eb",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260420_041905_092ecda2",
+      "source_metrics": {
+        "sharpe": 0.43366263049343456,
+        "total_return": 0.06648340560393606,
+        "max_drawdown": -0.06812221731019119,
+        "calmar": 0.14794602356327985,
+        "sortino": 0,
+        "profit_factor": 1.2763627374230804,
+        "n_trades": 130
+      },
+      "daily_bars": 14057
+    },
+    {
+      "name": "HypothesisH167BollingerRangingOFIGate_a40f8e2c",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260420_042039_693aa0cf",
+      "source_metrics": {
+        "sharpe": 0.19611525777393327,
+        "total_return": 0.0358496903770853,
+        "max_drawdown": -0.04291715923405892,
+        "calmar": 0.12821156738477937,
+        "sortino": 0,
+        "profit_factor": 1.1887710567245386,
+        "n_trades": 117
+      },
+      "daily_bars": 14057
+    },
+    {
+      "name": "HypothesisH318TrendlineChannelSqueeze_19e38d5f",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260420_042040_de5a6719",
+      "source_metrics": {
+        "sharpe": 0.1546,
+        "total_return": 0.0,
+        "max_drawdown": -0.0544
+      },
+      "daily_bars": 14057
+    },
+    {
+      "name": "DualMovingAverageCrossover_767ba598",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260420_042150_e727b260",
+      "source_metrics": {
+        "sharpe": 0.09743342437962776,
+        "total_return": 0.013078206145625382,
+        "max_drawdown": -0.07633560229666514,
+        "calmar": 0.026545298678367905,
+        "sortino": 0,
+        "profit_factor": 1.0608878855706616,
+        "n_trades": 111
+      },
+      "daily_bars": 14057
+    },
+    {
+      "name": "MultiTimeframeTrendSignal_e5ce17eb",
+      "v12_run_dir": "/Users/nongo/Documents/Patacon/StrategyParrot/v12/output/runs/BTC-USD_1d_20260420_042216_cef7a2f9",
+      "source_metrics": {
+        "sharpe": 0.06856922002616747,
+        "total_return": 0.0026132938303895514,
+        "max_drawdown": -0.04276143341872962,
+        "calmar": 0.009510621580898552,
+        "sortino": 0,
+        "profit_factor": 1.0188736237353904,
+        "n_trades": 147
+      },
+      "daily_bars": 14057
+    }
+  ]
+}

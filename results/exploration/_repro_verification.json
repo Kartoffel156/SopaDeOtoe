@@ -1,0 +1,92 @@
+[
+  {
+    "strategy": "TSIMeanReversion",
+    "params": {
+      "rsi_overbought": 61,
+      "rsi_oversold": 29,
+      "rsi_period": 8,
+      "tsi_overbought": 13,
+      "tsi_oversold": -28,
+      "tsi_r": 5,
+      "tsi_s": 3
+    },
+    "sharpe": 0.4895627127042455,
+    "trades": 157,
+    "max_drawdown": -0.05385529064523864,
+    "total_return": null,
+    "profit_factor": 1.3543989464962463,
+    "status": "success"
+  },
+  {
+    "strategy": "HypothesisH110BollingerKyleGate",
+    "params": {
+      "bb_period": 21,
+      "bb_std": 2.4333,
+      "bw_percentile": 65,
+      "lam_thresh": 0.5302,
+      "lookback": 34
+    },
+    "sharpe": 0.43366263049343456,
+    "trades": 130,
+    "max_drawdown": -0.06812221731019119,
+    "total_return": null,
+    "profit_factor": 1.2763627374230804,
+    "status": "success"
+  },
+  {
+    "strategy": "HypothesisH167BollingerRangingOFIGate",
+    "params": {
+      "bb_period": 25,
+      "bb_std": 2.2247,
+      "bw_pct": 37,
+      "ofi_thresh": 0.2135,
+      "ofi_window": 10
+    },
+    "sharpe": 0.19611525777393327,
+    "trades": 117,
+    "max_drawdown": -0.04291715923405892,
+    "total_return": null,
+    "profit_factor": 1.1887710567245386,
+    "status": "success"
+  },
+  {
+    "strategy": "HypothesisH318TrendlineChannelSqueeze",
+    "params": {
+      "tl_channel_width": 1.2358
+    },
+    "sharpe": 0.08021696464561696,
+    "trades": 167,
+    "max_drawdown": -0.057530419274737676,
+    "total_return": null,
+    "profit_factor": 1.0554941591945752,
+    "status": "success"
+  },
+  {
+    "strategy": "DualMovingAverageCrossover",
+    "params": {
+      "long_period": 46,
+      "short_period": 10
+    },
+    "sharpe": 0.09743342437962776,
+    "trades": 111,
+    "max_drawdown": -0.07633560229666514,
+    "total_return": null,
+    "profit_factor": 1.0608878855706616,
+    "status": "success"
+  },
+  {
+    "strategy": "MultiTimeframeTrendSignal",
+    "params": {
+      "long_window": 236,
+      "mid_window": 52,
+      "short_window": 26,
+      "vol_window": 58
+    },
+    "sharpe": 0.06856922002616747,
+    "trades": 147,
+    "max_drawdown": -0.04276143341872962,
+    "total_return": null,
+    "profit_factor": 1.0188736237353904,
+    "status": "success"
+  }
+]

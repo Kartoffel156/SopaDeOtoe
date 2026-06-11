@@ -1,0 +1,1906 @@
+{
+  "DualMovingAverageCrossover_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "A_shallow",
+      "config_id": "DualMovingAverageCrossover_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.6032291150769185,
+      "cum_return": -0.0415659894021666,
+      "max_drawdown": -0.052503025049615015,
+      "n_trades": 76,
+      "profit_factor": 0.6457774549836136,
+      "calmar": -0.12556138105496226,
+      "long_pct": 0.3816
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "B_medium",
+      "config_id": "DualMovingAverageCrossover_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.30935820109085194,
+      "cum_return": -0.022972917762647094,
+      "max_drawdown": -0.031709259711315,
+      "n_trades": 70,
+      "profit_factor": 0.8092356670647097,
+      "calmar": -0.11398099404267177,
+      "long_pct": 0.4143
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "C_deep",
+      "config_id": "DualMovingAverageCrossover_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.09667557305471633,
+      "cum_return": 0.01218375369874014,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 109,
+      "profit_factor": 1.0573470247746735,
+      "calmar": 0.024739041153903032,
+      "long_pct": 0.4495
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "D_log2",
+      "config_id": "DualMovingAverageCrossover_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.30935820109085194,
+      "cum_return": -0.022972917762647094,
+      "max_drawdown": -0.031709259711315,
+      "n_trades": 70,
+      "profit_factor": 0.8092356670647097,
+      "calmar": -0.11398099404267177,
+      "long_pct": 0.4143
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "E_bagged",
+      "config_id": "DualMovingAverageCrossover_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.6782970763523009,
+      "cum_return": -0.048490863502888226,
+      "max_drawdown": -0.06025702318425519,
+      "n_trades": 60,
+      "profit_factor": 0.5882630185855625,
+      "calmar": -0.12801829620476554,
+      "long_pct": 0.3167
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "F_hp_aggressive",
+      "config_id": "DualMovingAverageCrossover_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.04762977027273535,
+      "cum_return": 0.005244116732055382,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 116,
+      "profit_factor": 1.0275599856442479,
+      "calmar": 0.010679166979497058,
+      "long_pct": 0.4483
+    },
+    "status": "success"
+  },
+  "DualMovingAverageCrossover_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "DualMovingAverageCrossover",
+      "variation": "G_no_classweight",
+      "config_id": "DualMovingAverageCrossover_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.09667557305471633,
+      "cum_return": 0.01218375369874014,
+      "max_drawdown": -0.07633560229666514,
+      "n_trades": 109,
+      "profit_factor": 1.0573470247746735,
+      "calmar": 0.024739041153903032,
+      "long_pct": 0.4495
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH110BollingerKyleGate_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.04067602944554373,
+      "cum_return": 0.0017228251334653333,
+      "max_drawdown": -0.06584690937332882,
+      "n_trades": 137,
+      "profit_factor": 1.0134535413537444,
+      "calmar": 0.004073255660835898,
+      "long_pct": 0.4818
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "B_medium",
+      "config_id": "HypothesisH110BollingerKyleGate_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.22363318719174577,
+      "cum_return": 0.033475517089373685,
+      "max_drawdown": -0.059793844532719964,
+      "n_trades": 129,
+      "profit_factor": 1.1601877202871347,
+      "calmar": 0.08601357343535716,
+      "long_pct": 0.4884
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "C_deep",
+      "config_id": "HypothesisH110BollingerKyleGate_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.432405405592647,
+      "cum_return": 0.06666107452580783,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 129,
+      "profit_factor": 1.2779057762486765,
+      "calmar": 0.14833083202281389,
+      "long_pct": 0.5194
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "D_log2",
+      "config_id": "HypothesisH110BollingerKyleGate_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.22363318719174577,
+      "cum_return": 0.033475517089373685,
+      "max_drawdown": -0.059793844532719964,
+      "n_trades": 129,
+      "profit_factor": 1.1601877202871347,
+      "calmar": 0.08601357343535716,
+      "long_pct": 0.4884
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH110BollingerKyleGate_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.432405405592647,
+      "cum_return": 0.06666107452580783,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 129,
+      "profit_factor": 1.2779057762486765,
+      "calmar": 0.14833083202281389,
+      "long_pct": 0.5194
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH110BollingerKyleGate_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.432405405592647,
+      "cum_return": 0.06666107452580783,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 129,
+      "profit_factor": 1.2779057762486765,
+      "calmar": 0.14833083202281389,
+      "long_pct": 0.5194
+    },
+    "status": "success"
+  },
+  "HypothesisH110BollingerKyleGate_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH110BollingerKyleGate",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH110BollingerKyleGate_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.432405405592647,
+      "cum_return": 0.06666107452580783,
+      "max_drawdown": -0.06812221731019119,
+      "n_trades": 129,
+      "profit_factor": 1.2779057762486765,
+      "calmar": 0.14833083202281389,
+      "long_pct": 0.5194
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.3323711256551022,
+      "cum_return": -0.006853868640884442,
+      "max_drawdown": -0.007667442377979339,
+      "n_trades": 14,
+      "profit_factor": 0.4251478255746588,
+      "calmar": -0.11501948031571162,
+      "long_pct": 0.2857
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "B_medium",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.5269769105366525,
+      "cum_return": 0.0282946536733244,
+      "max_drawdown": -0.013374643030895195,
+      "n_trades": 33,
+      "profit_factor": 1.8426100922044206,
+      "calmar": 0.2681093497150543,
+      "long_pct": 0.5455
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "C_deep",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.3299317076298195,
+      "cum_return": 0.017503959004599334,
+      "max_drawdown": -0.011478076669096726,
+      "n_trades": 38,
+      "profit_factor": 1.5559242239539286,
+      "calmar": 0.19416113445281807,
+      "long_pct": 0.5
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "D_log2",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.5269769105366525,
+      "cum_return": 0.0282946536733244,
+      "max_drawdown": -0.013374643030895195,
+      "n_trades": 33,
+      "profit_factor": 1.8426100922044206,
+      "calmar": 0.2681093497150543,
+      "long_pct": 0.5455
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.23252877422171636,
+      "cum_return": 0.022504292633777068,
+      "max_drawdown": -0.01986727679139033,
+      "n_trades": 54,
+      "profit_factor": 1.2596585793979522,
+      "calmar": 0.1439099264840812,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.3811093115763722,
+      "cum_return": 0.021081770788766052,
+      "max_drawdown": -0.012644118269727778,
+      "n_trades": 28,
+      "profit_factor": 1.6990385344656873,
+      "calmar": 0.21195655848874267,
+      "long_pct": 0.3929
+    },
+    "status": "success"
+  },
+  "HypothesisH136GoldenDeathCrossAsym_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH136GoldenDeathCrossAsym",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH136GoldenDeathCrossAsym_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.23252877422171636,
+      "cum_return": 0.022504292633777068,
+      "max_drawdown": -0.01986727679139033,
+      "n_trades": 54,
+      "profit_factor": 1.2596585793979522,
+      "calmar": 0.1439099264840812,
+      "long_pct": 0.4815
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.20814965811616895,
+      "cum_return": -0.016604471856837666,
+      "max_drawdown": -0.04384039634255399,
+      "n_trades": 87,
+      "profit_factor": 0.8989188500383506,
+      "calmar": -0.059424638704063094,
+      "long_pct": 0.4253
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "B_medium",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.0987531371660717,
+      "cum_return": 0.014120110501086858,
+      "max_drawdown": -0.029312210043331288,
+      "n_trades": 83,
+      "profit_factor": 1.1109234404619113,
+      "calmar": 0.07460487019395744,
+      "long_pct": 0.4458
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "C_deep",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.19611525777393327,
+      "cum_return": 0.0358496903770853,
+      "max_drawdown": -0.04291715923405892,
+      "n_trades": 117,
+      "profit_factor": 1.1887710567245386,
+      "calmar": 0.12821156738477937,
+      "long_pct": 0.453
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "D_log2",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.0987531371660717,
+      "cum_return": 0.014120110501086858,
+      "max_drawdown": -0.029312210043331288,
+      "n_trades": 83,
+      "profit_factor": 1.1109234404619113,
+      "calmar": 0.07460487019395744,
+      "long_pct": 0.4458
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.19611525777393327,
+      "cum_return": 0.0358496903770853,
+      "max_drawdown": -0.04291715923405892,
+      "n_trades": 117,
+      "profit_factor": 1.1887710567245386,
+      "calmar": 0.12821156738477937,
+      "long_pct": 0.453
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.1783483031496268,
+      "cum_return": 0.029247071031407446,
+      "max_drawdown": -0.05526780930831321,
+      "n_trades": 100,
+      "profit_factor": 1.146351899287983,
+      "calmar": 0.08144461051111525,
+      "long_pct": 0.45
+    },
+    "status": "success"
+  },
+  "HypothesisH167BollingerRangingOFIGate_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH167BollingerRangingOFIGate",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH167BollingerRangingOFIGate_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.19611525777393327,
+      "cum_return": 0.0358496903770853,
+      "max_drawdown": -0.04291715923405892,
+      "n_trades": 117,
+      "profit_factor": 1.1887710567245386,
+      "calmar": 0.12821156738477937,
+      "long_pct": 0.453
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH203VolExpansionEntry_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.12357235574815828,
+      "cum_return": 0.03035968070888484,
+      "max_drawdown": -0.04326835751058955,
+      "n_trades": 133,
+      "profit_factor": 1.155734890642626,
+      "calmar": 0.1079393587800162,
+      "long_pct": 0.4812
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "B_medium",
+      "config_id": "HypothesisH203VolExpansionEntry_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.3695274779878592,
+      "cum_return": 0.0634344516169385,
+      "max_drawdown": -0.03732371673710633,
+      "n_trades": 106,
+      "profit_factor": 1.3924126794575418,
+      "calmar": 0.257958779992916,
+      "long_pct": 0.4434
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "C_deep",
+      "config_id": "HypothesisH203VolExpansionEntry_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6560779673133145,
+      "cum_return": 0.11147710064336569,
+      "max_drawdown": -0.023886489969343394,
+      "n_trades": 114,
+      "profit_factor": 1.723543050991051,
+      "calmar": 0.6950448797170878,
+      "long_pct": 0.4561
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "D_log2",
+      "config_id": "HypothesisH203VolExpansionEntry_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.3695274779878592,
+      "cum_return": 0.0634344516169385,
+      "max_drawdown": -0.03732371673710633,
+      "n_trades": 106,
+      "profit_factor": 1.3924126794575418,
+      "calmar": 0.257958779992916,
+      "long_pct": 0.4434
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH203VolExpansionEntry_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.5453102467507219,
+      "cum_return": 0.101777011556762,
+      "max_drawdown": -0.02218552710257815,
+      "n_trades": 116,
+      "profit_factor": 1.5789982950887012,
+      "calmar": 0.6858003182532173,
+      "long_pct": 0.5086
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH203VolExpansionEntry_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6560779673133145,
+      "cum_return": 0.11147710064336569,
+      "max_drawdown": -0.023886489969343394,
+      "n_trades": 114,
+      "profit_factor": 1.723543050991051,
+      "calmar": 0.6950448797170878,
+      "long_pct": 0.4561
+    },
+    "status": "success"
+  },
+  "HypothesisH203VolExpansionEntry_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH203VolExpansionEntry",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH203VolExpansionEntry_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.5453102467507219,
+      "cum_return": 0.101777011556762,
+      "max_drawdown": -0.02218552710257815,
+      "n_trades": 116,
+      "profit_factor": 1.5789982950887012,
+      "calmar": 0.6858003182532173,
+      "long_pct": 0.5086
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH236MomentumReversalAsym_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.2915797512971746,
+      "cum_return": -0.012091496143759484,
+      "max_drawdown": -0.04867351812300691,
+      "n_trades": 143,
+      "profit_factor": 0.949632447497994,
+      "calmar": -0.03203852918329575,
+      "long_pct": 0.5245
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "B_medium",
+      "config_id": "HypothesisH236MomentumReversalAsym_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.21341624386055452,
+      "cum_return": 0.06398301610313828,
+      "max_drawdown": -0.046646291465212375,
+      "n_trades": 145,
+      "profit_factor": 1.2682414008439196,
+      "calmar": 0.17124765448876134,
+      "long_pct": 0.6276
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "C_deep",
+      "config_id": "HypothesisH236MomentumReversalAsym_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.21341624386055452,
+      "cum_return": 0.06398301610313828,
+      "max_drawdown": -0.046646291465212375,
+      "n_trades": 145,
+      "profit_factor": 1.2682414008439196,
+      "calmar": 0.17124765448876134,
+      "long_pct": 0.6276
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "D_log2",
+      "config_id": "HypothesisH236MomentumReversalAsym_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.21341624386055452,
+      "cum_return": 0.06398301610313828,
+      "max_drawdown": -0.046646291465212375,
+      "n_trades": 145,
+      "profit_factor": 1.2682414008439196,
+      "calmar": 0.17124765448876134,
+      "long_pct": 0.6276
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH236MomentumReversalAsym_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6171403728881201,
+      "cum_return": 0.14394050327733643,
+      "max_drawdown": -0.03504046490626278,
+      "n_trades": 141,
+      "profit_factor": 1.6048569682053386,
+      "calmar": 0.4966163314851306,
+      "long_pct": 0.6099
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH236MomentumReversalAsym_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.09094527284882177,
+      "cum_return": 0.03865787476372562,
+      "max_drawdown": -0.030373414802318033,
+      "n_trades": 153,
+      "profit_factor": 1.1943609744505825,
+      "calmar": 0.16059212830408345,
+      "long_pct": 0.5621
+    },
+    "status": "success"
+  },
+  "HypothesisH236MomentumReversalAsym_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH236MomentumReversalAsym",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH236MomentumReversalAsym_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6171403728881201,
+      "cum_return": 0.14394050327733643,
+      "max_drawdown": -0.03504046490626278,
+      "n_trades": 141,
+      "profit_factor": 1.6048569682053386,
+      "calmar": 0.4966163314851306,
+      "long_pct": 0.6099
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.4690385090946684,
+      "cum_return": -0.04632172931735545,
+      "max_drawdown": -0.09481386790463586,
+      "n_trades": 157,
+      "profit_factor": 0.8138683385067995,
+      "calmar": -0.07764601574002457,
+      "long_pct": 0.4268
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "B_medium",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.39895167695230865,
+      "cum_return": -0.042404150407700514,
+      "max_drawdown": -0.08223158387182528,
+      "n_trades": 150,
+      "profit_factor": 0.8315933094045328,
+      "calmar": -0.08181464621096686,
+      "long_pct": 0.4333
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "C_deep",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08197519321357467,
+      "cum_return": 0.01430602043603546,
+      "max_drawdown": -0.057530419274737676,
+      "n_trades": 167,
+      "profit_factor": 1.0565951431022713,
+      "calmar": 0.038509267290873755,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "D_log2",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.39895167695230865,
+      "cum_return": -0.042404150407700514,
+      "max_drawdown": -0.08223158387182528,
+      "n_trades": 150,
+      "profit_factor": 0.8315933094045328,
+      "calmar": -0.08181464621096686,
+      "long_pct": 0.4333
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08197519321357467,
+      "cum_return": 0.01430602043603546,
+      "max_drawdown": -0.057530419274737676,
+      "n_trades": 167,
+      "profit_factor": 1.0565951431022713,
+      "calmar": 0.038509267290873755,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.27700240598897635,
+      "cum_return": -0.023022260951523044,
+      "max_drawdown": -0.05159742152800895,
+      "n_trades": 150,
+      "profit_factor": 0.9018621711999341,
+      "calmar": -0.07019910500768872,
+      "long_pct": 0.4067
+    },
+    "status": "success"
+  },
+  "HypothesisH318TrendlineChannelSqueeze_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH318TrendlineChannelSqueeze",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH318TrendlineChannelSqueeze_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08197519321357467,
+      "cum_return": 0.01430602043603546,
+      "max_drawdown": -0.057530419274737676,
+      "n_trades": 167,
+      "profit_factor": 1.0565951431022713,
+      "calmar": 0.038509267290873755,
+      "long_pct": 0.4371
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.12311160709611871,
+      "cum_return": -0.002096008991311127,
+      "max_drawdown": -0.017028230211118656,
+      "n_trades": 15,
+      "profit_factor": 0.9018884417796709,
+      "calmar": -0.01580541386262249,
+      "long_pct": 0.5333
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "B_medium",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.2306362718834386,
+      "cum_return": 0.0011185952372192443,
+      "max_drawdown": -0.007941042863792047,
+      "n_trades": 25,
+      "profit_factor": 1.084326132945345,
+      "calmar": 0.01806212882155858,
+      "long_pct": 0.52
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "C_deep",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.12311160709611871,
+      "cum_return": -0.002096008991311127,
+      "max_drawdown": -0.017028230211118656,
+      "n_trades": 15,
+      "profit_factor": 0.9018884417796709,
+      "calmar": -0.01580541386262249,
+      "long_pct": 0.5333
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "D_log2",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.2306362718834386,
+      "cum_return": 0.0011185952372192443,
+      "max_drawdown": -0.007941042863792047,
+      "n_trades": 25,
+      "profit_factor": 1.084326132945345,
+      "calmar": 0.01806212882155858,
+      "long_pct": 0.52
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.02385830779222564,
+      "cum_return": 0.006009599199666704,
+      "max_drawdown": -0.015037412105124548,
+      "n_trades": 20,
+      "profit_factor": 1.3088391169122953,
+      "calmar": 0.05113553076519634,
+      "long_pct": 0.55
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.5084759461899393,
+      "cum_return": 0.0033025492202969353,
+      "max_drawdown": -0.0012790582944556261,
+      "n_trades": 4,
+      "profit_factor": 4.262471880764981,
+      "calmar": 0.3307651995758251,
+      "long_pct": 0.75
+    },
+    "status": "success"
+  },
+  "HypothesisH371MaxMinDualTriggerFreq_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH371MaxMinDualTriggerFreq",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH371MaxMinDualTriggerFreq_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.02385830779222564,
+      "cum_return": 0.006009599199666704,
+      "max_drawdown": -0.015037412105124548,
+      "n_trades": 20,
+      "profit_factor": 1.3088391169122953,
+      "calmar": 0.05113553076519634,
+      "long_pct": 0.55
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.8540212066400235,
+      "cum_return": 0.07004199526040744,
+      "max_drawdown": -0.01563669968726833,
+      "n_trades": 60,
+      "profit_factor": 1.9543066047516375,
+      "calmar": 0.678068853991476,
+      "long_pct": 0.6167
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "B_medium",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.7251950811154293,
+      "cum_return": 0.08269765119315076,
+      "max_drawdown": -0.021835299997550517,
+      "n_trades": 66,
+      "profit_factor": 1.7121837810657594,
+      "calmar": 0.5704379799218445,
+      "long_pct": 0.5909
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "C_deep",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6164094563066514,
+      "cum_return": 0.08946899756261928,
+      "max_drawdown": -0.03458640645858746,
+      "n_trades": 87,
+      "profit_factor": 1.4702694467508235,
+      "calmar": 0.3885800093582717,
+      "long_pct": 0.5402
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "D_log2",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.7251950811154293,
+      "cum_return": 0.08269765119315076,
+      "max_drawdown": -0.021835299997550517,
+      "n_trades": 66,
+      "profit_factor": 1.7121837810657594,
+      "calmar": 0.5704379799218445,
+      "long_pct": 0.5909
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6164094563066514,
+      "cum_return": 0.08946899756261928,
+      "max_drawdown": -0.03458640645858746,
+      "n_trades": 87,
+      "profit_factor": 1.4702694467508235,
+      "calmar": 0.3885800093582717,
+      "long_pct": 0.5402
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.766818000518827,
+      "cum_return": 0.09946512734298185,
+      "max_drawdown": -0.021135635261609442,
+      "n_trades": 76,
+      "profit_factor": 1.6509856092249573,
+      "calmar": 0.7041504305115028,
+      "long_pct": 0.5526
+    },
+    "status": "success"
+  },
+  "HypothesisH37DynamicGridInformedGate_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH37DynamicGridInformedGate",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH37DynamicGridInformedGate_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.6164094563066514,
+      "cum_return": 0.08946899756261928,
+      "max_drawdown": -0.03458640645858746,
+      "n_trades": 87,
+      "profit_factor": 1.4702694467508235,
+      "calmar": 0.3885800093582717,
+      "long_pct": 0.5402
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH426RSIGarchBullBear_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.07456044344283098,
+      "cum_return": 0.013957082894126005,
+      "max_drawdown": -0.01737056090623279,
+      "n_trades": 59,
+      "profit_factor": 1.2083694202930415,
+      "calmar": 0.10245635018995826,
+      "long_pct": 0.5763
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "B_medium",
+      "config_id": "HypothesisH426RSIGarchBullBear_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.14625178538989483,
+      "cum_return": 0.021638408571182266,
+      "max_drawdown": -0.013789046379179548,
+      "n_trades": 80,
+      "profit_factor": 1.313454923428434,
+      "calmar": 0.1994416386171374,
+      "long_pct": 0.525
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "C_deep",
+      "config_id": "HypothesisH426RSIGarchBullBear_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.14625178538989483,
+      "cum_return": 0.021638408571182266,
+      "max_drawdown": -0.013789046379179548,
+      "n_trades": 80,
+      "profit_factor": 1.313454923428434,
+      "calmar": 0.1994416386171374,
+      "long_pct": 0.525
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "D_log2",
+      "config_id": "HypothesisH426RSIGarchBullBear_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.14625178538989483,
+      "cum_return": 0.021638408571182266,
+      "max_drawdown": -0.013789046379179548,
+      "n_trades": 80,
+      "profit_factor": 1.313454923428434,
+      "calmar": 0.1994416386171374,
+      "long_pct": 0.525
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH426RSIGarchBullBear_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.35164658424638606,
+      "cum_return": -0.030804236367928728,
+      "max_drawdown": -0.057553115410406974,
+      "n_trades": 95,
+      "profit_factor": 0.8095561958265295,
+      "calmar": -0.06960364232327777,
+      "long_pct": 0.4526
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH426RSIGarchBullBear_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.027435577298542645,
+      "cum_return": 0.00784919356831626,
+      "max_drawdown": -0.011986854526775392,
+      "n_trades": 48,
+      "profit_factor": 1.2376619803142468,
+      "calmar": 0.08371897387920363,
+      "long_pct": 0.5833
+    },
+    "status": "success"
+  },
+  "HypothesisH426RSIGarchBullBear_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH426RSIGarchBullBear",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH426RSIGarchBullBear_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.35164658424638606,
+      "cum_return": -0.030804236367928728,
+      "max_drawdown": -0.057553115410406974,
+      "n_trades": 95,
+      "profit_factor": 0.8095561958265295,
+      "calmar": -0.06960364232327777,
+      "long_pct": 0.4526
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.04645082791817963,
+      "cum_return": 0.013140625566861575,
+      "max_drawdown": -0.027880581698393803,
+      "n_trades": 109,
+      "profit_factor": 1.0933051688085471,
+      "calmar": 0.060120854191553864,
+      "long_pct": 0.4404
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "B_medium",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.2853564495345828,
+      "cum_return": 0.04492243707905663,
+      "max_drawdown": -0.025229690519095405,
+      "n_trades": 137,
+      "profit_factor": 1.2347690104650308,
+      "calmar": 0.22407028671434082,
+      "long_pct": 0.4964
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "C_deep",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.19607489966960265,
+      "cum_return": -0.017716556925016724,
+      "max_drawdown": -0.03965372756373631,
+      "n_trades": 92,
+      "profit_factor": 0.9119988966659445,
+      "calmar": -0.05776415158924028,
+      "long_pct": 0.4891
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "D_log2",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.2853564495345828,
+      "cum_return": 0.04492243707905663,
+      "max_drawdown": -0.025229690519095405,
+      "n_trades": 137,
+      "profit_factor": 1.2347690104650308,
+      "calmar": 0.22407028671434082,
+      "long_pct": 0.4964
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.28913619652177075,
+      "cum_return": 0.018020558461491643,
+      "max_drawdown": -0.022572713130428856,
+      "n_trades": 24,
+      "profit_factor": 1.481921345023517,
+      "calmar": 0.10162094273935572,
+      "long_pct": 0.5
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.28913619652177075,
+      "cum_return": 0.018020558461491643,
+      "max_drawdown": -0.022572713130428856,
+      "n_trades": 24,
+      "profit_factor": 1.481921345023517,
+      "calmar": 0.10162094273935572,
+      "long_pct": 0.5
+    },
+    "status": "success"
+  },
+  "HypothesisH434MaxMinDualHorizon_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH434MaxMinDualHorizon",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH434MaxMinDualHorizon_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.16824834935239713,
+      "cum_return": -0.008203472407603885,
+      "max_drawdown": -0.03965372756373631,
+      "n_trades": 118,
+      "profit_factor": 0.9627419689669195,
+      "calmar": -0.02663525671774576,
+      "long_pct": 0.4746
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.47120936151838927,
+      "cum_return": 0.04356279905524585,
+      "max_drawdown": -0.03283405054743738,
+      "n_trades": 80,
+      "profit_factor": 1.359526501437872,
+      "calmar": 0.1670600728787857,
+      "long_pct": 0.4875
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "B_medium",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.47120936151838927,
+      "cum_return": 0.04356279905524585,
+      "max_drawdown": -0.03283405054743738,
+      "n_trades": 80,
+      "profit_factor": 1.359526501437872,
+      "calmar": 0.1670600728787857,
+      "long_pct": 0.4875
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "C_deep",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.47120936151838927,
+      "cum_return": 0.04356279905524585,
+      "max_drawdown": -0.03283405054743738,
+      "n_trades": 80,
+      "profit_factor": 1.359526501437872,
+      "calmar": 0.1670600728787857,
+      "long_pct": 0.4875
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "D_log2",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.36149453631692485,
+      "cum_return": 0.03245589576593466,
+      "max_drawdown": -0.023704336901152923,
+      "n_trades": 70,
+      "profit_factor": 1.3425192003162938,
+      "calmar": 0.1732155202268131,
+      "long_pct": 0.4571
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.2821989188989672,
+      "cum_return": 0.026606980041606443,
+      "max_drawdown": -0.03282806832375462,
+      "n_trades": 76,
+      "profit_factor": 1.2209009449302648,
+      "calmar": 0.10279039604646921,
+      "long_pct": 0.4605
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.2821989188989672,
+      "cum_return": 0.026606980041606443,
+      "max_drawdown": -0.03282806832375462,
+      "n_trades": 76,
+      "profit_factor": 1.2209009449302648,
+      "calmar": 0.10279039604646921,
+      "long_pct": 0.4605
+    },
+    "status": "success"
+  },
+  "HypothesisH481GoldenCrossPSAR_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH481GoldenCrossPSAR",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH481GoldenCrossPSAR_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.2821989188989672,
+      "cum_return": 0.026606980041606443,
+      "max_drawdown": -0.03282806832375462,
+      "n_trades": 76,
+      "profit_factor": 1.2209009449302648,
+      "calmar": 0.10279039604646921,
+      "long_pct": 0.4605
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.033660955451299865,
+      "cum_return": -0.00030129168022041686,
+      "max_drawdown": -0.02002663129911686,
+      "n_trades": 35,
+      "profit_factor": 1.0010535669694927,
+      "calmar": -0.0019302849651822197,
+      "long_pct": 0.4857
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "B_medium",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.1570565265414429,
+      "cum_return": -0.0008242993324996117,
+      "max_drawdown": -0.04334112855169392,
+      "n_trades": 130,
+      "profit_factor": 1.000177327526074,
+      "calmar": -0.0024407650101438924,
+      "long_pct": 0.5077
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "C_deep",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.1570565265414429,
+      "cum_return": -0.0008242993324996117,
+      "max_drawdown": -0.04334112855169392,
+      "n_trades": 130,
+      "profit_factor": 1.000177327526074,
+      "calmar": -0.0024407650101438924,
+      "long_pct": 0.5077
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "D_log2",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.1570565265414429,
+      "cum_return": -0.0008242993324996117,
+      "max_drawdown": -0.04334112855169392,
+      "n_trades": 130,
+      "profit_factor": 1.000177327526074,
+      "calmar": -0.0024407650101438924,
+      "long_pct": 0.5077
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.11248044897183006,
+      "cum_return": 0.028718542781918766,
+      "max_drawdown": -0.02863273914612996,
+      "n_trades": 118,
+      "profit_factor": 1.2188804911843882,
+      "calmar": 0.12708984576488247,
+      "long_pct": 0.5424
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.11248044897183006,
+      "cum_return": 0.028718542781918766,
+      "max_drawdown": -0.02863273914612996,
+      "n_trades": 118,
+      "profit_factor": 1.2188804911843882,
+      "calmar": 0.12708984576488247,
+      "long_pct": 0.5424
+    },
+    "status": "success"
+  },
+  "HypothesisH72AsymmetricRSIDrawdownShield_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH72AsymmetricRSIDrawdownShield",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH72AsymmetricRSIDrawdownShield_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.11248044897183006,
+      "cum_return": 0.028718542781918766,
+      "max_drawdown": -0.02863273914612996,
+      "n_trades": 118,
+      "profit_factor": 1.2188804911843882,
+      "calmar": 0.12708984576488247,
+      "long_pct": 0.5424
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "A_shallow",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.09693692473411313,
+      "cum_return": -0.00958045867344326,
+      "max_drawdown": -0.03158710214421667,
+      "n_trades": 56,
+      "profit_factor": 0.9159528663921753,
+      "calmar": -0.039073493921822064,
+      "long_pct": 0.4643
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "B_medium",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.005921251311223865,
+      "cum_return": 0.0002441633957073197,
+      "max_drawdown": -0.03215361780131931,
+      "n_trades": 66,
+      "profit_factor": 1.0081435592954449,
+      "calmar": 0.0009740688396401669,
+      "long_pct": 0.4697
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "C_deep",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.1572883156819221,
+      "cum_return": 0.014090593257483519,
+      "max_drawdown": -0.025269713342039424,
+      "n_trades": 39,
+      "profit_factor": 1.2183520640122478,
+      "calmar": 0.07109876233317265,
+      "long_pct": 0.4359
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "D_log2",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.005921251311223865,
+      "cum_return": 0.0002441633957073197,
+      "max_drawdown": -0.03215361780131931,
+      "n_trades": 66,
+      "profit_factor": 1.0081435592954449,
+      "calmar": 0.0009740688396401669,
+      "long_pct": 0.4697
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "E_bagged",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.24730716948428288,
+      "cum_return": -0.023122796389381306,
+      "max_drawdown": -0.03744430136936816,
+      "n_trades": 53,
+      "profit_factor": 0.7937416793487854,
+      "calmar": -0.08003101852877566,
+      "long_pct": 0.4151
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "F_hp_aggressive",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.1509206402491315,
+      "cum_return": 0.015035977070525286,
+      "max_drawdown": -0.0321536178013192,
+      "n_trades": 58,
+      "profit_factor": 1.1241082421871413,
+      "calmar": 0.0596016145560383,
+      "long_pct": 0.5172
+    },
+    "status": "success"
+  },
+  "HypothesisH86WonhamMarkovRefinado_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "HypothesisH86WonhamMarkovRefinado",
+      "variation": "G_no_classweight",
+      "config_id": "HypothesisH86WonhamMarkovRefinado_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.03949237957761633,
+      "cum_return": -0.00012287070754468665,
+      "max_drawdown": -0.03215361780131898,
+      "n_trades": 56,
+      "profit_factor": 1.005932324522272,
+      "calmar": -0.0004902605248686862,
+      "long_pct": 0.5
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "A_shallow",
+      "config_id": "MultiTimeframeTrendSignal_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.17756842339822604,
+      "cum_return": -0.015184361906397492,
+      "max_drawdown": -0.04096917290830193,
+      "n_trades": 168,
+      "profit_factor": 0.929249490641037,
+      "calmar": -0.058115447547822656,
+      "long_pct": 0.3393
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "B_medium",
+      "config_id": "MultiTimeframeTrendSignal_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.06902261485588011,
+      "cum_return": 0.0007490834346257635,
+      "max_drawdown": -0.03771035725954297,
+      "n_trades": 122,
+      "profit_factor": 1.0092007043029012,
+      "calmar": 0.0030937394700195865,
+      "long_pct": 0.4098
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "C_deep",
+      "config_id": "MultiTimeframeTrendSignal_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08120705214800962,
+      "cum_return": 0.0032765483496388637,
+      "max_drawdown": -0.037710357259543414,
+      "n_trades": 148,
+      "profit_factor": 1.021934768814849,
+      "calmar": 0.013517847733265845,
+      "long_pct": 0.3919
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "D_log2",
+      "config_id": "MultiTimeframeTrendSignal_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.06902261485588011,
+      "cum_return": 0.0007490834346257635,
+      "max_drawdown": -0.03771035725954297,
+      "n_trades": 122,
+      "profit_factor": 1.0092007043029012,
+      "calmar": 0.0030937394700195865,
+      "long_pct": 0.4098
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "E_bagged",
+      "config_id": "MultiTimeframeTrendSignal_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08120705214800962,
+      "cum_return": 0.0032765483496388637,
+      "max_drawdown": -0.037710357259543414,
+      "n_trades": 148,
+      "profit_factor": 1.021934768814849,
+      "calmar": 0.013517847733265845,
+      "long_pct": 0.3919
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "F_hp_aggressive",
+      "config_id": "MultiTimeframeTrendSignal_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08120705214800962,
+      "cum_return": 0.0032765483496388637,
+      "max_drawdown": -0.037710357259543414,
+      "n_trades": 148,
+      "profit_factor": 1.021934768814849,
+      "calmar": 0.013517847733265845,
+      "long_pct": 0.3919
+    },
+    "status": "success"
+  },
+  "MultiTimeframeTrendSignal_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "MultiTimeframeTrendSignal",
+      "variation": "G_no_classweight",
+      "config_id": "MultiTimeframeTrendSignal_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.08120705214800962,
+      "cum_return": 0.0032765483496388637,
+      "max_drawdown": -0.037710357259543414,
+      "n_trades": 148,
+      "profit_factor": 1.021934768814849,
+      "calmar": 0.013517847733265845,
+      "long_pct": 0.3919
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archA_shallow_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "A_shallow",
+      "config_id": "TSIMeanReversion_archA_shallow_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.2190558144302987,
+      "cum_return": 0.03869762925655018,
+      "max_drawdown": -0.04899337167746154,
+      "n_trades": 158,
+      "profit_factor": 1.1586021968733122,
+      "calmar": 0.12109129835401754,
+      "long_pct": 0.481
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archB_medium_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "B_medium",
+      "config_id": "TSIMeanReversion_archB_medium_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.3979206500761715,
+      "cum_return": 0.06665895176669645,
+      "max_drawdown": -0.04919999826263177,
+      "n_trades": 159,
+      "profit_factor": 1.2545557501375018,
+      "calmar": 0.2053722022518408,
+      "long_pct": 0.5031
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archC_deep_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "C_deep",
+      "config_id": "TSIMeanReversion_archC_deep_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.4895627127042455,
+      "cum_return": 0.0833297558737025,
+      "max_drawdown": -0.05385529064523864,
+      "n_trades": 157,
+      "profit_factor": 1.3543989464962463,
+      "calmar": 0.23299012805708225,
+      "long_pct": 0.5032
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archD_log2_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "D_log2",
+      "config_id": "TSIMeanReversion_archD_log2_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.3979206500761715,
+      "cum_return": 0.06665895176669645,
+      "max_drawdown": -0.04919999826263177,
+      "n_trades": 159,
+      "profit_factor": 1.2545557501375018,
+      "calmar": 0.2053722022518408,
+      "long_pct": 0.5031
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archE_bagged_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "E_bagged",
+      "config_id": "TSIMeanReversion_archE_bagged_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.17785645093984884,
+      "cum_return": -0.023889917391702875,
+      "max_drawdown": -0.08092615330838338,
+      "n_trades": 205,
+      "profit_factor": 0.9443837640541165,
+      "calmar": -0.04646216948254688,
+      "long_pct": 0.4341
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archF_hp_aggressive_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "F_hp_aggressive",
+      "config_id": "TSIMeanReversion_archF_hp_aggressive_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": -0.17785645093984884,
+      "cum_return": -0.023889917391702875,
+      "max_drawdown": -0.08092615330838338,
+      "n_trades": 205,
+      "profit_factor": 0.9443837640541165,
+      "calmar": -0.04646216948254688,
+      "long_pct": 0.4341
+    },
+    "status": "success"
+  },
+  "TSIMeanReversion_archG_no_classweight_20260525_212405": {
+    "meta": {
+      "strategy": "TSIMeanReversion",
+      "variation": "G_no_classweight",
+      "config_id": "TSIMeanReversion_archG_no_classweight_20260525_212405"
+    },
+    "metrics": {
+      "sharpe": 0.4895627127042455,
+      "cum_return": 0.0833297558737025,
+      "max_drawdown": -0.05385529064523864,
+      "n_trades": 157,
+      "profit_factor": 1.3543989464962463,
+      "calmar": 0.23299012805708225,
+      "long_pct": 0.5032
+    },
+    "status": "success"
+  }
+}

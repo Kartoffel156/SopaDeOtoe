@@ -108,8 +108,8 @@ def run_full_pipeline(config_path: str, output_path: str):
         from datetime import datetime as _dt, timezone as _tz
         _orig_create = getattr(main_mod, "_create_run_dir", None)
         _unique_suffix = _hashlib.md5(
-            f"{config_id}:{os.getpid()}".encode()
-        ).hexdigest()[:8]
+            f"{config_id}".encode()
+        ).hexdigest()[:12]
 
         def _patched_create_run_dir(_cfg):
             ts = _dt.now(_tz.utc).strftime("%Y%m%d_%H%M%S")

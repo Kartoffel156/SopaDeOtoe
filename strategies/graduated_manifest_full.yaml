@@ -1,129 +1,129 @@
-graduated_on: '2026-04-11'
-cohort: first_cohort
+graduated_on: '2026-06-11'
+cohort: v1_selected_portfolio
+previous_cohort: first_cohort_2026-04-11
+selection_methodology: Ponderado por rol y contribucion marginal bajo test honesto de correlacion. Las 7 estrategias fueron
+  elegidas de las 16 graduadas disponibles, no solo por Score sino por diversificacion temporal de regimenes (MaxDD en fechas
+  distintas) y hedges genuinos. Ver /Users/nongo/Documents/Patacon/SopaDeOtoe/results/portfolio_specs/portfolio_full.json
+  para detalle.
+n_strategies: 7
+weights_sum: 1.0
 strategies:
-- run_id: BTC-USD_1d_20260411_021821
-  strategy_class: HypothesisH236MomentumReversalAsym
-  config_hash: f7c925d43c87
-  config_file: configs/graduated/HypothesisH236MomentumReversalAsym_20260411_021821.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260411_021821
+- run_id: BTC-USD_1d_20260611_010204
+  strategy_class: HypothesisH136GoldenDeathCrossAsym
+  config_hash: '010204'
+  config_file: configs/graduated/HypothesisH136GoldenDeathCrossAsym_010204_REPRO.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_010204
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH136GoldenDeathCrossAsym_010204_REPRO.json
   metrics:
-    sharpe: 0.6337
-    total_return: 0.1517
-    max_drawdown: -0.0768
-    calmar: 0.2381
-    sortino: 0.9021
-    profit_factor: 1.4871
-    n_trades: 159
-    win_rate: 0.5472
-- run_id: BTC-USD_1d_20260419_095451
+    sharpe: 0.942237875765123
+    total_return: 0.08904042865584882
+    max_drawdown: -0.02132008702972399
+    calmar: 0.516069371602512
+    sortino: null
+    profit_factor: 2.0627923517548528
+    n_trades: 59
+    win_rate: 0.6102
+  portfolio_role: Trend
+  portfolio_weight: 0.2
+- run_id: BTC-USD_1d_20260611_153957
+  strategy_class: HypothesisH481GoldenCrossPSAR
+  config_hash: '153957'
+  config_file: configs/graduated/HypothesisH481GoldenCrossPSAR_153957_REPRO.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_153957
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH481GoldenCrossPSAR_153957_REPRO.json
+  metrics:
+    sharpe: 0.6020911247235311
+    total_return: 0.0707505579145069
+    max_drawdown: -0.026775466340676624
+    calmar: 0.32896900342981655
+    sortino: null
+    profit_factor: 1.4510870383991459
+    n_trades: 106
+    win_rate: 0.5283
+  portfolio_role: Trend + tail hedge
+  portfolio_weight: 0.17
+- run_id: BTC-USD_1d_20260611_012006
+  strategy_class: HypothesisH203VolExpansionEntry
+  config_hash: '012006'
+  config_file: configs/graduated/HypothesisH203VolExpansionEntry_012006_REPRO.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_012006
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH203VolExpansionEntry_012006_REPRO.json
+  metrics:
+    sharpe: 0.5421828447111098
+    total_return: 0.10166603152629872
+    max_drawdown: -0.022152967551614222
+    calmar: 0.6860890845396657
+    sortino: null
+    profit_factor: 1.5757464248070054
+    n_trades: 117
+    win_rate: 0.5043
+  portfolio_role: Volatility (mejor en crash)
+  portfolio_weight: 0.15
+- run_id: BTC-USD_1d_20260611_040215
+  strategy_class: HypothesisH371MaxMinDualTriggerFreq
+  config_hash: '040215'
+  config_file: configs/graduated/HypothesisH371MaxMinDualTriggerFreq_040215_REPRO.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_040215
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH371MaxMinDualTriggerFreq_040215_REPRO.json
+  metrics:
+    sharpe: 0.9332387061177184
+    total_return: 0.08716480031004825
+    max_drawdown: -0.026845205896731117
+    calmar: 0.40152786244984034
+    sortino: null
+    profit_factor: 3.1925057049762238
+    n_trades: 73
+    win_rate: 0.7123
+  portfolio_role: Momentum (cluster unico)
+  portfolio_weight: 0.13
+- run_id: BTC-USD_1d_20260611_H37_i21
+  strategy_class: HypothesisH37DynamicGridInformedGate
+  config_hash: H37_i21
+  config_file: configs/graduated/HypothesisH37DynamicGridInformedGate_H37_i21_nogate_vpin0.50.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_H37_i21
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH37DynamicGridInformedGate_H37_i21_nogate_vpin0.50.json
+  metrics:
+    sharpe: 0.9372834231812271
+    total_return: 0.12584588945564135
+    max_drawdown: -0.033133572719066806
+    calmar: 0.5625288174658217
+    sortino: null
+    profit_factor: 1.911446587515347
+    n_trades: 67
+    win_rate: 0.6269
+  portfolio_role: Grid (mejor retorno)
+  portfolio_weight: 0.12
+- run_id: BTC-USD_1d_20260611_061114
+  strategy_class: HypothesisH86WonhamMarkovRefinado
+  config_hash: '061114'
+  config_file: configs/graduated/HypothesisH86WonhamMarkovRefinado_061114_REPRO.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_061114
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH86WonhamMarkovRefinado_061114_REPRO.json
+  metrics:
+    sharpe: 0.6163546793692859
+    total_return: 0.11470746507146767
+    max_drawdown: -0.03735620886422131
+    calmar: 0.37553361143951536
+    sortino: null
+    profit_factor: 2.120036629930478
+    n_trades: 41
+    win_rate: 0.5122
+  portfolio_role: Seguro de crash
+  portfolio_weight: 0.12
+- run_id: BTC-USD_1d_20260611_095404
   strategy_class: TSIMeanReversion
-  config_hash: 11c8699351f9
-  config_file: configs/graduated/TSIMeanReversion_20260419_095451.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_095451
+  config_hash: 095404
+  config_file: configs/graduated/TSIMeanReversion_095404_REPRO.yaml
+  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_095404
+  source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/TSIMeanReversion_095404_REPRO.json
   metrics:
-    sharpe: 0.4896
-    total_return: 0.0833
-    max_drawdown: -0.0539
-    calmar: 0.2330
-    sortino: 0.6281
-    profit_factor: 1.3544
+    sharpe: 0.4895627127042455
+    total_return: 0.0833297558737025
+    max_drawdown: -0.05385529064523864
+    calmar: 0.23299012805708225
+    sortino: null
+    profit_factor: 1.3543989464962463
     n_trades: 157
     win_rate: 0.5032
-- run_id: BTC-USD_1d_20260418_160334
-  strategy_class: HypothesisH110BollingerKyleGate
-  config_hash: bc9371eb2641
-  config_file: configs/graduated/HypothesisH110BollingerKyleGate_20260418_160334.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_160334
-  metrics:
-    sharpe: 0.4337
-    total_return: 0.0665
-    max_drawdown: -0.0681
-    calmar: 0.1479
-    sortino: 0.5787
-    profit_factor: 1.2764
-    n_trades: 130
-    win_rate: 0.5231
-- run_id: BTC-USD_1d_20260418_012006
-  strategy_class: HypothesisH203VolExpansionEntry
-  config_hash: 6edcbb5c7b5c
-  config_file: configs/graduated/HypothesisH203VolExpansionEntry_20260418_012006.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_012006
-  metrics:
-    sharpe: 0.2120
-    total_return: 0.0401
-    max_drawdown: -0.0764
-    calmar: 0.0804
-    sortino: 0.2978
-    profit_factor: 1.1539
-    n_trades: 109
-    win_rate: 0.4587
-- run_id: BTC-USD_1d_20260418_162324
-  strategy_class: HypothesisH167BollingerRangingOFIGate
-  config_hash: a40f8e2c5b0a
-  config_file: configs/graduated/HypothesisH167BollingerRangingOFIGate_20260418_162324.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_162324
-  metrics:
-    sharpe: 0.1961
-    total_return: 0.0358
-    max_drawdown: -0.0429
-    calmar: 0.1282
-    sortino: 0.2553
-    profit_factor: 1.1888
-    n_trades: 117
-    win_rate: 0.4530
-- run_id: BTC-USD_1d_20260419_051527
-  strategy_class: HypothesisH318TrendlineChannelSqueeze
-  config_hash: 19e38d5f80f0
-  config_file: configs/graduated/HypothesisH318TrendlineChannelSqueeze_20260419_051527.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_051527
-  metrics:
-    sharpe: 0.1546
-    total_return: 0.0260
-    max_drawdown: -0.0544
-    calmar: 0.0737
-    sortino: 0.2076
-    profit_factor: 1.1065
-    n_trades: 152
-    win_rate: 0.4408
-- run_id: BTC-USD_1d_20260419_051820
-  strategy_class: HypothesisH37DynamicGridInformedGate
-  config_hash: 4b2e513b4b45
-  config_file: configs/graduated/HypothesisH37DynamicGridInformedGate_20260419_051820.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_051820
-  metrics:
-    sharpe: 0.1090
-    total_return: 0.0358
-    max_drawdown: -0.0584
-    calmar: 0.0940
-    sortino: 0.1544
-    profit_factor: 1.0820
-    n_trades: 219
-    win_rate: 0.5342
-- run_id: BTC-USD_1d_20260418_162631
-  strategy_class: DualMovingAverageCrossover
-  config_hash: 767ba59891d3
-  config_file: configs/graduated/DualMovingAverageCrossover_20260418_162631.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260418_162631
-  metrics:
-    sharpe: 0.0974
-    total_return: 0.0131
-    max_drawdown: -0.0763
-    calmar: 0.0265
-    sortino: 0.1234
-    profit_factor: 1.0609
-    n_trades: 111
-    win_rate: 0.4505
-- run_id: BTC-USD_1d_20260419_134237
-  strategy_class: MultiTimeframeTrendSignal
-  config_hash: e5ce17eb1081
-  config_file: configs/graduated/MultiTimeframeTrendSignal_20260419_134237.yaml
-  source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260419_134237
-  metrics:
-    sharpe: 0.0686
-    total_return: 0.0026
-    max_drawdown: -0.0428
-    calmar: 0.0095
-    sortino: 0.0950
-    profit_factor: 1.0189
-    n_trades: 147
-    win_rate: 0.4014
+  portfolio_role: Mean reversion (DD alto)
+  portfolio_weight: 0.11

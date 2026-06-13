@@ -1,0 +1,19 @@
+# Meta-modelo conjunto (Layer 1.5)
+pooled_meta:
+  enabled: true
+  n_splits: 5
+  embargo_pct: 0.01
+  walkforward_mode: expanding
+  random_state: 42
+  feature_prefilter_enabled: false   # desactivar con N grande
+
+# Gating por estrategia
+pivots:
+  default: 0.50
+  HypothesisH86WonhamMarkovRefinado: 0.40   # hedge permisivo
+hedge_bypass: []   # activar [H86...] solo si falla gate G3
+bet_sizing_step: 0.01
+
+# Override de portfolio para el modo pooled
+portfolio_overrides:
+  max_leverage: 6.0   # Bajado de 20.0 — doc warning sobre ruina a 20x con dollar bars BTC

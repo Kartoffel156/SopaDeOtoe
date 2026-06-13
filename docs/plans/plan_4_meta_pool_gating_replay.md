@@ -1,12 +1,17 @@
-# Plan 4 de 5: `meta_pool/` output — gating + replay
+# Plan 4 de 5: `meta_pool/` output — gating + replay ✅ IMPLEMENTADO
 
 **Objetivo**: Probas del modelo conjunto -> posiciones gateadas -> daily_returns -> StrategyResult listo para Layer 2.
 
 **Depende de**: Plan 3 (necesita modelo entrenado y probas por estrategia)
 
-**Archivos a crear**:
-- `SopaDeOtoe/meta_pool/gating.py`
-- `SopaDeOtoe/meta_pool/replay.py`
+**Archivos creados**:
+- `SopaDeOtoe/meta_pool/gating.py` ✅
+- `SopaDeOtoe/meta_pool/replay.py` ✅
+- `SopaDeOtoe/config/pooled_meta_settings.yaml` ✅
+
+**Cambios adicionales**:
+- `meta_pool/dataset.py`: agregado `close` a `per_strategy_data` (necesario para gating/replay)
+- `meta_pool/__init__.py`: actualizado con nuevos modulos
 
 ---
 

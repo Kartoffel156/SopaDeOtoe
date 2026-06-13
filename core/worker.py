@@ -14,6 +14,7 @@ differs (SopaDeOtoe is not a sibling of v12, so we cross into StrategyParrot/).
 Usage (called by runner.py, not directly):
     python -m SopaDeOtoe.core.worker --mode full   --config /tmp/cfg.yaml --output /tmp/result.json
     python -m SopaDeOtoe.core.worker --mode signal --config /tmp/cfg.yaml --output /tmp/result.json
+    python -m SopaDeOtoe.core.worker --mode export --config /tmp/cfg.yaml --output /tmp/result.json
 """
 
 import json
@@ -316,15 +317,199 @@ def run_signal_check(config_path: str, output_path: str):
     Path(output_path).write_text(json.dumps(result, default=_serialize))
 
 
+def run_export_pipeline(config_path: str, output_path: str):
+    """
+    Execute M1-M4 + meta-features inline and export to parquets.
+
+    Extends run_signal_check (M1-M3) with triple-barrier labels,
+    meta-labels, sample weights, and meta-features. Serializes
+    everything to parquets for downstream pooled meta-model training.
+    """
+    import pandas as pd
+
+    v12_dir = _setup_paths()
+    _sopa_dir = Path(__file__).resolve().parent.parent
+
+    config_path = str(Path(config_path).resolve())
+    output_path = str(Path(output_path).resolve())
+
+    with open(config_path) as f:
+        run_cfg = yaml.safe_load(f)
+
+    config_id = run_cfg.pop('_config_id', 'unknown')
+    data_end = run_cfg.pop('_data_end_override', None)
+
+    result = {'config_id': config_id, 'status': 'error'}
+
+    try:
+        os.chdir(str(v12_dir))
+
+        import SopaDeOtoe.strategies  # noqa
+        from src import data_pipe, features, labeling, models
+        from src.strategy import BaseStrategy
+        from src.bar_scaling import scaling_config as _scaling_config
+        from src.sample_weights import sample_uniqueness
+
+        cfg = run_cfg
+        strategy_name = cfg['strategy']['name']
+
+        # ── M1: Data (identical to run_signal_check) ──
+        df = data_pipe.get_bars(
+            cfg['ticker'], cfg['start'], cfg['end'],
+            interval=cfg.get('interval', '1d'),
+            save_path=f"data/raw/{cfg['ticker']}.csv",
+            bar_type=cfg.get('bar_type', 'time'),
+            cfg=cfg,
+        )
+
+        if data_end:
+            df = df[df.index <= pd.Timestamp(data_end)]
+
+        if cfg.get('bar_type') == 'dollar' and cfg.get('auto_bpd', False):
+            bpd_actual = df.resample('D').size()
+            bpd_actual = bpd_actual[bpd_actual > 0]
+            cfg['bars_per_day'] = int(bpd_actual.median())
+
+        # ── M2: Features (identical to run_signal_check) ──
+        feat = features.base_features(df, cfg)
+        feat = features.user_features(df, feat, cfg)
+        feat['Close'] = df['Close']
+        feat['Volume'] = df['Volume']
+        feat['High'] = df['High']
+        feat['Low'] = df['Low']
+
+        # ── M3: Signals (identical to run_signal_check) ──
+        strategy_params = dict(cfg['strategy'].get('params', {}))
+
+        sc = _scaling_config(cfg)
+        scale = sc['scale']
+
+        strategy_cls = BaseStrategy._REGISTRY[strategy_name]
+        scalable = getattr(strategy_cls, '_scalable_params', None)
+
+        if scalable is not None:
+            for p in scalable:
+                if p in strategy_params:
+                    strategy_params[p] = scale(strategy_params[p])
+        else:
+            if 'fast' in strategy_params:
+                strategy_params['fast'] = scale(strategy_params['fast'])
+            if 'slow' in strategy_params:
+                strategy_params['slow'] = scale(strategy_params['slow'])
+
+        signals = BaseStrategy._REGISTRY[strategy_name](
+            **strategy_params
+        ).generate_signals(feat)
+
+        # ── M3b: Signal times + side (main.py L333-358) ──
+        cusum_cfg = cfg.get('cusum_filter', {})
+        if cusum_cfg.get('enabled', False) and cusum_cfg.get('mode') == 'primary':
+            from src.labeling import cusum_filter
+            signal_times, side = cusum_filter(
+                df['Close'], h=float(cusum_cfg.get('h', 0.02))
+            )
+        else:
+            signal_times = signals[signals != 0].index
+            side = signals.loc[signal_times]
+
+        # ── M4: Triple-barrier (main.py L362-366) ──
+        labels = labeling.triple_barrier(
+            df['Close'], signal_times, cfg['pt_sl'],
+            scale(cfg['max_holding']),
+            side=side,
+            vol_span=scale(100),
+        )
+
+        # ── M4b: Meta-labels + weights + meta-features (main.py L448-491) ──
+        meta_labels = models.derive_meta_labels(labels, side)
+        weights = sample_uniqueness(labels, df['Close'])
+        feat['signal_side'] = side.reindex(feat.index, method='ffill').fillna(0)
+
+        # Regime detection (if enabled)
+        _regime_cfg = cfg.get('regime', {})
+        if _regime_cfg.get('enabled', False):
+            from src.regime import classify_regimes
+            _regime_labels_df = classify_regimes(feat, cfg)
+            if len(_regime_labels_df.columns) > 0:
+                feat = pd.concat([feat, _regime_labels_df], axis=1)
+
+        # Meta-features
+        meta_feat_raw = models.meta_features(feat, cfg)
+
+        # Align indices
+        valid_idx = meta_feat_raw.dropna().index
+        meta_feat = meta_feat_raw.loc[valid_idx]
+        meta_labels_fit = meta_labels.reindex(valid_idx).dropna()
+        weights_fit = weights.reindex(meta_labels_fit.index).fillna(weights.mean())
+
+        # Guard BUG-14: insufficient samples
+        if len(meta_labels_fit) < 10:
+            result['error'] = f"Only {len(meta_labels_fit)} meta-label samples (min 10)"
+            Path(output_path).write_text(json.dumps(result, default=_serialize))
+            return
+
+        # ── EXPORT: serialize to parquets ──
+        export_dir = _sopa_dir / "results" / "exploration" / "meta_datasets" / strategy_name
+        export_dir.mkdir(parents=True, exist_ok=True)
+
+        meta_feat.to_parquet(export_dir / "meta_feat.parquet")
+        meta_labels_fit.to_frame("label").to_parquet(export_dir / "meta_labels.parquet")
+        weights_fit.to_frame("weight").to_parquet(export_dir / "weights.parquet")
+        labels.to_parquet(export_dir / "labels.parquet")
+        side.to_frame("side").to_parquet(export_dir / "side.parquet")
+        df['Close'].to_frame("Close").to_parquet(export_dir / "close.parquet")
+        pd.Series(signal_times, name="signal_time").to_frame().to_parquet(
+            export_dir / "signal_times.parquet"
+        )
+
+        # Config snapshot
+        config_snapshot = {
+            'strategy_name': strategy_name,
+            'config_id': config_id,
+            'ticker': cfg.get('ticker', ''),
+            'bar_type': cfg.get('bar_type', ''),
+            'cost': cfg.get('cost', 0),
+            'slippage_bps': cfg.get('slippage_bps', 0),
+            'spread_bps': cfg.get('spread_bps', 0),
+            'initial_capital': cfg.get('initial_capital', 0),
+            'pt_sl': cfg.get('pt_sl', []),
+            'max_holding': cfg.get('max_holding', 0),
+            'strategy_params': dict(cfg['strategy'].get('params', {})),
+        }
+        (export_dir / "config_snapshot.json").write_text(
+            json.dumps(config_snapshot, default=_serialize, indent=2)
+        )
+
+        n_signals = int((signals != 0).sum())
+        result = {
+            'config_id': config_id,
+            'status': 'success',
+            'strategy': strategy_name,
+            'n_signals': n_signals,
+            'n_meta_samples': len(meta_labels_fit),
+            'n_features': len(meta_feat.columns),
+            'feature_columns': list(meta_feat.columns),
+            'export_dir': str(export_dir),
+        }
+
+    except Exception as e:
+        result['error'] = f"{type(e).__name__}: {str(e)}"
+        result['traceback'] = traceback.format_exc()
+
+    Path(output_path).write_text(json.dumps(result, default=_serialize))
+
+
 if __name__ == '__main__':
     import argparse
     parser = argparse.ArgumentParser(description='SopaDeOtoe Worker')
-    parser.add_argument('--mode', required=True, choices=['full', 'signal'])
+    parser.add_argument('--mode', required=True, choices=['full', 'signal', 'export'])
     parser.add_argument('--config', required=True, help='Path to config YAML')
     parser.add_argument('--output', required=True, help='Path to write result JSON')
     args = parser.parse_args()
 
     if args.mode == 'full':
         run_full_pipeline(args.config, args.output)
+    elif args.mode == 'export':
+        run_export_pipeline(args.config, args.output)
     else:
         run_signal_check(args.config, args.output)

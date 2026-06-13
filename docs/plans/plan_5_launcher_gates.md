@@ -1,12 +1,12 @@
-# Plan 5 de 5: Launcher + gates de aceptacion
+# Plan 5 de 5: Launcher + gates de aceptacion ✅ IMPLEMENTADO
 
 **Objetivo**: Script end-to-end que orquesta Layer 1 (export) -> Layer 1.5 (pool/train/gate/replay) -> Layer 2 (portfolio) + comparacion A/B con gates G1-G6.
 
 **Depende de**: Plans 1-4
 
-**Archivos a crear**:
-- `SopaDeOtoe/launchers/run_pooled_meta_backtest.py`
-- `SopaDeOtoe/config/pooled_meta_settings.yaml`
+**Archivos creados**:
+- `SopaDeOtoe/launchers/run_pooled_meta_backtest.py` ✅
+- `SopaDeOtoe/config/pooled_meta_settings.yaml` ✅ (actualizado con pooled_meta + portfolio_overrides)
 
 ---
 

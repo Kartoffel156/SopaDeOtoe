@@ -370,3 +370,111 @@ def run_exploration(
           f"(with {n_jobs} workers)")
 
     return results
+
+
+def run_export(
+    configs: list[dict],
+    base_config_path: Optional[str] = None,
+    data_end_override: Optional[str] = None,
+    n_jobs: int = DEFAULT_JOBS,
+    output_dir: Optional[Path] = None,
+) -> list[dict]:
+    """
+    Run v12 pipeline in export mode — produce meta-dataset parquets.
+
+    Identical to run_exploration() but passes mode='export' to workers.
+    Each config produces 7 parquets + 1 JSON in
+    results/exploration/meta_datasets/<strategy_name>/.
+
+    Params:
+        configs          : list[dict] — strategy configs.
+        base_config_path : str — path to base YAML template.
+        data_end_override: str — holdout protection date cutoff.
+        n_jobs           : int — parallel workers (default 4, max 15).
+        output_dir       : Path — where to write result JSONs.
+
+    Returns:
+        list[dict] — one result per config, in input order.
+    """
+    n_jobs = max(1, min(n_jobs, MAX_JOBS))
+    total = len(configs)
+
+    print(f"\n{'='*60}")
+    _bar_type = configs[0].get('bar_type', 'dollar') if configs else 'dollar'
+    print(f"  RUNNER: Executing {total} configs via v12 pipeline (EXPORT mode)")
+    print(f"  Bar type: {_bar_type} | Pipeline: M1-M4 + meta-features → parquets")
+    print(f"  Workers: {n_jobs} parallel subprocesses")
+    print(f"{'='*60}\n")
+
+    # Build all run configs
+    run_configs = {}
+    for i, cfg in enumerate(configs):
+        config_id = cfg.get('config_id', f'config_{i}')
+        if 'ticker' in cfg:
+            run_cfg = dict(cfg)
+        else:
+            run_cfg = build_run_config(
+                cfg,
+                base_config_path=base_config_path,
+                data_end_override=data_end_override,
+            )
+        run_configs[config_id] = run_cfg
+
+    # Execute in parallel using subprocess isolation
+    results_map = {}
+    completed = 0
+    start_time = time.time()
+
+    with ThreadPoolExecutor(max_workers=n_jobs) as executor:
+        futures = {}
+        for config_id, run_cfg in run_configs.items():
+            future = executor.submit(
+                _run_single_subprocess, config_id, run_cfg, 'export', output_dir
+            )
+            futures[future] = config_id
+
+        for future in as_completed(futures):
+            config_id = futures[future]
+            completed += 1
+            try:
+                result = future.result()
+            except Exception as e:
+                result = {
+                    'config_id': config_id,
+                    'strategy': run_configs[config_id].get(
+                        'strategy', {}).get('name', '?'),
+                    'status': 'error',
+                    'error': f"{type(e).__name__}: {str(e)}",
+                    'metrics': {},
+                }
+
+            results_map[config_id] = result
+            status = result.get('status', '?')
+            n_meta = result.get('n_meta_samples', 'N/A')
+            n_feat = result.get('n_features', 'N/A')
+            elapsed = time.time() - start_time
+            print(f"[{completed}/{total}] {config_id}: "
+                  f"{status} (samples={n_meta}, features={n_feat}) "
+                  f"[{elapsed:.0f}s elapsed]")
+
+    # Return results in original config order
+    results = []
+    for i, cfg in enumerate(configs):
+        config_id = cfg.get('config_id', f'config_{i}')
+        results.append(results_map.get(config_id, {
+            'config_id': config_id,
+            'status': 'error',
+            'error': 'result not found',
+        }))
+
+    n_success = sum(1 for r in results if r['status'] == 'success')
+    n_error = sum(1 for r in results if r['status'] == 'error')
+    total_time = time.time() - start_time
+    total_samples = sum(r.get('n_meta_samples', 0) for r in results if r['status'] == 'success')
+    print(f"\n[RUNNER-EXPORT] Done: {n_success} success, {n_error} errors")
+    print(f"[RUNNER-EXPORT] Total meta-samples: {total_samples}")
+    print(f"[RUNNER-EXPORT] Total time: {total_time:.0f}s ({total_time/60:.1f} min), "
+          f"avg {total_time/max(total, 1):.0f}s/config "
+          f"(with {n_jobs} workers)")
+
+    return results

@@ -11,7 +11,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_010204
   strategy_class: HypothesisH136GoldenDeathCrossAsym
   config_hash: '010204'
-  config_file: configs/graduated/HypothesisH136GoldenDeathCrossAsym_010204_REPRO.yaml
+  config_file: configs/graduated/HypothesisH136GoldenDeathCrossAsym_20260411_010204.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_010204
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH136GoldenDeathCrossAsym_010204_REPRO.json
   metrics:
@@ -28,7 +28,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_153957
   strategy_class: HypothesisH481GoldenCrossPSAR
   config_hash: '153957'
-  config_file: configs/graduated/HypothesisH481GoldenCrossPSAR_153957_REPRO.yaml
+  config_file: configs/graduated/HypothesisH481GoldenCrossPSAR_20260412_153957.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_153957
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH481GoldenCrossPSAR_153957_REPRO.json
   metrics:
@@ -45,7 +45,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_012006
   strategy_class: HypothesisH203VolExpansionEntry
   config_hash: '012006'
-  config_file: configs/graduated/HypothesisH203VolExpansionEntry_012006_REPRO.yaml
+  config_file: configs/graduated/HypothesisH203VolExpansionEntry_20260418_012006.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_012006
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH203VolExpansionEntry_012006_REPRO.json
   metrics:
@@ -62,7 +62,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_040215
   strategy_class: HypothesisH371MaxMinDualTriggerFreq
   config_hash: '040215'
-  config_file: configs/graduated/HypothesisH371MaxMinDualTriggerFreq_040215_REPRO.yaml
+  config_file: configs/graduated/HypothesisH371MaxMinDualTriggerFreq_20260411_040215.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_040215
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH371MaxMinDualTriggerFreq_040215_REPRO.json
   metrics:
@@ -79,7 +79,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_H37_i21
   strategy_class: HypothesisH37DynamicGridInformedGate
   config_hash: H37_i21
-  config_file: configs/graduated/HypothesisH37DynamicGridInformedGate_H37_i21_nogate_vpin0.50.yaml
+  config_file: configs/graduated/HypothesisH37DynamicGridInformedGate_20260419_051820.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_H37_i21
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH37DynamicGridInformedGate_H37_i21_nogate_vpin0.50.json
   metrics:
@@ -96,7 +96,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_061114
   strategy_class: HypothesisH86WonhamMarkovRefinado
   config_hash: '061114'
-  config_file: configs/graduated/HypothesisH86WonhamMarkovRefinado_061114_REPRO.yaml
+  config_file: configs/graduated/HypothesisH86WonhamMarkovRefinado_20260411_061114.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_061114
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/HypothesisH86WonhamMarkovRefinado_061114_REPRO.json
   metrics:
@@ -113,7 +113,7 @@ strategies:
 - run_id: BTC-USD_1d_20260611_095404
   strategy_class: TSIMeanReversion
   config_hash: 095404
-  config_file: configs/graduated/TSIMeanReversion_095404_REPRO.yaml
+  config_file: configs/graduated/TSIMeanReversion_20260419_095404.yaml
   source_run_dir: StrategyParrot/v12/output/runs/BTC-USD_1d_20260611_095404
   source_results_json: /Users/nongo/Documents/Patacon/SopaDeOtoe/results/exploration/TSIMeanReversion_095404_REPRO.json
   metrics:

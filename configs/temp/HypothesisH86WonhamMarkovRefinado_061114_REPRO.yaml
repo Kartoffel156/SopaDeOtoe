@@ -1,4 +1,5 @@
-_meta_run_id: BTC-USD_1d_20260411_061114
+_meta_config_hash: '061114'
+_meta_run_id: BTC-USD_1d_20260611_061114
 _meta_strategy_class: HypothesisH86WonhamMarkovRefinado
 atr_multiplier: 2.0
 atr_span: 14

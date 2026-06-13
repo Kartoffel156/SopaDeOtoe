@@ -1,0 +1,22 @@
+{
+  "strategy_name": "HypothesisH86WonhamMarkovRefinado",
+  "config_id": "unknown",
+  "ticker": "BTC-USD",
+  "bar_type": "dollar",
+  "cost": 0.001,
+  "slippage_bps": 0,
+  "spread_bps": 0,
+  "initial_capital": 100000.0,
+  "pt_sl": [
+    2.5,
+    1.5
+  ],
+  "max_holding": 36,
+  "strategy_params": {
+    "alpha_w": 0.1376,
+    "m_thresh": 0.6952,
+    "markov_lookback": 17,
+    "vol_max": 2,
+    "w_thresh": 0.6858
+  }
+}

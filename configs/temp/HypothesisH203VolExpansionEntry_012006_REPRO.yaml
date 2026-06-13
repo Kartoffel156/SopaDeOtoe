@@ -1,7 +1,7 @@
 _config_id: HypothesisH203VolExpansionEntry_6edcbb5c7b5c
 _data_end_override: '2024-12-17'
-_meta_config_hash: 6edcbb5c7b5c
-_meta_run_id: BTC-USD_1d_20260418_012006
+_meta_config_hash: '012006'
+_meta_run_id: BTC-USD_1d_20260611_012006
 _meta_strategy_class: HypothesisH203VolExpansionEntry
 atr_multiplier: 2.0
 atr_span: 14

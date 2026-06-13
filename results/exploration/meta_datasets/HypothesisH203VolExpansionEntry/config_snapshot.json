@@ -1,0 +1,18 @@
+{
+  "strategy_name": "HypothesisH203VolExpansionEntry",
+  "config_id": "HypothesisH203VolExpansionEntry_6edcbb5c7b5c",
+  "ticker": "BTC-USD",
+  "bar_type": "dollar",
+  "cost": 0.001,
+  "slippage_bps": 0,
+  "spread_bps": 0,
+  "initial_capital": 100000.0,
+  "pt_sl": [
+    2.5,
+    1.5
+  ],
+  "max_holding": 36,
+  "strategy_params": {
+    "ofi_window": 3
+  }
+}

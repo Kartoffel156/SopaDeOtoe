@@ -1,0 +1,23 @@
+{
+  "strategy_name": "HypothesisH37DynamicGridInformedGate",
+  "config_id": "HypothesisH37DynamicGridInformedGate_4b2e513b4b45",
+  "ticker": "BTC-USD",
+  "bar_type": "dollar",
+  "cost": 0.001,
+  "slippage_bps": 0,
+  "spread_bps": 0,
+  "initial_capital": 100000.0,
+  "pt_sl": [
+    2.5,
+    1.5
+  ],
+  "max_holding": 36,
+  "strategy_params": {
+    "atr_period": 20,
+    "grid_mult": 1.3987,
+    "grid_period": 23,
+    "mk_no_trend": 1.4255,
+    "ofi_neutral_thresh": 0.1792,
+    "vpin_pct_thresh": 0.5901
+  }
+}

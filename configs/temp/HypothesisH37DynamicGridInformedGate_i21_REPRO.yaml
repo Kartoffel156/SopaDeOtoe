@@ -1,8 +1,8 @@
-_config_id: TSIMeanReversion_cd91d5af77d3
+_config_id: HypothesisH37DynamicGridInformedGate_4b2e513b4b45
 _data_end_override: '2024-12-17'
-_meta_config_hash: 095404
-_meta_run_id: BTC-USD_1d_20260611_095404
-_meta_strategy_class: TSIMeanReversion
+_meta_config_hash: H37_i21
+_meta_run_id: BTC-USD_1d_20260611_H37_i21
+_meta_strategy_class: HypothesisH37DynamicGridInformedGate
 atr_multiplier: 2.0
 atr_span: 14
 auto_bpd: false
@@ -13,8 +13,8 @@ calibration_bayes:
   fallback_pivot: 0.5
   min_obs_per_regime: 10
   pivot_shrinkage: 0.5
-config_hash: cd91d5af77d3
-config_id: TSIMeanReversion_095404_REPRO
+config_hash: 4b2e513b4b45
+config_id: HypothesisH37DynamicGridInformedGate_i21_REPRO
 cost: 0.001
 cusum_filter:
   enabled: false
@@ -144,15 +144,14 @@ sequential_bootstrap:
 sizing_method: atr
 start: '2020-01-01'
 strategy:
-  name: TSIMeanReversion
+  name: HypothesisH37DynamicGridInformedGate
   params:
-    rsi_overbought: 60
-    rsi_oversold: 41
-    rsi_period: 9
-    tsi_overbought: 26
-    tsi_oversold: -22
-    tsi_r: 8
-    tsi_s: 3
+    atr_period: 20
+    grid_mult: 1.3987
+    grid_period: 23
+    mk_no_trend: 1.4255
+    ofi_neutral_thresh: 0.1792
+    vpin_pct_thresh: 0.5901
 structural_breaks:
   cusum_window: 60
   enabled: true

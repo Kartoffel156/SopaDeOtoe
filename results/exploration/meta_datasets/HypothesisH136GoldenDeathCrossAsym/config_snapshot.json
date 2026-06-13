@@ -1,0 +1,22 @@
+{
+  "strategy_name": "HypothesisH136GoldenDeathCrossAsym",
+  "config_id": "unknown",
+  "ticker": "BTC-USD",
+  "bar_type": "dollar",
+  "cost": 0.001,
+  "slippage_bps": 0,
+  "spread_bps": 0,
+  "initial_capital": 100000.0,
+  "pt_sl": [
+    2.5,
+    1.5
+  ],
+  "max_holding": 36,
+  "strategy_params": {
+    "bear_thresh": 0.2624,
+    "bull_thresh": 0.2183,
+    "fast_period": 7,
+    "regime_window": 28,
+    "slow_period": 16
+  }
+}

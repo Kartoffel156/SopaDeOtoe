@@ -261,6 +261,11 @@ def step_portfolio(strategy_results, label="pooled", max_leverage_override=None)
     pcfg.validation.run_stress_test = False
     pcfg.validation.run_spa_test = False
 
+    # Reset custom_budgets: the base config may have a different strategy count
+    n = len(strategy_results)
+    if pcfg.allocation.custom_budgets and len(pcfg.allocation.custom_budgets) != n:
+        pcfg.allocation.custom_budgets = None  # falls back to equal weight
+
     if max_leverage_override is not None:
         pcfg.risk.max_leverage = max_leverage_override
 
@@ -301,13 +306,21 @@ def step_baseline(skip_run=False, n_jobs=4):
                                               output_dir=_EXPLORATION_DIR)
 
     strategy_results = []
-    for cfg, res in zip(configs, exploration_results):
+    manifest_strategies = manifest.get("strategies", [])
+    for i, (cfg, res) in enumerate(zip(configs, exploration_results)):
         if res.get("status") != "success":
             continue
-        run_dir = Path(res["v12_run_dir"])
         cls = cfg["_meta_strategy_class"]
         config_hash = cfg.get("_meta_config_hash", "")
         name = f"{cls}_{config_hash[:8]}" if config_hash else cls
+        # Prefer v12_run_dir from results; fall back to manifest source_run_dir
+        if "v12_run_dir" in res:
+            run_dir = Path(res["v12_run_dir"])
+        elif i < len(manifest_strategies):
+            run_dir = Path(manifest_strategies[i].get("source_run_dir", ""))
+        else:
+            print(f"  SKIP {cls}: no v12_run_dir in results or manifest")
+            continue
         try:
             sr = _results_to_strategy_result(name, run_dir)
         except Exception as e:
@@ -657,7 +670,7 @@ def main():
     if args.full or args.compare:
         # Need baseline
         baseline_pr, manifest = step_baseline(
-            skip_run=args.skip_run or args.skip_export,
+            skip_run=args.skip_run,
             n_jobs=args.n_jobs,
         )
 

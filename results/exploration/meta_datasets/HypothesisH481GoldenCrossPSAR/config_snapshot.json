@@ -1,0 +1,22 @@
+{
+  "strategy_name": "HypothesisH481GoldenCrossPSAR",
+  "config_id": "unknown",
+  "ticker": "BTC-USD",
+  "bar_type": "dollar",
+  "cost": 0.001,
+  "slippage_bps": 0,
+  "spread_bps": 0,
+  "initial_capital": 100000.0,
+  "pt_sl": [
+    2.5,
+    1.5
+  ],
+  "max_holding": 36,
+  "strategy_params": {
+    "fast_period": 4,
+    "psar_af": 0.0105,
+    "psar_max_af": 0.2307,
+    "regime_window": 18,
+    "slow_period": 22
+  }
+}

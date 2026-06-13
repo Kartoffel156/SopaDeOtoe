@@ -93,6 +93,7 @@ def gate_positions(
     # 3. Build DataFrame with t0/t1 for average_active_signals
     signals_df = pd.DataFrame({
         'signal': sized_signals,
+        't0': sized_signals.index,
         't1': labels['t1'].reindex(sized_signals.index),
     })
     signals_df = signals_df.dropna(subset=['t1'])

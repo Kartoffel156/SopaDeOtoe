@@ -1,0 +1,24 @@
+{
+  "strategy_name": "TSIMeanReversion",
+  "config_id": "TSIMeanReversion_cd91d5af77d3",
+  "ticker": "BTC-USD",
+  "bar_type": "dollar",
+  "cost": 0.001,
+  "slippage_bps": 0,
+  "spread_bps": 0,
+  "initial_capital": 100000.0,
+  "pt_sl": [
+    2.5,
+    1.5
+  ],
+  "max_holding": 36,
+  "strategy_params": {
+    "rsi_overbought": 60,
+    "rsi_oversold": 41,
+    "rsi_period": 9,
+    "tsi_overbought": 26,
+    "tsi_oversold": -22,
+    "tsi_r": 8,
+    "tsi_s": 3
+  }
+}
